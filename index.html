@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Inversión</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f1a;
+            color: #fff;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #00d4ff, #7b2fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #888;
+        }
+        .portfolio {
+            background: #1a1a2e;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .portfolio h2 {
+            margin-bottom: 20px;
+            color: #00d4ff;
+        }
+        .cash-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #252540;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .cash-info span {
+            font-size: 0.9rem;
+            color: #888;
+        }
+        .cash-info strong {
+            font-size: 1.5rem;
+            color: #00ff88;
+        }
+        .portfolio-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .portfolio-table th,
+        .portfolio-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        .portfolio-table th {
+            color: #888;
+            font-weight: 500;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        .portfolio-table tr:hover {
+            background: #252540;
+        }
+        .ticker {
+            font-weight: bold;
+            color: #00d4ff;
+        }
+        .company {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        .positive {
+            color: #00ff88;
+        }
+        .negative {
+            color: #ff4444;
+        }
+        .add-section {
+            background: #1a1a2e;
+            border-radius: 16px;
+            padding: 30px;
+        }
+        .add-section h2 {
+            margin-bottom: 20px;
+            color: #7b2fff;
+        }
+        .form-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr auto;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 12px 16px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: #252540;
+            color: #fff;
+            font-size: 1rem;
+        }
+        input:focus {
+            outline: none;
+            border-color: #00d4ff;
+        }
+        button {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #00d4ff, #7b2fff);
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
+        .market-status {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+        .spinner {
+            border: 3px solid #333;
+            border-top: 3px solid #00d4ff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #888;
+        }
+        .empty-state p {
+            margin-bottom: 20px;
+        }
+        .total-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.8rem;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .form-group {
+                grid-template-columns: 1fr;
+            }
+            .portfolio-table {
+                font-size: 0.9rem;
+            }
+            .portfolio-table th,
+            .portfolio-table td {
+                padding: 10px 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 Simulador de Inversión</h1>
+            <p class="subtitle">Sigue tu portfolio ficticio en tiempo real</p>
+        </header>
+
+        <div id="app">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Cargando datos...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuración - URL de tu Google Sheet publicada como CSV
+        const SHEET_URL = 'YOUR_GOOGLE_SHEET_CSV_URL';
+        
+        let portfolio = [];
+        let cash = 10000; // Efectivo inicial ficticio
+
+        async function loadData() {
+            try {
+                const response = await fetch(SHEET_URL);
+                const csv = await response.text();
+                parseCSV(csv);
+                render();
+            } catch (error) {
+                // Si no hay Google Sheet, usar datos locales
+                loadLocalData();
+                render();
+            }
+        }
+
+        function loadLocalData() {
+            // Datos de ejemplo para cuando no haya Google Sheet
+            portfolio = [
+                { ticker: 'CCJ', company: 'Cameco', shares: 10, avgPrice: 28.50 },
+                { ticker: 'NEE', company: 'NextEra Energy', shares: 5, avgPrice: 62.00 },
+                { ticker: 'VRT', company: 'Vertiv Holdings', shares: 15, avgPrice: 38.20 },
+                { ticker: 'ANET', company: 'Arista Networks', shares: 8, avgPrice: 245.00 }
+            ];
+        }
+
+        function parseCSV(csv) {
+            const lines = csv.split('\n');
+            const headers = lines[0].split(',');
+            
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].split(',');
+                if (values.length >= 5) {
+                    portfolio.push({
+                        ticker: values[0].replace(/"/g, ''),
+                        company: values[1].replace(/"/g, ''),
+                        shares: parseFloat(values[2]),
+                        avgPrice: parseFloat(values[3]),
+                        currentPrice: parseFloat(values[4]) || parseFloat(values[3])
+                    });
+                }
+            }
+        }
+
+        async function getPrices() {
+            // Esta función获取实时价格
+            // Por ahora usamos datos simulados
+            const prices = {
+                'CCJ': 32.15,
+                'NEE': 65.80,
+                'VRT': 85.40,
+                'ANET': 268.50,
+                'NVDA': 495.20,
+                'AAPL': 182.30,
+                'GOOGL': 175.80,
+                'MSFT': 425.60,
+                'SMCI': 42.50
+            };
+            return prices;
+        }
+
+        async function render() {
+            const prices = await getPrices();
+            let totalValue = cash;
+            
+            let tableRows = portfolio.map(stock => {
+                const currentPrice = prices[stock.ticker] || stock.currentPrice || stock.avgPrice;
+                const value = stock.shares * currentPrice;
+                const cost = stock.shares * stock.avgPrice;
+                const gain = value - cost;
+                const gainPercent = ((gain / cost) * 100).toFixed(2);
+                totalValue += value;
+                
+                return `
+                    <tr>
+                        <td class="ticker">${stock.ticker}</td>
+                        <td class="company">${stock.company}</td>
+                        <td>${stock.shares}</td>
+                        <td>$${stock.avgPrice.toFixed(2)}</td>
+                        <td>$${currentPrice.toFixed(2)}</td>
+                        <td class="${gain >= 0 ? 'positive' : 'negative'}">
+                            ${gain >= 0 ? '+' : ''}$${gain.toFixed(2)} (${gainPercent}%)
+                        </td>
+                        <td>$${value.toFixed(2)}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            document.getElementById('app').innerHTML = `
+                <div class="portfolio">
+                    <h2>💼 Tu Portfolio</h2>
+                    <div class="cash-info">
+                        <div>
+                            <span>Efectivo disponible</span>
+                            <strong>$${cash.toLocaleString()}</strong>
+                        </div>
+                        <div>
+                            <span>Valor total del portfolio</span>
+                            <strong class="total-value">$${totalValue.toLocaleString()}</strong>
+                        </div>
+                    </div>
+                    
+                    ${portfolio.length > 0 ? `
+                        <table class="portfolio-table">
+                            <thead>
+                                <tr>
+                                    <th>Ticker</th>
+                                    <th>Empresa</th>
+                                    <th>Acciones</th>
+                                    <th>Precio Compra</th>
+                                    <th>Precio Actual</th>
+                                    <th>Ganancia/Pérdida</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${tableRows}
+                            </tbody>
+                        </table>
+                    ` : `
+                        <div class="empty-state">
+                            <p>No tienes acciones todavía.</p>
+                            <p>Usa el formulario de abajo para añadir tu primera inversión ficticia.</p>
+                        </div>
+                    `}
+                    
+                    <p class="last-updated">Última actualización: ${new Date().toLocaleString('es-ES')}</p>
+                </div>
+                
+                <div class="add-section">
+                    <h2>➕ Añadir Inversión</h2>
+                    <p style="color: #888; margin-bottom: 15px;">
+                        Dime por Telegram qué acciones quieres añadir y actualizo el portfolio automáticamente.
+                    </p>
+                    <div class="form-group">
+                        <input type="text" id="ticker" placeholder="Ticker (ej: AAPL, NVDA)">
+                        <input type="number" id="shares" placeholder="Número de acciones">
+                        <input type="number" id="price" placeholder="Precio por acción">
+                        <button onclick="alert('Escríbeme por Telegram para añadir esta inversión al portfolio')">Añadir</button>
+                    </div>
+                    <p style="color: #666; font-size: 0.9rem;">
+                        📱 Para añadir inversiones, envíame un mensaje aquí: <strong>@Sherpa_Agent</strong>
+                    </p>
+                </div>
+            `;
+        }
+
+        // Cargar datos al iniciar
+        loadData();
+    </script>
+</body>
+</html>
