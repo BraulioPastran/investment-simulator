@@ -159,6 +159,70 @@
         let editingIndex = null;
         let tickerSearchTimeout = null;
         
+        const POPULAR_TICKERS = {
+            'AAPL': 'Apple Inc.', 'MSFT': 'Microsoft Corp.', 'GOOGL': 'Alphabet Inc.',
+            'AMZN': 'Amazon.com Inc.', 'TSLA': 'Tesla Inc.', 'META': 'Meta Platforms',
+            'NVDA': 'NVIDIA Corp.', 'AMD': 'Advanced Micro Devices', 'INTC': 'Intel Corp.',
+            'CRM': 'Salesforce Inc.', 'ADBE': 'Adobe Inc.', 'NFLX': 'Netflix Inc.',
+            'VOO': 'Vanguard S&P 500', 'VTI': 'Vanguard Total Market', 'SPY': 'SPDR S&P 500',
+            'QQQ': 'Invesco QQQ Trust', 'VEA': 'Vanguard Developed Markets', 'VT': 'Vanguard Total World',
+            'BND': 'Vanguard Total Bond', 'CCJ': 'Cameco Corp.', 'NEE': 'NextEra Energy',
+            'JPM': 'JPMorgan Chase', 'V': 'Visa Inc.', 'MA': 'Mastercard',
+            'JNJ': 'Johnson & Johnson', 'UNH': 'UnitedHealth Group', 'HD': 'Home Depot',
+            'PG': 'Procter & Gamble', 'DIS': 'Walt Disney Co.', 'PYPL': 'PayPal Holdings',
+            'KO': 'Coca-Cola Co.', 'PEP': 'PepsiCo Inc.', 'MCD': "McDonald's Corp.",
+            'NKE': 'Nike Inc.', 'ORCL': 'Oracle Corp.', 'IBM': 'IBM Corp.',
+            'QCOM': 'Qualcomm Inc.', 'TXN': 'Texas Instruments', 'BA': 'Boeing Co.',
+            'CAT': 'Caterpillar Inc.', 'HON': 'Honeywell Intl.', 'UPS': 'United Parcel Service',
+            'FDX': 'FedEx Corp.', 'GE': 'General Electric', 'MMM': '3M Co.',
+            'XOM': 'Exxon Mobil', 'CVX': 'Chevron Corp.', 'COP': 'ConocoPhillips',
+            'ABBV': 'AbbVie Inc.', 'LLY': 'Eli Lilly', 'MRK': 'Merck & Co.',
+            'PFE': 'Pfizer Inc.', 'BMY': 'Bristol-Myers Squibb', 'AMGN': 'Amgen Inc.',
+            'GILD': 'Gilead Sciences', 'CVS': 'CVS Health', 'ISRG': 'Intuitive Surgical',
+            'MDT': 'Medtronic PLC', 'SYK': 'Stryker Corp.', 'ZTS': 'Zoetis Inc.',
+            'BAC': 'Bank of America', 'WFC': 'Wells Fargo', 'GS': 'Goldman Sachs',
+            'MS': 'Morgan Stanley', 'AXP': 'American Express', 'C': 'Citigroup',
+            'USB': 'US Bancorp', 'PNC': 'PNC Financial', 'SCHW': 'Charles Schwab',
+            'BTC-USD': 'Bitcoin USD', 'ETH-USD': 'Ethereum USD', 'COIN': 'Coinbase Global',
+            'SBUX': 'Starbucks Corp.', 'CMCSA': 'Comcast Corp.', 'T': 'AT&T Inc.',
+            'VZ': 'Verizon', 'TMUS': 'T-Mobile US', 'WMT': 'Walmart Inc.',
+            'TGT': 'Target Corp.', 'COST': 'Costco Wholesale', 'LOW': "Lowe's Cos.",
+            'LULU': "Lululemon Athletica", 'ROST': "Ross Stores", 'DG': 'Dollar General',
+            'DLTR': 'Dollar Tree', 'RTX': 'RTX Corp.', 'DE': 'John Deere',
+            'EMR': 'Emerson Electric', 'ITW': 'Illinois Tool Works', 'ETN': 'Eaton Corp.',
+            'APH': 'Amphenol Corp.', 'PH': 'Parker-Hannifin', 'ROK': 'Rockwell Automation',
+            'SLB': 'Schlumberger', 'EOG': 'EOG Resources', 'MPC': 'Marathon Petroleum',
+            'PSX': 'Phillips 66', 'VLO': 'Valero Energy', 'OXY': 'Occidental Petroleum',
+            'DUK': 'Duke Energy', 'SO': 'Southern Co.', 'D': 'Dominion Energy',
+            'AEP': 'American Electric', 'EXC': 'Exelon Corp.', 'CME': 'CME Group',
+            'ICE': 'Intercontinental Exchange', 'BLK': 'BlackRock Inc.', 'SPGI': 'S&P Global Inc.',
+            'VICI': 'VICI Properties', 'WY': 'Weyerhaeuser Co.', 'VNQ': 'Vanguard Real Estate',
+            'XLE': 'Energy Select SPDR', 'XLV': 'Health Care SPDR', 'XLK': 'Tech SPDR',
+            'XLF': 'Financial SPDR', 'XLY': 'Consumer Discretionary SPDR',
+            'VGT': 'Vanguard Info Tech', 'VHT': 'Vanguard Health Care',
+            'IWM': 'iShares Russell 2000', 'EFA': 'iShares EAFE', 'EWJ': 'iShares Japan',
+            'EWZ': 'iShares Brazil', 'VWO': 'Vanguard Emerging Markets',
+            'SHOP': 'Shopify Inc.', 'SQ': 'Block Inc.', 'UBER': 'Uber Technologies',
+            'LYFT': 'Lyft Inc.', 'SNOW': 'Snowflake Inc.', 'NOW': 'ServiceNow',
+            'PLTR': 'Palantir Technologies', 'NET': 'Cloudflare Inc.', 'DDOG': 'Datadog Inc.',
+            'SNAP': 'Snap Inc.', 'PINS': 'Pinterest Inc.', 'DOCU': 'DocuSign Inc.',
+            'ZM': 'Zoom Video', 'SPOT': 'Spotify Technology', 'ROKU': 'Roku Inc.',
+            'EA': 'Electronic Arts', 'TTWO': 'Take-Two Interactive', 'ATVI': 'Activision Blizzard',
+            'WDAY': 'Workday Inc.', 'TEAM': 'Atlassian Corp.', 'FVRR': 'Fiverr',
+            'UPWK': 'Upwork Inc.', 'GPRO': 'GoPro Inc.', 'INTU': 'Intuit Inc.',
+            'ADP': 'Automatic Data Proc.', 'FIS': 'Fidelity National Info',
+            'FISV': 'Fiserv Inc.', 'GPN': 'Global Payments', 'PAYX': 'Paychex Inc.',
+            'ADSK': 'Autodesk Inc.', 'PANW': 'Palo Alto Networks', 'CRWD': 'CrowdStrike',
+            'ZS': 'Zscaler Inc.', 'OKTA': 'Okta Inc.', 'SPLK': 'Splunk Inc.',
+            'HUBS': 'HubSpot Inc.', 'TWLO': 'Twilio Inc.', 'MSTR': 'MicroStrategy',
+            'MRNA': 'Moderna Inc.', 'NVAX': 'Novavax Inc.', 'REGN': 'Regeneron Pharma',
+            'BIIB': 'Biogen Inc.', 'TMO': 'Thermo Fisher', 'ABT': 'Abbott Labs',
+            'CMI': 'Cummins Inc.', 'SWK': 'Stanley Black & Decker', 'CARR': 'Carrier Global',
+            'MCO': "Moody's Corp.", 'SAP': 'SAP SE', 'BRK.B': 'Berkshire Hathaway',
+            'LOCO': 'El Pollo Loco', 'SEND': 'Sendible', 'TWTR': 'Twitter Inc.',
+            'VAL': 'Varian Medical'
+        };
+        
         function formatCurrency(v) { return '€' + v.toFixed(2).replace('.', ','); }
         function formatPercent(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
         
@@ -175,45 +239,31 @@
             setTimeout(() => t.classList.remove('show'), 3000);
         }
         
-        async function searchTickers(query) {
-            if (!query || query.length < 1) return [];
-            try {
-                const resp = await fetch(
-                    `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}&quotesCount=8&newsCount=0&enableFuzzyQuery=false`,
-                    { headers: { 'User-Agent': 'Mozilla/5.0' } }
-                );
-                const data = await resp.json();
-                return (data.quotes || []).map(q => ({
-                    symbol: q.symbol,
-                    name: q.longname || q.shortname || q.exchange || q.symbol
-                }));
-            } catch (e) { return []; }
-        }
-        
         function showAutocomplete(inputId, query) {
             const list = document.getElementById(inputId + '-list');
             if (!query) { list.classList.remove('show'); return; }
             
-            clearTimeout(tickerSearchTimeout);
-            tickerSearchTimeout = setTimeout(async () => {
-                const results = await searchTickers(query);
-                if (!results.length) { list.classList.remove('show'); return; }
-                
-                list.innerHTML = results.map(r => `
-                    <div class="autocomplete-item" onclick="selectTicker('${inputId}', '${r.symbol}', '${r.name}')">
-                        <span class="ticker-sym">${r.symbol}</span>
-                        <span class="ticker-name">${r.name}</span>
-                    </div>
-                `).join('');
-                list.classList.add('show');
-            }, 250);
+            const q = query.toUpperCase();
+            const matches = Object.keys(POPULAR_TICKERS)
+                .filter(t => t.includes(q) || POPULAR_TICKERS[t].toUpperCase().includes(q))
+                .slice(0, 10);
+            
+            if (!matches.length) { list.classList.remove('show'); return; }
+            
+            list.innerHTML = matches.map(t => `
+                <div class="autocomplete-item" onclick="selectTicker('${inputId}', '${t}')">
+                    <span class="ticker-sym">${t}</span>
+                    <span class="ticker-name">${POPULAR_TICKERS[t]}</span>
+                </div>
+            `).join('');
+            list.classList.add('show');
         }
         
         function hideAutocomplete(inputId) {
             setTimeout(() => document.getElementById(inputId + '-list').classList.remove('show'), 200);
         }
         
-        function selectTicker(inputId, ticker, name) {
+        function selectTicker(inputId, ticker) {
             document.getElementById(inputId).value = ticker;
             hideAutocomplete(inputId);
             if (inputId === 'p-ticker') {
