@@ -3,8 +3,8 @@ const https = require('https');
 
 const TICKERS = ['VOO', 'VTI', 'SPY', 'QQQ', 'AAPL', 'MSFT', 'CCJ', 'NEE', 'VEA', 'VT'];
 const DATA_FILE = 'data/prices.json';
+const PORTFOLIO_FILE = 'data/portfolio.json';
 
-// Date utilities
 function formatDate(d) {
   return d.toISOString().split('T')[0];
 }
@@ -22,7 +22,11 @@ function isLastDayOfMonth(d) {
   return formatDate(d) === formatDate(lastDay);
 }
 
-// Yahoo Finance fetch
+function isFriday(d) {
+  const day = d.getDay();
+  return day === 5;
+}
+
 function fetchYahoo(ticker, period1, period2, interval) {
   return new Promise((resolve) => {
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?period1=${period1}&period2=${period2}&interval=${interval}`;
@@ -47,135 +51,101 @@ function fetchYahoo(ticker, period1, period2, interval) {
           });
           resolve(result);
         } catch (e) {
-          console.error(`Error fetching ${ticker}: ${e.message}`);
           resolve({});
         }
       });
-    }).on('error', () => {
-      console.error(`Network error for ${ticker}`);
-      resolve({});
-    });
+    }).on('error', () => resolve({}));
   });
 }
 
-// Load existing data
 let data = { prices: {}, history: {} };
 if (fs.existsSync(DATA_FILE)) {
   try {
     data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-  } catch (e) {
-    console.log('Creating new data file');
-  }
+  } catch (e) {}
 }
 
-// Initialize structure
 TICKERS.forEach(t => {
   if (!data.prices[t]) data.prices[t] = { current: null, previousClose: null, changePercent: null, updated: null };
-  if (!data.history[t]) data.history[t] = { daily: {}, weekly: {}, monthly: {} };
+  if (!data.history[t]) data.history[t] = { weekly: {}, monthly: {} };
 });
 
-// Check if first run (no history)
-const hasHistory = Object.values(data.history).some(h => Object.keys(h.daily).length > 0);
+const hasHistory = Object.values(data.history).some(h => Object.keys(h.weekly).length > 0 || Object.keys(h.monthly).length > 0);
 const forceFullHistory = process.env.FORCE_FULL_HISTORY === 'true';
-
-// Fetch current prices
-console.log('Fetching current prices...');
 const now = new Date();
 const currentDate = formatDate(now);
-
-async function fetchCurrentPrices() {
-  for (const ticker of TICKERS) {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`;
-    try {
-      const resp = await fetch(url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-          'Accept': 'application/json'
-        }
-      });
-      const json = await resp.json();
-      const meta = json?.chart?.result?.[0]?.meta;
-      if (meta) {
-        data.prices[ticker] = {
-          current: meta.regularMarketPrice,
-          previousClose: meta.chartPreviousClose || meta.previousClose,
-          changePercent: meta.regularMarketChangePercent,
-          updated: currentDate
-        };
-        console.log(`${ticker}: ${meta.regularMarketPrice}`);
-      }
-    } catch (e) {
-      console.error(`Error fetching ${ticker}: ${e.message}`);
-    }
-  }
-}
-
-// Fetch and merge history
-async function fetchHistory() {
-  const yearAgo = new Date(now);
-  yearAgo.setFullYear(yearAgo.getFullYear() - 15);
-  const period1 = Math.floor(yearAgo.getTime() / 1000);
-  const period2 = Math.floor(now.getTime() / 1000);
-
-  for (const ticker of TICKERS) {
-    console.log(`Fetching 15-year history for ${ticker}...`);
-    const hist = await fetchYahoo(ticker, period1, period2, '1d');
-    
-    // Get existing daily data
-    const existingDaily = data.history[ticker].daily;
-    
-    // Merge new data
-    Object.keys(hist).forEach(date => {
-      existingDaily[date] = hist[date];
-    });
-    
-    // Rebuild weekly (Fridays)
-    const weekly = {};
-    Object.keys(existingDaily).sort().forEach(date => {
-      const d = new Date(date);
-      const friday = getLastFriday(d);
-      const fridayStr = formatDate(friday);
-      if (!weekly[fridayStr] || date > weekly[fridayStr]) {
-        weekly[fridayStr] = existingDaily[date];
-      }
-    });
-    data.history[ticker].weekly = weekly;
-    
-    // Rebuild monthly (last day of month)
-    const monthly = {};
-    Object.keys(existingDaily).sort().forEach(date => {
-      if (isLastDayOfMonth(new Date(date))) {
-        monthly[date] = existingDaily[date];
-      }
-    });
-    data.history[ticker].monthly = monthly;
-    
-    console.log(`${ticker}: ${Object.keys(existingDaily).length} daily, ${Object.keys(weekly).length} weekly, ${Object.keys(monthly).length} monthly`);
-  }
-}
 
 async function main() {
   if (!hasHistory || forceFullHistory) {
     console.log('First run or forced - downloading full 15-year history...');
-    await fetchHistory();
-  } else {
-    console.log('Incremental update - fetching current prices only');
-    await fetchCurrentPrices();
     
-    // Add today to daily if market is open
+    const yearAgo = new Date(now);
+    yearAgo.setFullYear(yearAgo.getFullYear() - 15);
+    const period1 = Math.floor(yearAgo.getTime() / 1000);
+    const period2 = Math.floor(now.getTime() / 1000);
+    
+    for (const ticker of TICKERS) {
+      console.log(`Fetching ${ticker}...`);
+      const hist = await fetchYahoo(ticker, period1, period2, '1d');
+      const sortedDates = Object.keys(hist).sort();
+      
+      // One year ago for weekly, older for monthly
+      const oneYearAgo = new Date(now);
+      oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+      const oneYearAgoStr = formatDate(oneYearAgo);
+      
+      const weekly = {};
+      const monthly = {};
+      
+      sortedDates.forEach(date => {
+        if (date >= oneYearAgoStr) {
+          // Weekly (Fridays) for last year
+          if (isFriday(new Date(date))) {
+            weekly[date] = hist[date];
+          }
+        }
+        // Monthly (last day of month) for everything
+        if (isLastDayOfMonth(new Date(date))) {
+          monthly[date] = hist[date];
+        }
+      });
+      
+      data.history[ticker] = { weekly, monthly };
+      data.prices[ticker] = { current: hist[sortedDates.pop()], updated: currentDate };
+      
+      console.log(`  ${ticker}: ${Object.keys(weekly).length} weekly, ${Object.keys(monthly).length} monthly`);
+    }
+  } else {
+    console.log('Incremental update...');
+    
+    // Fetch current prices
+    for (const ticker of TICKERS) {
+      try {
+        const resp = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`, {
+          headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' }
+        });
+        const json = await resp.json();
+        const meta = json?.chart?.result?.[0]?.meta;
+        if (meta) {
+          data.prices[ticker] = {
+            current: meta.regularMarketPrice,
+            previousClose: meta.chartPreviousClose || meta.previousClose,
+            changePercent: meta.regularMarketChangePercent,
+            updated: currentDate
+          };
+        }
+      } catch (e) {
+        console.error(`Error ${ticker}: ${e.message}`);
+      }
+    }
+    
+    // Add current price to weekly if Friday, monthly if last day of month
     for (const ticker of TICKERS) {
       if (data.prices[ticker].current) {
-        data.history[ticker].daily[currentDate] = data.prices[ticker].current;
-        
-        // Update weekly (if Friday)
-        const friday = getLastFriday(now);
-        const fridayStr = formatDate(friday);
-        if (now.getDay() === 5 || forceFullHistory) {
-          data.history[ticker].weekly[fridayStr] = data.prices[ticker].current;
+        if (isFriday(now)) {
+          data.history[ticker].weekly[currentDate] = data.prices[ticker].current;
         }
-        
-        // Update monthly (if last day of month)
-        if (isLastDayOfMonth(now) || forceFullHistory) {
+        if (isLastDayOfMonth(now)) {
           data.history[ticker].monthly[currentDate] = data.prices[ticker].current;
         }
       }
@@ -184,7 +154,7 @@ async function main() {
   
   data.updated = currentDate;
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-  console.log(`Saved to ${DATA_FILE}`);
+  console.log(`Saved! Updated: ${currentDate}`);
 }
 
 main().catch(console.error);
