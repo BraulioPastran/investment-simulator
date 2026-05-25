@@ -1,5 +1,4 @@
 {
-  "cash": 10000,
   "purchases": [
     {"date": "2026-04-15", "ticker": "CCJ", "company": "Cameco Corp", "shares": 10, "price": 28.50, "notes": "Posicion inicial"},
     {"date": "2026-04-20", "ticker": "NEE", "company": "NextEra Energy", "shares": 5, "price": 62.00, "notes": "Posicion inicial"},

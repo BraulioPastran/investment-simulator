@@ -1,68 +1,32 @@
-name: Fetch Stock Prices
+name: Fetch Stock Prices & History
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes
-  workflow_dispatch:  # Manual trigger
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      force_full_history:
+        description: 'Force full history redownload'
+        required: false
+        default: 'false'
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          fetch-depth: 0
+
       - name: Fetch stock prices
-        run: |
-          node -e "
-            const fs = require('fs');
-            const https = require('https');
-            
-            const tickers = ['VOO', 'VTI', 'AAPL', 'CCJ', 'NEE'];
-            const results = {};
-            
-            function fetchTicker(ticker) {
-              return new Promise((resolve) => {
-                const url = \`https://query1.finance.yahoo.com/v8/finance/chart/\${ticker}\`;
-                https.get(url, {
-                  headers: {
-                    'User-Agent': 'Mozilla/5.0',
-                    'Accept': 'application/json'
-                  }
-                }, (res) => {
-                  let data = '';
-                  res.on('data', chunk => data += chunk);
-                  res.on('end', () => {
-                    try {
-                      const json = JSON.parse(data);
-                      const meta = json?.chart?.result?.[0]?.meta || {};
-                      results[ticker] = {
-                        price: meta.regularMarketPrice || 0,
-                        previousClose: meta.chartPreviousClose || meta.previousClose || 0,
-                        changePercent: meta.regularMarketChangePercent || 0,
-                        timestamp: Date.now()
-                      };
-                    } catch(e) {
-                      results[ticker] = { price: 0, error: e.message };
-                    }
-                    resolve();
-                  });
-                }).on('error', () => {
-                  results[ticker] = { price: 0, error: 'network error' };
-                  resolve();
-                });
-              });
-            }
-            
-            Promise.all(tickers.map(fetchTicker)).then(() => {
-              fs.writeFileSync('data/prices.json', JSON.stringify(results, null, 2));
-              console.log('Prices updated');
-            });
-          "
-      
-      - name: Commit prices
+        run: node scripts/fetch-prices.js
+        env:
+          FORCE_FULL_HISTORY: ${{ github.event.inputs.force_full_history }}
+
+      - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add data/prices.json
-          git diff --staged --quiet || git commit -m "Update stock prices"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update prices $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
