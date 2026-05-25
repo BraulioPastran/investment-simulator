@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Inversión</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f1a; color: #fff; min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 40px 0; }
+        h1 { font-size: 2.5rem; background: linear-gradient(135deg, #00d4ff, #7b2fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+        .subtitle { color: #888; }
+        .loading { text-align: center; padding: 40px; color: #888; }
+        .loading-spinner { width: 40px; height: 40px; border: 3px solid #333; border-top-color: #00d4ff; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        /* Portfolio Cards */
+        .portfolio-section { background: #1a1a2e; border-radius: 16px; padding: 30px; margin-bottom: 30px; }
+        .portfolio-section h2 { margin-bottom: 20px; color: #00d4ff; }
+        .summary-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .card { background: #252540; border-radius: 12px; padding: 20px; text-align: center; }
+        .card-label { font-size: 0.85rem; color: #888; margin-bottom: 8px; }
+        .card-value { font-size: 1.8rem; font-weight: bold; }
+        .card-value.positive { color: #00ff88; }
+        .card-value.negative { color: #ff4444; }
+        
+        /* Portfolio Table */
+        .portfolio-table { width: 100%; border-collapse: collapse; }
+        .portfolio-table th, .portfolio-table td { padding: 15px; text-align: left; border-bottom: 1px solid #333; }
+        .portfolio-table th { color: #888; font-weight: 500; font-size: 0.85rem; text-transform: uppercase; }
+        .portfolio-table tr:hover { background: #252540; }
+        .ticker { font-weight: bold; color: #00d4ff; cursor: pointer; }
+        .company { color: #888; font-size: 0.9rem; }
+        .positive { color: #00ff88; }
+        .negative { color: #ff4444; }
+        
+        /* Charts */
+        .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px; }
+        .chart-container { background: #1a1a2e; border-radius: 16px; padding: 30px; }
+        .chart-container h2 { margin-bottom: 20px; color: #00d4ff; }
+        .chart-wrapper { position: relative; height: 300px; }
+        
+        /* History */
+        .history-section { background: #1a1a2e; border-radius: 16px; padding: 30px; }
+        .history-section h2 { margin-bottom: 20px; color: #00d4ff; }
+        
+        /* Last updated */
+        .last-updated { text-align: center; color: #666; font-size: 0.85rem; padding: 20px 0; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .charts-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 Simulador de Inversión</h1>
+            <p class="subtitle">Portfolio ficticio - Aprende sin arriesgar</p>
+        </header>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Cargando datos del portfolio...</p>
+        </div>
+        
+        <div id="content" style="display: none;">
+            <div class="summary-cards">
+                <div class="card">
+                    <div class="card-label">Total Invertido</div>
+                    <div class="card-value" id="total-invested">-</div>
+                </div>
+                <div class="card">
+                    <div class="card-label">Valor Actual</div>
+                    <div class="card-value" id="current-value">-</div>
+                </div>
+                <div class="card">
+                    <div class="card-label">Ganancia/Pérdida</div>
+                    <div class="card-value" id="gain-loss">-</div>
+                </div>
+                <div class="card">
+                    <div class="card-label">Acciones</div>
+                    <div class="card-value" id="total-shares">-</div>
+                </div>
+            </div>
+            
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h2>📊 Distribución del Portfolio</h2>
+                    <div class="chart-wrapper">
+                        <canvas id="allocationChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h2>💰 Distribución por Ganancia/Pérdida</h2>
+                    <div class="chart-wrapper">
+                        <canvas id="gainLossChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-section">
+                <h2>📋 Mi Portfolio</h2>
+                <table class="portfolio-table">
+                    <thead>
+                        <tr>
+                            <th>Ticker</th>
+                            <th>Empresa</th>
+                            <th>Acciones</th>
+                            <th>Precio Compra</th>
+                            <th>Precio Actual</th>
+                            <th>Cambio</th>
+                            <th>Invertido</th>
+                            <th>Valor Actual</th>
+                            <th>Ganancia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="portfolio-body"></tbody>
+                </table>
+            </div>
+            
+            <div class="history-section">
+                <h2>📜 Historial de Compras</h2>
+                <table class="portfolio-table">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Ticker</th>
+                            <th>Empresa</th>
+                            <th>Acciones</th>
+                            <th>Precio Unitario</th>
+                            <th>Total</th>
+                            <th>Notas</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-body"></tbody>
+                </table>
+            </div>
+            
+            <div class="last-updated" id="last-updated"></div>
+        </div>
+    </div>
+
+    <script>
+        // CONFIG - Google Sheet CSV URL (export from Sheet)
+        const SHEET_ID = '1r3jqZWe2nKE2-IAJEkHnLGcCW0p_YEtGVFdsGhbV2lg';
+        const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=677365914`;
+        
+        // Chart instances
+        let allocationChart = null;
+        let gainLossChart = null;
+        
+        // Format currency
+        function formatCurrency(val) {
+            return new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(val);
+        }
+        
+        // Format percentage
+        function formatPercent(val) {
+            const sign = val >= 0 ? '+' : '';
+            return sign + val.toFixed(2) + '%';
+        }
+        
+        // Parse CSV
+        function parseCSV(csv) {
+            const lines = csv.split('\n').filter(l => l.trim());
+            const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
+            const data = [];
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].split(',').map(v => v.trim().replace(/"/g, ''));
+                const row = {};
+                headers.forEach((h, idx) => row[h] = values[idx] || '');
+                data.push(row);
+            }
+            return data;
+        }
+        
+        // Get current price from Yahoo Finance
+        async function getCurrentPrice(ticker) {
+            try {
+                const resp = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`);
+                const json = await resp.json();
+                const price = json?.chart?.result?.[0]?.meta?.regularMarketPrice;
+                const prevClose = json?.chart?.result?.[0]?.meta?.previousClose;
+                const change = prevClose ? ((price - prevClose) / prevClose * 100) : 0;
+                return { price, change };
+            } catch (e) {
+                return { price: null, change: null };
+            }
+        }
+        
+        // Fetch all prices concurrently
+        async function fetchAllPrices(tickers) {
+            const promises = tickers.map(async (t) => {
+                const result = await getCurrentPrice(t);
+                return { ticker: t, ...result };
+            });
+            return Promise.all(promises);
+        }
+        
+        // Build portfolio from purchases
+        function buildPortfolio(purchases) {
+            const portfolio = {};
+            purchases.forEach(p => {
+                const ticker = p.Ticker;
+                if (!portfolio[ticker]) {
+                    portfolio[ticker] = { ticker, empresa: p.Empresa, shares: 0, totalCost: 0, purchases: [] };
+                }
+                const shares = parseFloat(p.Acciones);
+                const price = parseFloat(p.PrecioUnitario);
+                portfolio[ticker].shares += shares;
+                portfolio[ticker].totalCost += shares * price;
+                portfolio[ticker].purchases.push({ fecha: p.Fecha, shares, price });
+            });
+            return Object.values(portfolio);
+        }
+        
+        // Main render function
+        async function render() {
+            try {
+                // Fetch CSV data
+                const resp = await fetch(CSV_URL + '&t=' + Date.now());
+                const csv = await resp.text();
+                const purchases = parseCSV(csv);
+                
+                // Fetch all prices
+                const tickers = [...new Set(purchases.map(p => p.Ticker))];
+                const prices = await fetchAllPrices(tickers);
+                const priceMap = {};
+                prices.forEach(p => priceMap[p.ticker] = p);
+                
+                // Build portfolio
+                const portfolio = buildPortfolio(purchases);
+                
+                // Calculate totals
+                let totalInvested = 0;
+                let totalCurrentValue = 0;
+                
+                portfolio.forEach(item => {
+                    item.avgPrice = item.totalCost / item.shares;
+                    const currentData = priceMap[item.ticker];
+                    item.currentPrice = currentData?.price || item.avgPrice;
+                    item.priceChange = currentData?.change || 0;
+                    item.currentValue = item.shares * item.currentPrice;
+                    item.gain = item.currentValue - item.totalCost;
+                    item.gainPercent = item.totalCost > 0 ? (item.gain / item.totalCost * 100) : 0;
+                    totalInvested += item.totalCost;
+                    totalCurrentValue += item.currentValue;
+                });
+                
+                const totalGain = totalCurrentValue - totalInvested;
+                const totalGainPercent = totalInvested > 0 ? (totalGain / totalInvested * 100) : 0;
+                
+                // Update summary cards
+                document.getElementById('total-invested').textContent = formatCurrency(totalInvested);
+                document.getElementById('current-value').textContent = formatCurrency(totalCurrentValue);
+                const gainLossEl = document.getElementById('gain-loss');
+                gainLossEl.textContent = `${formatCurrency(totalGain)} (${formatPercent(totalGainPercent)})`;
+                gainLossEl.className = 'card-value ' + (totalGain >= 0 ? 'positive' : 'negative');
+                document.getElementById('total-shares').textContent = portfolio.length;
+                
+                // Render allocation chart
+                renderAllocationChart(portfolio);
+                renderGainLossChart(portfolio);
+                
+                // Render portfolio table
+                const tbody = document.getElementById('portfolio-body');
+                tbody.innerHTML = portfolio.map(item => `
+                    <tr>
+                        <td class="ticker">${item.ticker}</td>
+                        <td class="company">${item.empresa}</td>
+                        <td>${item.shares}</td>
+                        <td>${formatCurrency(item.avgPrice)}</td>
+                        <td>${formatCurrency(item.currentPrice)}</td>
+                        <td class="${item.priceChange >= 0 ? 'positive' : 'negative'}">${formatPercent(item.priceChange)}</td>
+                        <td>${formatCurrency(item.totalCost)}</td>
+                        <td>${formatCurrency(item.currentValue)}</td>
+                        <td class="${item.gain >= 0 ? 'positive' : 'negative'}">${formatCurrency(item.gain)} (${formatPercent(item.gainPercent)})</td>
+                    </tr>
+                `).join('');
+                
+                // Render history table (reversed - newest first)
+                const historyBody = document.getElementById('history-body');
+                const sortedPurchases = [...purchases].reverse();
+                historyBody.innerHTML = sortedPurchases.map(p => `
+                    <tr>
+                        <td>${p.Fecha}</td>
+                        <td class="ticker">${p.Ticker}</td>
+                        <td class="company">${p.Empresa}</td>
+                        <td>${p.Acciones}</td>
+                        <td>${formatCurrency(parseFloat(p.PrecioUnitario))}</td>
+                        <td>${formatCurrency(parseFloat(p.TotalInvertido || 0))}</td>
+                        <td>${p.Notas || '-'}</td>
+                    </tr>
+                `).join('');
+                
+                // Update timestamp
+                document.getElementById('last-updated').textContent = `Última actualización: ${new Date().toLocaleString('es-ES')}`;
+                
+                // Show content
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            } catch (e) {
+                console.error(e);
+                document.getElementById('loading').innerHTML = `<p style="color: #ff4444;">Error al cargar datos: ${e.message}</p>`;
+            }
+        }
+        
+        function renderAllocationChart(portfolio) {
+            const ctx = document.getElementById('allocationChart').getContext('2d');
+            const labels = portfolio.map(p => p.ticker);
+            const values = portfolio.map(p => p.currentValue);
+            const colors = ['#00d4ff', '#7b2fff', '#00ff88', '#ff6b6b', '#ffd93d', '#6bcb77', '#4d96ff', '#ff9f43'];
+            
+            if (allocationChart) allocationChart.destroy();
+            allocationChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels,
+                    datasets: [{
+                        data: values,
+                        backgroundColor: colors.slice(0, portfolio.length),
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'right', labels: { color: '#fff', font: { size: 12 } } }
+                    }
+                }
+            });
+        }
+        
+        function renderGainLossChart(portfolio) {
+            const ctx = document.getElementById('gainLossChart').getContext('2d');
+            const labels = portfolio.map(p => p.ticker);
+            const values = portfolio.map(p => p.gain);
+            
+            if (gainLossChart) gainLossChart.destroy();
+            gainLossChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels,
+                    datasets: [{
+                        label: 'Ganancia/Pérdida',
+                        data: values,
+                        backgroundColor: values.map(v => v >= 0 ? '#00ff88' : '#ff4444'),
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { ticks: { color: '#888', callback: v => '€' + v.toFixed(0) }, grid: { color: '#333' } },
+                        x: { ticks: { color: '#888' }, grid: { display: false } }
+                    }
+                }
+            });
+        }
+        
+        // Run on load
+        render();
+        // Refresh every 5 minutes
+        setInterval(render, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
