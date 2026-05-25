@@ -38,7 +38,21 @@
         .history-section { background: #1a1a2e; border-radius: 16px; padding: 30px; }
         .history-section h2 { margin-bottom: 20px; color: #00d4ff; }
         .last-updated { text-align: center; color: #666; font-size: 0.85rem; padding: 20px 0; }
-        @media (max-width: 768px) { .charts-grid { grid-template-columns: 1fr; } h1 { font-size: 1.8rem; } }
+        .simulation-section { background: #1a1a2e; border-radius: 16px; padding: 30px; margin-bottom: 30px; }
+        .simulation-section h2 { margin-bottom: 20px; color: #00d4ff; }
+        .sim-form { display: grid; grid-template-columns: 1fr 1fr auto; gap: 15px; align-items: end; }
+        .sim-form label { display: block; font-size: 0.85rem; color: #888; margin-bottom: 5px; }
+        .sim-form input, .sim-form select { background: #252540; border: 1px solid #333; border-radius: 8px; padding: 12px; color: #fff; width: 100%; font-size: 1rem; }
+        .sim-form button { background: linear-gradient(135deg, #00d4ff, #7b2fff); border: none; border-radius: 8px; padding: 12px 24px; color: #fff; font-weight: bold; cursor: pointer; }
+        .sim-form button:hover { opacity: 0.9; }
+        .sim-result { margin-top: 20px; padding: 20px; background: #252540; border-radius: 12px; display: none; }
+        .sim-result.show { display: block; }
+        .sim-result h3 { margin-bottom: 15px; color: #00d4ff; }
+        .price-refresh { display: flex; gap: 10px; align-items: center; margin-bottom: 20px; }
+        .price-refresh span { color: #888; font-size: 0.85rem; }
+        .refresh-btn { background: #333; border: none; border-radius: 6px; padding: 8px 16px; color: #fff; cursor: pointer; font-size: 0.85rem; }
+        .refresh-btn:hover { background: #444; }
+        @media (max-width: 768px) { .charts-grid { grid-template-columns: 1fr; } h1 { font-size: 1.8rem; } .sim-form { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
@@ -47,8 +61,12 @@
             <h1>📈 Simulador de Inversión</h1>
             <p class="subtitle">Portfolio ficticio - Aprende sin arriesgar</p>
         </header>
-        <div class="loading" id="loading"><div class="loading-spinner"></div><p>Cargando datos del portfolio...</p></div>
+        <div class="loading" id="loading"><div class="loading-spinner"></div><p>Cargando datos...</p></div>
         <div id="content" style="display: none;">
+            <div class="price-refresh">
+                <span id="price-status">Precios: cargando...</span>
+                <button class="refresh-btn" onclick="refreshPrices()">🔄 Actualizar precios (via GitHub Actions)</button>
+            </div>
             <div class="summary-cards">
                 <div class="card"><div class="card-label">Total Invertido</div><div class="card-value" id="total-invested">-</div></div>
                 <div class="card"><div class="card-label">Valor Actual</div><div class="card-value" id="current-value">-</div></div>
@@ -66,6 +84,20 @@
                     <tbody id="portfolio-body"></tbody>
                 </table>
             </div>
+            <div class="simulation-section">
+                <h2>🔮 Simulador Hipotético</h2>
+                <p style="color: #888; margin-bottom: 20px;">¿Cuánto habrías ganado/perdido si hubieras invertido en una fecha concreta?</p>
+                <div class="sim-form">
+                    <div><label>Ticker</label><input type="text" id="sim-ticker" placeholder="Ej: VOO" value="VOO"></div>
+                    <div><label>Fecha de inversión</label><input type="date" id="sim-date"></div>
+                    <div><label>Cantidad (€)</label><input type="number" id="sim-amount" placeholder="1000" value="1000"></div>
+                    <button onclick="runSimulation()">Calcular</button>
+                </div>
+                <div class="sim-result" id="sim-result">
+                    <h3 id="sim-title"></h3>
+                    <p id="sim-details"></p>
+                </div>
+            </div>
             <div class="history-section">
                 <h2>📜 Historial de Compras</h2>
                 <table class="portfolio-table">
@@ -78,47 +110,50 @@
     </div>
     <script>
         const PORTFOLIO_URL = 'data/portfolio.json';
+        const PRICES_URL = 'data/prices.json';
         let allocationChart = null, gainLossChart = null;
+        let pricesCache = {};
         
         function formatCurrency(v) { return new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(v); }
         function formatPercent(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
         
-        async function getCurrentPrice(ticker) {
-            try {
-                const resp = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${ticker}`, {
-                    headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json' }
-                });
-                const json = await resp.json();
-                return {
-                    price: json?.chart?.result?.[0]?.meta?.regularMarketPrice,
-                    change: (() => {
-                        const p = json?.chart?.result?.[0]?.meta?.regularMarketPrice;
-                        const pc = json?.chart?.result?.[0]?.meta?.chartPreviousClose || json?.chart?.result?.[0]?.meta?.previousClose;
-                        return pc ? (p - pc) / pc * 100 : 0;
-                    })()
-                };
-            } catch { return { price: null, change: null }; }
+        async function refreshPrices() {
+            const resp = await fetch(PRICES_URL + '?t=' + Date.now());
+            pricesCache = await resp.json();
+            const ts = pricesCache._updated ? new Date(pricesCache._updated).toLocaleString('es-ES') : 'ahora';
+            document.getElementById('price-status').textContent = 'Precios actualizados: ' + ts;
+            render();
         }
         
         async function render() {
             try {
-                const [pResp, portfolio] = await Promise.all([fetch(PORTFOLIO_URL + '?t=' + Date.now()), fetch(PORTFOLIO_URL).then(r => r.json())]);
+                const [portfolio, prices] = await Promise.all([
+                    fetch(PORTFOLIO_URL).then(r => r.json()),
+                    fetch(PRICES_URL).then(r => r.json())
+                ]);
                 
-                const tickers = [...new Set(portfolio.purchases.map(p => p.ticker))];
-                const prices = await Promise.all(tickers.map(async t => ({ ticker: t, ...await getCurrentPrice(t) })));
-                const priceMap = {}; prices.forEach(p => priceMap[p.ticker] = p);
+                // Merge prices into portfolio
+                if (prices._updated) delete prices._updated;
+                pricesCache = prices;
+                
+                const priceStatus = document.getElementById('price-status');
+                if (prices._updated) {
+                    priceStatus.textContent = 'Precios: ' + new Date(prices._updated).toLocaleString('es-ES');
+                } else {
+                    priceStatus.textContent = 'Precios cargados desde archivo';
+                }
                 
                 let totalInvested = 0, totalCurrentValue = 0;
                 const items = portfolio.purchases.map(p => {
                     const shares = parseFloat(p.shares), price = parseFloat(p.price);
-                    const cur = priceMap[p.ticker] || {};
+                    const cur = prices[p.ticker] || {};
                     const currentPrice = cur.price || price;
                     const currentValue = shares * currentPrice;
                     const invested = shares * price;
                     const gain = currentValue - invested;
                     totalInvested += invested;
                     totalCurrentValue += currentValue;
-                    return { ...p, shares, price, currentPrice, priceChange: cur.change || 0, invested, currentValue, gain, gainPercent: invested > 0 ? gain / invested * 100 : 0 };
+                    return { ...p, shares, price, currentPrice, priceChange: cur.changePercent || 0, invested, currentValue, gain, gainPercent: invested > 0 ? gain / invested * 100 : 0 };
                 });
                 
                 const totalGain = totalCurrentValue - totalInvested;
@@ -143,11 +178,12 @@
                     <tr><td>${p.date}</td><td class="ticker">${p.ticker}</td><td class="company">${p.company}</td><td>${p.shares}</td><td>${formatCurrency(parseFloat(p.price))}</td><td>${formatCurrency(parseFloat(p.shares) * parseFloat(p.price))}</td><td>${p.notes || '-'}</td></tr>
                 `).join('');
                 
-                document.getElementById('last-updated').textContent = `Última actualización: ${new Date().toLocaleString('es-ES')}`;
+                document.getElementById('last-updated').textContent = `Portfolio cargado | Precios: ${prices._updated ? new Date(prices._updated).toLocaleString('es-ES') : 'archivo local'}`;
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('content').style.display = 'block';
             } catch (e) {
                 document.getElementById('loading').innerHTML = `<p style="color: #ff4444;">Error: ${e.message}</p>`;
+                console.error(e);
             }
         }
         
@@ -172,8 +208,49 @@
             });
         }
         
+        function runSimulation() {
+            const ticker = document.getElementById('sim-ticker').value.toUpperCase();
+            const dateStr = document.getElementById('sim-date').value;
+            const amount = parseFloat(document.getElementById('sim-amount').value);
+            
+            if (!ticker || !dateStr || !amount) {
+                alert('Por favor, completa todos los campos');
+                return;
+            }
+            
+            const priceData = pricesCache[ticker];
+            if (!priceData) {
+                document.getElementById('sim-result').classList.add('show');
+                document.getElementById('sim-title').textContent = 'Error: Ticker no encontrado';
+                document.getElementById('sim-details').innerHTML = `El ticker ${ticker} no está en el portfolio actual. Necesitas añadir este ticker a la lista de precios.`;
+                return;
+            }
+            
+            const result = document.getElementById('sim-result');
+            const title = document.getElementById('sim-title');
+            const details = document.getElementById('sim-details');
+            
+            title.textContent = `📊 Simulación: ${ticker}`;
+            
+            const shares = amount / priceData.price;
+            const gain = shares * (priceData.price - priceData.previousClose);
+            const gainPercent = priceData.changePercent || 0;
+            
+            details.innerHTML = `
+                <p><strong>Inversión hipotética:</strong> ${formatCurrency(amount)}</p>
+                <p><strong>Precio actual ${ticker}:</strong> ${formatCurrency(priceData.price)}</p>
+                <p><strong>Acciones compradas:</strong> ${shares.toFixed(4)}</p>
+                <p><strong>Cambio desde anterior:</strong> <span class="${gainPercent >= 0 ? 'positive' : 'negative'}">${formatPercent(gainPercent)}</span></p>
+                <p><strong>Ganancia/Pérdida:</strong> <span class="${gain >= 0 ? 'positive' : 'negative'}">${formatCurrency(gain)}</span></p>
+                <p style="margin-top: 15px; color: #888; font-size: 0.85rem;">⚠️ Esta simulación usa el precio de cierre del día anterior. Para datos históricos más precisos, se requiere acceso a la API de Yahoo Finance.</p>
+            `;
+            
+            result.classList.add('show');
+        }
+        
+        // Init
+        document.getElementById('sim-date').valueAsDate = new Date();
         render();
-        setInterval(render, 5 * 60 * 1000);
     </script>
 </body>
 </html>
