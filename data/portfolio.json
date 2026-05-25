@@ -1,0 +1,9 @@
+{
+  "cash": 10000,
+  "purchases": [
+    {"date": "2026-04-15", "ticker": "CCJ", "company": "Cameco Corp", "shares": 10, "price": 28.50, "notes": "Posicion inicial"},
+    {"date": "2026-04-20", "ticker": "NEE", "company": "NextEra Energy", "shares": 5, "price": 62.00, "notes": "Posicion inicial"},
+    {"date": "2026-05-01", "ticker": "VOO", "company": "Vanguard S&P 500 ETF", "shares": 3, "price": 485.20, "notes": "ETF diversificacion"},
+    {"date": "2026-05-10", "ticker": "VTI", "company": "Vanguard Total Stock Market", "shares": 8, "price": 248.30, "notes": "ETF mercado completo"}
+  ]
+}
