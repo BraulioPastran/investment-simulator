@@ -154,24 +154,10 @@
         const PORTFOLIO_KEY = '***';
         const PRICES_URL = 'data/prices.json';
         
-        const TICKERS = {
-            'VOO': 'Vanguard S&P 500 ETF', 'VTI': 'Vanguard Total Stock Market',
-            'SPY': 'SPDR S&P 500 ETF Trust', 'QQQ': 'Invesco QQQ Trust',
-            'AAPL': 'Apple Inc.', 'MSFT': 'Microsoft Corp.', 'CCJ': 'Cameco Corp.',
-            'NEE': 'NextEra Energy', 'VEA': 'Vanguard FTSE Developed Markets',
-            'VT': 'Vanguard Total World Stock ETF', 'BND': 'Vanguard Total Bond Market',
-            'AMD': 'Advanced Micro Devices', 'NVDA': 'NVIDIA Corp.', 'GOOGL': 'Alphabet Inc.',
-            'AMZN': 'Amazon.com Inc.', 'TSLA': 'Tesla Inc.', 'META': 'Meta Platforms',
-            'BRK.B': 'Berkshire Hathaway', 'JPM': 'JPMorgan Chase', 'V': 'Visa Inc.',
-            'JNJ': 'Johnson & Johnson', 'UNH': 'UnitedHealth Group', 'HD': 'Home Depot',
-            'PG': 'Procter & Gamble', 'MA': 'Mastercard', 'DIS': 'Walt Disney Co.',
-            'NFLX': 'Netflix Inc.', 'PYPL': 'PayPal Holdings', 'INTC': 'Intel Corp.',
-            'CRM': 'Salesforce Inc.', 'ADBE': 'Adobe Inc.', 'CMCSA': 'Comcast Corp.'
-        };
-        
         let portfolio = { purchases: [] };
         let prices = { prices: {}, history: {} };
         let editingIndex = null;
+        let tickerSearchTimeout = null;
         
         function formatCurrency(v) { return '€' + v.toFixed(2).replace('.', ','); }
         function formatPercent(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
@@ -189,32 +175,50 @@
             setTimeout(() => t.classList.remove('show'), 3000);
         }
         
+        async function searchTickers(query) {
+            if (!query || query.length < 1) return [];
+            try {
+                const resp = await fetch(
+                    `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}&quotesCount=8&newsCount=0&enableFuzzyQuery=false`,
+                    { headers: { 'User-Agent': 'Mozilla/5.0' } }
+                );
+                const data = await resp.json();
+                return (data.quotes || []).map(q => ({
+                    symbol: q.symbol,
+                    name: q.longname || q.shortname || q.exchange || q.symbol
+                }));
+            } catch (e) { return []; }
+        }
+        
         function showAutocomplete(inputId, query) {
             const list = document.getElementById(inputId + '-list');
             if (!query) { list.classList.remove('show'); return; }
             
-            const q = query.toUpperCase();
-            const matches = Object.keys(TICKERS).filter(t => t.includes(q) || TICKERS[t].toUpperCase().includes(q)).slice(0, 10);
-            
-            if (!matches.length) { list.classList.remove('show'); return; }
-            
-            list.innerHTML = matches.map(t => `
-                <div class="autocomplete-item" onclick="selectTicker('${inputId}', '${t}')">
-                    <span class="ticker-sym">${t}</span>
-                    <span class="ticker-name">${TICKERS[t]}</span>
-                </div>
-            `).join('');
-            list.classList.add('show');
+            clearTimeout(tickerSearchTimeout);
+            tickerSearchTimeout = setTimeout(async () => {
+                const results = await searchTickers(query);
+                if (!results.length) { list.classList.remove('show'); return; }
+                
+                list.innerHTML = results.map(r => `
+                    <div class="autocomplete-item" onclick="selectTicker('${inputId}', '${r.symbol}', '${r.name}')">
+                        <span class="ticker-sym">${r.symbol}</span>
+                        <span class="ticker-name">${r.name}</span>
+                    </div>
+                `).join('');
+                list.classList.add('show');
+            }, 250);
         }
         
         function hideAutocomplete(inputId) {
             setTimeout(() => document.getElementById(inputId + '-list').classList.remove('show'), 200);
         }
         
-        function selectTicker(inputId, ticker) {
+        function selectTicker(inputId, ticker, name) {
             document.getElementById(inputId).value = ticker;
             hideAutocomplete(inputId);
-            if (inputId === 'p-ticker') updateCalcPreview();
+            if (inputId === 'p-ticker') {
+                updateCalcPreview();
+            }
         }
         
         function onTickerInput() {
@@ -273,7 +277,7 @@
             const amount = parseFloat(document.getElementById('p-amount').value);
             
             const preview = document.getElementById('calc-preview');
-            if (!ticker || !TICKERS[ticker] || !dateStr || !amount || amount <= 0) {
+            if (!ticker || !dateStr || !amount || amount <= 0) {
                 preview.style.display = 'none';
                 return;
             }
@@ -325,7 +329,7 @@
             document.getElementById('portfolio-body').innerHTML = items.length ? items.map(i => `
                 <tr>
                     <td class="ticker">${i.ticker}</td>
-                    <td class="company">${i.company || TICKERS[i.ticker] || '-'}</td>
+                    <td class="company">${i.company || i.ticker || '-'}</td>
                     <td>${i.shares.toFixed(4)}</td>
                     <td>${formatCurrency(i.price)}</td>
                     <td>${formatCurrency(i.currentPrice)}</td>
@@ -392,7 +396,6 @@
             const amount = parseFloat(document.getElementById('p-amount').value);
             
             if (!dateStr || !ticker || !amount || amount <= 0) { alert('Fill in all fields'); return; }
-            if (!TICKERS[ticker]) { alert('Unknown ticker: ' + ticker); return; }
             
             const priceAtDate = getPriceAtDate(ticker, dateStr);
             if (!priceAtDate) {
@@ -400,7 +403,7 @@
                 return;
             }
             
-            const purchase = { date: dateStr, ticker, company: TICKERS[ticker], shares: amount / priceAtDate, price: priceAtDate };
+            const purchase = { date: dateStr, ticker, company: ticker, shares: amount / priceAtDate, price: priceAtDate };
             
             if (editingIndex !== null) {
                 portfolio.purchases[editingIndex] = purchase;
