@@ -5,188 +5,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Inversión</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #0f0f1a;
             color: #fff;
             min-height: 100vh;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 40px 0;
-        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 40px 0 30px; }
         h1 {
             font-size: 2.5rem;
             background: linear-gradient(135deg, #00d4ff, #7b2fff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
-        .subtitle {
-            color: #888;
-        }
-        .portfolio {
-            background: #1a1a2e;
-            border-radius: 16px;
-            padding: 30px;
+        .subtitle { color: #888; font-size: 1rem; }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
             margin-bottom: 30px;
         }
-        .portfolio h2 {
-            margin-bottom: 20px;
-            color: #00d4ff;
-        }
-        .cash-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: #252540;
-            border-radius: 12px;
-            margin-bottom: 20px;
-        }
-        .cash-info span {
-            font-size: 0.9rem;
-            color: #888;
-        }
-        .cash-info strong {
-            font-size: 1.5rem;
-            color: #00ff88;
-        }
-        .portfolio-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .portfolio-table th,
-        .portfolio-table td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #333;
-        }
-        .portfolio-table th {
-            color: #888;
-            font-weight: 500;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-        }
-        .portfolio-table tr:hover {
-            background: #252540;
-        }
-        .ticker {
-            font-weight: bold;
-            color: #00d4ff;
-        }
-        .company {
-            color: #888;
-            font-size: 0.9rem;
-        }
-        .positive {
-            color: #00ff88;
-        }
-        .negative {
-            color: #ff4444;
-        }
-        .add-section {
+        .stat-card {
             background: #1a1a2e;
-            border-radius: 16px;
-            padding: 30px;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
         }
-        .add-section h2 {
-            margin-bottom: 20px;
-            color: #7b2fff;
+        .stat-card .label { color: #888; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+        .stat-card .value { font-size: 1.8rem; font-weight: bold; margin-top: 5px; }
+        .stat-card .value.positive { color: #00ff88; }
+        .stat-card .value.negative { color: #ff4444; }
+        .stat-card .value.neutral { color: #00d4ff; }
+
+        .portfolio { background: #1a1a2e; border-radius: 16px; padding: 30px; margin-bottom: 25px; }
+        .portfolio h2 { color: #00d4ff; margin-bottom: 20px; font-size: 1.2rem; }
+        .portfolio h2 .badge {
+            font-size: 0.75rem;
+            background: #00d4ff22;
+            color: #00d4ff;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-left: 10px;
+            font-weight: normal;
         }
-        .form-group {
+
+        .portfolio-table { width: 100%; border-collapse: collapse; }
+        .portfolio-table th, .portfolio-table td { padding: 14px 12px; text-align: left; border-bottom: 1px solid #252540; }
+        .portfolio-table th { color: #888; font-weight: 500; font-size: 0.8rem; text-transform: uppercase; }
+        .portfolio-table tbody tr:hover { background: #252540; border-radius: 8px; }
+        .portfolio-table td { font-size: 0.95rem; }
+        .ticker-cell { display: flex; flex-direction: column; gap: 2px; }
+        .ticker { font-weight: bold; color: #00d4ff; font-size: 1rem; }
+        .company { color: #888; font-size: 0.8rem; }
+        .etf-badge { font-size: 0.65rem; background: #7b2fff22; color: #a855f7; padding: 2px 6px; border-radius: 4px; }
+        .shares-cell { text-align: center; }
+        .price-cell { text-align: right; font-family: 'Courier New', monospace; }
+        .gain-cell { text-align: right; font-weight: bold; }
+        .positive { color: #00ff88; }
+        .negative { color: #ff4444; }
+        .value-cell { text-align: right; font-weight: bold; color: #fff; }
+        .actions-cell { text-align: center; }
+        .btn-sell {
+            background: #ff444422;
+            color: #ff4444;
+            border: 1px solid #ff444466;
+            border-radius: 6px;
+            padding: 5px 12px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            transition: all 0.2s;
+        }
+        .btn-sell:hover { background: #ff4444; color: #fff; }
+
+        .add-section { background: #1a1a2e; border-radius: 16px; padding: 30px; }
+        .add-section h2 { color: #7b2fff; margin-bottom: 20px; font-size: 1.2rem; }
+
+        .form-row {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr auto;
-            gap: 15px;
-            margin-bottom: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 15px;
         }
-        input {
-            padding: 12px 16px;
+        input, select {
+            padding: 12px 14px;
             border: 1px solid #333;
             border-radius: 8px;
             background: #252540;
             color: #fff;
-            font-size: 1rem;
+            font-size: 0.95rem;
+            width: 100%;
         }
-        input:focus {
-            outline: none;
-            border-color: #00d4ff;
-        }
+        input:focus, select:focus { outline: none; border-color: #00d4ff; }
         button {
-            padding: 12px 24px;
+            padding: 12px 20px;
             background: linear-gradient(135deg, #00d4ff, #7b2fff);
             border: none;
             border-radius: 8px;
             color: #fff;
             font-weight: bold;
             cursor: pointer;
-            transition: transform 0.2s;
+            transition: all 0.2s;
+            font-size: 0.95rem;
         }
-        button:hover {
-            transform: scale(1.05);
+        button:hover { transform: scale(1.03); filter: brightness(1.1); }
+        .btn-refresh {
+            background: #333;
+            padding: 10px 20px;
+            font-size: 0.85rem;
         }
-        .market-status {
-            text-align: center;
-            padding: 40px;
-            color: #888;
-        }
-        .loading {
-            text-align: center;
-            padding: 20px;
-        }
-        .spinner {
-            border: 3px solid #333;
-            border-top: 3px solid #00d4ff;
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: #888;
-        }
-        .empty-state p {
-            margin-bottom: 20px;
-        }
-        .total-value {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #00d4ff;
-        }
-        .last-updated {
-            text-align: center;
-            color: #666;
-            font-size: 0.8rem;
+
+        .bottom-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
             margin-top: 20px;
         }
+        .hint-card {
+            background: #252540;
+            border-radius: 10px;
+            padding: 15px;
+            color: #888;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+        .hint-card strong { color: #00d4ff; }
+
+        .last-updated { text-align: center; color: #555; font-size: 0.75rem; margin-top: 25px; }
+        .loading { text-align: center; padding: 60px; color: #888; }
+        .spinner {
+            border: 3px solid #252540;
+            border-top: 3px solid #00d4ff;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .empty-state { text-align: center; padding: 60px 20px; color: #888; }
+        .price-change { font-size: 0.75rem; }
+        .market-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        .market-badge.open { background: #00ff8822; color: #00ff88; }
+        .market-badge.closed { background: #ff444422; color: #ff4444; }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #1a1a2e;
+            border: 1px solid #00d4ff44;
+            border-radius: 10px;
+            padding: 14px 20px;
+            color: #fff;
+            font-size: 0.9rem;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .toast.show { opacity: 1; }
+        .toast.success { border-color: #00ff8844; }
+        .toast.error { border-color: #ff444444; }
+
         @media (max-width: 768px) {
-            .form-group {
-                grid-template-columns: 1fr;
-            }
-            .portfolio-table {
-                font-size: 0.9rem;
-            }
-            .portfolio-table th,
-            .portfolio-table td {
-                padding: 10px 5px;
-            }
+            .form-row, .bottom-row { grid-template-columns: 1fr; }
+            .portfolio-table { font-size: 0.85rem; }
+            .stats-row { grid-template-columns: 1fr 1fr; }
         }
     </style>
 </head>
@@ -194,170 +187,390 @@
     <div class="container">
         <header>
             <h1>📈 Simulador de Inversión</h1>
-            <p class="subtitle">Sigue tu portfolio ficticio en tiempo real</p>
+            <p class="subtitle">Portfolio ficticio con precios reales · <span id="market-badge" class="market-badge closed">MERCADO CERRADO</span></p>
         </header>
 
-        <div id="app">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Cargando datos...</p>
-            </div>
+        <div id="content">
+            <div class="loading"><div class="spinner"></div><p>Cargando datos del mercado...</p></div>
         </div>
     </div>
 
+    <div id="toast" class="toast"></div>
+
     <script>
-        // Configuración - URL de tu Google Sheet publicada como CSV
-        const SHEET_URL = 'YOUR_GOOGLE_SHEET_CSV_URL';
-        
+        // ============================================================
+        // CONFIGURACIÓN
+        // ============================================================
+        const STORAGE_KEY = 'mi_portfolio_miguel';
+        const INITIAL_CASH = 10000;
+
+        // Mapa de nombres para tickers comunes
+        const TICKER_NAMES = {
+            // Acciones
+            'AAPL': 'Apple Inc.', 'MSFT': 'Microsoft', 'GOOGL': 'Alphabet (Google)',
+            'AMZN': 'Amazon', 'NVDA': 'NVIDIA', 'META': 'Meta Platforms',
+            'TSLA': 'Tesla', 'BRK.B': 'Berkshire Hathaway', 'JPM': 'JPMorgan Chase',
+            'V': 'Visa', 'JNJ': 'Johnson & Johnson', 'WMT': 'Walmart',
+            'PG': 'Procter & Gamble', 'MA': 'Mastercard', 'HD': 'Home Depot',
+            'CVX': 'Chevron', 'MRK': 'Merck', 'ABBV': 'AbbVie', 'PEP': 'PepsiCo',
+            'KO': 'Coca-Cola', 'COST': 'Costco', 'AVGO': 'Broadcom',
+            'CCJ': 'Cameco', 'NEE': 'NextEra Energy', 'VRT': 'Vertiv Holdings',
+            'ANET': 'Arista Networks', 'SMCI': 'Super Micro Computer',
+            'AMD': 'AMD', 'INTC': 'Intel', 'CSCO': 'Cisco', 'ORCL': 'Oracle',
+            'CRM': 'Salesforce', 'NFLX': 'Netflix', 'ADBE': 'Adobe',
+            'QCOM': 'Qualcomm', 'TXN': 'Texas Instruments', 'MU': 'Micron',
+            'BA': 'Boeing', 'CAT': 'Caterpillar', 'DE': 'John Deere',
+            'LMT': 'Lockheed Martin', 'RTX': 'RTX', 'NOC': 'Northrop Grumman',
+            'GS': 'Goldman Sachs', 'MS': 'Morgan Stanley', 'AXP': 'American Express',
+            'BLK': 'BlackRock', 'SCHW': 'Charles Schwab',
+            'XOM': 'Exxon Mobil', 'COP': 'ConocoPhillips',
+            // Fondos indexados (ETFs)
+            'VOO': 'Vanguard S&P 500 ETF', 'VTI': 'Vanguard Total Stock Market',
+            'QQQ': 'Invesco QQQ', 'SPY': 'SPDR S&P 500 ETF',
+            'VEA': 'Vanguard Developed Markets', 'VWO': 'Vanguard Emerging Markets',
+            'AGG': 'iShares Core US Aggregate Bond', 'BND': 'Vanguard Total Bond',
+            'VT': 'Vanguard Total World Stock ETF',
+            'IJH': 'iShares Core S&P Mid-Cap', 'IJR': 'iShares Core S&P Small-Cap',
+            'VGT': 'Vanguard Information Technology', 'VDC': 'Vanguard Consumer Staples',
+            'VFH': 'Vanguard Financials', 'VHT': 'Vanguard Health Care',
+            'VO': 'Vanguard Mid-Cap', 'VB': 'Vanguard Small-Cap',
+            'DIA': 'SPDR Dow Jones ETF', 'IWM': 'iShares Russell 2000',
+        };
+
+        const ETF_TICKERS = ['VOO','VTI','QQQ','SPY','VEA','VWO','AGG','BND','VT','IJH','IJR','VGT','VDC','VFH','VHT','VO','VB','DIA','IWM'];
+
+        // ============================================================
+        // ESTADO
+        // ============================================================
         let portfolio = [];
-        let cash = 10000; // Efectivo inicial ficticio
+        let cash = INITIAL_CASH;
+        let prices = {};
+        let loading = true;
 
-        async function loadData() {
+        // ============================================================
+        // STORAGE
+        // ============================================================
+        function savePortfolio() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify({ portfolio, cash }));
+        }
+
+        function loadPortfolio() {
             try {
-                const response = await fetch(SHEET_URL);
-                const csv = await response.text();
-                parseCSV(csv);
-                render();
-            } catch (error) {
-                // Si no hay Google Sheet, usar datos locales
-                loadLocalData();
-                render();
-            }
+                const saved = localStorage.getItem(STORAGE_KEY);
+                if (saved) {
+                    const data = JSON.parse(saved);
+                    portfolio = data.portfolio || [];
+                    cash = data.cash ?? INITIAL_CASH;
+                }
+            } catch (e) { console.error(e); }
         }
 
-        function loadLocalData() {
-            // Datos de ejemplo para cuando no haya Google Sheet
-            portfolio = [
-                { ticker: 'CCJ', company: 'Cameco', shares: 10, avgPrice: 28.50 },
-                { ticker: 'NEE', company: 'NextEra Energy', shares: 5, avgPrice: 62.00 },
-                { ticker: 'VRT', company: 'Vertiv Holdings', shares: 15, avgPrice: 38.20 },
-                { ticker: 'ANET', company: 'Arista Networks', shares: 8, avgPrice: 245.00 }
-            ];
-        }
+        // ============================================================
+        // DATOS REALES CON YAHOO FINANCE
+        // ============================================================
+        async function fetchRealPrices() {
+            if (portfolio.length === 0) return;
+            const tickers = portfolio.map(s => s.ticker);
+            // Yahoo Finance CSV endpoint - público y sin API key
+            const yahooUrl = `https://query1.finance.yahoo.com/v7/finance/download/${encodeURIComponent(tickers.join(','))}?period1=0&period2=0&interval=1d&events=history&includePrePost=false`;
 
-        function parseCSV(csv) {
-            const lines = csv.split('\n');
-            const headers = lines[0].split(',');
-            
-            for (let i = 1; i < lines.length; i++) {
-                const values = lines[i].split(',');
-                if (values.length >= 5) {
-                    portfolio.push({
-                        ticker: values[0].replace(/"/g, ''),
-                        company: values[1].replace(/"/g, ''),
-                        shares: parseFloat(values[2]),
-                        avgPrice: parseFloat(values[3]),
-                        currentPrice: parseFloat(values[4]) || parseFloat(values[3])
+            // Usamos el endpoint REST de Yahoo Finance (más fiable para CORS)
+            const query = tickers.map(t => `"${t}"`).join(',');
+            const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}&quotesCount=20&newsCount=0`;
+
+            try {
+                const resp = await fetch(url);
+                const data = await resp.json();
+                if (data.quotes) {
+                    data.quotes.forEach(q => {
+                        if (q.symbol && q.regularMarketPrice) {
+                            prices[q.symbol] = {
+                                price: q.regularMarketPrice,
+                                change: q.regularMarketChange || 0,
+                                changePercent: q.regularMarketChangePercent || 0,
+                                currency: q.currency || 'USD',
+                                marketState: q.marketState || 'CLOSED'
+                            };
+                        }
                     });
+                }
+            } catch (e) {
+                console.warn('Yahoo Finance API no disponible, usando fallback');
+            }
+
+            // Si no conseguimos precios, intentar uno a uno
+            if (Object.keys(prices).length < tickers.length) {
+                for (const ticker of tickers) {
+                    if (!prices[ticker]) {
+                        await fetchSinglePrice(ticker);
+                    }
                 }
             }
         }
 
-        async function getPrices() {
-            // Esta función获取实时价格
-            // Por ahora usamos datos simulados
-            const prices = {
-                'CCJ': 32.15,
-                'NEE': 65.80,
-                'VRT': 85.40,
-                'ANET': 268.50,
-                'NVDA': 495.20,
-                'AAPL': 182.30,
-                'GOOGL': 175.80,
-                'MSFT': 425.60,
-                'SMCI': 42.50
-            };
-            return prices;
+        async function fetchSinglePrice(ticker) {
+            try {
+                const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(ticker)}&quotesCount=1&newsCount=0`;
+                const resp = await fetch(url);
+                const data = await resp.json();
+                if (data.quotes && data.quotes[0]) {
+                    const q = data.quotes[0];
+                    prices[ticker] = {
+                        price: q.regularMarketPrice,
+                        change: q.regularMarketChange || 0,
+                        changePercent: q.regularMarketChangePercent || 0,
+                        currency: q.currency || 'USD',
+                        marketState: q.marketState || 'CLOSED'
+                    };
+                }
+            } catch (e) {
+                console.warn(`No se pudo obtener precio para ${ticker}`);
+            }
         }
 
-        async function render() {
-            const prices = await getPrices();
+        // ============================================================
+        // RENDER
+        // ============================================================
+        function render() {
+            let totalInvested = 0;
             let totalValue = cash;
-            
-            let tableRows = portfolio.map(stock => {
-                const currentPrice = prices[stock.ticker] || stock.currentPrice || stock.avgPrice;
+            let totalGain = 0;
+
+            const rows = portfolio.map(stock => {
+                const info = prices[stock.ticker] || {};
+                const currentPrice = info.price || stock.avgPrice;
+                const change = info.change || 0;
+                const changePercent = info.changePercent || 0;
+                const changeClass = change >= 0 ? 'positive' : 'negative';
+                const changeSign = change >= 0 ? '+' : '';
+                const isETF = ETF_TICKERS.includes(stock.ticker);
+
                 const value = stock.shares * currentPrice;
                 const cost = stock.shares * stock.avgPrice;
                 const gain = value - cost;
-                const gainPercent = ((gain / cost) * 100).toFixed(2);
+                const gainPercent = cost > 0 ? ((gain / cost) * 100).toFixed(2) : '0.00';
+                const gainClass = gain >= 0 ? 'positive' : 'negative';
+                const gainSign = gain >= 0 ? '+' : '';
+
+                totalInvested += cost;
                 totalValue += value;
-                
+                totalGain += gain;
+
+                const companyName = TICKER_NAMES[stock.ticker] || stock.company || stock.ticker;
+
                 return `
-                    <tr>
-                        <td class="ticker">${stock.ticker}</td>
-                        <td class="company">${stock.company}</td>
-                        <td>${stock.shares}</td>
-                        <td>$${stock.avgPrice.toFixed(2)}</td>
-                        <td>$${currentPrice.toFixed(2)}</td>
-                        <td class="${gain >= 0 ? 'positive' : 'negative'}">
-                            ${gain >= 0 ? '+' : ''}$${gain.toFixed(2)} (${gainPercent}%)
+                    <tr data-ticker="${stock.ticker}">
+                        <td class="ticker-cell">
+                            <span class="ticker">${stock.ticker}</span>
+                            <span class="company">${companyName}</span>
+                            ${isETF ? '<span class="etf-badge">ETF</span>' : ''}
                         </td>
-                        <td>$${value.toFixed(2)}</td>
+                        <td class="shares-cell">${stock.shares}</td>
+                        <td class="price-cell">$${stock.avgPrice.toFixed(2)}</td>
+                        <td class="price-cell">$${currentPrice.toFixed(2)}</td>
+                        <td class="gain-cell ${changeClass}">
+                            ${changeSign}$${Math.abs(change).toFixed(2)}
+                            <span class="price-change">(${changeSign}${changePercent.toFixed(2)}%)</span>
+                        </td>
+                        <td class="gain-cell ${gainClass}">
+                            ${gainSign}$${gain.toFixed(2)} (${gainSign}${gainPercent}%)
+                        </td>
+                        <td class="value-cell">$${value.toFixed(2)}</td>
+                        <td class="actions-cell">
+                            <button class="btn-sell" onclick="sellStock('${stock.ticker}')">Vender</button>
+                        </td>
                     </tr>
                 `;
             }).join('');
 
-            document.getElementById('app').innerHTML = `
-                <div class="portfolio">
-                    <h2>💼 Tu Portfolio</h2>
-                    <div class="cash-info">
-                        <div>
-                            <span>Efectivo disponible</span>
-                            <strong>$${cash.toLocaleString()}</strong>
-                        </div>
-                        <div>
-                            <span>Valor total del portfolio</span>
-                            <strong class="total-value">$${totalValue.toLocaleString()}</strong>
-                        </div>
+            const totalGainClass = totalGain >= 0 ? 'positive' : 'negative';
+            const totalGainSign = totalGain >= 0 ? '+' : '';
+            const totalGainPercent = totalInvested > 0 ? ((totalGain / totalInvested) * 100).toFixed(2) : '0.00';
+            const portfolioOnlyValue = totalValue - cash;
+            const portfolioGain = portfolioOnlyValue - totalInvested;
+            const portfolioGainClass = portfolioGain >= 0 ? 'positive' : 'negative';
+            const portfolioGainSign = portfolioGain >= 0 ? '+' : '';
+
+            const marketState = Object.values(prices)[0]?.marketState || 'CLOSED';
+            const marketBadge = marketState === 'REGULAR' ? 'MERCADO ABIERTO' : 'MERCADO CERRADO';
+            const marketClass = marketState === 'REGULAR' ? 'open' : 'closed';
+
+            document.getElementById('content').innerHTML = `
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="label">Efectivo disponible</div>
+                        <div class="value neutral">$${cash.toLocaleString('es-ES', {minimumFractionDigits: 2})}</div>
                     </div>
-                    
+                    <div class="stat-card">
+                        <div class="label">Valor total portfolio</div>
+                        <div class="value neutral">$${totalValue.toLocaleString('es-ES', {minimumFractionDigits: 2})}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="label">Ganancia/Pérdida total</div>
+                        <div class="value ${totalGainClass}">${totalGainSign}$${Math.abs(totalGain).toLocaleString('es-ES', {minimumFractionDigits: 2})} (${portfolioGainSign}${portfolioGainPercent}%)</div>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <h2>💼 Portfolio <span class="badge">${portfolio.length} posiciones</span></h2>
                     ${portfolio.length > 0 ? `
                         <table class="portfolio-table">
                             <thead>
                                 <tr>
-                                    <th>Ticker</th>
-                                    <th>Empresa</th>
-                                    <th>Acciones</th>
-                                    <th>Precio Compra</th>
-                                    <th>Precio Actual</th>
-                                    <th>Ganancia/Pérdida</th>
-                                    <th>Valor</th>
+                                    <th>Activo</th>
+                                    <th style="text-align:center">Acciones</th>
+                                    <th style="text-align:right">Precio compra</th>
+                                    <th style="text-align:right">Precio actual</th>
+                                    <th style="text-align:right">Cambio día</th>
+                                    <th style="text-align:right">Ganancia/Pérdida</th>
+                                    <th style="text-align:right">Valor actual</th>
+                                    <th></th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                ${tableRows}
-                            </tbody>
+                            <tbody>${rows}</tbody>
                         </table>
                     ` : `
                         <div class="empty-state">
-                            <p>No tienes acciones todavía.</p>
+                            <p style="font-size:1.1rem;margin-bottom:10px">📊 Tu portfolio está vacío.</p>
                             <p>Usa el formulario de abajo para añadir tu primera inversión ficticia.</p>
+                            <p style="margin-top:10px;font-size:0.85rem;color:#666">Ejemplos: AAPL, NVDA, VOO (ETF), VTI (ETF)</p>
                         </div>
                     `}
-                    
-                    <p class="last-updated">Última actualización: ${new Date().toLocaleString('es-ES')}</p>
                 </div>
-                
+
                 <div class="add-section">
-                    <h2>➕ Añadir Inversión</h2>
-                    <p style="color: #888; margin-bottom: 15px;">
-                        Dime por Telegram qué acciones quieres añadir y actualizo el portfolio automáticamente.
-                    </p>
-                    <div class="form-group">
-                        <input type="text" id="ticker" placeholder="Ticker (ej: AAPL, NVDA)">
-                        <input type="number" id="shares" placeholder="Número de acciones">
-                        <input type="number" id="price" placeholder="Precio por acción">
-                        <button onclick="alert('Escríbeme por Telegram para añadir esta inversión al portfolio')">Añadir</button>
+                    <h2>➕ Añadir inversión</h2>
+                    <div class="form-row">
+                        <input type="text" id="input-ticker" placeholder="Ticker (ej: AAPL, VOO)" style="text-transform:uppercase">
+                        <input type="number" id="input-shares" placeholder="Nº acciones" min="0.01" step="0.01">
+                        <input type="number" id="input-price" placeholder="Precio por acción (opcional)" step="0.01">
+                        <button onclick="addStock()">Añadir</button>
                     </div>
-                    <p style="color: #666; font-size: 0.9rem;">
-                        📱 Para añadir inversiones, envíame un mensaje aquí: <strong>@Sherpa_Agent</strong>
+                    <p style="color:#555;font-size:0.82rem;margin-bottom:12px">
+                        💡 Si no pones precio, se usará la cotización actual de Yahoo Finance.
+                        También puedes escribir <strong>@Sherpa_Agent</strong> en Telegram para añadir posiciones.
                     </p>
+                    <button class="btn-refresh" onclick="refreshPrices()">🔄 Actualizar precios</button>
                 </div>
+
+                <div class="bottom-row">
+                    <div class="hint-card">
+                        <strong>🧠 Second Brain</strong><br>
+                        Este portfolio se guarda en tu navegador (localStorage). Si quieres acceder desde otro dispositivo,
+                        puedo migrarlo a Google Sheets o conectarlo con tu cuenta de GitHub para que tengas los datos en un CSV versionado.
+                    </div>
+                    <div class="hint-card">
+                        <strong>📈 Fondos indexados disponibles:</strong><br>
+                        VOO (S&P 500), VTI (Total Market), QQQ (Nasdaq), SPY (S&P 500 SPDR), VEA (Developed Markets),
+                        VWO (Emergentes), VT (Mundial), BND (Bonos), AGG (Bonos EE.UU.)
+                    </div>
+                </div>
+
+                <p class="last-updated">Última actualización: ${new Date().toLocaleString('es-ES', {hour:'2-digit', minute:'2-digit'})} · Precios de Yahoo Finance</p>
             `;
+
+            document.getElementById('market-badge').textContent = marketBadge;
+            document.getElementById('market-badge').className = `market-badge ${marketClass}`;
+            loading = false;
         }
 
-        // Cargar datos al iniciar
-        loadData();
+        // ============================================================
+        // ACCIONES
+        // ============================================================
+        async function addStock() {
+            const tickerInput = document.getElementById('input-ticker');
+            const sharesInput = document.getElementById('input-shares');
+            const priceInput = document.getElementById('input-price');
+
+            const ticker = tickerInput.value.trim().toUpperCase();
+            const shares = parseFloat(sharesInput.value);
+            let price = parseFloat(priceInput.value);
+
+            if (!ticker || !shares || shares <= 0) {
+                showToast('⚠️ Completa ticker y número de acciones', 'error');
+                return;
+            }
+
+            // Si no hay precio, obtenerlo de Yahoo
+            if (!price || price <= 0) {
+                await fetchSinglePrice(ticker);
+                if (prices[ticker]) {
+                    price = prices[ticker].price;
+                } else {
+                    showToast(`⚠️ No se pudo obtener precio para ${ticker}. Introdúcelo manualmente.`, 'error');
+                    priceInput.focus();
+                    return;
+                }
+            }
+
+            const existing = portfolio.find(s => s.ticker === ticker);
+            if (existing) {
+                // Ponderar precio medio
+                const totalShares = existing.shares + shares;
+                const totalCost = (existing.shares * existing.avgPrice) + (shares * price);
+                existing.avgPrice = totalCost / totalShares;
+                existing.shares = totalShares;
+                showToast(`✅ Actualizado ${ticker}: ${totalShares} acciones a $${existing.avgPrice.toFixed(2)}`, 'success');
+            } else {
+                portfolio.push({
+                    ticker,
+                    shares,
+                    avgPrice: price
+                });
+                showToast(`✅ Añadido ${ticker}: ${shares} acciones a $${price.toFixed(2)}`, 'success');
+            }
+
+            tickerInput.value = '';
+            sharesInput.value = '';
+            priceInput.value = '';
+            savePortfolio();
+            render();
+        }
+
+        function sellStock(ticker) {
+            const stock = portfolio.find(s => s.ticker === ticker);
+            if (!stock) return;
+
+            const currentPrice = prices[ticker]?.price || stock.avgPrice;
+            const value = stock.shares * currentPrice;
+
+            if (!confirm(`¿Vender ${stock.shares} acciones de ${ticker} a $${currentPrice.toFixed(2)}?\n\nValor total: $${value.toFixed(2)}\nEste importe se añadirá al efectivo.`)) return;
+
+            cash += value;
+            portfolio = portfolio.filter(s => s.ticker !== ticker);
+            savePortfolio();
+            showToast(`✅ Vendido ${ticker} por $${value.toFixed(2)}`, 'success');
+            render();
+        }
+
+        async function refreshPrices() {
+            if (portfolio.length === 0) {
+                showToast('No hay posiciones que actualizar', 'error');
+                return;
+            }
+            document.getElementById('content').innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Obteniendo precios de Yahoo Finance...</p>
+                </div>
+            `;
+            await fetchRealPrices();
+            render();
+        }
+
+        function showToast(msg, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.className = `toast show ${type}`;
+            setTimeout(() => { toast.className = 'toast'; }, 3000);
+        }
+
+        // ============================================================
+        // INIT
+        // ============================================================
+        loadPortfolio();
+        render();
+        fetchRealPrices().then(() => { render(); });
     </script>
 </body>
 </html>
