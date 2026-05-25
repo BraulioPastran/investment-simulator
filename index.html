@@ -153,75 +153,317 @@
     <script>
         const PORTFOLIO_KEY = '***';
         const PRICES_URL = 'data/prices.json';
+        const TICKERS_URL = 'data/tickers.json';
         
         let portfolio = { purchases: [] };
         let prices = { prices: {}, history: {} };
-        let editingIndex = null;
+        let allTickers = []; // Will store tickers from tickers.json
         let tickerSearchTimeout = null;
         
-        const POPULAR_TICKERS = {
-            'AAPL': 'Apple Inc.', 'MSFT': 'Microsoft Corp.', 'GOOGL': 'Alphabet Inc.',
-            'AMZN': 'Amazon.com Inc.', 'TSLA': 'Tesla Inc.', 'META': 'Meta Platforms',
-            'NVDA': 'NVIDIA Corp.', 'AMD': 'Advanced Micro Devices', 'INTC': 'Intel Corp.',
-            'CRM': 'Salesforce Inc.', 'ADBE': 'Adobe Inc.', 'NFLX': 'Netflix Inc.',
-            'VOO': 'Vanguard S&P 500', 'VTI': 'Vanguard Total Market', 'SPY': 'SPDR S&P 500',
-            'QQQ': 'Invesco QQQ Trust', 'VEA': 'Vanguard Developed Markets', 'VT': 'Vanguard Total World',
-            'BND': 'Vanguard Total Bond', 'CCJ': 'Cameco Corp.', 'NEE': 'NextEra Energy',
-            'JPM': 'JPMorgan Chase', 'V': 'Visa Inc.', 'MA': 'Mastercard',
-            'JNJ': 'Johnson & Johnson', 'UNH': 'UnitedHealth Group', 'HD': 'Home Depot',
-            'PG': 'Procter & Gamble', 'DIS': 'Walt Disney Co.', 'PYPL': 'PayPal Holdings',
-            'KO': 'Coca-Cola Co.', 'PEP': 'PepsiCo Inc.', 'MCD': "McDonald's Corp.",
-            'NKE': 'Nike Inc.', 'ORCL': 'Oracle Corp.', 'IBM': 'IBM Corp.',
-            'QCOM': 'Qualcomm Inc.', 'TXN': 'Texas Instruments', 'BA': 'Boeing Co.',
-            'CAT': 'Caterpillar Inc.', 'HON': 'Honeywell Intl.', 'UPS': 'United Parcel Service',
-            'FDX': 'FedEx Corp.', 'GE': 'General Electric', 'MMM': '3M Co.',
-            'XOM': 'Exxon Mobil', 'CVX': 'Chevron Corp.', 'COP': 'ConocoPhillips',
-            'ABBV': 'AbbVie Inc.', 'LLY': 'Eli Lilly', 'MRK': 'Merck & Co.',
-            'PFE': 'Pfizer Inc.', 'BMY': 'Bristol-Myers Squibb', 'AMGN': 'Amgen Inc.',
-            'GILD': 'Gilead Sciences', 'CVS': 'CVS Health', 'ISRG': 'Intuitive Surgical',
-            'MDT': 'Medtronic PLC', 'SYK': 'Stryker Corp.', 'ZTS': 'Zoetis Inc.',
-            'BAC': 'Bank of America', 'WFC': 'Wells Fargo', 'GS': 'Goldman Sachs',
-            'MS': 'Morgan Stanley', 'AXP': 'American Express', 'C': 'Citigroup',
-            'USB': 'US Bancorp', 'PNC': 'PNC Financial', 'SCHW': 'Charles Schwab',
-            'BTC-USD': 'Bitcoin USD', 'ETH-USD': 'Ethereum USD', 'COIN': 'Coinbase Global',
-            'SBUX': 'Starbucks Corp.', 'CMCSA': 'Comcast Corp.', 'T': 'AT&T Inc.',
-            'VZ': 'Verizon', 'TMUS': 'T-Mobile US', 'WMT': 'Walmart Inc.',
-            'TGT': 'Target Corp.', 'COST': 'Costco Wholesale', 'LOW': "Lowe's Cos.",
-            'LULU': "Lululemon Athletica", 'ROST': "Ross Stores", 'DG': 'Dollar General',
-            'DLTR': 'Dollar Tree', 'RTX': 'RTX Corp.', 'DE': 'John Deere',
-            'EMR': 'Emerson Electric', 'ITW': 'Illinois Tool Works', 'ETN': 'Eaton Corp.',
-            'APH': 'Amphenol Corp.', 'PH': 'Parker-Hannifin', 'ROK': 'Rockwell Automation',
-            'SLB': 'Schlumberger', 'EOG': 'EOG Resources', 'MPC': 'Marathon Petroleum',
-            'PSX': 'Phillips 66', 'VLO': 'Valero Energy', 'OXY': 'Occidental Petroleum',
-            'DUK': 'Duke Energy', 'SO': 'Southern Co.', 'D': 'Dominion Energy',
-            'AEP': 'American Electric', 'EXC': 'Exelon Corp.', 'CME': 'CME Group',
-            'ICE': 'Intercontinental Exchange', 'BLK': 'BlackRock Inc.', 'SPGI': 'S&P Global Inc.',
-            'VICI': 'VICI Properties', 'WY': 'Weyerhaeuser Co.', 'VNQ': 'Vanguard Real Estate',
-            'XLE': 'Energy Select SPDR', 'XLV': 'Health Care SPDR', 'XLK': 'Tech SPDR',
-            'XLF': 'Financial SPDR', 'XLY': 'Consumer Discretionary SPDR',
-            'VGT': 'Vanguard Info Tech', 'VHT': 'Vanguard Health Care',
-            'IWM': 'iShares Russell 2000', 'EFA': 'iShares EAFE', 'EWJ': 'iShares Japan',
-            'EWZ': 'iShares Brazil', 'VWO': 'Vanguard Emerging Markets',
-            'SHOP': 'Shopify Inc.', 'SQ': 'Block Inc.', 'UBER': 'Uber Technologies',
-            'LYFT': 'Lyft Inc.', 'SNOW': 'Snowflake Inc.', 'NOW': 'ServiceNow',
-            'PLTR': 'Palantir Technologies', 'NET': 'Cloudflare Inc.', 'DDOG': 'Datadog Inc.',
-            'SNAP': 'Snap Inc.', 'PINS': 'Pinterest Inc.', 'DOCU': 'DocuSign Inc.',
-            'ZM': 'Zoom Video', 'SPOT': 'Spotify Technology', 'ROKU': 'Roku Inc.',
-            'EA': 'Electronic Arts', 'TTWO': 'Take-Two Interactive', 'ATVI': 'Activision Blizzard',
-            'WDAY': 'Workday Inc.', 'TEAM': 'Atlassian Corp.', 'FVRR': 'Fiverr',
-            'UPWK': 'Upwork Inc.', 'GPRO': 'GoPro Inc.', 'INTU': 'Intuit Inc.',
-            'ADP': 'Automatic Data Proc.', 'FIS': 'Fidelity National Info',
-            'FISV': 'Fiserv Inc.', 'GPN': 'Global Payments', 'PAYX': 'Paychex Inc.',
-            'ADSK': 'Autodesk Inc.', 'PANW': 'Palo Alto Networks', 'CRWD': 'CrowdStrike',
-            'ZS': 'Zscaler Inc.', 'OKTA': 'Okta Inc.', 'SPLK': 'Splunk Inc.',
-            'HUBS': 'HubSpot Inc.', 'TWLO': 'Twilio Inc.', 'MSTR': 'MicroStrategy',
-            'MRNA': 'Moderna Inc.', 'NVAX': 'Novavax Inc.', 'REGN': 'Regeneron Pharma',
-            'BIIB': 'Biogen Inc.', 'TMO': 'Thermo Fisher', 'ABT': 'Abbott Labs',
-            'CMI': 'Cummins Inc.', 'SWK': 'Stanley Black & Decker', 'CARR': 'Carrier Global',
-            'MCO': "Moody's Corp.", 'SAP': 'SAP SE', 'BRK.B': 'Berkshire Hathaway',
-            'LOCO': 'El Pollo Loco', 'SEND': 'Sendible', 'TWTR': 'Twitter Inc.',
-            'VAL': 'Varian Medical'
-        };
+        function formatCurrency(v) { return '€' + v.toFixed(2).replace('.', ','); }
+        function formatPercent(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
+        
+        function savePortfolioToStorage() { localStorage.setItem(PORTFOLIO_KEY, JSON.stringify(portfolio)); }
+        function loadPortfolioFromStorage() {
+            const saved = localStorage.getItem(PORTFOLIO_KEY);
+            if (saved) { try { portfolio = JSON.parse(saved); } catch (e) {} }
+        }
+        
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 3000);
+        }
+        
+        function showAutocomplete(inputId, query) {
+            const list = document.getElementById(inputId + '-list');
+            if (!query) { list.classList.remove('show'); return; }
+            
+            const q = query.toUpperCase();
+            const matches = allTickers.filter(t => 
+                t.symbol.includes(q) || t.name.toUpperCase().includes(q)
+            ).slice(0, 10);
+            
+            if (!matches.length) { list.classList.remove('show'); return; }
+            
+            list.innerHTML = matches.map(r => `
+                <div class="autocomplete-item" onclick="selectTicker('${inputId}', '${r.symbol.replace(/'/g, "\\'")}')">
+                    <span class="ticker-sym">${r.symbol}</span>
+                    <span class="ticker-name">${r.name}</span>
+                </div>
+            `).join('');
+            list.classList.add('show');
+        }
+        
+        function hideAutocomplete(inputId) {
+            setTimeout(() => document.getElementById(inputId + '-list').classList.remove('show'), 200);
+        }
+        
+        function selectTicker(inputId, ticker) {
+            document.getElementById(inputId).value = ticker;
+            hideAutocomplete(inputId);
+            if (inputId === 'p-ticker') {
+                updateCalcPreview();
+            }
+        }
+        
+        function onTickerInput() {
+            const val = document.getElementById('p-ticker').value;
+            showAutocomplete('p-ticker', val);
+            updateCalcPreview();
+        }
+        
+        function getPriceAtDate(ticker, dateStr) {
+            const tickerData = prices.history[ticker];
+            if (!tickerData) return null;
+            
+            const weekly = tickerData.weekly || {};
+            const monthly = tickerData.monthly || {};
+            
+            let price = null;
+            for (const d of Object.keys(weekly).sort()) {
+                if (d <= dateStr) price = weekly[d];
+            }
+            if (!price) {
+                for (const d of Object.keys(monthly).sort()) {
+                    if (d <= dateStr) price = monthly[d];
+                }
+            }
+            return price;
+        }
+        
+        function getCurrentPriceData(ticker) {
+            const p = prices.prices?.[ticker];
+            if (p && p.current) return p;
+            
+            const hist = prices.history?.[ticker];
+            if (!hist) return { current: 0, previousClose: 0, changePercent: 0 };
+            
+            const weekly = Object.entries(hist.weekly || {}).sort().reverse();
+            const monthly = Object.entries(hist.monthly || {}).sort().reverse();
+            
+            if (weekly.length >= 2) {
+                const current = weekly[0][1];
+                const prev = weekly[1][1];
+                return { current, previousClose: prev, changePercent: ((current - prev) / prev) * 100 };
+            }
+            if (monthly.length >= 2) {
+                const current = monthly[0][1];
+                const prev = monthly[1][1];
+                return { current, previousClose: prev, changePercent: ((current - prev) / prev) * 100 };
+            }
+            return { current: weekly[0]?.[1] || monthly[0]?.[1] || 0, previousClose: 0, changePercent: 0 };
+        }
+        
+        function updateCalcPreview() {
+            const ticker = document.getElementById('p-ticker').value.toUpperCase();
+            const dateStr = document.getElementById('p-date').value;
+            const amount = parseFloat(document.getElementById('p-amount').value);
+            
+            const preview = document.getElementById('calc-preview');
+            const selectedTicker = allTickers.find(t => t.symbol === ticker);
+            if (!ticker || !selectedTicker || !dateStr || !amount || amount <= 0) {
+                preview.style.display = 'none';
+                return;
+            }
+            
+            const price = getPriceAtDate(ticker, dateStr);
+            if (!price) {
+                preview.style.display = 'none';
+                return;
+            }
+            
+            const shares = amount / price;
+            document.getElementById('preview-shares').textContent = shares.toFixed(4);
+            document.getElementById('preview-price').textContent = formatCurrency(price) + '/share';
+            preview.style.display = 'block';
+        }
+        
+        async function loadData() {
+            const [prResp, tkrResp] = await Promise.all([
+                fetch(PRICES_URL + '?t=' + Date.now()),
+                fetch(TICKERS_URL + '?t=' + Date.now())
+            ]);
+            prices = await prResp.json();
+            const tickersData = await tkrResp.json();
+            allTickers = tickersData.tickers || [];
+            loadPortfolioFromStorage();
+        }
+        
+        function render() {
+            let totalInvested = 0, totalCurrentValue = 0;
+            const items = portfolio.purchases.map((p, idx) => {
+                const shares = parseFloat(p.shares), price = parseFloat(p.price);
+                const cur = getCurrentPriceData(p.ticker);
+                const currentPrice = cur.current || price;
+                const currentValue = shares * currentPrice;
+                const invested = shares * price;
+                totalInvested += invested;
+                totalCurrentValue += currentValue;
+                return { ...p, idx, shares, price, currentPrice, priceChange: cur.changePercent || 0, invested, currentValue, gain: currentValue - invested, gainPercent: invested > 0 ? (currentValue - invested) / invested * 100 : 0 };
+            });
+            
+            const totalGain = totalCurrentValue - totalInvested;
+            const totalGainPercent = totalInvested > 0 ? totalGain / totalInvested * 100 : 0;
+            
+            document.getElementById('total-invested').textContent = formatCurrency(totalInvested);
+            document.getElementById('current-value').textContent = formatCurrency(totalCurrentValue);
+            const glEl = document.getElementById('gain-loss');
+            glEl.textContent = formatCurrency(totalGain);
+            glEl.className = 'card-value ' + (totalGain >= 0 ? 'positive' : 'negative');
+            const gpEl = document.getElementById('gain-percent');
+            gpEl.textContent = formatPercent(totalGainPercent);
+            gpEl.className = 'card-value ' + (totalGainPercent >= 0 ? 'positive' : 'negative');
+            
+            // Holdings table
+            document.getElementById('portfolio-body').innerHTML = items.length ? items.map(i => {
+                const tickerInfo = allTickers.find(t => t.symbol === i.ticker);
+                const companyName = tickerInfo?.name || i.company || i.ticker || '-';
+                return `
+                <tr>
+                    <td class="ticker">${i.ticker}</td>
+                    <td class="company">${companyName}</td>
+                    <td>${i.shares.toFixed(4)}</td>
+                    <td>${formatCurrency(i.price)}</td>
+                    <td>${formatCurrency(i.currentPrice)}</td>
+                    <td class="${i.priceChange >= 0 ? 'positive' : 'negative'}">${formatPercent(i.priceChange)}</td>
+                    <td>${formatCurrency(i.invested)}</td>
+                    <td>${formatCurrency(i.currentValue)}</td>
+                    <td class="${i.gain >= 0 ? 'positive' : 'negative'}">${formatCurrency(i.gain)}</td>
+                    <td><button onclick="editPurchase(${i.idx})" style="background:#444;border:none;border-radius:6px;padding:6px 12px;cursor:pointer;color:#fff;">✏️</button></td>
+                </tr>
+            `;}).join('') : '<tr><td colspan="10" style="text-align:center;color:#888;padding:40px;">No purchases yet. Click "+ Add Purchase" to start!</td></tr>';
+            
+            // History table
+            const sorted = [...portfolio.purchases].reverse();
+            document.getElementById('history-body').innerHTML = sorted.map((p, idx) => {
+                const realIdx = portfolio.purchases.length - 1 - idx;
+                return `<tr>
+                    <td>${p.date}</td>
+                    <td class="ticker">${p.ticker}</td>
+                    <td>${parseFloat(p.shares).toFixed(4)}</td>
+                    <td>${formatCurrency(parseFloat(p.price))}</td>
+                    <td>${formatCurrency(parseFloat(p.shares) * parseFloat(p.price))}</td>
+                    <td><button onclick="editPurchase(${realIdx})" style="background:#444;border:none;border-radius:6px;padding:6px 12px;cursor:pointer;color:#fff;">✏️</button></td>
+                </tr>`;
+            }).join('');
+            
+            document.getElementById('last-updated').textContent = `Prices updated: ${prices.updated || '-'}`;
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+            
+            const fiveYearsAgo = new Date();
+            fiveYearsAgo.setFullYear(fiveYearsAgo.getFullYear() - 5);
+            document.getElementById('sim-date').valueAsDate = fiveYearsAgo;
+        }
+        
+        function openAddModal() {
+            editingIndex = null;
+            document.getElementById('modal-title').textContent = 'Add Purchase';
+            document.getElementById('p-date').valueAsDate = new Date();
+            document.getElementById('p-ticker').value = '';
+            document.getElementById('p-amount').value = '';
+            document.getElementById('calc-preview').style.display = 'none';
+            document.getElementById('btn-delete').style.display = 'none';
+            document.getElementById('purchase-modal').classList.add('show');
+        }
+        
+        function editPurchase(idx) {
+            editingIndex = idx;
+            const p = portfolio.purchases[idx];
+            document.getElementById('modal-title').textContent = 'Edit Purchase';
+            document.getElementById('p-date').value = p.date;
+            document.getElementById('p-ticker').value = p.ticker;
+            document.getElementById('p-amount').value = (parseFloat(p.shares) * parseFloat(p.price)).toFixed(2);
+            updateCalcPreview();
+            document.getElementById('btn-delete').style.display = 'block';
+            document.getElementById('purchase-modal').classList.add('show');
+        }
+        
+        function closeModal() { document.getElementById('purchase-modal').classList.remove('show'); }
+        
+        function savePurchase() {
+            const dateStr = document.getElementById('p-date').value;
+            const ticker = document.getElementById('p-ticker').value.toUpperCase();
+            const amount = parseFloat(document.getElementById('p-amount').value);
+            
+            if (!dateStr || !ticker || !amount || amount <= 0) { alert('Fill in all fields'); return; }
+            
+            const selectedTicker = allTickers.find(t => t.symbol === ticker);
+            if (!selectedTicker) { alert('Unknown ticker: ' + ticker); return; }
+            
+            const priceAtDate = getPriceAtDate(ticker, dateStr);
+            if (!priceAtDate) {
+                alert('No price data for ' + ticker + ' on ' + dateStr + '. Try a more recent date.');
+                return;
+            }
+            
+            const purchase = { date: dateStr, ticker, company: selectedTicker.name || ticker, shares: amount / priceAtDate, price: priceAtDate };
+            
+            if (editingIndex !== null) {
+                portfolio.purchases[editingIndex] = purchase;
+                showToast('✅ Purchase updated!');
+            } else {
+                portfolio.purchases.push(purchase);
+                showToast('✅ ' + formatCurrency(amount) + ' in ' + ticker + ' added!');
+            }
+            
+            savePortfolioToStorage();
+            closeModal();
+            render();
+        }
+        
+        function deletePurchase() {
+            if (editingIndex !== null && confirm('Delete this purchase?')) {
+                portfolio.purchases.splice(editingIndex, 1);
+                savePortfolioToStorage();
+                showToast('🗑️ Purchase deleted');
+                closeModal();
+                render();
+            }
+        }
+        
+        function runSimulation() {
+            const ticker = document.getElementById('sim-ticker').value.toUpperCase();
+            const dateStr = document.getElementById('sim-date').value;
+            const amount = parseFloat(document.getElementById('sim-amount').value);
+            
+            if (!ticker) { alert('Select a ticker'); return; }
+            if (!dateStr || !amount) { alert('Fill in all fields'); return; }
+            
+            const price = getPriceAtDate(ticker, dateStr);
+            if (!price) {
+                document.getElementById('sim-result').classList.add('show');
+                document.getElementById('sim-result').innerHTML = `<p style="color:#ff4444;">❌ No data for ${ticker} on ${new Date(dateStr).toLocaleDateString('es-ES')}. Try a more recent date.</p>`;
+                return;
+            }
+            
+            const shares = amount / price;
+            const cur = getCurrentPriceData(ticker);
+            const currentPrice = cur.current || price;
+            const currentValue = shares * currentPrice;
+            const gain = currentValue - amount;
+            const gainPercent = (gain / amount) * 100;
+            const years = ((new Date() - new Date(dateStr)) / (1000 * 60 * 60 * 24 * 365)).toFixed(1);
+            
+            document.getElementById('sim-result').classList.add('show');
+            document.getElementById('sim-result').innerHTML = `
+                <h3 style="margin-bottom:15px;color:#00d4ff;">📊 ${ticker}: ${formatCurrency(amount)} invested ${new Date(dateStr).toLocaleDateString('es-ES')} (${years} years ago)</h3>
+                <p style="margin-bottom:10px;"><strong>Buy price:</strong> ${formatCurrency(price)} | <strong>Current price:</strong> ${formatCurrency(currentPrice)}</p>
+                <p style="margin-bottom:10px;"><strong>Shares purchased:</strong> ${shares.toFixed(4)}</p>
+                <p style="margin-bottom:10px;"><strong>Current value:</strong> <span class="${gain >= 0 ? 'positive' : 'negative'}">${formatCurrency(currentValue)}</span></p>
+                <p><strong>Total gain/loss:</strong> <span class="${gain >= 0 ? 'positive' : 'negative'}" style="font-size:1.3rem;font-weight:bold;">${formatCurrency(gain)} (${formatPercent(gainPercent)})</span></p>
+                <p style="color:#888;font-size:0.85rem;margin-top:15px;">* Based on weekly/monthly closing prices. Does not include dividends or fees.</p>
+            `;
+        }
+        
+        loadData().then(render).catch(e => {
+            document.getElementById('loading').innerHTML = `<p style="color:#ff4444;">Error: ${e.message}</p>`;
+        });
+    </script>
+</body>
+</html>
         
         function formatCurrency(v) { return '€' + v.toFixed(2).replace('.', ','); }
         function formatPercent(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
@@ -327,7 +569,8 @@
             const amount = parseFloat(document.getElementById('p-amount').value);
             
             const preview = document.getElementById('calc-preview');
-            if (!ticker || !dateStr || !amount || amount <= 0) {
+            const selectedTicker = allTickers.find(t => t.symbol === ticker);
+            if (!ticker || !selectedTicker || !dateStr || !amount || amount <= 0) {
                 preview.style.display = 'none';
                 return;
             }
