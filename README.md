@@ -23,8 +23,9 @@ A web-based investment portfolio simulator that lets you practice investing with
 - See what your investment would be worth today
 
 ### 🔍 Live Ticker Search
-- Search any ticker available on Yahoo Finance
+- Search any ticker from a comprehensive list
 - Real-time autocomplete as you type
+- Works offline with built-in fallback ticker list
 
 ---
 
@@ -41,15 +42,16 @@ A web-based investment portfolio simulator that lets you practice investing with
 ## How It Works
 
 ```
-Yahoo Finance API → GitHub Actions → data/prices.json → GitHub Pages → Your Browser
-                                                              ↑
-                                              localStorage (portfolio)
+Yahoo Finance API → GitHub Actions → data/prices.json + data/tickers.json → GitHub Pages → Your Browser
+                                                                                      ↑
+                                                                    localStorage (portfolio)
 ```
 
-1. **GitHub Actions** fetches prices from Yahoo Finance and commits to `data/prices.json`
-2. **GitHub Pages** serves the JSON file publicly
-3. **Web App** loads prices and displays your portfolio
-4. **Your Portfolio** is stored in browser localStorage
+1. **GitHub Actions** fetches prices and ticker info from Yahoo Finance
+2. Commits `data/prices.json` (prices + history) and `data/tickers.json` (ticker list)
+3. **GitHub Pages** serves JSON files publicly
+4. **Web App** loads data and displays your portfolio
+5. **Your Portfolio** is stored in browser localStorage
 
 ---
 
@@ -59,9 +61,10 @@ Yahoo Finance API → GitHub Actions → data/prices.json → GitHub Pages → Y
 inversion-simulator/
 ├── index.html              # Main web app
 ├── data/
-│   └── prices.json        # Historical price data (auto-generated)
+│   ├── prices.json        # Historical price data (auto-generated)
+│   └── tickers.json        # Ticker list for autocomplete (auto-generated)
 ├── scripts/
-│   └── fetch-prices.js    # Node script for price fetching
+│   └── fetch-prices.js    # Node script for GitHub Actions
 ├── .github/
 │   └── workflows/
 │       └── fetch-prices.yml  # GitHub Actions workflow
@@ -75,10 +78,19 @@ inversion-simulator/
 | Layer | Tech |
 |-------|------|
 | Frontend | Vanilla HTML/CSS/JS |
-| Charts | Chart.js |
+| Charts | Chart.js (CDN) |
 | Data Storage | GitHub Pages (prices) + localStorage (portfolio) |
 | Price Updates | GitHub Actions + Yahoo Finance API |
 | Hosting | GitHub Pages |
+
+---
+
+## Tickers with Full History (10)
+
+These tickers have 15 years of historical data:
+VOO, VTI, SPY, QQQ, AAPL, MSFT, CCJ, NEE, VEA, VT
+
+The autocomplete feature includes 100+ additional popular tickers.
 
 ---
 
@@ -91,6 +103,15 @@ To force a full 15-year history refresh:
 3. Click **"Run workflow"**
 4. Check **"Force full history"**
 5. Click **"Run workflow"**
+
+---
+
+## Known Issues
+
+### tickers.json is empty after GitHub Actions run
+If `data/tickers.json` shows `"tickers": []`, the Yahoo Finance API call for ticker info may be failing. The app has a **built-in fallback ticker list** so autocomplete still works, but names may be generic.
+
+To fix: Check GitHub Actions logs for errors and verify Yahoo Finance API accessibility from the runner.
 
 ---
 
