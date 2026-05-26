@@ -14,7 +14,7 @@ A web-based investment portfolio simulator that lets you practice investing with
 - All data stored locally in your browser (localStorage) — no account needed
 
 ### 📊 Real Market Data
-- Historical prices from Yahoo Finance (15 years of data)
+- Historical prices from Yahoo Finance (15 years of data for 15 base tickers)
 - Weekly prices for the last year, monthly for older history
 - Auto-updated daily via GitHub Actions
 
@@ -23,8 +23,8 @@ A web-based investment portfolio simulator that lets you practice investing with
 - See what your investment would be worth today
 
 ### 🔍 Live Ticker Search
-- Search any ticker from a comprehensive list
-- Real-time autocomplete as you type
+- Search any ticker from a comprehensive list of 537+ tickers
+- Real-time autocomplete as you type by symbol or company name
 - Works offline with built-in fallback ticker list
 
 ---
@@ -85,12 +85,12 @@ inversion-simulator/
 
 ---
 
-## Tickers with Full History (10)
+## Tickers with Full History (15)
 
 These tickers have 15 years of historical data:
-VOO, VTI, SPY, QQQ, AAPL, MSFT, CCJ, NEE, VEA, VT
+VOO, VTI, SPY, QQQ, AAPL, MSFT, CCJ, NEE, VEA, VT, NVDA, GOOGL, AMZN, META, TSLA
 
-The autocomplete feature includes 100+ additional popular tickers.
+The autocomplete feature includes 537+ additional popular tickers (including VUSA.AS, PL, major ETFs, crypto, and UK/EU stocks).
 
 ---
 
