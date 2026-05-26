@@ -2,7 +2,7 @@
 
 A web-based investment portfolio simulator that lets you practice investing with fictional money using real market data.
 
-**Live Demo:** https://brauliopastran.github.io/inversion-simulator/
+**Live Demo:** https://brauliopastran.github.io/investment-simulator/
 
 ---
 
@@ -31,7 +31,7 @@ A web-based investment portfolio simulator that lets you practice investing with
 
 ## Quick Start
 
-1. Open [https://brauliopastran.github.io/inversion-simulator/](https://brauliopastran.github.io/inversion-simulator/)
+1. Open [https://brauliopastran.github.io/investment-simulator/](https://brauliopastran.github.io/investment-simulator/)
 2. Click **"+ Add Purchase"**
 3. Enter Date, search for a Ticker, and enter Amount in euros
 4. The app calculates shares and buy price automatically
@@ -58,7 +58,7 @@ Yahoo Finance API → GitHub Actions → data/prices.json + data/tickers.json �
 ## Project Structure
 
 ```
-inversion-simulator/
+investment-simulator/
 ├── index.html              # Main web app
 ├── data/
 │   ├── prices.json        # Historical price data (auto-generated)
