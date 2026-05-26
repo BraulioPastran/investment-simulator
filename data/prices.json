@@ -49,6 +49,31 @@
       "current": 155.57,
       "previousClose": 155.21,
       "updated": "2026-05-26"
+    },
+    "NVDA": {
+      "current": 215.33,
+      "previousClose": 219.51,
+      "updated": "2026-05-26"
+    },
+    "GOOGL": {
+      "current": 382.97,
+      "previousClose": 387.66,
+      "updated": "2026-05-26"
+    },
+    "AMZN": {
+      "current": 266.32,
+      "previousClose": 268.46002,
+      "updated": "2026-05-26"
+    },
+    "META": {
+      "current": 610.26,
+      "previousClose": 607.38,
+      "updated": "2026-05-26"
+    },
+    "TSLA": {
+      "current": 426.01,
+      "previousClose": 417.85,
+      "updated": "2026-05-26"
     }
   },
   "history": {
@@ -1881,6 +1906,26 @@
         "2026-03-31": 138.32000732421875,
         "2026-04-30": 151.1999969482422
       }
+    },
+    "NVDA": {
+      "weekly": {},
+      "monthly": {}
+    },
+    "GOOGL": {
+      "weekly": {},
+      "monthly": {}
+    },
+    "AMZN": {
+      "weekly": {},
+      "monthly": {}
+    },
+    "META": {
+      "weekly": {},
+      "monthly": {}
+    },
+    "TSLA": {
+      "weekly": {},
+      "monthly": {}
     }
   },
   "updated": "2026-05-26"

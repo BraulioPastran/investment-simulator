@@ -169,13 +169,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "PINS",
-      "name": "Pinterest, Inc.",
-      "exchange": "NYQ",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "DOCU",
       "name": "DocuSign, Inc.",
       "exchange": "NMS",
@@ -204,34 +197,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "EA",
-      "name": "Electronic Arts Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "TTWO",
-      "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "ATVI",
-      "name": "ATVI",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
       "exchange": "NMS",
@@ -239,71 +204,8 @@
       "currency": "USD"
     },
     {
-      "symbol": "FVRR",
-      "name": "Fiverr International Ltd.",
-      "exchange": "NYQ",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "UPWK",
-      "name": "Upwork Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "GPRO",
-      "name": "GoPro, Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "ADP",
-      "name": "Automatic Data Processing, Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "exchange": "NYQ",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "FISV",
-      "name": "Fiserv, Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "GPN",
-      "name": "Global Payments Inc.",
-      "exchange": "NYQ",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "PAYX",
-      "name": "Paychex, Inc.",
-      "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "ADSK",
-      "name": "Autodesk, Inc.",
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -333,13 +235,6 @@
       "symbol": "OKTA",
       "name": "Okta, Inc.",
       "exchange": "NMS",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "SPLK",
-      "name": "SPLK",
-      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -410,6 +305,146 @@
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
       "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ADP",
+      "name": "Automatic Data Processing, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FISV",
+      "name": "Fiserv, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments Inc.",
+      "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PAYX",
+      "name": "Paychex, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FFIV",
+      "name": "F5, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EA",
+      "name": "Electronic Arts Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive Software, Inc.",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ATVI",
+      "name": "ATVI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NTDOY",
+      "name": "Nintendo Co., Ltd.",
+      "exchange": "PNK",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UBS",
+      "name": "UBS Group AG",
+      "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NXGL",
+      "name": "NEXGEL, Inc.",
+      "exchange": "NCM",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -508,13 +543,6 @@
       "symbol": "SCHW",
       "name": "The Charles Schwab Corporation",
       "exchange": "NYQ",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -638,65 +666,128 @@
       "currency": "USD"
     },
     {
-      "symbol": "UNH",
-      "name": "UnitedHealth Group Incorporated",
+      "symbol": "BRO",
+      "name": "Brown & Brown, Inc.",
       "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RF",
+      "name": "Regions Financial Corporation",
+      "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KEY",
+      "name": "KeyCorp",
+      "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HBAN",
+      "name": "Huntington Bancshares Incorporated",
+      "exchange": "NMS",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "exchange": "NYQ",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "STT",
+      "name": "STT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TROW",
+      "name": "TROW",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NDAQ",
+      "name": "NDAQ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FND",
+      "name": "FND",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UNH",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "exchange": "NYQ",
+      "name": "JNJ",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PFE",
-      "name": "Pfizer Inc.",
-      "exchange": "NYQ",
+      "name": "PFE",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ABBV",
-      "name": "AbbVie Inc.",
-      "exchange": "NYQ",
+      "name": "ABBV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "LLY",
-      "name": "Eli Lilly and Company",
-      "exchange": "NYQ",
+      "name": "LLY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MRK",
-      "name": "Merck & Co., Inc.",
-      "exchange": "NYQ",
+      "name": "MRK",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TMO",
-      "name": "Thermo Fisher Scientific Inc.",
-      "exchange": "NYQ",
+      "name": "TMO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ABT",
-      "name": "Abbott Laboratories",
-      "exchange": "NYQ",
+      "name": "ABT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "BMY",
-      "name": "Bristol-Myers Squibb Company",
-      "exchange": "NYQ",
+      "name": "BMY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -799,13 +890,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "TECH",
-      "name": "TECH",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "IQV",
       "name": "IQV",
       "exchange": "",
@@ -848,13 +932,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "DVA",
-      "name": "DVA",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "XRAY",
       "name": "XRAY",
       "exchange": "",
@@ -862,43 +939,71 @@
       "currency": "USD"
     },
     {
-      "symbol": "INFN",
-      "name": "INFN",
+      "symbol": "HCA",
+      "name": "HCA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "OMCL",
-      "name": "OMCL",
+      "symbol": "CNC",
+      "name": "CNC",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "CERN",
-      "name": "CERN",
+      "symbol": "HUM",
+      "name": "HUM",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "CPSI",
-      "name": "CPSI",
+      "symbol": "CI",
+      "name": "CI",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "MGLN",
-      "name": "MGLN",
+      "symbol": "MOH",
+      "name": "MOH",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "HSIC",
-      "name": "HSIC",
+      "symbol": "OMC",
+      "name": "OMC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BACH",
+      "name": "BACH",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RVTY",
+      "name": "RVTY",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TECH",
+      "name": "TECH",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BOLT",
+      "name": "BOLT",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1072,13 +1177,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "APOL",
-      "name": "APOL",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "CPRT",
       "name": "CPRT",
       "exchange": "",
@@ -1135,13 +1233,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "LZB",
-      "name": "LZB",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "M",
       "name": "M",
       "exchange": "",
@@ -1172,6 +1263,76 @@
     {
       "symbol": "CMG",
       "name": "CMG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WYNN",
+      "name": "WYNN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MGM",
+      "name": "MGM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CZR",
+      "name": "CZR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LVS",
+      "name": "LVS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HAS",
+      "name": "HAS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MAT",
+      "name": "MAT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IPG",
+      "name": "IPG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "OMC",
+      "name": "OMC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NWS",
+      "name": "NWS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NWSA",
+      "name": "NWSA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1436,6 +1597,104 @@
       "currency": "USD"
     },
     {
+      "symbol": "UAL",
+      "name": "UAL",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AAL",
+      "name": "AAL",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ALK",
+      "name": "ALK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SAVE",
+      "name": "SAVE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CSX",
+      "name": "CSX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NSC",
+      "name": "NSC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UNP",
+      "name": "UNP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KMB",
+      "name": "KMB",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PPG",
+      "name": "PPG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SHW",
+      "name": "SHW",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AVY",
+      "name": "AVY",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PKG",
+      "name": "PKG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CE",
+      "name": "CE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IFF",
+      "name": "IFF",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
       "symbol": "XOM",
       "name": "XOM",
       "exchange": "",
@@ -1583,6 +1842,76 @@
       "currency": "USD"
     },
     {
+      "symbol": "FANG",
+      "name": "FANG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HAL",
+      "name": "HAL",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BKR",
+      "name": "BKR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DVN",
+      "name": "DVN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PXD",
+      "name": "PXD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MRO",
+      "name": "MRO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APA",
+      "name": "APA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CTRA",
+      "name": "CTRA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LIN",
+      "name": "LIN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "APD",
+      "name": "APD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
       "symbol": "SHW",
       "name": "SHW",
       "exchange": "",
@@ -1592,41 +1921,6 @@
     {
       "symbol": "PPG",
       "name": "PPG",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "ALB",
-      "name": "ALB",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "FMC",
-      "name": "FMC",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "CE",
-      "name": "CE",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "IFF",
-      "name": "IFF",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "EMN",
-      "name": "EMN",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1648,6 +1942,251 @@
     {
       "symbol": "IP",
       "name": "IP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GLD",
+      "name": "GLD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SLV",
+      "name": "SLV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": " copper",
+      "name": " copper",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DBO",
+      "name": "DBO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AMT",
+      "name": "AMT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PLD",
+      "name": "PLD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CCI",
+      "name": "CCI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "EQIX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SPG",
+      "name": "SPG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "O",
+      "name": "O",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WELL",
+      "name": "WELL",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DLR",
+      "name": "DLR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AVB",
+      "name": "AVB",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EQR",
+      "name": "EQR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NEE",
+      "name": "NEE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DUK",
+      "name": "DUK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SO",
+      "name": "SO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "D",
+      "name": "D",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AEP",
+      "name": "AEP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EXC",
+      "name": "EXC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SRE",
+      "name": "SRE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EIX",
+      "name": "EIX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ED",
+      "name": "ED",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PEG",
+      "name": "PEG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ES",
+      "name": "ES",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AWK",
+      "name": "AWK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NI",
+      "name": "NI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ETR",
+      "name": "ETR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AEE",
+      "name": "AEE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CMS",
+      "name": "CMS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ATO",
+      "name": "ATO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CNP",
+      "name": "CNP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DTE",
+      "name": "DTE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FE",
+      "name": "FE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EVRG",
+      "name": "EVRG",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1681,13 +2220,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "VEA",
-      "name": "VEA",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "VWO",
       "name": "VWO",
       "exchange": "",
@@ -1697,69 +2229,6 @@
     {
       "symbol": "VT",
       "name": "VT",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "BND",
-      "name": "BND",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "VNQ",
-      "name": "VNQ",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "XLE",
-      "name": "XLE",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "XLV",
-      "name": "XLV",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "XLK",
-      "name": "XLK",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "XLF",
-      "name": "XLF",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "XLY",
-      "name": "XLY",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "VGT",
-      "name": "VGT",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "VHT",
-      "name": "VHT",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1779,15 +2248,218 @@
       "currency": "USD"
     },
     {
-      "symbol": "EWJ",
-      "name": "EWJ",
+      "symbol": "EEM",
+      "name": "EEM",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "EWZ",
-      "name": "EWZ",
+      "symbol": "VEA",
+      "name": "VEA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IVV",
+      "name": "IVV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VTSAX",
+      "name": "VTSAX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FZROX",
+      "name": "FZROX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FZILX",
+      "name": "FZILX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FNDAX",
+      "name": "FNDAX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SPHD",
+      "name": "SPHD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SPYD",
+      "name": "SPYD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RSP",
+      "name": "RSP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IVW",
+      "name": "IVW",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VGT",
+      "name": "VGT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VHT",
+      "name": "VHT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VFH",
+      "name": "VFH",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VIS",
+      "name": "VIS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VCR",
+      "name": "VCR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VDC",
+      "name": "VDC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VDE",
+      "name": "VDE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VAW",
+      "name": "VAW",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VGSG",
+      "name": "VGSG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VOX",
+      "name": "VOX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLK",
+      "name": "XLK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLF",
+      "name": "XLF",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLV",
+      "name": "XLV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLE",
+      "name": "XLE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLY",
+      "name": "XLY",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLP",
+      "name": "XLP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLI",
+      "name": "XLI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLB",
+      "name": "XLB",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLRE",
+      "name": "XLRE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLC",
+      "name": "XLC",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1828,57 +2500,50 @@
       "currency": "USD"
     },
     {
-      "symbol": "SCHA",
-      "name": "SCHA",
+      "symbol": "VNQ",
+      "name": "VNQ",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "SCHB",
-      "name": "SCHB",
+      "symbol": "BND",
+      "name": "BND",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "SCHZ",
-      "name": "SCHZ",
+      "symbol": "AGG",
+      "name": "AGG",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "SCHP",
-      "name": "SCHP",
+      "symbol": "SCHD",
+      "name": "SCHD",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "VTIP",
-      "name": "VTIP",
+      "symbol": "VEA",
+      "name": "VEA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "VGSH",
-      "name": "VGSH",
+      "symbol": "VWO",
+      "name": "VWO",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "VIG",
-      "name": "VIG",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
-      "symbol": "VYM",
-      "name": "VYM",
+      "symbol": "VSS",
+      "name": "VSS",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1891,36 +2556,442 @@
       "currency": "USD"
     },
     {
-      "symbol": "DVY",
-      "name": "DVY",
+      "symbol": "DGA",
+      "name": "DGA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "HDV",
-      "name": "HDV",
+      "symbol": "EFG",
+      "name": "EFG",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "SPHD",
-      "name": "SPHD",
+      "symbol": "EFA",
+      "name": "EFA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "SPYD",
-      "name": "SPYD",
+      "symbol": "SCZ",
+      "name": "SCZ",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "RSP",
-      "name": "RSP",
+      "symbol": "EUFN",
+      "name": "EUFN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ESGE",
+      "name": "ESGE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EWJ",
+      "name": "EWJ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EWZ",
+      "name": "EWZ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EWC",
+      "name": "EWC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EIDO",
+      "name": "EIDO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EILV",
+      "name": "EILV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EPOL",
+      "name": "EPOL",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "THD",
+      "name": "THD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IDV",
+      "name": "IDV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VUSA",
+      "name": "VUSA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CSPX",
+      "name": "CSPX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IUSE",
+      "name": "IUSE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VWCE",
+      "name": "VWCE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SWRD",
+      "name": "SWRD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EACP",
+      "name": "EACP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UEMS",
+      "name": "UEMS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EQQQ",
+      "name": "EQQQ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IEAA",
+      "name": "IEAA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ISF",
+      "name": "ISF",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SLXX",
+      "name": "SLXX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VUAA",
+      "name": "VUAA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CUKS",
+      "name": "CUKS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BND",
+      "name": "BND",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AGG",
+      "name": "AGG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GOVT",
+      "name": "GOVT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TLT",
+      "name": "TLT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IEF",
+      "name": "IEF",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SHY",
+      "name": "SHY",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TIP",
+      "name": "TIP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VCIT",
+      "name": "VCIT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VCLT",
+      "name": "VCLT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VGLT",
+      "name": "VGLT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BSV",
+      "name": "BSV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BIV",
+      "name": "BIV",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MUB",
+      "name": "MUB",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MUNI",
+      "name": "MUNI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PZA",
+      "name": "PZA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ITM",
+      "name": "ITM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MLN",
+      "name": "MLN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RYLD",
+      "name": "RYLD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARKK",
+      "name": "ARKK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARKQ",
+      "name": "ARKQ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARKF",
+      "name": "ARKF",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARKW",
+      "name": "ARKW",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARKB",
+      "name": "ARKB",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GBTC",
+      "name": "GBTC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IBIT",
+      "name": "IBIT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FBTC",
+      "name": "FBTC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MINI",
+      "name": "MINI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "COIN",
+      "name": "COIN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MARA",
+      "name": "MARA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RIOT",
+      "name": "RIOT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HUT",
+      "name": "HUT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BITO",
+      "name": "BITO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BLOK",
+      "name": "BLOK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EMFQ",
+      "name": "EMFQ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HERO",
+      "name": "HERO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KSA",
+      "name": "KSA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1935,6 +3006,132 @@
     {
       "symbol": "ETH-USD",
       "name": "ETH-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SOL-USD",
+      "name": "SOL-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BNB-USD",
+      "name": "BNB-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XRP-USD",
+      "name": "XRP-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ADA-USD",
+      "name": "ADA-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DOGE-USD",
+      "name": "DOGE-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DOT-USD",
+      "name": "DOT-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MATIC-USD",
+      "name": "MATIC-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LINK-USD",
+      "name": "LINK-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AVAX-USD",
+      "name": "AVAX-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UNI-USD",
+      "name": "UNI-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ATOM-USD",
+      "name": "ATOM-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LTC-USD",
+      "name": "LTC-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BCH-USD",
+      "name": "BCH-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "XLM-USD",
+      "name": "XLM-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ALGO-USD",
+      "name": "ALGO-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VET-USD",
+      "name": "VET-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FIL-USD",
+      "name": "FIL-USD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ICP-USD",
+      "name": "ICP-USD",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1968,8 +3165,120 @@
       "currency": "USD"
     },
     {
-      "symbol": "GBTC",
-      "name": "GBTC",
+      "symbol": "HUT",
+      "name": "HUT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BLOK",
+      "name": "BLOK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SHEL.L",
+      "name": "SHEL.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BP.L",
+      "name": "BP.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HSBA.L",
+      "name": "HSBA.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ULVR.L",
+      "name": "ULVR.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BATS.L",
+      "name": "BATS.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RIO.L",
+      "name": "RIO.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AZN.L",
+      "name": "AZN.L",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NESN.SW",
+      "name": "NESN.SW",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ASML.AS",
+      "name": "ASML.AS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ENEL.MI",
+      "name": "ENEL.MI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ISP.MI",
+      "name": "ISP.MI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UBS",
+      "name": "UBS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NOKIA",
+      "name": "NOKIA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ERIC",
+      "name": "ERIC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TELEFONICA",
+      "name": "TELEFONICA",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -1982,8 +3291,8 @@
       "currency": "USD"
     },
     {
-      "symbol": "JPM",
-      "name": "JPM",
+      "symbol": "BRK.A",
+      "name": "BRK.A",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
@@ -2003,13 +3312,6 @@
       "currency": "USD"
     },
     {
-      "symbol": "PG",
-      "name": "PG",
-      "exchange": "",
-      "type": "EQUITY",
-      "currency": "USD"
-    },
-    {
       "symbol": "UNH",
       "name": "UNH",
       "exchange": "",
@@ -2017,15 +3319,442 @@
       "currency": "USD"
     },
     {
-      "symbol": "NVDA",
-      "name": "NVDA",
+      "symbol": "ABBV",
+      "name": "ABBV",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
-      "symbol": "ABBV",
-      "name": "ABBV",
+      "symbol": "PFE",
+      "name": "PFE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MRK",
+      "name": "MRK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "VZ",
+      "name": "VZ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "T",
+      "name": "T",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "INTC",
+      "name": "INTC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "CMCSA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "WMT",
+      "name": "WMT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KO",
+      "name": "KO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PEP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MCD",
+      "name": "MCD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "COST",
+      "name": "COST",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DIS",
+      "name": "DIS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NKE",
+      "name": "NKE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SBUX",
+      "name": "SBUX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CAT",
+      "name": "CAT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "RTX",
+      "name": "RTX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BA",
+      "name": "BA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HON",
+      "name": "HON",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "UPS",
+      "name": "UPS",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DE",
+      "name": "DE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MMM",
+      "name": "MMM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EMR",
+      "name": "EMR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LMT",
+      "name": "LMT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NOC",
+      "name": "NOC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "GD",
+      "name": "GD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "LHX",
+      "name": "LHX",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "HII",
+      "name": "HII",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "AVGO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "QCOM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TXN",
+      "name": "TXN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "AVGO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MU",
+      "name": "MU",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "AMAT",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "AMZN",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "FBAZM",
+      "name": "FBAZM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PCG",
+      "name": "PCG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EXC",
+      "name": "EXC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ED",
+      "name": "ED",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "AEP",
+      "name": "AEP",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DUK",
+      "name": "DUK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SO",
+      "name": "SO",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "NEE",
+      "name": "NEE",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "D",
+      "name": "D",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PL",
+      "name": "PL",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SMCI",
+      "name": "SMCI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ARM",
+      "name": "ARM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CRWD",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ON",
+      "name": "ON",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TSM",
+      "name": "TSM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "BABA",
+      "name": "BABA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "TCEHY",
+      "name": "TCEHY",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "9988.HK",
+      "name": "9988.HK",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "INDA",
+      "name": "INDA",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "KWEB",
+      "name": "KWEB",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "MCHI",
+      "name": "MCHI",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "ASHR",
+      "name": "ASHR",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "EEM",
+      "name": "EEM",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "IEMG",
+      "name": "IEMG",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "SIXZ",
+      "name": "SIXZ",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "PDBC",
+      "name": "PDBC",
+      "exchange": "",
+      "type": "EQUITY",
+      "currency": "USD"
+    },
+    {
+      "symbol": "DJP",
+      "name": "DJP",
       "exchange": "",
       "type": "EQUITY",
       "currency": "USD"

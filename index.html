@@ -348,7 +348,8 @@
             const tickersData = await tkrResp.json().catch(() => ({tickers:[]}));
             allTickers = (tickersData.tickers && tickersData.tickers.length > 0) ? tickersData.tickers : FALLBACK_TICKERS;
             loadPortfolioFromStorage();
-        }
+            document.getElementById('sim-ticker').placeholder = `Search among ${allTickers.length} tickers...`;
+            document.getElementById('p-ticker').placeholder = `Search among ${allTickers.length} tickers...`;
         
         function render() {
             let totalInvested = 0, totalCurrentValue = 0;

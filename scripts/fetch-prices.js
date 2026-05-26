@@ -4,50 +4,89 @@ const https = require('https');
 const DATA_FILE = 'data/prices.json';
 const TICKERS_FILE = 'data/tickers.json';
 
-// Base tickers with full history
-const BASE_TICKERS = ['VOO', 'VTI', 'SPY', 'QQQ', 'AAPL', 'MSFT', 'CCJ', 'NEE', 'VEA', 'VT'];
+// Base tickers with full history (15 years)
+const BASE_TICKERS = ['VOO', 'VTI', 'SPY', 'QQQ', 'AAPL', 'MSFT', 'CCJ', 'NEE', 'VEA', 'VT', 'NVDA', 'GOOGL', 'AMZN', 'META', 'TSLA'];
 
 // Comprehensive ticker list for autocomplete (no historical data, just for search)
+// Covers: S&P 500 majors, major ETFs (US + EU + UK), crypto, major indices
 const AUTOCOMPLETE_TICKERS = [
+    // ========== S&P 500 / MAJOR US EQUITIES ==========
     // Tech
     'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'META', 'NVDA', 'AMD', 'INTC',
     'CRM', 'ADBE', 'NFLX', 'PYPL', 'SHOP', 'SQ', 'UBER', 'LYFT', 'COIN', 'SNOW',
-    'NOW', 'PLTR', 'NET', 'DDOG', 'SNAP', 'PINS', 'DOCU', 'ZM', 'SPOT', 'ROKU',
-    'EA', 'TTWO', 'ATVI', 'WDAY', 'TEAM', 'FVRR', 'UPWK', 'GPRO', 'INTU', 'ADP',
-    'FIS', 'FISV', 'GPN', 'PAYX', 'ADSK', 'PANW', 'CRWD', 'ZS', 'OKTA', 'SPLK',
-    'HUBS', 'TWLO', 'MSTR', 'SAP', 'ORCL', 'IBM', 'QCOM', 'TXN', 'AVGO', 'MU',
+    'NOW', 'PLTR', 'NET', 'DDOG', 'SNAP', 'DOCU', 'ZM', 'SPOT', 'ROKU', 'TEAM',
+    'WDAY', 'PANW', 'CRWD', 'ZS', 'OKTA', 'HUBS', 'TWLO', 'MSTR', 'SAP', 'ORCL',
+    'IBM', 'QCOM', 'TXN', 'AVGO', 'MU', 'AMAT', 'LRCX', 'KLAC', 'SNPS', 'CDNS',
+    'INTU', 'ADP', 'FIS', 'FISV', 'GPN', 'PAYX', 'ADSK', 'FFIV', 'CDW',
+    'EA', 'TTWO', 'ATVI', 'NTDOY', 'UBS', 'NXGL',
     // Finance
     'JPM', 'BAC', 'WFC', 'GS', 'MS', 'V', 'MA', 'AXP', 'DFS', 'C', 'USB', 'PNC',
-    'TFC', 'SCHW', 'COIN', 'MCO', 'SPGI', 'CME', 'ICE', 'BLK', 'VICI', 'WY',
-    'AFL', 'MET', 'PRU', 'TRV', 'ALL', 'HIG', 'CB', 'AON', 'WLTW', 'MMC',
+    'TFC', 'SCHW', 'MCO', 'SPGI', 'CME', 'ICE', 'BLK', 'VICI', 'WY', 'AFL',
+    'MET', 'PRU', 'TRV', 'ALL', 'HIG', 'CB', 'AON', 'WLTW', 'MMC', 'BRO',
+    'RF', 'KEY', 'HBAN', 'CFG', 'STT', 'TROW', 'NDAQ', 'FND',
     // Healthcare
     'UNH', 'JNJ', 'PFE', 'ABBV', 'LLY', 'MRK', 'TMO', 'ABT', 'BMY', 'AMGN',
     'GILD', 'CVS', 'ISRG', 'MDT', 'SYK', 'ZTS', 'REGN', 'BIIB', 'MRNA', 'NVAX',
-    'DHR', 'EW', 'VRTX', 'TECH', 'IQV', 'IDXX', 'ALGN', 'HOLX',
-    'DGX', 'LH', 'DVA', 'XRAY', 'INFN', 'OMCL', 'CERN', 'CPSI', 'MGLN', 'HSIC',
+    'DHR', 'EW', 'VRTX', 'IQV', 'IDXX', 'ALGN', 'HOLX', 'DGX', 'LH', 'XRAY',
+    'HCA', 'CNC', 'HUM', 'CI', 'MOH', 'OMC', 'BACH', 'RVTY', 'TECH', 'BOLT',
     // Consumer
     'PG', 'KO', 'PEP', 'MCD', 'SBUX', 'NKE', 'DIS', 'CMCSA', 'T', 'VZ', 'TMUS',
     'HD', 'LOW', 'WMT', 'TGT', 'COST', 'LULU', 'ROST', 'DG', 'DLTR', 'URBN',
-    'GPS', 'AZO', 'ORLY', 'APOL', 'CPRT', 'KMX', 'GPC', 'SBH', 'TJX',
-    'BURL', 'FL', 'ULTA', 'LZB', 'M', 'KSS', 'JWN', 'DRI', 'CMG',
+    'GPS', 'AZO', 'ORLY', 'CPRT', 'KMX', 'GPC', 'SBH', 'TJX', 'BURL', 'FL',
+    'ULTA', 'M', 'KSS', 'JWN', 'DRI', 'CMG', 'WYNN', 'MGM', 'CZR', 'LVS',
+    'HAS', 'MAT', 'IPG', 'OMC', 'NWS', 'NWSA',
     // Industrial
     'BA', 'CAT', 'HON', 'UPS', 'FDX', 'RTX', 'GE', 'MMM', 'EMR', 'DE', 'CMI',
     'SWK', 'ITW', 'ETN', 'APH', 'PH', 'ROK', 'CARR', 'OTIS', 'WM', 'RSG',
     'FAST', 'PCAR', 'JCI', 'PWR', 'VRSN', 'FTV', 'AME', 'XYL', 'LDOS', 'WAB',
-    'NDSN', 'IR', 'TT', 'TDG', 'LUV', 'DAL',
+    'NDSN', 'IR', 'TT', 'TDG', 'LUV', 'DAL', 'UAL', 'AAL', 'ALK', 'SAVE',
+    'CSX', 'NSC', 'UNP', 'KMB', 'PPG', 'SHW', 'AVY', 'PKG', 'CE', 'IFF',
     // Energy
     'XOM', 'CVX', 'COP', 'SLB', 'EOG', 'MPC', 'PSX', 'VLO', 'OXY', 'NEE', 'DUK',
-    'SO', 'D', 'AEP', 'EXC', 'SRE', 'EIX', 'DOW', 'DD', 'LYB', 'APD',
-    'SHW', 'PPG', 'ALB', 'FMC', 'CE', 'IFF', 'EMN', 'AVY', 'PKG', 'IP',
-    // ETFs
-    'VOO', 'VTI', 'SPY', 'QQQ', 'VEA', 'VWO', 'VT', 'BND', 'VNQ', 'XLE', 'XLV',
-    'XLK', 'XLF', 'XLY', 'VGT', 'VHT', 'IWM', 'EFA', 'EWJ', 'EWZ', 'QQQM',
-    'VUG', 'VTV', 'VO', 'VB', 'SCHA', 'SCHB', 'SCHZ', 'SCHP',
-    'VTIP', 'VGSH', 'VIG', 'VYM', 'VYMI', 'DVY', 'HDV', 'SPHD', 'SPYD', 'RSP',
-    // Crypto
-    'BTC-USD', 'ETH-USD', 'MSTR', 'COIN', 'MARA', 'RIOT', 'GBTC',
-    // More popular
-    'BRK.B', 'JPM', 'LLY', 'HD', 'PG', 'UNH', 'NVDA', 'ABBV'
+    'SO', 'D', 'AEP', 'EXC', 'SRE', 'EIX', 'DOW', 'DD', 'LYB', 'APD', 'FANG',
+    'HAL', 'BKR', 'DVN', 'PXD', 'MRO', 'APA', 'CTRA',
+    // Materials / Real Estate
+    'LIN', 'APD', 'SHW', 'PPG', 'AVY', 'PKG', 'IP', 'GLD', 'SLV', ' copper', 'DBO',
+    'AMT', 'PLD', 'CCI', 'EQIX', 'SPG', 'O', 'WELL', 'DLR', 'AVB', 'EQR',
+    // Utilities
+    'NEE', 'DUK', 'SO', 'D', 'AEP', 'EXC', 'SRE', 'EIX', 'ED', 'PEG', 'ES',
+    'AWK', 'NI', 'ETR', 'AEE', 'CMS', 'ATO', 'CNP', 'DTE', 'FE', 'EVRG',
+    // ========== MAJOR ETFs ==========
+    // US Broad Market
+    'VOO', 'VTI', 'SPY', 'QQQ', 'VWO', 'VT', 'IWM', 'EFA', 'EEM', 'VEA',
+    'IVV', 'VTSAX', 'FZROX', 'FZILX', 'FNDAX', 'SPHD', 'SPYD', 'RSP', 'IVW',
+    // US Sectors
+    'VGT', 'VHT', 'VFH', 'VIS', 'VCR', 'VDC', 'VDE', 'VAW', 'VGSG', 'VOX',
+    'XLK', 'XLF', 'XLV', 'XLE', 'XLY', 'XLP', 'XLI', 'XLB', 'XLRE', 'XLC',
+    'QQQM', 'VUG', 'VTV', 'VO', 'VB', 'VNQ', 'BND', 'AGG', 'SCHD',
+    // International ETFs
+    'VEA', 'VWO', 'VSS', 'VYMI', 'DGA', 'EFG', 'EFA', 'SCZ', 'EUFN', 'ESGE',
+    'EWJ', 'EWZ', 'EWC', 'EIDO', 'EILV', 'EPOL', 'THD', 'IDV',
+    // European / UK ETFs
+    'VUSA', 'CSPX', 'IUSE', 'VWCE', 'SWRD', 'EACP', 'UEMS',
+    'EQQQ', 'IEAA', 'ISF', 'SLXX', 'VUAA', 'CUKS',
+    // Bond / Fixed Income ETFs
+    'BND', 'AGG', 'GOVT', 'TLT', 'IEF', 'SHY', 'TIP', 'VCIT', 'VCLT', 'VGLT',
+    'BSV', 'BIV', 'MUB', 'MUNI', 'PZA', 'ITM', 'MLN', 'RYLD',
+    // Thematic ETFs
+    'ARKK', 'ARKQ', 'ARKF', 'ARKW', 'ARKB', 'GBTC', 'IBIT', 'FBTC', 'MINI',
+    'COIN', 'MARA', 'RIOT', 'HUT', 'BITO', 'BLOK', 'EMFQ', 'HERO', 'KSA',
+    // ========== CRYPTO ==========
+    'BTC-USD', 'ETH-USD', 'SOL-USD', 'BNB-USD', 'XRP-USD', 'ADA-USD', 'DOGE-USD',
+    'DOT-USD', 'MATIC-USD', 'LINK-USD', 'AVAX-USD', 'UNI-USD', 'ATOM-USD',
+    'LTC-USD', 'BCH-USD', 'XLM-USD', 'ALGO-USD', 'VET-USD', 'FIL-USD', 'ICP-USD',
+    'MSTR', 'COIN', 'MARA', 'RIOT', 'HUT', 'BLOK',
+    // ========== UK / EU STOCKS ==========
+    'SHEL.L', 'BP.L', 'HSBA.L', 'ULVR.L', 'BATS.L', 'RIO.L', 'AZN.L', 'NESN.SW',
+    'ASML.AS', 'ENEL.MI', 'ISP.MI', 'UBS', 'NOKIA', 'ERIC', 'TELEFONICA',
+    // ========== ADDITIONAL S&P 500 / MAJORS ==========
+    'BRK.B', 'BRK.A', 'LLY', 'HD', 'UNH', 'ABBV', 'PFE', 'MRK', 'VZ', 'T',
+    'INTC', 'CMCSA', 'WMT', 'KO', 'PEP', 'MCD', 'COST', 'DIS', 'NKE', 'SBUX',
+    'GE', 'CAT', 'RTX', 'BA', 'HON', 'UPS', 'DE', 'MMM', 'EMR', 'LMT', 'NOC',
+    'GD', 'LHX', 'HII', 'AVGO', 'QCOM', 'TXN', 'AVGO', 'MU', 'AMAT', 'AMZN',
+    'FBAZM', 'PCG', 'EXC', 'ED', 'AEP', 'DUK', 'SO', 'NEE', 'D',
+    'PL', 'SMCI', 'ARM', 'CRWD', 'ON', 'TSM', 'BABA', 'TCEHY', '9988.HK',
+    'INDA', 'KWEB', 'MCHI', 'ASHR', 'EEM', 'IEMG', 'SIXZ', 'PDBC', 'DJP'
 ];
 
 function formatDate(d) {
