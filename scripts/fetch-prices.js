@@ -94,10 +94,10 @@ function fetchYahoo(ticker, period1, period2, interval) {
   });
 }
 
-// Try to get ticker info from Yahoo
+// Try to get ticker info from Yahoo using v1/search API
 function fetchTickerInfo(ticker) {
   return new Promise((resolve) => {
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${ticker}`;
+    const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(ticker)}&quotesCount=5&newsCount=0&enableFuzzyQuery=false`;
     https.get(url, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -109,14 +109,15 @@ function fetchTickerInfo(ticker) {
       res.on('end', () => {
         try {
           const json = JSON.parse(data);
-          const quote = json?.quoteResponse?.result?.[0];
+          // Find exact symbol match in results
+          const quote = json?.quotes?.find(q => q.symbol === ticker);
           if (quote) {
             resolve({
               symbol: quote.symbol,
-              name: quote.longName || quote.shortName || quote.symbol,
+              name: quote.longname || quote.shortname || quote.symbol,
               exchange: quote.exchange || '',
-              type: quote.quoteType || '',
-              currency: quote.currency || 'USD'
+              type: quote.quoteType || 'EQUITY',
+              currency: 'USD'
             });
           } else {
             resolve(null);
@@ -160,7 +161,7 @@ async function main() {
   
   // Try to get names from Yahoo for a subset of tickers
   const tickerInfos = [];
-  const sampleTickers = AUTOCOMPLETE_TICKERS.slice(0, 50); // Only check first 50 to save time
+  const sampleTickers = AUTOCOMPLETE_TICKERS.slice(0, 100); // Check first 100 to get names
   
   for (const ticker of sampleTickers) {
     try {
@@ -180,7 +181,7 @@ async function main() {
   }
   
   // Add remaining tickers without Yahoo lookup (just use symbol as name)
-  for (const ticker of AUTOCOMPLETE_TICKERS.slice(50)) {
+  for (const ticker of AUTOCOMPLETE_TICKERS.slice(100)) {
     tickerInfos.push({ symbol: ticker, name: ticker, exchange: '', type: 'EQUITY', currency: 'USD' });
   }
   

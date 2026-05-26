@@ -2,99 +2,99 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "AAPL",
-      "exchange": "",
+      "name": "Apple Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MSFT",
-      "name": "MSFT",
-      "exchange": "",
+      "name": "Microsoft Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "GOOGL",
-      "name": "GOOGL",
-      "exchange": "",
+      "name": "Alphabet Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AMZN",
-      "name": "AMZN",
-      "exchange": "",
+      "name": "Amazon.com, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TSLA",
-      "name": "TSLA",
-      "exchange": "",
+      "name": "Tesla, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "META",
-      "name": "META",
-      "exchange": "",
+      "name": "Meta Platforms, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "NVDA",
-      "name": "NVDA",
-      "exchange": "",
+      "name": "NVIDIA Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AMD",
-      "name": "AMD",
-      "exchange": "",
+      "name": "Advanced Micro Devices, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "INTC",
-      "name": "INTC",
-      "exchange": "",
+      "name": "Intel Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CRM",
-      "name": "CRM",
-      "exchange": "",
+      "name": "Salesforce, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ADBE",
-      "name": "ADBE",
-      "exchange": "",
+      "name": "Adobe Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "NFLX",
-      "name": "NFLX",
-      "exchange": "",
+      "name": "Netflix, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PYPL",
-      "name": "PYPL",
-      "exchange": "",
+      "name": "PayPal Holdings, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SHOP",
-      "name": "SHOP",
-      "exchange": "",
+      "name": "Shopify Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -107,113 +107,113 @@
     },
     {
       "symbol": "UBER",
-      "name": "UBER",
-      "exchange": "",
+      "name": "Uber Technologies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "LYFT",
-      "name": "LYFT",
-      "exchange": "",
+      "name": "Lyft, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "COIN",
-      "name": "COIN",
-      "exchange": "",
+      "name": "Coinbase Global, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SNOW",
-      "name": "SNOW",
-      "exchange": "",
+      "name": "Snowflake Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "NOW",
-      "name": "NOW",
-      "exchange": "",
+      "name": "ServiceNow, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PLTR",
-      "name": "PLTR",
-      "exchange": "",
+      "name": "Palantir Technologies Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "NET",
-      "name": "NET",
-      "exchange": "",
+      "name": "Cloudflare, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "DDOG",
-      "name": "DDOG",
-      "exchange": "",
+      "name": "Datadog, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SNAP",
-      "name": "SNAP",
-      "exchange": "",
+      "name": "Snap Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PINS",
-      "name": "PINS",
-      "exchange": "",
+      "name": "Pinterest, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "DOCU",
-      "name": "DOCU",
-      "exchange": "",
+      "name": "DocuSign, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ZM",
-      "name": "ZM",
-      "exchange": "",
+      "name": "Zoom Communications, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SPOT",
-      "name": "SPOT",
-      "exchange": "",
+      "name": "Spotify Technology S.A.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ROKU",
-      "name": "ROKU",
-      "exchange": "",
+      "name": "Roku, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "EA",
-      "name": "EA",
-      "exchange": "",
+      "name": "Electronic Arts Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TTWO",
-      "name": "TTWO",
-      "exchange": "",
+      "name": "Take-Two Interactive Software, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -226,113 +226,113 @@
     },
     {
       "symbol": "WDAY",
-      "name": "WDAY",
-      "exchange": "",
+      "name": "Workday, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TEAM",
-      "name": "TEAM",
-      "exchange": "",
+      "name": "Atlassian Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "FVRR",
-      "name": "FVRR",
-      "exchange": "",
+      "name": "Fiverr International Ltd.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "UPWK",
-      "name": "UPWK",
-      "exchange": "",
+      "name": "Upwork Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "GPRO",
-      "name": "GPRO",
-      "exchange": "",
+      "name": "GoPro, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "INTU",
-      "name": "INTU",
-      "exchange": "",
+      "name": "Intuit Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ADP",
-      "name": "ADP",
-      "exchange": "",
+      "name": "Automatic Data Processing, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "FIS",
-      "name": "FIS",
-      "exchange": "",
+      "name": "Fidelity National Information Services, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "FISV",
-      "name": "FISV",
-      "exchange": "",
+      "name": "Fiserv, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "GPN",
-      "name": "GPN",
-      "exchange": "",
+      "name": "Global Payments Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PAYX",
-      "name": "PAYX",
-      "exchange": "",
+      "name": "Paychex, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ADSK",
-      "name": "ADSK",
-      "exchange": "",
+      "name": "Autodesk, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PANW",
-      "name": "PANW",
-      "exchange": "",
+      "name": "Palo Alto Networks, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CRWD",
-      "name": "CRWD",
-      "exchange": "",
+      "name": "CrowdStrike Holdings, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ZS",
-      "name": "ZS",
-      "exchange": "",
+      "name": "Zscaler, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "OKTA",
-      "name": "OKTA",
-      "exchange": "",
+      "name": "Okta, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -345,127 +345,127 @@
     },
     {
       "symbol": "HUBS",
-      "name": "HUBS",
-      "exchange": "",
+      "name": "HubSpot, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TWLO",
-      "name": "TWLO",
-      "exchange": "",
+      "name": "Twilio Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MSTR",
-      "name": "MSTR",
-      "exchange": "",
+      "name": "Strategy Inc",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SAP",
-      "name": "SAP",
-      "exchange": "",
+      "name": "SAP SE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ORCL",
-      "name": "ORCL",
-      "exchange": "",
+      "name": "Oracle Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "IBM",
-      "name": "IBM",
-      "exchange": "",
+      "name": "International Business Machines Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "QCOM",
-      "name": "QCOM",
-      "exchange": "",
+      "name": "QUALCOMM Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TXN",
-      "name": "TXN",
-      "exchange": "",
+      "name": "Texas Instruments Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AVGO",
-      "name": "AVGO",
-      "exchange": "",
+      "name": "Broadcom Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MU",
-      "name": "MU",
-      "exchange": "",
+      "name": "Micron Technology, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "JPM",
-      "name": "JPM",
-      "exchange": "",
+      "name": "JPMorgan Chase & Co.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "BAC",
-      "name": "BAC",
-      "exchange": "",
+      "name": "Bank of America Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "WFC",
-      "name": "WFC",
-      "exchange": "",
+      "name": "Wells Fargo & Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "GS",
-      "name": "GS",
-      "exchange": "",
+      "name": "The Goldman Sachs Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MS",
-      "name": "MS",
-      "exchange": "",
+      "name": "Morgan Stanley",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "V",
-      "name": "V",
-      "exchange": "",
+      "name": "Visa Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MA",
-      "name": "MA",
-      "exchange": "",
+      "name": "Mastercard Incorporated",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AXP",
-      "name": "AXP",
-      "exchange": "",
+      "name": "American Express Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -478,148 +478,148 @@
     },
     {
       "symbol": "C",
-      "name": "C",
-      "exchange": "",
+      "name": "Citigroup Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "USB",
-      "name": "USB",
-      "exchange": "",
+      "name": "U.S. Bancorp",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PNC",
-      "name": "PNC",
-      "exchange": "",
+      "name": "The PNC Financial Services Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TFC",
-      "name": "TFC",
-      "exchange": "",
+      "name": "Truist Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SCHW",
-      "name": "SCHW",
-      "exchange": "",
+      "name": "The Charles Schwab Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "COIN",
-      "name": "COIN",
-      "exchange": "",
+      "name": "Coinbase Global, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MCO",
-      "name": "MCO",
-      "exchange": "",
+      "name": "Moody's Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SPGI",
-      "name": "SPGI",
-      "exchange": "",
+      "name": "S&P Global Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CME",
-      "name": "CME",
-      "exchange": "",
+      "name": "CME Group Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ICE",
-      "name": "ICE",
-      "exchange": "",
+      "name": "Intercontinental Exchange, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "BLK",
-      "name": "BLK",
-      "exchange": "",
+      "name": "BlackRock, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "VICI",
-      "name": "VICI",
-      "exchange": "",
+      "name": "VICI Properties Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "WY",
-      "name": "WY",
-      "exchange": "",
+      "name": "Weyerhaeuser Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AFL",
-      "name": "AFL",
-      "exchange": "",
+      "name": "Aflac Incorporated",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MET",
-      "name": "MET",
-      "exchange": "",
+      "name": "MetLife, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PRU",
-      "name": "PRU",
-      "exchange": "",
+      "name": "Prudential Financial, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TRV",
-      "name": "TRV",
-      "exchange": "",
+      "name": "The Travelers Companies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ALL",
-      "name": "ALL",
-      "exchange": "",
+      "name": "The Allstate Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "HIG",
-      "name": "HIG",
-      "exchange": "",
+      "name": "The Hartford Insurance Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CB",
-      "name": "CB",
-      "exchange": "",
+      "name": "Chubb Limited",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AON",
-      "name": "AON",
-      "exchange": "",
+      "name": "Aon plc",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -639,64 +639,64 @@
     },
     {
       "symbol": "UNH",
-      "name": "UNH",
-      "exchange": "",
+      "name": "UnitedHealth Group Incorporated",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "JNJ",
-      "name": "JNJ",
-      "exchange": "",
+      "name": "Johnson & Johnson",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PFE",
-      "name": "PFE",
-      "exchange": "",
+      "name": "Pfizer Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ABBV",
-      "name": "ABBV",
-      "exchange": "",
+      "name": "AbbVie Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "LLY",
-      "name": "LLY",
-      "exchange": "",
+      "name": "Eli Lilly and Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MRK",
-      "name": "MRK",
-      "exchange": "",
+      "name": "Merck & Co., Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TMO",
-      "name": "TMO",
-      "exchange": "",
+      "name": "Thermo Fisher Scientific Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ABT",
-      "name": "ABT",
-      "exchange": "",
+      "name": "Abbott Laboratories",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "BMY",
-      "name": "BMY",
-      "exchange": "",
+      "name": "Bristol-Myers Squibb Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -2031,5 +2031,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-05-25"
+  "updated": "2026-05-26"
 }
