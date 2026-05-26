@@ -235,27 +235,15 @@ async function main() {
   const twoYearsAgo = new Date(now);
   twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
 
-  const period1Full = Math.floor(fifteenYearsAgo.getTime() / 1000);
-  const period1Recent = Math.floor(twoYearsAgo.getTime() / 1000);
+  const period1 = Math.floor(fifteenYearsAgo.getTime() / 1000);
   const period2 = Math.floor(now.getTime() / 1000);
-
-  const baseTickersSet = new Set(BASE_TICKERS);
 
   for (const tickerInfo of tickersData.tickers) {
     const ticker = tickerInfo.symbol;
     if (!data.prices[ticker]) data.prices[ticker] = { current: null, previousClose: null, changePercent: null, updated: null };
     if (!data.history[ticker]) data.history[ticker] = { weekly: {}, monthly: {} };
 
-    console.log(`Fetching ${ticker}...`);
-
-    let hist;
-    if (baseTickersSet.has(ticker)) {
-      // Full 15-year history for base tickers
-      hist = await fetchYahoo(ticker, period1Full, period2, '1d');
-    } else {
-      // Recent 2-year history for other tickers
-      hist = await fetchYahoo(ticker, period1Recent, period2, '1d');
-    }
+    console.log(`Fetching ${ticker} (15-year history)...`);
 
     const sortedDates = Object.keys(hist).sort();
 
@@ -282,7 +270,7 @@ async function main() {
       data.prices[ticker] = {
         current: hist[sortedDates[sortedDates.length - 1]],
         previousClose: sortedDates.length > 1 ? hist[sortedDates[sortedDates.length - 2]] : null,
-        changePercent: data.prices[ticker].current && hist[sortedDates[sortedDates.length - 1]] ? ((hist[sortedDates[sortedDates.length - 1]] - data.prices[ticker].current) / data.prices[ticker].current) * 100 : null, // Calculate change based on *new* current
+        changePercent: null,
         updated: currentDate
       };
     }
