@@ -342,7 +342,7 @@
         async function loadData() {
             const [prResp, tkrResp] = await Promise.all([
                 fetch(PRICES_URL + '?t=' + Date.now()),
-                fetch(TICKERS_URL + '?t=' + Date.now()).catch(() => ({json:()=>({tickers:[]})})
+                fetch(TICKERS_URL + '?t=' + Date.now()).catch(() => ({json:()=>({tickers:[]})}))
             ]);
             prices = await prResp.json();
             const tickersData = await tkrResp.json().catch(() => ({tickers:[]}));
