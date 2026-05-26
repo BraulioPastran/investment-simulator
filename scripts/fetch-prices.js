@@ -228,98 +228,69 @@ async function main() {
   tickersData.updated = currentDate;
   console.log(`Built ticker list with ${tickersData.tickers.length} tickers`);
   
-  if (!hasHistory || forceFullHistory) {
-    console.log('Downloading full 15-year history for base tickers...');
-    
-    const yearAgo = new Date(now);
-    yearAgo.setFullYear(yearAgo.getFullYear() - 15);
-    const period1 = Math.floor(yearAgo.getTime() / 1000);
-    const period2 = Math.floor(now.getTime() / 1000);
-    
-    for (const ticker of BASE_TICKERS) {
-      console.log(`Fetching ${ticker}...`);
-      const hist = await fetchYahoo(ticker, period1, period2, '1d');
-      const sortedDates = Object.keys(hist).sort();
-      
-      const oneYearAgo = new Date(now);
-      oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
-      const oneYearAgoStr = formatDate(oneYearAgo);
-      
-      const weekly = {};
-      const monthly = {};
-      
-      sortedDates.forEach(date => {
-        if (date >= oneYearAgoStr) {
-          if (isFriday(new Date(date))) {
-            weekly[date] = hist[date];
-          }
-        }
-        if (isLastDayOfMonth(new Date(date))) {
-          monthly[date] = hist[date];
-        }
-      });
-      
-      data.history[ticker] = { weekly, monthly };
-      if (!data.prices[ticker].current && sortedDates.length) {
-        data.prices[ticker] = {
-          current: hist[sortedDates[sortedDates.length - 1]],
-          previousClose: sortedDates.length > 1 ? hist[sortedDates[sortedDates.length - 2]] : null,
-          changePercent: null,
-          updated: currentDate
-        };
-      }
-      
-      console.log(`  ${ticker}: ${Object.keys(weekly).length} weekly, ${Object.keys(monthly).length} monthly`);
-      
-      // Small delay to avoid rate limiting
-      await new Promise(r => setTimeout(r, 1000));
+  console.log('Fetching historical data for all tickers...');
+
+  const fifteenYearsAgo = new Date(now);
+  fifteenYearsAgo.setFullYear(fifteenYearsAgo.getFullYear() - 15);
+  const twoYearsAgo = new Date(now);
+  twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
+
+  const period1Full = Math.floor(fifteenYearsAgo.getTime() / 1000);
+  const period1Recent = Math.floor(twoYearsAgo.getTime() / 1000);
+  const period2 = Math.floor(now.getTime() / 1000);
+
+  const baseTickersSet = new Set(BASE_TICKERS);
+
+  for (const tickerInfo of tickersData.tickers) {
+    const ticker = tickerInfo.symbol;
+    if (!data.prices[ticker]) data.prices[ticker] = { current: null, previousClose: null, changePercent: null, updated: null };
+    if (!data.history[ticker]) data.history[ticker] = { weekly: {}, monthly: {} };
+
+    console.log(`Fetching ${ticker}...`);
+
+    let hist;
+    if (baseTickersSet.has(ticker)) {
+      // Full 15-year history for base tickers
+      hist = await fetchYahoo(ticker, period1Full, period2, '1d');
+    } else {
+      // Recent 2-year history for other tickers
+      hist = await fetchYahoo(ticker, period1Recent, period2, '1d');
     }
-  } else {
-    console.log('Incremental update...');
-    
-    // Update base tickers prices
-    for (const ticker of BASE_TICKERS) {
-      try {
-        const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`;
-        const resp = await new Promise((resolve, reject) => {
-          https.get(url, {
-            headers: {
-              'User-Agent': 'Mozilla/5.0',
-              'Accept': 'application/json'
-            }
-          }, (res) => {
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => resolve(data));
-          }).on('error', () => resolve('{}'));
-        });
-        const json = JSON.parse(resp);
-        const meta = json?.chart?.result?.[0]?.meta;
-        if (meta) {
-          data.prices[ticker] = {
-            current: meta.regularMarketPrice,
-            previousClose: meta.chartPreviousClose || meta.previousClose,
-            changePercent: meta.regularMarketChangePercent,
-            updated: currentDate
-          };
-        }
-      } catch (e) {
-        console.error(`Error ${ticker}: ${e.message}`);
-      }
-      await new Promise(r => setTimeout(r, 500));
-    }
-    
-    // Add current price to weekly if Friday, monthly if last day of month
-    for (const ticker of BASE_TICKERS) {
-      if (data.prices[ticker]?.current) {
-        if (isFriday(now)) {
-          data.history[ticker].weekly[currentDate] = data.prices[ticker].current;
-        }
-        if (isLastDayOfMonth(now)) {
-          data.history[ticker].monthly[currentDate] = data.prices[ticker].current;
+
+    const sortedDates = Object.keys(hist).sort();
+
+    const oneYearAgo = new Date(now);
+    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+    const oneYearAgoStr = formatDate(oneYearAgo);
+
+    const weekly = {};
+    const monthly = {};
+
+    sortedDates.forEach(date => {
+      if (date >= oneYearAgoStr) {
+        if (isFriday(new Date(date))) {
+          weekly[date] = hist[date];
         }
       }
+      if (isLastDayOfMonth(new Date(date))) {
+        monthly[date] = hist[date];
+      }
+    });
+
+    data.history[ticker] = { weekly, monthly };
+    if (sortedDates.length) {
+      data.prices[ticker] = {
+        current: hist[sortedDates[sortedDates.length - 1]],
+        previousClose: sortedDates.length > 1 ? hist[sortedDates[sortedDates.length - 2]] : null,
+        changePercent: data.prices[ticker].current && hist[sortedDates[sortedDates.length - 1]] ? ((hist[sortedDates[sortedDates.length - 1]] - data.prices[ticker].current) / data.prices[ticker].current) * 100 : null, // Calculate change based on *new* current
+        updated: currentDate
+      };
     }
+
+    console.log(`  ${ticker}: ${Object.keys(weekly).length} weekly, ${Object.keys(monthly).length} monthly`);
+
+    // Small delay to avoid rate limiting
+    await new Promise(r => setTimeout(r, 1000));
   }
   
   data.updated = currentDate;
