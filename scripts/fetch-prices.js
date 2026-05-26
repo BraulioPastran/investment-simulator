@@ -245,6 +245,7 @@ async function main() {
 
     console.log(`Fetching ${ticker} (15-year history)...`);
 
+    const hist = await fetchYahoo(ticker, period1, period2, '1d');
     const sortedDates = Object.keys(hist).sort();
 
     const oneYearAgo = new Date(now);
