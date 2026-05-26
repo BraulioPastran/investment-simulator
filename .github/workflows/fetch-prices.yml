@@ -1,32 +1,46 @@
 name: Fetch Stock Prices & History
+# A small comment to re-trigger GitHub Actions cron detection ({{ timestamp }})
 
 on:
   schedule:
+    # Runs every 15 minutes
     - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       force_full_history:
-        description: 'Force full history redownload'
+        description: 'Force full history redownload (slow)'
         required: false
-        default: 'false'
+        type: boolean
+        default: false
 
 jobs:
-  fetch:
+  fetch-prices:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Fetch all history for proper git operations
 
-      - name: Fetch stock prices
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install https-proxy-agent@5.0.1 node-fetch@2.6.7 # Specific versions for compatibility
+
+      - name: Run fetch-prices script
         run: node scripts/fetch-prices.js
         env:
           FORCE_FULL_HISTORY: ${{ github.event.inputs.force_full_history }}
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "Update prices $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "feat: update stock prices and history" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
