@@ -24,7 +24,7 @@
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -241,7 +241,7 @@
     {
       "symbol": "HUBS",
       "name": "HubSpot, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -563,7 +563,7 @@
     {
       "symbol": "CME",
       "name": "CME Group Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
