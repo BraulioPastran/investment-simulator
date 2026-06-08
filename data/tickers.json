@@ -430,7 +430,7 @@
     {
       "symbol": "NTDOY",
       "name": "Nintendo Co., Ltd.",
-      "exchange": "PNK",
+      "exchange": "OTCM",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -493,7 +493,7 @@
     {
       "symbol": "MA",
       "name": "Mastercard Incorporated",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -528,7 +528,7 @@
     {
       "symbol": "PNC",
       "name": "The PNC Financial Services Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-06-07"
+  "updated": "2026-06-08"
 }
