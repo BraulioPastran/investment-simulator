@@ -430,7 +430,7 @@
     {
       "symbol": "NTDOY",
       "name": "Nintendo Co., Ltd.",
-      "exchange": "OTCM",
+      "exchange": "PNK",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -570,7 +570,7 @@
     {
       "symbol": "ICE",
       "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-06-12"
+  "updated": "2026-06-13"
 }
