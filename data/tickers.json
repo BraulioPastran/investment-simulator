@@ -178,7 +178,7 @@
     {
       "symbol": "ZM",
       "name": "Zoom Communications, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -269,7 +269,7 @@
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -304,7 +304,7 @@
     {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -360,7 +360,7 @@
     {
       "symbol": "FIS",
       "name": "Fidelity National Information Services, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-06-13"
+  "updated": "2026-06-14"
 }
