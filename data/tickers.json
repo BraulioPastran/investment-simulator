@@ -234,7 +234,7 @@
     {
       "symbol": "OKTA",
       "name": "Okta, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -282,8 +282,8 @@
     },
     {
       "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "exchange": "NMS",
+      "name": "QCOM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -303,36 +303,36 @@
     },
     {
       "symbol": "MU",
-      "name": "Micron Technology, Inc.",
-      "exchange": "NMS",
+      "name": "MU",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "exchange": "NMS",
+      "name": "AMAT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "exchange": "NMS",
+      "name": "LRCX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "exchange": "NMS",
+      "name": "KLAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SNPS",
-      "name": "Synopsys, Inc.",
-      "exchange": "NMS",
+      "name": "SNPS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-06-16"
+  "updated": "2026-06-17"
 }
