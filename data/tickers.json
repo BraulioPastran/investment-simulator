@@ -353,7 +353,7 @@
     {
       "symbol": "ADP",
       "name": "Automatic Data Processing, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -451,7 +451,7 @@
     {
       "symbol": "JPM",
       "name": "JPMorgan Chase & Co.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-06-17"
+  "updated": "2026-06-18"
 }
