@@ -297,7 +297,7 @@
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -332,7 +332,7 @@
     {
       "symbol": "SNPS",
       "name": "Synopsys, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -514,7 +514,7 @@
     {
       "symbol": "C",
       "name": "Citigroup Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
