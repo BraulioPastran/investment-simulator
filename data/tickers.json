@@ -52,7 +52,7 @@
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -73,7 +73,7 @@
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -556,7 +556,7 @@
     {
       "symbol": "SPGI",
       "name": "S&P Global Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
