@@ -45,7 +45,7 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -199,7 +199,7 @@
     {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -514,7 +514,7 @@
     {
       "symbol": "C",
       "name": "Citigroup Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -528,7 +528,7 @@
     {
       "symbol": "PNC",
       "name": "The PNC Financial Services Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
