@@ -115,7 +115,7 @@
     {
       "symbol": "LYFT",
       "name": "Lyft, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -212,8 +212,8 @@
     },
     {
       "symbol": "PANW",
-      "name": "Palo Alto Networks, Inc.",
-      "exchange": "NMS",
+      "name": "PANW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -682,7 +682,7 @@
     {
       "symbol": "KEY",
       "name": "KeyCorp",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
