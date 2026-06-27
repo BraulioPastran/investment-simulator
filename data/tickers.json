@@ -212,8 +212,8 @@
     },
     {
       "symbol": "PANW",
-      "name": "PANW",
-      "exchange": "",
+      "name": "Palo Alto Networks, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -682,7 +682,7 @@
     {
       "symbol": "KEY",
       "name": "KeyCorp",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
