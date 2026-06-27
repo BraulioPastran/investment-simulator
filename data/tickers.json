@@ -220,7 +220,7 @@
     {
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -290,7 +290,7 @@
     {
       "symbol": "TXN",
       "name": "Texas Instruments Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -521,7 +521,7 @@
     {
       "symbol": "USB",
       "name": "U.S. Bancorp",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-06-26"
+  "updated": "2026-06-27"
 }
