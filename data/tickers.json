@@ -73,7 +73,7 @@
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -360,7 +360,7 @@
     {
       "symbol": "FIS",
       "name": "Fidelity National Information Services, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -416,7 +416,7 @@
     {
       "symbol": "TTWO",
       "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -591,7 +591,7 @@
     {
       "symbol": "WY",
       "name": "Weyerhaeuser Company",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
