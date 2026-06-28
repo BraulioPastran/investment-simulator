@@ -24,7 +24,7 @@
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -696,7 +696,7 @@
     {
       "symbol": "CFG",
       "name": "Citizens Financial Group, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
