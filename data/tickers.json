@@ -115,7 +115,7 @@
     {
       "symbol": "LYFT",
       "name": "Lyft, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -332,7 +332,7 @@
     {
       "symbol": "SNPS",
       "name": "Synopsys, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -374,7 +374,7 @@
     {
       "symbol": "GPN",
       "name": "Global Payments Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -465,7 +465,7 @@
     {
       "symbol": "WFC",
       "name": "Wells Fargo & Company",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -493,7 +493,7 @@
     {
       "symbol": "MA",
       "name": "Mastercard Incorporated",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
