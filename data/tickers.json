@@ -59,7 +59,7 @@
     {
       "symbol": "INTC",
       "name": "Intel Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-01"
+  "updated": "2026-07-02"
 }
