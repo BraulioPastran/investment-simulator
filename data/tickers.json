@@ -136,7 +136,7 @@
     {
       "symbol": "NOW",
       "name": "ServiceNow, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -360,7 +360,7 @@
     {
       "symbol": "FIS",
       "name": "Fidelity National Information Services, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -535,7 +535,7 @@
     {
       "symbol": "TFC",
       "name": "Truist Financial Corporation",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
