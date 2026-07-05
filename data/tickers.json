@@ -17,7 +17,7 @@
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -94,7 +94,7 @@
     {
       "symbol": "SHOP",
       "name": "Shopify Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -171,7 +171,7 @@
     {
       "symbol": "DOCU",
       "name": "DocuSign, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
