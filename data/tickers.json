@@ -73,7 +73,7 @@
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -178,7 +178,7 @@
     {
       "symbol": "ZM",
       "name": "Zoom Communications, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -458,7 +458,7 @@
     {
       "symbol": "BAC",
       "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
