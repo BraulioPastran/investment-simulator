@@ -178,7 +178,7 @@
     {
       "symbol": "ZM",
       "name": "Zoom Communications, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -318,7 +318,7 @@
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -458,7 +458,7 @@
     {
       "symbol": "BAC",
       "name": "Bank of America Corporation",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
