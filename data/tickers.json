@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -430,14 +430,14 @@
     {
       "symbol": "NTDOY",
       "name": "Nintendo Co., Ltd.",
-      "exchange": "OTCM",
+      "exchange": "PNK",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "UBS",
       "name": "UBS Group AG",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -584,7 +584,7 @@
     {
       "symbol": "VICI",
       "name": "VICI Properties Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
