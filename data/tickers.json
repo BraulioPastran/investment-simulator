@@ -136,14 +136,14 @@
     {
       "symbol": "NOW",
       "name": "ServiceNow, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -605,7 +605,7 @@
     {
       "symbol": "MET",
       "name": "MetLife, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-06"
+  "updated": "2026-07-07"
 }
