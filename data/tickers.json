@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -437,7 +437,7 @@
     {
       "symbol": "UBS",
       "name": "UBS Group AG",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
