@@ -31,7 +31,7 @@
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -276,7 +276,7 @@
     {
       "symbol": "IBM",
       "name": "International Business Machines Corporation",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
