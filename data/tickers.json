@@ -115,7 +115,7 @@
     {
       "symbol": "LYFT",
       "name": "Lyft, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -472,7 +472,7 @@
     {
       "symbol": "GS",
       "name": "The Goldman Sachs Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -668,7 +668,7 @@
     {
       "symbol": "BRO",
       "name": "Brown & Brown, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
