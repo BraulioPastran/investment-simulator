@@ -402,7 +402,7 @@
     {
       "symbol": "CDW",
       "name": "CDW Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -472,7 +472,7 @@
     {
       "symbol": "GS",
       "name": "The Goldman Sachs Group, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -668,7 +668,7 @@
     {
       "symbol": "BRO",
       "name": "Brown & Brown, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -689,7 +689,7 @@
     {
       "symbol": "HBAN",
       "name": "Huntington Bancshares Incorporated",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
