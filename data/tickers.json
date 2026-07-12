@@ -143,7 +143,7 @@
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -346,7 +346,7 @@
     {
       "symbol": "INTU",
       "name": "Intuit Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -451,7 +451,7 @@
     {
       "symbol": "JPM",
       "name": "JPMorgan Chase & Co.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -563,7 +563,7 @@
     {
       "symbol": "CME",
       "name": "CME Group Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -640,7 +640,7 @@
     {
       "symbol": "CB",
       "name": "Chubb Limited",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-11"
+  "updated": "2026-07-12"
 }
