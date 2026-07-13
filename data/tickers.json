@@ -247,8 +247,8 @@
     },
     {
       "symbol": "TWLO",
-      "name": "Twilio Inc.",
-      "exchange": "NYQ",
+      "name": "TWLO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -275,8 +275,8 @@
     },
     {
       "symbol": "IBM",
-      "name": "International Business Machines Corporation",
-      "exchange": "NYQ",
+      "name": "IBM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -465,7 +465,7 @@
     {
       "symbol": "WFC",
       "name": "Wells Fargo & Company",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
