@@ -37,8 +37,8 @@
     },
     {
       "symbol": "META",
-      "name": "META",
-      "exchange": "",
+      "name": "Meta Platforms, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -170,8 +170,8 @@
     },
     {
       "symbol": "DOCU",
-      "name": "DOCU",
-      "exchange": "",
+      "name": "DocuSign, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -199,7 +199,7 @@
     {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -296,8 +296,8 @@
     },
     {
       "symbol": "AVGO",
-      "name": "AVGO",
-      "exchange": "",
+      "name": "Broadcom Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -339,7 +339,7 @@
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
