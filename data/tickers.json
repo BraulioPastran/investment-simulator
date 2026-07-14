@@ -374,7 +374,7 @@
     {
       "symbol": "GPN",
       "name": "Global Payments Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -429,8 +429,8 @@
     },
     {
       "symbol": "NTDOY",
-      "name": "Nintendo Co., Ltd.",
-      "exchange": "PNK",
+      "name": "NTDOY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -611,8 +611,8 @@
     },
     {
       "symbol": "PRU",
-      "name": "Prudential Financial, Inc.",
-      "exchange": "NYQ",
+      "name": "PRU",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
