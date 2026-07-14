@@ -220,7 +220,7 @@
     {
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -282,8 +282,8 @@
     },
     {
       "symbol": "QCOM",
-      "name": "QCOM",
-      "exchange": "",
+      "name": "QUALCOMM Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -324,8 +324,8 @@
     },
     {
       "symbol": "KLAC",
-      "name": "KLAC",
-      "exchange": "",
+      "name": "KLA Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -527,8 +527,8 @@
     },
     {
       "symbol": "PNC",
-      "name": "PNC",
-      "exchange": "",
+      "name": "The PNC Financial Services Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
