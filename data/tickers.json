@@ -429,8 +429,8 @@
     },
     {
       "symbol": "NTDOY",
-      "name": "NTDOY",
-      "exchange": "",
+      "name": "Nintendo Co., Ltd.",
+      "exchange": "PNK",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -611,8 +611,8 @@
     },
     {
       "symbol": "PRU",
-      "name": "PRU",
-      "exchange": "",
+      "name": "Prudential Financial, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-14"
+  "updated": "2026-07-15"
 }
