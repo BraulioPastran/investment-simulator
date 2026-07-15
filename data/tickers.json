@@ -87,7 +87,7 @@
     {
       "symbol": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -255,7 +255,7 @@
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -339,7 +339,7 @@
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -472,7 +472,7 @@
     {
       "symbol": "GS",
       "name": "The Goldman Sachs Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
