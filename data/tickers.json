@@ -255,7 +255,7 @@
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-16"
+  "updated": "2026-07-17"
 }
