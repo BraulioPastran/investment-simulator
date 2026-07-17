@@ -10,7 +10,7 @@
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -647,7 +647,7 @@
     {
       "symbol": "AON",
       "name": "Aon plc",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
