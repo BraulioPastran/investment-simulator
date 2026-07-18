@@ -66,7 +66,7 @@
     {
       "symbol": "CRM",
       "name": "Salesforce, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -122,7 +122,7 @@
     {
       "symbol": "COIN",
       "name": "Coinbase Global, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -353,7 +353,7 @@
     {
       "symbol": "ADP",
       "name": "Automatic Data Processing, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
