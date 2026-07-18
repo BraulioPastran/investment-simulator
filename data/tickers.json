@@ -290,7 +290,7 @@
     {
       "symbol": "TXN",
       "name": "Texas Instruments Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-17"
+  "updated": "2026-07-18"
 }
