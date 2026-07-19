@@ -199,7 +199,7 @@
     {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -339,7 +339,7 @@
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -451,7 +451,7 @@
     {
       "symbol": "JPM",
       "name": "JPMorgan Chase & Co.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
