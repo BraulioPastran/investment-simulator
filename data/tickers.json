@@ -171,7 +171,7 @@
     {
       "symbol": "DOCU",
       "name": "DocuSign, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -619,7 +619,7 @@
     {
       "symbol": "TRV",
       "name": "The Travelers Companies, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -647,7 +647,7 @@
     {
       "symbol": "AON",
       "name": "Aon plc",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-19"
+  "updated": "2026-07-20"
 }
