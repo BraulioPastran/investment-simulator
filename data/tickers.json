@@ -38,7 +38,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -199,7 +199,7 @@
     {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-07-21"
+  "updated": "2026-07-22"
 }
