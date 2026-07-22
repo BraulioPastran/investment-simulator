@@ -31,7 +31,7 @@
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -269,7 +269,7 @@
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -548,8 +548,8 @@
     },
     {
       "symbol": "MCO",
-      "name": "MCO",
-      "exchange": "",
+      "name": "Moody's Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -562,36 +562,36 @@
     },
     {
       "symbol": "CME",
-      "name": "CME",
-      "exchange": "",
+      "name": "CME Group Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ICE",
-      "name": "ICE",
-      "exchange": "",
+      "name": "Intercontinental Exchange, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "BLK",
-      "name": "BLK",
-      "exchange": "",
+      "name": "BlackRock, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "VICI",
-      "name": "VICI",
-      "exchange": "",
+      "name": "VICI Properties Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "WY",
-      "name": "WY",
-      "exchange": "",
+      "name": "Weyerhaeuser Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -604,50 +604,50 @@
     },
     {
       "symbol": "MET",
-      "name": "MET",
-      "exchange": "",
+      "name": "MetLife, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PRU",
-      "name": "PRU",
-      "exchange": "",
+      "name": "Prudential Financial, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TRV",
-      "name": "TRV",
-      "exchange": "",
+      "name": "The Travelers Companies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ALL",
-      "name": "ALL",
-      "exchange": "",
+      "name": "The Allstate Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "HIG",
-      "name": "HIG",
-      "exchange": "",
+      "name": "The Hartford Insurance Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CB",
-      "name": "CB",
-      "exchange": "",
+      "name": "Chubb Limited",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AON",
-      "name": "AON",
-      "exchange": "",
+      "name": "Aon plc",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -667,36 +667,36 @@
     },
     {
       "symbol": "BRO",
-      "name": "BRO",
-      "exchange": "",
+      "name": "Brown & Brown, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "RF",
-      "name": "RF",
-      "exchange": "",
+      "name": "Regions Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "KEY",
-      "name": "KEY",
-      "exchange": "",
+      "name": "KeyCorp",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "HBAN",
-      "name": "HBAN",
-      "exchange": "",
+      "name": "Huntington Bancshares Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CFG",
-      "name": "CFG",
-      "exchange": "",
+      "name": "Citizens Financial Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
