@@ -241,7 +241,7 @@
     {
       "symbol": "HUBS",
       "name": "HubSpot, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -325,7 +325,7 @@
     {
       "symbol": "KLAC",
       "name": "KLA Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -353,7 +353,7 @@
     {
       "symbol": "ADP",
       "name": "Automatic Data Processing, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -465,7 +465,7 @@
     {
       "symbol": "WFC",
       "name": "Wells Fargo & Company",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
