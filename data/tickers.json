@@ -213,7 +213,7 @@
     {
       "symbol": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -570,7 +570,7 @@
     {
       "symbol": "ICE",
       "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
