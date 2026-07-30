@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -444,7 +444,7 @@
     {
       "symbol": "NXGL",
       "name": "NEXGEL, Inc.",
-      "exchange": "NAS",
+      "exchange": "NCM",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -458,7 +458,7 @@
     {
       "symbol": "BAC",
       "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -696,7 +696,7 @@
     {
       "symbol": "CFG",
       "name": "Citizens Financial Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
