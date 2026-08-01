@@ -24,7 +24,7 @@
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -136,7 +136,7 @@
     {
       "symbol": "NOW",
       "name": "ServiceNow, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -416,7 +416,7 @@
     {
       "symbol": "TTWO",
       "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
