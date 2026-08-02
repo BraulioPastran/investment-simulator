@@ -227,7 +227,7 @@
     {
       "symbol": "ZS",
       "name": "Zscaler, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -318,7 +318,7 @@
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -647,7 +647,7 @@
     {
       "symbol": "AON",
       "name": "Aon plc",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
