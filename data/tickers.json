@@ -24,7 +24,7 @@
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -311,7 +311,7 @@
     {
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -668,7 +668,7 @@
     {
       "symbol": "BRO",
       "name": "Brown & Brown, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
