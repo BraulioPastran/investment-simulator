@@ -2454,49 +2454,49 @@
       "updated": "2026-08-08"
     },
     "BTC-USD": {
-      "current": 64906.6015625,
+      "current": 64913.8515625,
       "previousClose": 64880.19140625,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "ETH-USD": {
-      "current": 1914.6099853515625,
+      "current": 1917.06005859375,
       "previousClose": 1913.2794189453125,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "SOL-USD": {
-      "current": 75.80000305175781,
+      "current": 75.98999786376953,
       "previousClose": 73.64265441894531,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "BNB-USD": {
-      "current": 599.9199829101562,
+      "current": 600.47998046875,
       "previousClose": 592.1971435546875,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "XRP-USD": {
-      "current": 1.0369999408721924,
+      "current": 1.0388000011444092,
       "previousClose": 1.0212370157241821,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "ADA-USD": {
-      "current": 0.19878999888896942,
+      "current": 0.19923999905586243,
       "previousClose": 0.20110000669956207,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "DOGE-USD": {
-      "current": 0.07028999924659729,
+      "current": 0.07039999961853027,
       "previousClose": 0.06962300091981888,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "DOT-USD": {
-      "current": 0.8126000165939331,
+      "current": 0.8144999742507935,
       "previousClose": 0.8177980184555054,
       "changePercent": null,
       "updated": "2026-08-08"
@@ -2508,13 +2508,13 @@
       "updated": "2026-08-08"
     },
     "LINK-USD": {
-      "current": 8.293999671936035,
+      "current": 8.305000305175781,
       "previousClose": 8.18077278137207,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "AVAX-USD": {
-      "current": 6.4629998207092285,
+      "current": 6.48199987411499,
       "previousClose": 6.4272589683532715,
       "changePercent": null,
       "updated": "2026-08-08"
@@ -2532,43 +2532,43 @@
       "updated": "2026-08-08"
     },
     "LTC-USD": {
-      "current": 45.95000076293945,
+      "current": 45.9900016784668,
       "previousClose": 45.568084716796875,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "BCH-USD": {
-      "current": 215.69000244140625,
+      "current": 216.14999389648438,
       "previousClose": 214.74972534179688,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "XLM-USD": {
-      "current": 0.16430799663066864,
+      "current": 0.16441099345684052,
       "previousClose": 0.16125699877738953,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "ALGO-USD": {
-      "current": 0.08755999803543091,
+      "current": 0.08748000115156174,
       "previousClose": 0.08889400213956833,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "VET-USD": {
-      "current": 0.004720000084489584,
+      "current": 0.004739999771118164,
       "previousClose": 0.004685999825596809,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "FIL-USD": {
-      "current": 0.7089999914169312,
+      "current": 0.7099999785423279,
       "previousClose": 0.6835110187530518,
       "changePercent": null,
       "updated": "2026-08-08"
     },
     "ICP-USD": {
-      "current": 2.1884000301361084,
+      "current": 2.200500011444092,
       "previousClose": 2.0985960960388184,
       "changePercent": null,
       "updated": "2026-08-08"
@@ -72985,6 +72985,7 @@
         "2026-07-10": 10.119999885559082,
         "2026-07-17": 10.168000221252441,
         "2026-07-24": 9.927000045776367,
+        "2026-07-31": 9.798999786376953,
         "2026-08-07": 10.043999671936035
       },
       "monthly": {
@@ -73105,7 +73106,8 @@
         "2025-10-31": 8.772000312805176,
         "2026-03-31": 9.375,
         "2026-04-30": 9.923999786376953,
-        "2026-06-30": 10.053999900817871
+        "2026-06-30": 10.053999900817871,
+        "2026-07-31": 9.798999786376953
       }
     },
     "ISP.MI": {
