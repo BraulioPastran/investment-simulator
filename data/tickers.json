@@ -157,7 +157,7 @@
     {
       "symbol": "DDOG",
       "name": "Datadog, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -171,7 +171,7 @@
     {
       "symbol": "DOCU",
       "name": "DocuSign, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -283,7 +283,7 @@
     {
       "symbol": "QCOM",
       "name": "QUALCOMM Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -542,7 +542,7 @@
     {
       "symbol": "SCHW",
       "name": "The Charles Schwab Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
