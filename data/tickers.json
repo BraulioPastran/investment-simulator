@@ -16,8 +16,8 @@
     },
     {
       "symbol": "GOOGL",
-      "name": "GOOGL",
-      "exchange": "",
+      "name": "Alphabet Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -696,7 +696,7 @@
     {
       "symbol": "CFG",
       "name": "Citizens Financial Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
