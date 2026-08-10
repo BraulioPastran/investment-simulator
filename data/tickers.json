@@ -262,7 +262,7 @@
     {
       "symbol": "SAP",
       "name": "SAP SE",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -304,7 +304,7 @@
     {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -668,7 +668,7 @@
     {
       "symbol": "BRO",
       "name": "Brown & Brown, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-09"
+  "updated": "2026-08-10"
 }
