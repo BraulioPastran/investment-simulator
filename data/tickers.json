@@ -254,8 +254,8 @@
     },
     {
       "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "exchange": "NMS",
+      "name": "MSTR",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -611,8 +611,8 @@
     },
     {
       "symbol": "PRU",
-      "name": "PRU",
-      "exchange": "",
+      "name": "Prudential Financial, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KEY",
-      "exchange": "",
+      "name": "KeyCorp",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
