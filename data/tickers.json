@@ -23,8 +23,8 @@
     },
     {
       "symbol": "AMZN",
-      "name": "AMZN",
-      "exchange": "",
+      "name": "Amazon.com, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -184,15 +184,15 @@
     },
     {
       "symbol": "SPOT",
-      "name": "SPOT",
-      "exchange": "",
+      "name": "Spotify Technology S.A.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "ROKU",
       "name": "Roku, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -234,14 +234,14 @@
     {
       "symbol": "OKTA",
       "name": "Okta, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "HUBS",
       "name": "HubSpot, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -429,8 +429,8 @@
     },
     {
       "symbol": "NTDOY",
-      "name": "NTDOY",
-      "exchange": "",
+      "name": "Nintendo Co., Ltd.",
+      "exchange": "PNK",
       "type": "EQUITY",
       "currency": "USD"
     },
