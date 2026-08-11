@@ -192,7 +192,7 @@
     {
       "symbol": "ROKU",
       "name": "Roku, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -234,14 +234,14 @@
     {
       "symbol": "OKTA",
       "name": "Okta, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "HUBS",
       "name": "HubSpot, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
