@@ -192,7 +192,7 @@
     {
       "symbol": "ROKU",
       "name": "Roku, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -254,8 +254,8 @@
     },
     {
       "symbol": "MSTR",
-      "name": "MSTR",
-      "exchange": "",
+      "name": "Strategy Inc",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
