@@ -37,8 +37,8 @@
     },
     {
       "symbol": "META",
-      "name": "META",
-      "exchange": "",
+      "name": "Meta Platforms, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -380,8 +380,8 @@
     },
     {
       "symbol": "PAYX",
-      "name": "PAYX",
-      "exchange": "",
+      "name": "Paychex, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -619,7 +619,7 @@
     {
       "symbol": "TRV",
       "name": "The Travelers Companies, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
