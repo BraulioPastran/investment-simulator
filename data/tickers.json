@@ -59,7 +59,7 @@
     {
       "symbol": "INTC",
       "name": "Intel Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -696,7 +696,7 @@
     {
       "symbol": "CFG",
       "name": "Citizens Financial Group, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
