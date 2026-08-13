@@ -79,8 +79,8 @@
     },
     {
       "symbol": "NFLX",
-      "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "name": "NFLX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -143,7 +143,7 @@
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -374,7 +374,7 @@
     {
       "symbol": "GPN",
       "name": "Global Payments Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -479,7 +479,7 @@
     {
       "symbol": "MS",
       "name": "Morgan Stanley",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -521,7 +521,7 @@
     {
       "symbol": "USB",
       "name": "U.S. Bancorp",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
