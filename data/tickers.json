@@ -135,8 +135,8 @@
     },
     {
       "symbol": "NOW",
-      "name": "ServiceNow, Inc.",
-      "exchange": "NYQ",
+      "name": "NOW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -310,8 +310,8 @@
     },
     {
       "symbol": "AMAT",
-      "name": "AMAT",
-      "exchange": "",
+      "name": "Applied Materials, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -464,8 +464,8 @@
     },
     {
       "symbol": "WFC",
-      "name": "Wells Fargo & Company",
-      "exchange": "NYQ",
+      "name": "WFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -590,8 +590,8 @@
     },
     {
       "symbol": "WY",
-      "name": "WY",
-      "exchange": "",
+      "name": "Weyerhaeuser Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
