@@ -79,8 +79,8 @@
     },
     {
       "symbol": "NFLX",
-      "name": "NFLX",
-      "exchange": "",
+      "name": "Netflix, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -310,8 +310,8 @@
     },
     {
       "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "exchange": "NMS",
+      "name": "AMAT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -590,8 +590,8 @@
     },
     {
       "symbol": "WY",
-      "name": "Weyerhaeuser Company",
-      "exchange": "NYQ",
+      "name": "WY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
