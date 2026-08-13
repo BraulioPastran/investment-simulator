@@ -185,7 +185,7 @@
     {
       "symbol": "SPOT",
       "name": "Spotify Technology S.A.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -241,7 +241,7 @@
     {
       "symbol": "HUBS",
       "name": "HubSpot, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -395,7 +395,7 @@
     {
       "symbol": "FFIV",
       "name": "F5, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -479,7 +479,7 @@
     {
       "symbol": "MS",
       "name": "Morgan Stanley",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -675,7 +675,7 @@
     {
       "symbol": "RF",
       "name": "Regions Financial Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
