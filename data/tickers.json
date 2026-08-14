@@ -79,8 +79,8 @@
     },
     {
       "symbol": "NFLX",
-      "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "name": "NFLX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -142,8 +142,8 @@
     },
     {
       "symbol": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "exchange": "NMS",
+      "name": "PLTR",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
