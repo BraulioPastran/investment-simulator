@@ -79,8 +79,8 @@
     },
     {
       "symbol": "NFLX",
-      "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "name": "NFLX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -583,8 +583,8 @@
     },
     {
       "symbol": "VICI",
-      "name": "VICI Properties Inc.",
-      "exchange": "NYQ",
+      "name": "VICI",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-13"
+  "updated": "2026-08-14"
 }
