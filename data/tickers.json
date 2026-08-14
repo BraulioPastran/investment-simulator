@@ -24,7 +24,7 @@
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -388,7 +388,7 @@
     {
       "symbol": "ADSK",
       "name": "Autodesk, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation Common Stock",
+      "name": "CDW Corporation",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -584,7 +584,7 @@
     {
       "symbol": "VICI",
       "name": "VICI Properties Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -612,7 +612,7 @@
     {
       "symbol": "PRU",
       "name": "Prudential Financial, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
