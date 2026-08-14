@@ -87,7 +87,7 @@
     {
       "symbol": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -374,7 +374,7 @@
     {
       "symbol": "GPN",
       "name": "Global Payments Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -408,7 +408,7 @@
     },
     {
       "symbol": "EA",
-      "name": "Electronic Arts Inc.",
+      "name": "Electronic Arts Inc",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
