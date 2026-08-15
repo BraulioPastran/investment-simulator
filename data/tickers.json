@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -450,8 +450,8 @@
     },
     {
       "symbol": "JPM",
-      "name": "JPMorgan Chase & Co.",
-      "exchange": "NYQ",
+      "name": "JPM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
