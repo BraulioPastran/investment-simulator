@@ -122,7 +122,7 @@
     {
       "symbol": "COIN",
       "name": "Coinbase Global, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -177,8 +177,8 @@
     },
     {
       "symbol": "ZM",
-      "name": "Zoom Communications, Inc.",
-      "exchange": "NMS",
+      "name": "ZM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -282,8 +282,8 @@
     },
     {
       "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "exchange": "NMS",
+      "name": "QCOM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -394,8 +394,8 @@
     },
     {
       "symbol": "FFIV",
-      "name": "F5, Inc.",
-      "exchange": "NMS",
+      "name": "FFIV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
