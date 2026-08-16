@@ -150,7 +150,7 @@
     {
       "symbol": "NET",
       "name": "Cloudflare, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -164,7 +164,7 @@
     {
       "symbol": "SNAP",
       "name": "Snap Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -255,7 +255,7 @@
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
+      "name": "CDW Corporation Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
