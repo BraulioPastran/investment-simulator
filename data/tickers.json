@@ -51,8 +51,8 @@
     },
     {
       "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NMS",
+      "name": "AMD",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation Common Stock",
+      "name": "CDW Corporation",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
