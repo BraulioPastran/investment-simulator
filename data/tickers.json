@@ -247,8 +247,8 @@
     },
     {
       "symbol": "TWLO",
-      "name": "TWLO",
-      "exchange": "",
+      "name": "Twilio Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation Common Stock",
+      "name": "CDW Corporation",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -667,8 +667,8 @@
     },
     {
       "symbol": "BRO",
-      "name": "BRO",
-      "exchange": "",
+      "name": "Brown & Brown, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KeyCorp",
-      "exchange": "NYQ",
+      "name": "KEY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
