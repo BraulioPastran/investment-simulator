@@ -94,7 +94,7 @@
     {
       "symbol": "SHOP",
       "name": "Shopify Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
+      "name": "CDW Corporation Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "BAC",
-      "exchange": "",
+      "name": "Bank of America Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -674,8 +674,8 @@
     },
     {
       "symbol": "RF",
-      "name": "RF",
-      "exchange": "",
+      "name": "Regions Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-15"
+  "updated": "2026-08-16"
 }
