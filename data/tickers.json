@@ -38,7 +38,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
+      "name": "CDW Corporation Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -570,7 +570,7 @@
     {
       "symbol": "ICE",
       "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -689,7 +689,7 @@
     {
       "symbol": "HBAN",
       "name": "Huntington Bancshares Incorporated",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
