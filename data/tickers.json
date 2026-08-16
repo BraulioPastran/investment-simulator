@@ -38,7 +38,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -346,7 +346,7 @@
     {
       "symbol": "INTU",
       "name": "Intuit Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -535,7 +535,7 @@
     {
       "symbol": "TFC",
       "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -570,7 +570,7 @@
     {
       "symbol": "ICE",
       "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -689,7 +689,7 @@
     {
       "symbol": "HBAN",
       "name": "Huntington Bancshares Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
