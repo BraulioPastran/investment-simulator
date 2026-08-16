@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -577,7 +577,7 @@
     {
       "symbol": "BLK",
       "name": "BlackRock, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -674,8 +674,8 @@
     },
     {
       "symbol": "RF",
-      "name": "Regions Financial Corporation",
-      "exchange": "NYQ",
+      "name": "RF",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
