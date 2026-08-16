@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
+      "name": "CDW Corporation Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KEY",
-      "exchange": "",
+      "name": "KeyCorp",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
