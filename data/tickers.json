@@ -143,7 +143,7 @@
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -240,8 +240,8 @@
     },
     {
       "symbol": "HUBS",
-      "name": "HUBS",
-      "exchange": "",
+      "name": "HubSpot, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
