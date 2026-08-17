@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
+      "name": "CDW Corporation Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -604,8 +604,8 @@
     },
     {
       "symbol": "MET",
-      "name": "MetLife, Inc.",
-      "exchange": "NYQ",
+      "name": "MET",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -646,8 +646,8 @@
     },
     {
       "symbol": "AON",
-      "name": "AON",
-      "exchange": "",
+      "name": "Aon plc",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
