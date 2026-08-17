@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -164,7 +164,7 @@
     {
       "symbol": "SNAP",
       "name": "Snap Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -233,8 +233,8 @@
     },
     {
       "symbol": "OKTA",
-      "name": "OKTA",
-      "exchange": "",
+      "name": "Okta, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
