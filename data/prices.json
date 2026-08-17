@@ -2454,49 +2454,49 @@
       "updated": "2026-08-17"
     },
     "BTC-USD": {
-      "current": 64334.25,
+      "current": 64271.859375,
       "previousClose": 62818.65234375,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ETH-USD": {
-      "current": 1905.219970703125,
+      "current": 1903.7900390625,
       "previousClose": 1873.9429931640625,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "SOL-USD": {
-      "current": 75.91000366210938,
+      "current": 75.81999969482422,
       "previousClose": 74.53901672363281,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "BNB-USD": {
-      "current": 604.530029296875,
+      "current": 604.5599975585938,
       "previousClose": 602.4793701171875,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "XRP-USD": {
-      "current": 1.0019999742507935,
+      "current": 1.0008000135421753,
       "previousClose": 0.9919729828834534,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ADA-USD": {
-      "current": 0.17371000349521637,
+      "current": 0.1735599935054779,
       "previousClose": 0.17484700679779053,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "DOGE-USD": {
-      "current": 0.07035999745130539,
+      "current": 0.07028999924659729,
       "previousClose": 0.0694819986820221,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "DOT-USD": {
-      "current": 0.7594000101089478,
+      "current": 0.7591999769210815,
       "previousClose": 0.7579110264778137,
       "changePercent": null,
       "updated": "2026-08-17"
@@ -2508,13 +2508,13 @@
       "updated": "2026-08-17"
     },
     "LINK-USD": {
-      "current": 9.48799991607666,
+      "current": 9.47599983215332,
       "previousClose": 9.384517669677734,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "AVAX-USD": {
-      "current": 6.336999893188477,
+      "current": 6.328000068664551,
       "previousClose": 6.321757793426514,
       "changePercent": null,
       "updated": "2026-08-17"
@@ -2526,31 +2526,31 @@
       "updated": "2026-08-17"
     },
     "ATOM-USD": {
-      "current": 1.4220000505447388,
+      "current": 1.4179999828338623,
       "previousClose": 1.4540499448776245,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "LTC-USD": {
-      "current": 44.59000015258789,
+      "current": 44.5099983215332,
       "previousClose": 44.1165885925293,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "BCH-USD": {
-      "current": 204.64999389648438,
+      "current": 204.5399932861328,
       "previousClose": 203.67105102539062,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "XLM-USD": {
-      "current": 0.15721499919891357,
+      "current": 0.15735599398612976,
       "previousClose": 0.15621399879455566,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ALGO-USD": {
-      "current": 0.07834000140428543,
+      "current": 0.07839000225067139,
       "previousClose": 0.07832200080156326,
       "changePercent": null,
       "updated": "2026-08-17"
@@ -2562,13 +2562,13 @@
       "updated": "2026-08-17"
     },
     "FIL-USD": {
-      "current": 0.671999990940094,
+      "current": 0.6700000166893005,
       "previousClose": 0.6660619974136353,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ICP-USD": {
-      "current": 2.255199909210205,
+      "current": 2.2499001026153564,
       "previousClose": 2.2577950954437256,
       "changePercent": null,
       "updated": "2026-08-17"
@@ -2616,26 +2616,26 @@
       "updated": "2026-08-17"
     },
     "NESN.SW": {
-      "current": 78.70999908447266,
-      "previousClose": 81.01000213623047,
+      "current": 81.01000213623047,
+      "previousClose": 81.06999969482422,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ASML.AS": {
-      "current": 1621.199951171875,
-      "previousClose": 1579.5999755859375,
+      "current": 1579.5999755859375,
+      "previousClose": 1609.4000244140625,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ENEL.MI": {
-      "current": 9.467000007629395,
-      "previousClose": 9.494999885559082,
+      "current": 9.494999885559082,
+      "previousClose": 9.689000129699707,
       "changePercent": null,
       "updated": "2026-08-17"
     },
     "ISP.MI": {
-      "current": 6.885000228881836,
-      "previousClose": 6.916999816894531,
+      "current": 6.916999816894531,
+      "previousClose": 6.875999927520752,
       "changePercent": null,
       "updated": "2026-08-17"
     },
@@ -72409,6 +72409,7 @@
         "2026-07-10": 10.119999885559082,
         "2026-07-17": 10.168000221252441,
         "2026-07-24": 9.927000045776367,
+        "2026-07-31": 9.798999786376953,
         "2026-08-07": 10.043999671936035,
         "2026-08-14": 9.494999885559082
       },
@@ -72530,7 +72531,8 @@
         "2025-10-31": 8.772000312805176,
         "2026-03-31": 9.375,
         "2026-04-30": 9.923999786376953,
-        "2026-06-30": 10.053999900817871
+        "2026-06-30": 10.053999900817871,
+        "2026-07-31": 9.798999786376953
       }
     },
     "ISP.MI": {
