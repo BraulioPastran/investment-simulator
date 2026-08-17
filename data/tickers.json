@@ -73,7 +73,7 @@
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -262,7 +262,7 @@
     {
       "symbol": "SAP",
       "name": "SAP SE",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation Common Stock",
+      "name": "CDW Corporation",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
