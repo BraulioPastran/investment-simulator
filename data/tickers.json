@@ -219,8 +219,8 @@
     },
     {
       "symbol": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NMS",
+      "name": "CRWD",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -366,8 +366,8 @@
     },
     {
       "symbol": "FISV",
-      "name": "Fiserv, Inc.",
-      "exchange": "NMS",
+      "name": "FISV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -534,8 +534,8 @@
     },
     {
       "symbol": "TFC",
-      "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "name": "TFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-16"
+  "updated": "2026-08-17"
 }
