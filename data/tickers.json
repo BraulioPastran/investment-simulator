@@ -17,7 +17,7 @@
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation Common Stock",
+      "name": "CDW Corporation",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
