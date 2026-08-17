@@ -73,7 +73,7 @@
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -646,8 +646,8 @@
     },
     {
       "symbol": "AON",
-      "name": "Aon plc",
-      "exchange": "NYQ",
+      "name": "AON",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
