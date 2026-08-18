@@ -66,7 +66,7 @@
     {
       "symbol": "CRM",
       "name": "Salesforce, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "COIN",
-      "exchange": "",
+      "name": "Coinbase Global, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
