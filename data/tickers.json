@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "exchange": "NMS",
+      "name": "AAPL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -373,8 +373,8 @@
     },
     {
       "symbol": "GPN",
-      "name": "Global Payments Inc.",
-      "exchange": "NYQ",
+      "name": "GPN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -541,8 +541,8 @@
     },
     {
       "symbol": "SCHW",
-      "name": "The Charles Schwab Corporation",
-      "exchange": "NYQ",
+      "name": "SCHW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -689,7 +689,7 @@
     {
       "symbol": "HBAN",
       "name": "Huntington Bancshares Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
