@@ -171,7 +171,7 @@
     {
       "symbol": "DOCU",
       "name": "DocuSign, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -220,7 +220,7 @@
     {
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -632,8 +632,8 @@
     },
     {
       "symbol": "HIG",
-      "name": "The Hartford Insurance Group, Inc.",
-      "exchange": "NYQ",
+      "name": "HIG",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
