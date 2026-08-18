@@ -37,8 +37,8 @@
     },
     {
       "symbol": "META",
-      "name": "META",
-      "exchange": "",
+      "name": "Meta Platforms, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -535,7 +535,7 @@
     {
       "symbol": "TFC",
       "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
