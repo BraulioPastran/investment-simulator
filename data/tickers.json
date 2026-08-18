@@ -37,8 +37,8 @@
     },
     {
       "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "exchange": "NMS",
+      "name": "META",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -150,7 +150,7 @@
     {
       "symbol": "NET",
       "name": "Cloudflare, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -220,7 +220,7 @@
     {
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
