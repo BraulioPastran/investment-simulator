@@ -58,8 +58,8 @@
     },
     {
       "symbol": "INTC",
-      "name": "Intel Corporation",
-      "exchange": "NMS",
+      "name": "INTC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -352,8 +352,8 @@
     },
     {
       "symbol": "ADP",
-      "name": "ADP",
-      "exchange": "",
+      "name": "Automatic Data Processing, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -646,8 +646,8 @@
     },
     {
       "symbol": "AON",
-      "name": "Aon plc",
-      "exchange": "NYQ",
+      "name": "AON",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
