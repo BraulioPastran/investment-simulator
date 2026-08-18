@@ -128,8 +128,8 @@
     },
     {
       "symbol": "SNOW",
-      "name": "Snowflake Inc.",
-      "exchange": "NYQ",
+      "name": "SNOW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -142,8 +142,8 @@
     },
     {
       "symbol": "PLTR",
-      "name": "PLTR",
-      "exchange": "",
+      "name": "Palantir Technologies Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -429,8 +429,8 @@
     },
     {
       "symbol": "NTDOY",
-      "name": "Nintendo Co., Ltd.",
-      "exchange": "PNK",
+      "name": "NTDOY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -541,8 +541,8 @@
     },
     {
       "symbol": "SCHW",
-      "name": "SCHW",
-      "exchange": "",
+      "name": "The Charles Schwab Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
