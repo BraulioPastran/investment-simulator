@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -142,8 +142,8 @@
     },
     {
       "symbol": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "exchange": "NMS",
+      "name": "PLTR",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -164,7 +164,7 @@
     {
       "symbol": "SNAP",
       "name": "Snap Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,7 +401,7 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation Common Stock",
+      "name": "CDW Corporation",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -541,8 +541,8 @@
     },
     {
       "symbol": "SCHW",
-      "name": "The Charles Schwab Corporation",
-      "exchange": "NYQ",
+      "name": "SCHW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-17"
+  "updated": "2026-08-18"
 }
