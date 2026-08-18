@@ -114,8 +114,8 @@
     },
     {
       "symbol": "LYFT",
-      "name": "Lyft, Inc.",
-      "exchange": "NMS",
+      "name": "LYFT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -500,7 +500,7 @@
     {
       "symbol": "AXP",
       "name": "American Express Company",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
