@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc.",
+      "name": "Roku, Inc. Class A Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -205,7 +205,7 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc.",
+      "name": "Workday, Inc. Class A Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -570,7 +570,7 @@
     {
       "symbol": "ICE",
       "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
