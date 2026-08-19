@@ -191,8 +191,8 @@
     },
     {
       "symbol": "ROKU",
-      "name": "ROKU",
-      "exchange": "",
+      "name": "Roku, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -269,7 +269,7 @@
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-18"
+  "updated": "2026-08-19"
 }
