@@ -87,7 +87,7 @@
     {
       "symbol": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -170,8 +170,8 @@
     },
     {
       "symbol": "DOCU",
-      "name": "DOCU",
-      "exchange": "",
+      "name": "DocuSign, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -213,7 +213,7 @@
     {
       "symbol": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -611,8 +611,8 @@
     },
     {
       "symbol": "PRU",
-      "name": "PRU",
-      "exchange": "",
+      "name": "Prudential Financial, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
