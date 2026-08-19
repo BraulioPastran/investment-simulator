@@ -30,8 +30,8 @@
     },
     {
       "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "exchange": "NMS",
+      "name": "TSLA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -269,7 +269,7 @@
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
