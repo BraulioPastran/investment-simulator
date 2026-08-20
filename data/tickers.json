@@ -184,8 +184,8 @@
     },
     {
       "symbol": "SPOT",
-      "name": "Spotify Technology S.A.",
-      "exchange": "NYQ",
+      "name": "SPOT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -205,7 +205,7 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc. Class A Common Stock",
+      "name": "Workday, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -415,8 +415,8 @@
     },
     {
       "symbol": "TTWO",
-      "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NMS",
+      "name": "TTWO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -695,8 +695,8 @@
     },
     {
       "symbol": "CFG",
-      "name": "CFG",
-      "exchange": "",
+      "name": "Citizens Financial Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
