@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc. Class A Common Stock",
+      "name": "Roku, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -388,7 +388,7 @@
     {
       "symbol": "ADSK",
       "name": "Autodesk, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -563,7 +563,7 @@
     {
       "symbol": "CME",
       "name": "CME Group Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
