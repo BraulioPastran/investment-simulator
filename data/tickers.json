@@ -366,8 +366,8 @@
     },
     {
       "symbol": "FISV",
-      "name": "FISV",
-      "exchange": "",
+      "name": "Fiserv, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -471,8 +471,8 @@
     },
     {
       "symbol": "GS",
-      "name": "The Goldman Sachs Group, Inc.",
-      "exchange": "NYQ",
+      "name": "GS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
