@@ -366,8 +366,8 @@
     },
     {
       "symbol": "FISV",
-      "name": "Fiserv, Inc.",
-      "exchange": "NMS",
+      "name": "FISV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-19"
+  "updated": "2026-08-20"
 }
