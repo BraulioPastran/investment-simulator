@@ -471,8 +471,8 @@
     },
     {
       "symbol": "GS",
-      "name": "GS",
-      "exchange": "",
+      "name": "The Goldman Sachs Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -513,8 +513,8 @@
     },
     {
       "symbol": "C",
-      "name": "Citigroup Inc.",
-      "exchange": "NYQ",
+      "name": "C",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
