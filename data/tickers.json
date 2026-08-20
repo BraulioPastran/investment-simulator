@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -157,7 +157,7 @@
     {
       "symbol": "DDOG",
       "name": "Datadog, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc. Class A Common Stock",
+      "name": "Roku, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -205,7 +205,7 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc. Class A Common Stock",
+      "name": "Workday, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
