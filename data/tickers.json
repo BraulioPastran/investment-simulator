@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -58,8 +58,8 @@
     },
     {
       "symbol": "INTC",
-      "name": "INTC",
-      "exchange": "",
+      "name": "Intel Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
