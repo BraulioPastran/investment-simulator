@@ -1,19 +1,19 @@
 {
   "prices": {
     "VOO": {
-      "current": 703.77001953125,
+      "current": 703.7100219726562,
       "previousClose": 701.010009765625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VTI": {
-      "current": 378.25,
+      "current": 378.239990234375,
       "previousClose": 376.5799865722656,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SPY": {
-      "current": 765.6199951171875,
+      "current": 765.719970703125,
       "previousClose": 762.5999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -25,13 +25,13 @@
       "updated": "2026-08-21"
     },
     "AAPL": {
-      "current": 309.7900085449219,
+      "current": 309.3500061035156,
       "previousClose": 311.29998779296875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MSFT": {
-      "current": 483.80999755859375,
+      "current": 483.239990234375,
       "previousClose": 481.1499938964844,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -48,25 +48,25 @@
       "updated": "2026-08-21"
     },
     "VEA": {
-      "current": 73.43009948730469,
+      "current": 73.41999816894531,
       "previousClose": 72.83999633789062,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VT": {
-      "current": 160.77499389648438,
+      "current": 160.77000427246094,
       "previousClose": 159.92999267578125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "NVDA": {
-      "current": 214.77000427246094,
+      "current": 214.72000122070312,
       "previousClose": 216.85000610351562,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "GOOGL": {
-      "current": 344.9049987792969,
+      "current": 344.82000732421875,
       "previousClose": 340.6700134277344,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -78,19 +78,19 @@
       "updated": "2026-08-21"
     },
     "META": {
-      "current": 549.97998046875,
+      "current": 549.9000244140625,
       "previousClose": 545.8300170898438,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TSLA": {
-      "current": 363.0400085449219,
+      "current": 362.8599853515625,
       "previousClose": 345.1300048828125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AMD": {
-      "current": 473.54998779296875,
+      "current": 473.25,
       "previousClose": 469.4599914550781,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -102,25 +102,25 @@
       "updated": "2026-08-21"
     },
     "CRM": {
-      "current": 209.1750030517578,
+      "current": 209.1699981689453,
       "previousClose": 205.42999267578125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ADBE": {
-      "current": 275.2200012207031,
+      "current": 275.29998779296875,
       "previousClose": 272.2200012207031,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "NFLX": {
-      "current": 79.61499786376953,
+      "current": 79.58999633789062,
       "previousClose": 80.13999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PYPL": {
-      "current": 61.564998626708984,
+      "current": 61.54999923706055,
       "previousClose": 62.29999923706055,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -138,13 +138,13 @@
       "updated": null
     },
     "UBER": {
-      "current": 78.76000213623047,
+      "current": 78.80000305175781,
       "previousClose": 78.55000305175781,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LYFT": {
-      "current": 17.46500015258789,
+      "current": 17.469999313354492,
       "previousClose": 17.399999618530273,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -156,79 +156,79 @@
       "updated": "2026-08-21"
     },
     "SNOW": {
-      "current": 333.1199951171875,
+      "current": 332.7799987792969,
       "previousClose": 321.2900085449219,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "NOW": {
-      "current": 128.52000427246094,
+      "current": 128.47999572753906,
       "previousClose": 129.75,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PLTR": {
-      "current": 179.88999938964844,
+      "current": 179.94000244140625,
       "previousClose": 173.9600067138672,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "NET": {
-      "current": 293.135009765625,
+      "current": 293.1400146484375,
       "previousClose": 278.9100036621094,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DDOG": {
-      "current": 235.58999633789062,
+      "current": 235.6199951171875,
       "previousClose": 232.5500030517578,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SNAP": {
-      "current": 5.230100154876709,
+      "current": 5.239999771118164,
       "previousClose": 5.210000038146973,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DOCU": {
-      "current": 62.005001068115234,
+      "current": 62,
       "previousClose": 62.279998779296875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ZM": {
-      "current": 107.44999694824219,
+      "current": 107.43000030517578,
       "previousClose": 106.30000305175781,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SPOT": {
-      "current": 533.1300048828125,
+      "current": 533.719970703125,
       "previousClose": 533.1300048828125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ROKU": {
-      "current": 157.48500061035156,
+      "current": 157.49000549316406,
       "previousClose": 157.1199951171875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TEAM": {
-      "current": 171.64999389648438,
+      "current": 171.80999755859375,
       "previousClose": 174.91000366210938,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "WDAY": {
-      "current": 200.01499938964844,
+      "current": 200.00999450683594,
       "previousClose": 197.32000732421875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PANW": {
-      "current": 357.55999755859375,
+      "current": 357.8699951171875,
       "previousClose": 349.55999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -240,25 +240,25 @@
       "updated": "2026-08-21"
     },
     "ZS": {
-      "current": 181.75999450683594,
+      "current": 181.7449951171875,
       "previousClose": 174.9499969482422,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "OKTA": {
-      "current": 135.16000366210938,
+      "current": 135.13999938964844,
       "previousClose": 134.16000366210938,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "HUBS": {
-      "current": 239.83999633789062,
+      "current": 240.00999450683594,
       "previousClose": 239.86000061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TWLO": {
-      "current": 225.1999969482422,
+      "current": 225.3000030517578,
       "previousClose": 219.88999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -270,19 +270,19 @@
       "updated": "2026-08-21"
     },
     "SAP": {
-      "current": 218.61000061035156,
+      "current": 218.67999267578125,
       "previousClose": 217.08999633789062,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ORCL": {
-      "current": 146.49000549316406,
+      "current": 146.47000122070312,
       "previousClose": 142.07000732421875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "IBM": {
-      "current": 235.61669921875,
+      "current": 235.67999267578125,
       "previousClose": 233.69000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -354,7 +354,7 @@
       "updated": "2026-08-21"
     },
     "FIS": {
-      "current": 41.33000183105469,
+      "current": 41.34000015258789,
       "previousClose": 40.58000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -414,7 +414,7 @@
       "updated": null
     },
     "NTDOY": {
-      "current": 13.539999961853027,
+      "current": 13.550000190734863,
       "previousClose": 13.630000114440918,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -432,49 +432,49 @@
       "updated": "2026-08-21"
     },
     "JPM": {
-      "current": 351.57000732421875,
+      "current": 351.5799865722656,
       "previousClose": 351.54998779296875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BAC": {
-      "current": 61.70000076293945,
+      "current": 61.689998626708984,
       "previousClose": 61.86000061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "WFC": {
-      "current": 83.8499984741211,
+      "current": 83.83999633789062,
       "previousClose": 83.69999694824219,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "GS": {
-      "current": 1039.4100341796875,
+      "current": 1039.280029296875,
       "previousClose": 1001.9500122070312,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MS": {
-      "current": 214.16000366210938,
+      "current": 214.1999969482422,
       "previousClose": 207.4499969482422,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "V": {
-      "current": 371.1300048828125,
+      "current": 371.0400085449219,
       "previousClose": 365.7300109863281,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MA": {
-      "current": 580.60498046875,
+      "current": 580.6300048828125,
       "previousClose": 573.8499755859375,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AXP": {
-      "current": 335.9549865722656,
+      "current": 336,
       "previousClose": 331.1499938964844,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -486,19 +486,19 @@
       "updated": null
     },
     "C": {
-      "current": 131.66000366210938,
+      "current": 131.64999389648438,
       "previousClose": 129.6699981689453,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "USB": {
-      "current": 62.05500030517578,
+      "current": 62.04999923706055,
       "previousClose": 61.779998779296875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PNC": {
-      "current": 243.11000061035156,
+      "current": 243.1300048828125,
       "previousClose": 241.6199951171875,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -510,19 +510,19 @@
       "updated": "2026-08-21"
     },
     "SCHW": {
-      "current": 112.29499816894531,
+      "current": 112.30000305175781,
       "previousClose": 109.79000091552734,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MCO": {
-      "current": 503.239990234375,
+      "current": 503.32000732421875,
       "previousClose": 498.7699890136719,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SPGI": {
-      "current": 431.1000061035156,
+      "current": 431.2900085449219,
       "previousClose": 432.1600036621094,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -534,43 +534,43 @@
       "updated": "2026-08-21"
     },
     "ICE": {
-      "current": 161.27000427246094,
+      "current": 161.25,
       "previousClose": 158.61000061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BLK": {
-      "current": 1156.175048828125,
+      "current": 1156.550048828125,
       "previousClose": 1139.8199462890625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VICI": {
-      "current": 26.514999389648438,
+      "current": 26.510000228881836,
       "previousClose": 26.56999969482422,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "WY": {
-      "current": 24.450000762939453,
+      "current": 24.43000030517578,
       "previousClose": 24.6200008392334,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AFL": {
-      "current": 116.06099700927734,
+      "current": 116.06999969482422,
       "previousClose": 116.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MET": {
-      "current": 94.37000274658203,
+      "current": 94.33999633789062,
       "previousClose": 93.45999908447266,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PRU": {
-      "current": 121.19000244140625,
+      "current": 121.1500015258789,
       "previousClose": 120.58999633789062,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -582,25 +582,25 @@
       "updated": "2026-08-21"
     },
     "ALL": {
-      "current": 253.80999755859375,
+      "current": 253.8300018310547,
       "previousClose": 254.5399932861328,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "HIG": {
-      "current": 136.05999755859375,
+      "current": 136.10000610351562,
       "previousClose": 137.1199951171875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "CB": {
-      "current": 341,
+      "current": 340.989990234375,
       "previousClose": 342.8699951171875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AON": {
-      "current": 355.1600036621094,
+      "current": 355.1099853515625,
       "previousClose": 351.92999267578125,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -618,19 +618,19 @@
       "updated": null
     },
     "BRO": {
-      "current": 72.9000015258789,
+      "current": 72.91999816894531,
       "previousClose": 72.08000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "RF": {
-      "current": 30.405000686645508,
+      "current": 30.40999984741211,
       "previousClose": 30.219999313354492,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "KEY": {
-      "current": 21.8799991607666,
+      "current": 21.8700008392334,
       "previousClose": 21.850000381469727,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -642,13 +642,13 @@
       "updated": "2026-08-21"
     },
     "CFG": {
-      "current": 69.86100006103516,
+      "current": 69.86000061035156,
       "previousClose": 69.70999908447266,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "STT": {
-      "current": 187.13999938964844,
+      "current": 187.1300048828125,
       "previousClose": 183.07000732421875,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -666,61 +666,61 @@
       "updated": "2026-08-21"
     },
     "FND": {
-      "current": 54.279998779296875,
+      "current": 54.2599983215332,
       "previousClose": 54.70000076293945,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "UNH": {
-      "current": 390.04998779296875,
+      "current": 390.1099853515625,
       "previousClose": 384.8500061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "JNJ": {
-      "current": 270.2950134277344,
+      "current": 270.239990234375,
       "previousClose": 267.3699951171875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PFE": {
-      "current": 28.065000534057617,
+      "current": 28.06999969482422,
       "previousClose": 27.790000915527344,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ABBV": {
-      "current": 264.94000244140625,
+      "current": 264.9599914550781,
       "previousClose": 261.8299865722656,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LLY": {
-      "current": 1254.77001953125,
+      "current": 1255.4000244140625,
       "previousClose": 1244.4000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MRK": {
-      "current": 152.52000427246094,
+      "current": 152.5500030517578,
       "previousClose": 148.99000549316406,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TMO": {
-      "current": 629.1099853515625,
+      "current": 629.27001953125,
       "previousClose": 627.5499877929688,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ABT": {
-      "current": 116.62999725341797,
+      "current": 116.63999938964844,
       "previousClose": 114.13999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BMY": {
-      "current": 67.01499938964844,
+      "current": 67.01000213623047,
       "previousClose": 65.47000122070312,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -738,7 +738,7 @@
       "updated": "2026-08-21"
     },
     "CVS": {
-      "current": 93.01499938964844,
+      "current": 93.0199966430664,
       "previousClose": 93.6500015258789,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -750,19 +750,19 @@
       "updated": "2026-08-21"
     },
     "MDT": {
-      "current": 93.33999633789062,
+      "current": 93.3499984741211,
       "previousClose": 92.30000305175781,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SYK": {
-      "current": 329.2330017089844,
+      "current": 329.45001220703125,
       "previousClose": 327.70001220703125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ZTS": {
-      "current": 77.73999786376953,
+      "current": 77.7300033569336,
       "previousClose": 75.0199966430664,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -792,13 +792,13 @@
       "updated": "2026-08-21"
     },
     "DHR": {
-      "current": 218.8699951171875,
+      "current": 218.85000610351562,
       "previousClose": 215.91000366210938,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "EW": {
-      "current": 89.80000305175781,
+      "current": 89.79000091552734,
       "previousClose": 89.83000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -810,7 +810,7 @@
       "updated": "2026-08-21"
     },
     "IQV": {
-      "current": 260.07000732421875,
+      "current": 259.82000732421875,
       "previousClose": 256.04998779296875,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -834,13 +834,13 @@
       "updated": "2026-06-08"
     },
     "DGX": {
-      "current": 244.33999633789062,
+      "current": 244.38999938964844,
       "previousClose": 241.3000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LH": {
-      "current": 336.2200012207031,
+      "current": 336.3399963378906,
       "previousClose": 332.80999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -852,37 +852,37 @@
       "updated": "2026-08-21"
     },
     "HCA": {
-      "current": 429.1700134277344,
+      "current": 429.19000244140625,
       "previousClose": 406.2699890136719,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "CNC": {
-      "current": 64.99539947509766,
+      "current": 65.0199966430664,
       "previousClose": 64.13999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "HUM": {
-      "current": 378.7799987792969,
+      "current": 378.8800048828125,
       "previousClose": 380.7300109863281,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "CI": {
-      "current": 277.4700012207031,
+      "current": 277.510009765625,
       "previousClose": 274.4100036621094,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MOH": {
-      "current": 200.39999389648438,
+      "current": 200.2899932861328,
       "previousClose": 196.94000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "OMC": {
-      "current": 87.52999877929688,
+      "current": 87.54000091552734,
       "previousClose": 87.06999969482422,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -894,7 +894,7 @@
       "updated": null
     },
     "RVTY": {
-      "current": 124.70999908447266,
+      "current": 124.75,
       "previousClose": 124.12999725341797,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -912,13 +912,13 @@
       "updated": "2026-08-21"
     },
     "PG": {
-      "current": 144.69000244140625,
+      "current": 144.67999267578125,
       "previousClose": 142.97000122070312,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "KO": {
-      "current": 91.09500122070312,
+      "current": 91.0999984741211,
       "previousClose": 90.5,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -930,7 +930,7 @@
       "updated": "2026-08-21"
     },
     "MCD": {
-      "current": 270.94000244140625,
+      "current": 270.95001220703125,
       "previousClose": 269.1300048828125,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -942,13 +942,13 @@
       "updated": "2026-08-21"
     },
     "NKE": {
-      "current": 40.755001068115234,
+      "current": 40.7599983215332,
       "previousClose": 40.209999084472656,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DIS": {
-      "current": 107.7750015258789,
+      "current": 107.77999877929688,
       "previousClose": 107.31999969482422,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -960,7 +960,7 @@
       "updated": "2026-08-21"
     },
     "T": {
-      "current": 25.309999465942383,
+      "current": 25.290000915527344,
       "previousClose": 25.149999618530273,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -978,13 +978,13 @@
       "updated": "2026-08-21"
     },
     "HD": {
-      "current": 335.7049865722656,
+      "current": 335.6099853515625,
       "previousClose": 334.489990234375,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LOW": {
-      "current": 216.02999877929688,
+      "current": 216.08999633789062,
       "previousClose": 217.33999633789062,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -996,7 +996,7 @@
       "updated": "2026-08-21"
     },
     "TGT": {
-      "current": 165.4199981689453,
+      "current": 165.44000244140625,
       "previousClose": 158.25,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1020,7 +1020,7 @@
       "updated": "2026-08-21"
     },
     "DG": {
-      "current": 123.37999725341797,
+      "current": 123.41000366210938,
       "previousClose": 120.58000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1044,7 +1044,7 @@
       "updated": null
     },
     "AZO": {
-      "current": 2959.469970703125,
+      "current": 2957.949951171875,
       "previousClose": 2961.989990234375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1068,19 +1068,19 @@
       "updated": "2026-08-21"
     },
     "GPC": {
-      "current": 133.91000366210938,
+      "current": 133.9600067138672,
       "previousClose": 132.9199981689453,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SBH": {
-      "current": 16.579999923706055,
+      "current": 16.56999969482422,
       "previousClose": 16.229999542236328,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TJX": {
-      "current": 140.5,
+      "current": 140.52999877929688,
       "previousClose": 140.69000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1104,13 +1104,13 @@
       "updated": "2026-08-21"
     },
     "M": {
-      "current": 22.899999618530273,
+      "current": 22.81999969482422,
       "previousClose": 22.579999923706055,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "KSS": {
-      "current": 17.594999313354492,
+      "current": 17.600000381469727,
       "previousClose": 17.329999923706055,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1128,7 +1128,7 @@
       "updated": "2026-08-21"
     },
     "CMG": {
-      "current": 36.880001068115234,
+      "current": 36.900001525878906,
       "previousClose": 35.290000915527344,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1140,7 +1140,7 @@
       "updated": "2026-08-21"
     },
     "MGM": {
-      "current": 43.75,
+      "current": 43.7400016784668,
       "previousClose": 43.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1194,7 +1194,7 @@
       "updated": "2026-08-21"
     },
     "CAT": {
-      "current": 827.9099731445312,
+      "current": 827.9000244140625,
       "previousClose": 815.3900146484375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1212,73 +1212,73 @@
       "updated": "2026-08-21"
     },
     "FDX": {
-      "current": 325.1499938964844,
+      "current": 325.0799865722656,
       "previousClose": 326.0400085449219,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "RTX": {
-      "current": 209.97999572753906,
+      "current": 209.91000366210938,
       "previousClose": 212.2899932861328,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "GE": {
-      "current": 348.44000244140625,
+      "current": 348.3699951171875,
       "previousClose": 344.6400146484375,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MMM": {
-      "current": 178.9499969482422,
+      "current": 178.9600067138672,
       "previousClose": 178.08999633789062,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "EMR": {
-      "current": 157.27000427246094,
+      "current": 157.25999450683594,
       "previousClose": 154.72000122070312,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DE": {
-      "current": 647.72998046875,
+      "current": 647.469970703125,
       "previousClose": 620.9400024414062,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "CMI": {
-      "current": 587.5549926757812,
+      "current": 587.6799926757812,
       "previousClose": 593.239990234375,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SWK": {
-      "current": 100,
+      "current": 100.0199966430664,
       "previousClose": 98.8499984741211,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ITW": {
-      "current": 282.2950134277344,
+      "current": 282.2900085449219,
       "previousClose": 282.739990234375,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ETN": {
-      "current": 419.25,
+      "current": 419.20001220703125,
       "previousClose": 415.2900085449219,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "APH": {
-      "current": 157,
+      "current": 157.00999450683594,
       "previousClose": 153.11000061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PH": {
-      "current": 1002.14501953125,
+      "current": 1001.739990234375,
       "previousClose": 1000.1300048828125,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1296,7 +1296,7 @@
       "updated": "2026-08-21"
     },
     "OTIS": {
-      "current": 71.4749984741211,
+      "current": 71.48999786376953,
       "previousClose": 71.7699966430664,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1308,7 +1308,7 @@
       "updated": "2026-08-21"
     },
     "RSG": {
-      "current": 220.63999938964844,
+      "current": 220.6699981689453,
       "previousClose": 219.5,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1332,7 +1332,7 @@
       "updated": "2026-08-21"
     },
     "PWR": {
-      "current": 639.3300170898438,
+      "current": 639.3400268554688,
       "previousClose": 662.469970703125,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1344,13 +1344,13 @@
       "updated": "2026-08-21"
     },
     "FTV": {
-      "current": 60.06999969482422,
+      "current": 60.08000183105469,
       "previousClose": 59.400001525878906,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AME": {
-      "current": 239.57000732421875,
+      "current": 239.5500030517578,
       "previousClose": 239.0800018310547,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1362,13 +1362,13 @@
       "updated": "2026-08-21"
     },
     "LDOS": {
-      "current": 141.5,
+      "current": 141.38999938964844,
       "previousClose": 141.3699951171875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "WAB": {
-      "current": 297.6400146484375,
+      "current": 297.57000732421875,
       "previousClose": 292.30999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1380,31 +1380,31 @@
       "updated": "2026-08-21"
     },
     "IR": {
-      "current": 80.53500366210938,
+      "current": 80.51000213623047,
       "previousClose": 79.33000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TT": {
-      "current": 453.3699951171875,
+      "current": 453.42999267578125,
       "previousClose": 451.1000061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TDG": {
-      "current": 1200.4239501953125,
+      "current": 1200.3499755859375,
       "previousClose": 1180.4000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LUV": {
-      "current": 40.369998931884766,
+      "current": 40.380001068115234,
       "previousClose": 39.88999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DAL": {
-      "current": 82.41999816894531,
+      "current": 82.41000366210938,
       "previousClose": 81.05999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1422,7 +1422,7 @@
       "updated": "2026-08-21"
     },
     "ALK": {
-      "current": 40.380001068115234,
+      "current": 40.40999984741211,
       "previousClose": 40.18000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1440,13 +1440,13 @@
       "updated": "2026-08-21"
     },
     "NSC": {
-      "current": 350.7749938964844,
+      "current": 350.7200012207031,
       "previousClose": 346.6199951171875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "UNP": {
-      "current": 308.0950012207031,
+      "current": 308.04998779296875,
       "previousClose": 303.9700012207031,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1458,25 +1458,25 @@
       "updated": "2026-08-21"
     },
     "PPG": {
-      "current": 113.62699890136719,
+      "current": 113.62999725341797,
       "previousClose": 112.44000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SHW": {
-      "current": 346.6199951171875,
+      "current": 346.5899963378906,
       "previousClose": 346.9100036621094,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AVY": {
-      "current": 183.6999969482422,
+      "current": 183.7100067138672,
       "previousClose": 182.67999267578125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PKG": {
-      "current": 252.72999572753906,
+      "current": 252.7899932861328,
       "previousClose": 249.55999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1500,49 +1500,49 @@
       "updated": "2026-08-21"
     },
     "CVX": {
-      "current": 205.25999450683594,
+      "current": 205.27000427246094,
       "previousClose": 205.77000427246094,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "COP": {
-      "current": 134.9250030517578,
+      "current": 134.8699951171875,
       "previousClose": 134.88999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SLB": {
-      "current": 53.875,
+      "current": 53.869998931884766,
       "previousClose": 53.54999923706055,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "EOG": {
-      "current": 153.05999755859375,
+      "current": 153.0500030517578,
       "previousClose": 152.19000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MPC": {
-      "current": 360.80999755859375,
+      "current": 360.7200012207031,
       "previousClose": 358.2300109863281,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PSX": {
-      "current": 242.85499572753906,
+      "current": 242.8699951171875,
       "previousClose": 240,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VLO": {
-      "current": 348.8800048828125,
+      "current": 348.8599853515625,
       "previousClose": 341.510009765625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "OXY": {
-      "current": 61.29499816894531,
+      "current": 61.29999923706055,
       "previousClose": 61.52000045776367,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1554,7 +1554,7 @@
       "updated": "2026-08-21"
     },
     "SO": {
-      "current": 88.96980285644531,
+      "current": 88.94000244140625,
       "previousClose": 91.43000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1578,7 +1578,7 @@
       "updated": "2026-08-21"
     },
     "SRE": {
-      "current": 82.88500213623047,
+      "current": 82.88999938964844,
       "previousClose": 87.37999725341797,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1590,25 +1590,25 @@
       "updated": "2026-08-21"
     },
     "DOW": {
-      "current": 32.34000015258789,
+      "current": 32.349998474121094,
       "previousClose": 32.900001525878906,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DD": {
-      "current": 138.35000610351562,
+      "current": 138.3300018310547,
       "previousClose": 138.4600067138672,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LYB": {
-      "current": 67.53500366210938,
+      "current": 67.52999877929688,
       "previousClose": 68.0999984741211,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "APD": {
-      "current": 305.1300048828125,
+      "current": 305.1000061035156,
       "previousClose": 300.3299865722656,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1620,7 +1620,7 @@
       "updated": "2026-08-21"
     },
     "HAL": {
-      "current": 35.31999969482422,
+      "current": 35.34000015258789,
       "previousClose": 35.689998626708984,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1668,19 +1668,19 @@
       "updated": "2026-08-21"
     },
     "IP": {
-      "current": 41.47999954223633,
+      "current": 41.4900016784668,
       "previousClose": 40.36000061035156,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "GLD": {
-      "current": 423.4100036621094,
+      "current": 423.3599853515625,
       "previousClose": 415.260009765625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SLV": {
-      "current": 62.71500015258789,
+      "current": 62.720001220703125,
       "previousClose": 61.65999984741211,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1692,25 +1692,25 @@
       "updated": null
     },
     "DBO": {
-      "current": 22.184999465942383,
+      "current": 22.170000076293945,
       "previousClose": 22.100000381469727,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AMT": {
-      "current": 175.77000427246094,
+      "current": 175.8000030517578,
       "previousClose": 175.72000122070312,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PLD": {
-      "current": 141.80499267578125,
+      "current": 141.8000030517578,
       "previousClose": 140.67999267578125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "CCI": {
-      "current": 75.51399993896484,
+      "current": 75.51000213623047,
       "previousClose": 75.38999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1722,25 +1722,25 @@
       "updated": "2026-08-21"
     },
     "SPG": {
-      "current": 218.27999877929688,
+      "current": 218.2899932861328,
       "previousClose": 219.89999389648438,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "O": {
-      "current": 62.59000015258789,
+      "current": 62.599998474121094,
       "previousClose": 63.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "WELL": {
-      "current": 239.26499938964844,
+      "current": 239.22000122070312,
       "previousClose": 237.39999389648438,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DLR": {
-      "current": 190.72300720214844,
+      "current": 190.6199951171875,
       "previousClose": 194.3000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1764,37 +1764,37 @@
       "updated": "2026-08-21"
     },
     "PEG": {
-      "current": 72.61499786376953,
+      "current": 72.61000061035156,
       "previousClose": 74.62000274658203,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ES": {
-      "current": 70.19499969482422,
+      "current": 70.20999908447266,
       "previousClose": 72.1500015258789,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AWK": {
-      "current": 135.42999267578125,
+      "current": 135.38999938964844,
       "previousClose": 137.2100067138672,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "NI": {
-      "current": 40.625,
+      "current": 40.619998931884766,
       "previousClose": 41.63999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ETR": {
-      "current": 104.5999984741211,
+      "current": 104.62000274658203,
       "previousClose": 107.33999633789062,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AEE": {
-      "current": 106.11000061035156,
+      "current": 106.12999725341797,
       "previousClose": 108.79000091552734,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1806,13 +1806,13 @@
       "updated": "2026-08-21"
     },
     "ATO": {
-      "current": 166.88999938964844,
+      "current": 166.85000610351562,
       "previousClose": 170.52000427246094,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "CNP": {
-      "current": 38.76499938964844,
+      "current": 38.77000045776367,
       "previousClose": 40.20000076293945,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1842,13 +1842,13 @@
       "updated": "2026-08-21"
     },
     "IWM": {
-      "current": 299.92999267578125,
+      "current": 299.9599914550781,
       "previousClose": 297.6700134277344,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "EFA": {
-      "current": 108.25,
+      "current": 108.23999786376953,
       "previousClose": 107.3499984741211,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1860,7 +1860,7 @@
       "updated": "2026-08-21"
     },
     "IVV": {
-      "current": 769.2999877929688,
+      "current": 769.3099975585938,
       "previousClose": 766.3400268554688,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1890,25 +1890,25 @@
       "updated": "2026-08-21"
     },
     "SPHD": {
-      "current": 53.220001220703125,
+      "current": 53.22999954223633,
       "previousClose": 53.31999969482422,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SPYD": {
-      "current": 50.41999816894531,
+      "current": 50.43000030517578,
       "previousClose": 50.310001373291016,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "RSP": {
-      "current": 221.66000366210938,
+      "current": 221.6699981689453,
       "previousClose": 220.27999877929688,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "IVW": {
-      "current": 138.86000061035156,
+      "current": 138.8300018310547,
       "previousClose": 138.3699951171875,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1920,43 +1920,43 @@
       "updated": "2026-08-21"
     },
     "VHT": {
-      "current": 327.6600036621094,
+      "current": 327.70001220703125,
       "previousClose": 323.69000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VFH": {
-      "current": 140.7050018310547,
+      "current": 140.72000122070312,
       "previousClose": 139.3000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VIS": {
-      "current": 346.0299987792969,
+      "current": 345.760009765625,
       "previousClose": 344.7699890136719,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VCR": {
-      "current": 398.3299865722656,
+      "current": 397.1300048828125,
       "previousClose": 392.45001220703125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VDC": {
-      "current": 231.77000427246094,
+      "current": 231.75,
       "previousClose": 230.1999969482422,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VDE": {
-      "current": 179.50999450683594,
+      "current": 179.5800018310547,
       "previousClose": 179.72000122070312,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VAW": {
-      "current": 239.75999450683594,
+      "current": 239.66900634765625,
       "previousClose": 234.60000610351562,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1968,13 +1968,13 @@
       "updated": null
     },
     "VOX": {
-      "current": 185.97000122070312,
+      "current": 185.9600067138672,
       "previousClose": 184.49000549316406,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XLK": {
-      "current": 183.35000610351562,
+      "current": 183.30999755859375,
       "previousClose": 183.10000610351562,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -1992,13 +1992,13 @@
       "updated": "2026-08-21"
     },
     "XLE": {
-      "current": 63.619998931884766,
+      "current": 63.63999938964844,
       "previousClose": 63.75,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XLY": {
-      "current": 118,
+      "current": 118.0199966430664,
       "previousClose": 116.68000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2010,25 +2010,25 @@
       "updated": "2026-08-21"
     },
     "XLI": {
-      "current": 180.24000549316406,
+      "current": 180.25,
       "previousClose": 179.77000427246094,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XLB": {
-      "current": 53.52000045776367,
+      "current": 53.540000915527344,
       "previousClose": 52.41999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XLRE": {
-      "current": 45.06999969482422,
+      "current": 45.08000183105469,
       "previousClose": 45.08000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XLC": {
-      "current": 111.38999938964844,
+      "current": 111.4000015258789,
       "previousClose": 110.68000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2040,31 +2040,31 @@
       "updated": "2026-08-21"
     },
     "VUG": {
-      "current": 87.48999786376953,
+      "current": 87.5,
       "previousClose": 87.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VTV": {
-      "current": 226.35000610351562,
+      "current": 226.39999389648438,
       "previousClose": 225.19000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VO": {
-      "current": 82.9749984741211,
+      "current": 82.97000122070312,
       "previousClose": 82.52999877929688,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VB": {
-      "current": 304.80499267578125,
+      "current": 304.760009765625,
       "previousClose": 302.8299865722656,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VNQ": {
-      "current": 98.48999786376953,
+      "current": 98.5,
       "previousClose": 98.5999984741211,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2076,19 +2076,19 @@
       "updated": "2026-08-21"
     },
     "AGG": {
-      "current": 97.36000061035156,
+      "current": 97.3499984741211,
       "previousClose": 97.48999786376953,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SCHD": {
-      "current": 35.109798431396484,
+      "current": 35.11000061035156,
       "previousClose": 34.83000183105469,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VSS": {
-      "current": 160.17999267578125,
+      "current": 160.05999755859375,
       "previousClose": 159.3699951171875,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2130,19 +2130,19 @@
       "updated": "2026-08-21"
     },
     "EWJ": {
-      "current": 95.16999816894531,
+      "current": 95.18000030517578,
       "previousClose": 94.2699966430664,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "EWZ": {
-      "current": 35.06999969482422,
+      "current": 35.060001373291016,
       "previousClose": 34.13999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "EWC": {
-      "current": 62.34000015258789,
+      "current": 62.36000061035156,
       "previousClose": 61.77000045776367,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2160,19 +2160,19 @@
       "updated": null
     },
     "EPOL": {
-      "current": 44.380001068115234,
+      "current": 44.41999816894531,
       "previousClose": 44.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "THD": {
-      "current": 74.75,
+      "current": 74.76000213623047,
       "previousClose": 73.55999755859375,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "IDV": {
-      "current": 45.087501525878906,
+      "current": 45.09000015258789,
       "previousClose": 44.939998626708984,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2220,7 +2220,7 @@
       "updated": null
     },
     "EQQQ": {
-      "current": 42.86000061035156,
+      "current": 42.909000396728516,
       "previousClose": 42.529998779296875,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2256,7 +2256,7 @@
       "updated": null
     },
     "GOVT": {
-      "current": 22.44499969482422,
+      "current": 22.450000762939453,
       "previousClose": 22.479999542236328,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2280,7 +2280,7 @@
       "updated": "2026-08-21"
     },
     "TIP": {
-      "current": 107.12000274658203,
+      "current": 107.12999725341797,
       "previousClose": 107.5199966430664,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2304,19 +2304,19 @@
       "updated": "2026-08-21"
     },
     "BSV": {
-      "current": 77.57499694824219,
+      "current": 77.56999969482422,
       "previousClose": 77.62000274658203,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BIV": {
-      "current": 75.41999816894531,
+      "current": 75.43000030517578,
       "previousClose": 75.5199966430664,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "MUB": {
-      "current": 105.3499984741211,
+      "current": 105.33999633789062,
       "previousClose": 105.47000122070312,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2352,31 +2352,31 @@
       "updated": "2026-08-21"
     },
     "ARKK": {
-      "current": 86.22000122070312,
+      "current": 86.20999908447266,
       "previousClose": 83.2699966430664,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ARKQ": {
-      "current": 125.5999984741211,
+      "current": 125.58000183105469,
       "previousClose": 123.68000030517578,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ARKF": {
-      "current": 45.689998626708984,
+      "current": 45.720001220703125,
       "previousClose": 44.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ARKW": {
-      "current": 155.28500366210938,
+      "current": 155.49000549316406,
       "previousClose": 151.3800048828125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ARKB": {
-      "current": 25.540000915527344,
+      "current": 25.549999237060547,
       "previousClose": 24.100000381469727,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2394,7 +2394,7 @@
       "updated": "2026-08-21"
     },
     "FBTC": {
-      "current": 67.02999877929688,
+      "current": 67.0199966430664,
       "previousClose": 63.27000045776367,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2430,7 +2430,7 @@
       "updated": "2026-08-21"
     },
     "BLOK": {
-      "current": 62.880001068115234,
+      "current": 62.95000076293945,
       "previousClose": 61.880001068115234,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2442,61 +2442,61 @@
       "updated": "2026-08-21"
     },
     "HERO": {
-      "current": 27.399999618530273,
+      "current": 27.418500900268555,
       "previousClose": 27.309999465942383,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "KSA": {
-      "current": 38.314998626708984,
+      "current": 38.310001373291016,
       "previousClose": 38.25,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BTC-USD": {
-      "current": 77017.203125,
+      "current": 77481.0625,
       "previousClose": 73032.7578125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ETH-USD": {
-      "current": 2422.669921875,
+      "current": 2437.199951171875,
       "previousClose": 2326.384765625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SOL-USD": {
-      "current": 91.1500015258789,
+      "current": 91.83000183105469,
       "previousClose": 87.6369400024414,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BNB-USD": {
-      "current": 671.8300170898438,
+      "current": 674.9600219726562,
       "previousClose": 654.9075317382812,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XRP-USD": {
-      "current": 1.3690999746322632,
+      "current": 1.37090003490448,
       "previousClose": 1.2684400081634521,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ADA-USD": {
-      "current": 0.21825000643730164,
+      "current": 0.2186799943447113,
       "previousClose": 0.1990489959716797,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DOGE-USD": {
-      "current": 0.08478999882936478,
+      "current": 0.0868000015616417,
       "previousClose": 0.08042199909687042,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "DOT-USD": {
-      "current": 0.8955000042915344,
+      "current": 0.90420001745224,
       "previousClose": 0.8493810296058655,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2508,13 +2508,13 @@
       "updated": "2026-08-21"
     },
     "LINK-USD": {
-      "current": 11.6899995803833,
+      "current": 11.777999877929688,
       "previousClose": 10.686914443969727,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "AVAX-USD": {
-      "current": 7.561999797821045,
+      "current": 7.609000205993652,
       "previousClose": 7.298631191253662,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2526,49 +2526,49 @@
       "updated": "2026-08-21"
     },
     "ATOM-USD": {
-      "current": 1.5460000038146973,
+      "current": 1.5602999925613403,
       "previousClose": 1.5126140117645264,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LTC-USD": {
-      "current": 51.68600082397461,
+      "current": 52.26599884033203,
       "previousClose": 47.828125,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BCH-USD": {
-      "current": 282.79998779296875,
+      "current": 287.1000061035156,
       "previousClose": 222.98855590820312,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "XLM-USD": {
-      "current": 0.19179199635982513,
+      "current": 0.1927500069141388,
       "previousClose": 0.1814499944448471,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ALGO-USD": {
-      "current": 0.09382999688386917,
+      "current": 0.09380000084638596,
       "previousClose": 0.08805599808692932,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "VET-USD": {
-      "current": 0.005475999787449837,
+      "current": 0.005535999778658152,
       "previousClose": 0.005154000129550695,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "FIL-USD": {
-      "current": 0.7851999998092651,
+      "current": 0.7950000166893005,
       "previousClose": 0.7358589768409729,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "ICP-USD": {
-      "current": 2.452399969100952,
+      "current": 2.486799955368042,
       "previousClose": 2.3923659324645996,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2670,31 +2670,31 @@
       "updated": null
     },
     "LMT": {
-      "current": 563.6799926757812,
+      "current": 563.5700073242188,
       "previousClose": 571.47998046875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "NOC": {
-      "current": 551.1099853515625,
+      "current": 551.030029296875,
       "previousClose": 563.8599853515625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "GD": {
-      "current": 384.2099914550781,
+      "current": 384.2900085449219,
       "previousClose": 386.07000732421875,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "LHX": {
-      "current": 266.6199951171875,
+      "current": 266.7300109863281,
       "previousClose": 270.44000244140625,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "HII": {
-      "current": 298.32000732421875,
+      "current": 298.20001220703125,
       "previousClose": 301.3999938964844,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2706,13 +2706,13 @@
       "updated": null
     },
     "PCG": {
-      "current": 17.604999542236328,
+      "current": 17.600000381469727,
       "previousClose": 17.959999084472656,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "PL": {
-      "current": 22.295000076293945,
+      "current": 22.290000915527344,
       "previousClose": 22.170000076293945,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2736,19 +2736,19 @@
       "updated": "2026-08-21"
     },
     "TSM": {
-      "current": 418.8999938964844,
+      "current": 418.95001220703125,
       "previousClose": 416,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "BABA": {
-      "current": 119.33000183105469,
+      "current": 119.33999633789062,
       "previousClose": 130.52999877929688,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "TCEHY": {
-      "current": 58.119998931884766,
+      "current": 58.11000061035156,
       "previousClose": 57.16999816894531,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2760,7 +2760,7 @@
       "updated": "2026-08-21"
     },
     "INDA": {
-      "current": 49.630001068115234,
+      "current": 49.63999938964844,
       "previousClose": 49.54999923706055,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2778,19 +2778,19 @@
       "updated": "2026-08-21"
     },
     "ASHR": {
-      "current": 34.48500061035156,
+      "current": 34.4900016784668,
       "previousClose": 34.25,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "IEMG": {
-      "current": 81.55999755859375,
+      "current": 81.56999969482422,
       "previousClose": 81.05000305175781,
       "changePercent": null,
       "updated": "2026-08-21"
     },
     "SIXZ": {
-      "current": 32.16999816894531,
+      "current": 32.119998931884766,
       "previousClose": 32.09199905395508,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2802,7 +2802,7 @@
       "updated": "2026-08-21"
     },
     "DJP": {
-      "current": 50.66999816894531,
+      "current": 50.619998931884766,
       "previousClose": 50.34000015258789,
       "changePercent": null,
       "updated": "2026-08-21"
@@ -2860,7 +2860,7 @@
         "2026-07-31": 686.6500244140625,
         "2026-08-07": 710.7100219726562,
         "2026-08-14": 713.6099853515625,
-        "2026-08-21": 703.77001953125
+        "2026-08-21": 703.7100219726562
       },
       "monthly": {
         "2011-08-31": 111.68000030517578,
@@ -3043,7 +3043,7 @@
         "2026-07-31": 368.2099914550781,
         "2026-08-07": 381.7799987792969,
         "2026-08-14": 383.8500061035156,
-        "2026-08-21": 378.25
+        "2026-08-21": 378.239990234375
       },
       "monthly": {
         "2011-08-31": 62.779998779296875,
@@ -3226,7 +3226,7 @@
         "2026-07-31": 747.030029296875,
         "2026-08-07": 773.260009765625,
         "2026-08-14": 776.3400268554688,
-        "2026-08-21": 765.6199951171875
+        "2026-08-21": 765.719970703125
       },
       "monthly": {
         "2011-08-31": 122.22000122070312,
@@ -3592,7 +3592,7 @@
         "2026-07-31": 308.9100036621094,
         "2026-08-07": 313.3299865722656,
         "2026-08-14": 305.92999267578125,
-        "2026-08-21": 309.7900085449219
+        "2026-08-21": 309.3500061035156
       },
       "monthly": {
         "2011-08-31": 13.743928909301758,
@@ -3775,7 +3775,7 @@
         "2026-07-31": 464.7200012207031,
         "2026-08-07": 499.989990234375,
         "2026-08-14": 495.3999938964844,
-        "2026-08-21": 483.80999755859375
+        "2026-08-21": 483.239990234375
       },
       "monthly": {
         "2011-08-31": 26.600000381469727,
@@ -4324,7 +4324,7 @@
         "2026-07-31": 70.62000274658203,
         "2026-08-07": 72.88999938964844,
         "2026-08-14": 73.58000183105469,
-        "2026-08-21": 73.43009948730469
+        "2026-08-21": 73.41999816894531
       },
       "monthly": {
         "2011-08-31": 33.97999954223633,
@@ -4507,7 +4507,7 @@
         "2026-07-31": 155.86000061035156,
         "2026-08-07": 161.3000030517578,
         "2026-08-14": 162.25,
-        "2026-08-21": 160.77499389648438
+        "2026-08-21": 160.77000427246094
       },
       "monthly": {
         "2011-08-31": 45.529998779296875,
@@ -4690,7 +4690,7 @@
         "2026-07-31": 200.75,
         "2026-08-07": 223.9600067138672,
         "2026-08-14": 225.16000366210938,
-        "2026-08-21": 214.77000427246094
+        "2026-08-21": 214.72000122070312
       },
       "monthly": {
         "2011-08-31": 0.33274999260902405,
@@ -4873,7 +4873,7 @@
         "2026-07-31": 356.1300048828125,
         "2026-08-07": 354.29998779296875,
         "2026-08-14": 345.8999938964844,
-        "2026-08-21": 344.9049987792969
+        "2026-08-21": 344.82000732421875
       },
       "monthly": {
         "2011-08-31": 13.537537574768066,
@@ -5239,7 +5239,7 @@
         "2026-07-31": 556.7100219726562,
         "2026-08-07": 592.0999755859375,
         "2026-08-14": 589.8499755859375,
-        "2026-08-21": 549.97998046875
+        "2026-08-21": 549.9000244140625
       },
       "monthly": {
         "2012-05-31": 29.600000381469727,
@@ -5415,7 +5415,7 @@
         "2026-07-31": 311.2099914550781,
         "2026-08-07": 328.5799865722656,
         "2026-08-14": 342.2699890136719,
-        "2026-08-21": 363.0400085449219
+        "2026-08-21": 362.8599853515625
       },
       "monthly": {
         "2011-08-31": 1.6493330001831055,
@@ -5598,7 +5598,7 @@
         "2026-07-31": 476.1499938964844,
         "2026-08-07": 483.3599853515625,
         "2026-08-14": 514.3900146484375,
-        "2026-08-21": 473.54998779296875
+        "2026-08-21": 473.25
       },
       "monthly": {
         "2011-08-31": 6.829999923706055,
@@ -5964,7 +5964,7 @@
         "2026-07-31": 184.02000427246094,
         "2026-08-07": 192.74000549316406,
         "2026-08-14": 196.2100067138672,
-        "2026-08-21": 209.1750030517578
+        "2026-08-21": 209.1699981689453
       },
       "monthly": {
         "2011-08-31": 32.1875,
@@ -6147,7 +6147,7 @@
         "2026-07-31": 250.41000366210938,
         "2026-08-07": 265.2099914550781,
         "2026-08-14": 264.0199890136719,
-        "2026-08-21": 275.2200012207031
+        "2026-08-21": 275.29998779296875
       },
       "monthly": {
         "2011-08-31": 25.239999771118164,
@@ -6330,7 +6330,7 @@
         "2026-07-31": 71.70999908447266,
         "2026-08-07": 74.13999938964844,
         "2026-08-14": 78.16000366210938,
-        "2026-08-21": 79.61499786376953
+        "2026-08-21": 79.58999633789062
       },
       "monthly": {
         "2011-08-31": 3.357285976409912,
@@ -6513,7 +6513,7 @@
         "2026-07-31": 57.209999084472656,
         "2026-08-07": 59.06999969482422,
         "2026-08-14": 61.65999984741211,
-        "2026-08-21": 61.564998626708984
+        "2026-08-21": 61.54999923706055
       },
       "monthly": {
         "2015-07-31": 38.70000076293945,
@@ -6818,7 +6818,7 @@
         "2026-07-31": 70.36000061035156,
         "2026-08-07": 75.0199966430664,
         "2026-08-14": 75.94999694824219,
-        "2026-08-21": 78.76000213623047
+        "2026-08-21": 78.80000305175781
       },
       "monthly": {
         "2019-05-31": 40.40999984741211,
@@ -6934,7 +6934,7 @@
         "2026-07-31": 15.859999656677246,
         "2026-08-07": 17.459999084472656,
         "2026-08-14": 17.479999542236328,
-        "2026-08-21": 17.46500015258789
+        "2026-08-21": 17.469999313354492
       },
       "monthly": {
         "2019-04-30": 59.79999923706055,
@@ -7152,7 +7152,7 @@
         "2026-07-31": 293.2799987792969,
         "2026-08-07": 330.489990234375,
         "2026-08-14": 328.9200134277344,
-        "2026-08-21": 333.1199951171875
+        "2026-08-21": 332.7799987792969
       },
       "monthly": {
         "2020-09-30": 251,
@@ -7257,7 +7257,7 @@
         "2026-07-31": 111.2300033569336,
         "2026-08-07": 124.87999725341797,
         "2026-08-14": 124,
-        "2026-08-21": 128.52000427246094
+        "2026-08-21": 128.47999572753906
       },
       "monthly": {
         "2012-07-31": 5.400000095367432,
@@ -7432,7 +7432,7 @@
         "2026-07-31": 123.05999755859375,
         "2026-08-07": 172.00999450683594,
         "2026-08-14": 174.0399932861328,
-        "2026-08-21": 179.88999938964844
+        "2026-08-21": 179.94000244140625
       },
       "monthly": {
         "2020-09-30": 9.5,
@@ -7537,7 +7537,7 @@
         "2026-07-31": 278.9800109863281,
         "2026-08-07": 300.2699890136719,
         "2026-08-14": 315.7799987792969,
-        "2026-08-21": 293.135009765625
+        "2026-08-21": 293.1400146484375
       },
       "monthly": {
         "2019-09-30": 18.56999969482422,
@@ -7651,7 +7651,7 @@
         "2026-07-31": 267.9700012207031,
         "2026-08-07": 233.92999267578125,
         "2026-08-14": 255.4600067138672,
-        "2026-08-21": 235.58999633789062
+        "2026-08-21": 235.6199951171875
       },
       "monthly": {
         "2019-09-30": 33.90999984741211,
@@ -7765,7 +7765,7 @@
         "2026-07-31": 4.690000057220459,
         "2026-08-07": 5.329999923706055,
         "2026-08-14": 5.409999847412109,
-        "2026-08-21": 5.230100154876709
+        "2026-08-21": 5.239999771118164
       },
       "monthly": {
         "2017-03-31": 22.530000686645508,
@@ -7900,7 +7900,7 @@
         "2026-07-31": 54.83000183105469,
         "2026-08-07": 60.2599983215332,
         "2026-08-14": 62.040000915527344,
-        "2026-08-21": 62.005001068115234
+        "2026-08-21": 62
       },
       "monthly": {
         "2018-04-30": 38.630001068115234,
@@ -8026,7 +8026,7 @@
         "2026-07-31": 96.06999969482422,
         "2026-08-07": 104.5,
         "2026-08-14": 105.95999908447266,
-        "2026-08-21": 107.44999694824219
+        "2026-08-21": 107.43000030517578
       },
       "monthly": {
         "2019-04-30": 72.47000122070312,
@@ -8143,7 +8143,7 @@
         "2026-07-31": 499.94000244140625,
         "2026-08-07": 488.1400146484375,
         "2026-08-14": 512.8200073242188,
-        "2026-08-21": 533.1300048828125
+        "2026-08-21": 533.719970703125
       },
       "monthly": {
         "2018-04-30": 161.6699981689453,
@@ -8269,7 +8269,7 @@
         "2026-07-31": 145.00999450683594,
         "2026-08-07": 153.11000061035156,
         "2026-08-14": 157.67999267578125,
-        "2026-08-21": 157.48500061035156
+        "2026-08-21": 157.49000549316406
       },
       "monthly": {
         "2017-10-31": 20.3799991607666,
@@ -8399,7 +8399,7 @@
         "2026-07-31": 101.01499938964844,
         "2026-08-07": 149.07000732421875,
         "2026-08-14": 162.22000122070312,
-        "2026-08-21": 171.64999389648438
+        "2026-08-21": 171.80999755859375
       },
       "monthly": {
         "2015-12-31": 30.079999923706055,
@@ -8545,7 +8545,7 @@
         "2026-07-31": 160.33999633789062,
         "2026-08-07": 179.63999938964844,
         "2026-08-14": 198.67999267578125,
-        "2026-08-21": 200.01499938964844
+        "2026-08-21": 200.00999450683594
       },
       "monthly": {
         "2012-10-31": 48.5,
@@ -8718,7 +8718,7 @@
         "2026-07-31": 331.8299865722656,
         "2026-08-07": 363.8599853515625,
         "2026-08-14": 384.2699890136719,
-        "2026-08-21": 357.55999755859375
+        "2026-08-21": 357.8699951171875
       },
       "monthly": {
         "2012-07-31": 9.523332595825195,
@@ -9008,7 +9008,7 @@
         "2026-07-31": 151.1999969482422,
         "2026-08-07": 168.67999267578125,
         "2026-08-14": 183.60000610351562,
-        "2026-08-21": 181.75999450683594
+        "2026-08-21": 181.7449951171875
       },
       "monthly": {
         "2018-04-30": 29.889999389648438,
@@ -9134,7 +9134,7 @@
         "2026-07-31": 141.92999267578125,
         "2026-08-07": 148.32000732421875,
         "2026-08-14": 147.42999267578125,
-        "2026-08-21": 135.16000366210938
+        "2026-08-21": 135.13999938964844
       },
       "monthly": {
         "2017-05-31": 26.100000381469727,
@@ -9268,7 +9268,7 @@
         "2026-07-31": 237.36000061035156,
         "2026-08-07": 210.4499969482422,
         "2026-08-14": 224.13999938964844,
-        "2026-08-21": 239.83999633789062
+        "2026-08-21": 240.00999450683594
       },
       "monthly": {
         "2014-10-31": 35.630001068115234,
@@ -9423,7 +9423,7 @@
         "2026-07-31": 197.35000610351562,
         "2026-08-07": 241.27999877929688,
         "2026-08-14": 238.1999969482422,
-        "2026-08-21": 225.1999969482422
+        "2026-08-21": 225.3000030517578
       },
       "monthly": {
         "2016-06-30": 36.5,
@@ -9748,7 +9748,7 @@
         "2026-07-31": 183.6199951171875,
         "2026-08-07": 206.16000366210938,
         "2026-08-14": 207.97000122070312,
-        "2026-08-21": 218.61000061035156
+        "2026-08-21": 218.67999267578125
       },
       "monthly": {
         "2011-08-31": 54.5099983215332,
@@ -9931,7 +9931,7 @@
         "2026-07-31": 129.8699951171875,
         "2026-08-07": 147.02000427246094,
         "2026-08-14": 150.52000427246094,
-        "2026-08-21": 146.49000549316406
+        "2026-08-21": 146.47000122070312
       },
       "monthly": {
         "2011-08-31": 28.06999969482422,
@@ -10114,7 +10114,7 @@
         "2026-07-31": 223.64999389648438,
         "2026-08-07": 237.27999877929688,
         "2026-08-14": 234.32000732421875,
-        "2026-08-21": 235.61669921875
+        "2026-08-21": 235.67999267578125
       },
       "monthly": {
         "2011-08-31": 164.3498992919922,
@@ -12310,7 +12310,7 @@
         "2026-07-31": 44.77000045776367,
         "2026-08-07": 42.77000045776367,
         "2026-08-14": 42.91999816894531,
-        "2026-08-21": 41.33000183105469
+        "2026-08-21": 41.34000015258789
       },
       "monthly": {
         "2011-08-31": 28.18000030517578,
@@ -13768,7 +13768,7 @@
         "2026-07-31": 11.819999694824219,
         "2026-08-07": 12.720000267028809,
         "2026-08-14": 13.989999771118164,
-        "2026-08-21": 13.539999961853027
+        "2026-08-21": 13.550000190734863
       },
       "monthly": {
         "2011-08-31": 4.395999908447266,
@@ -14230,7 +14230,7 @@
         "2026-07-31": 351.7900085449219,
         "2026-08-07": 357.5199890136719,
         "2026-08-14": 362.8399963378906,
-        "2026-08-21": 351.57000732421875
+        "2026-08-21": 351.5799865722656
       },
       "monthly": {
         "2011-08-31": 37.560001373291016,
@@ -14413,7 +14413,7 @@
         "2026-07-31": 61.95000076293945,
         "2026-08-07": 63.16999816894531,
         "2026-08-14": 64.48999786376953,
-        "2026-08-21": 61.70000076293945
+        "2026-08-21": 61.689998626708984
       },
       "monthly": {
         "2011-08-31": 8.170000076293945,
@@ -14596,7 +14596,7 @@
         "2026-07-31": 86.44999694824219,
         "2026-08-07": 87.25,
         "2026-08-14": 88.81999969482422,
-        "2026-08-21": 83.8499984741211
+        "2026-08-21": 83.83999633789062
       },
       "monthly": {
         "2011-08-31": 26.100000381469727,
@@ -14779,7 +14779,7 @@
         "2026-07-31": 1018.3800048828125,
         "2026-08-07": 1039.6099853515625,
         "2026-08-14": 1039.4200439453125,
-        "2026-08-21": 1039.4100341796875
+        "2026-08-21": 1039.280029296875
       },
       "monthly": {
         "2011-08-31": 116.22000122070312,
@@ -14962,7 +14962,7 @@
         "2026-07-31": 210.4199981689453,
         "2026-08-07": 216.3300018310547,
         "2026-08-14": 217.36000061035156,
-        "2026-08-21": 214.16000366210938
+        "2026-08-21": 214.1999969482422
       },
       "monthly": {
         "2011-08-31": 17.5,
@@ -15145,7 +15145,7 @@
         "2026-07-31": 366.1300048828125,
         "2026-08-07": 362.5,
         "2026-08-14": 364.1499938964844,
-        "2026-08-21": 371.1300048828125
+        "2026-08-21": 371.0400085449219
       },
       "monthly": {
         "2011-08-31": 21.969999313354492,
@@ -15328,7 +15328,7 @@
         "2026-07-31": 573.0999755859375,
         "2026-08-07": 562.9500122070312,
         "2026-08-14": 569.2899780273438,
-        "2026-08-21": 580.60498046875
+        "2026-08-21": 580.6300048828125
       },
       "monthly": {
         "2011-08-31": 32.97100067138672,
@@ -15511,7 +15511,7 @@
         "2026-07-31": 336.25,
         "2026-08-07": 340.9100036621094,
         "2026-08-14": 342.4800109863281,
-        "2026-08-21": 335.9549865722656
+        "2026-08-21": 336
       },
       "monthly": {
         "2011-08-31": 49.709999084472656,
@@ -15698,7 +15698,7 @@
         "2026-07-31": 132.4499969482422,
         "2026-08-07": 135,
         "2026-08-14": 139.3300018310547,
-        "2026-08-21": 131.66000366210938
+        "2026-08-21": 131.64999389648438
       },
       "monthly": {
         "2011-08-31": 31.049999237060547,
@@ -15881,7 +15881,7 @@
         "2026-07-31": 63.0099983215332,
         "2026-08-07": 63.939998626708984,
         "2026-08-14": 65.41999816894531,
-        "2026-08-21": 62.05500030517578
+        "2026-08-21": 62.04999923706055
       },
       "monthly": {
         "2011-08-31": 23.209999084472656,
@@ -16064,7 +16064,7 @@
         "2026-07-31": 249.8699951171875,
         "2026-08-07": 252.55999755859375,
         "2026-08-14": 256.9700012207031,
-        "2026-08-21": 243.11000061035156
+        "2026-08-21": 243.1300048828125
       },
       "monthly": {
         "2011-08-31": 50.13999938964844,
@@ -16430,7 +16430,7 @@
         "2026-07-31": 105.23999786376953,
         "2026-08-07": 107.5999984741211,
         "2026-08-14": 111.08999633789062,
-        "2026-08-21": 112.29499816894531
+        "2026-08-21": 112.30000305175781
       },
       "monthly": {
         "2011-08-31": 12.350000381469727,
@@ -16613,7 +16613,7 @@
         "2026-07-31": 478.3800048828125,
         "2026-08-07": 477.75,
         "2026-08-14": 484.9599914550781,
-        "2026-08-21": 503.239990234375
+        "2026-08-21": 503.32000732421875
       },
       "monthly": {
         "2011-08-31": 30.829999923706055,
@@ -16796,7 +16796,7 @@
         "2026-07-31": 411.92999267578125,
         "2026-08-07": 408.19000244140625,
         "2026-08-14": 418.79998779296875,
-        "2026-08-21": 431.1000061035156
+        "2026-08-21": 431.2900085449219
       },
       "monthly": {
         "2011-08-31": 39.839168548583984,
@@ -17162,7 +17162,7 @@
         "2026-07-31": 152.47999572753906,
         "2026-08-07": 150.3000030517578,
         "2026-08-14": 154.72999572753906,
-        "2026-08-21": 161.27000427246094
+        "2026-08-21": 161.25
       },
       "monthly": {
         "2011-08-31": 23.59000015258789,
@@ -17345,7 +17345,7 @@
         "2026-07-31": 1090.3900146484375,
         "2026-08-07": 1136.3900146484375,
         "2026-08-14": 1173.72998046875,
-        "2026-08-21": 1156.175048828125
+        "2026-08-21": 1156.550048828125
       },
       "monthly": {
         "2011-08-31": 164.75,
@@ -17528,7 +17528,7 @@
         "2026-07-31": 26.350000381469727,
         "2026-08-07": 26.739999771118164,
         "2026-08-14": 26.360000610351562,
-        "2026-08-21": 26.514999389648438
+        "2026-08-21": 26.510000228881836
       },
       "monthly": {
         "2018-01-31": 22,
@@ -17656,7 +17656,7 @@
         "2026-07-31": 25.030000686645508,
         "2026-08-07": 25.579999923706055,
         "2026-08-14": 24.559999465942383,
-        "2026-08-21": 24.450000762939453
+        "2026-08-21": 24.43000030517578
       },
       "monthly": {
         "2011-08-31": 18.030000686645508,
@@ -17839,7 +17839,7 @@
         "2026-07-31": 127.4800033569336,
         "2026-08-07": 124.61000061035156,
         "2026-08-14": 121.44999694824219,
-        "2026-08-21": 116.06099700927734
+        "2026-08-21": 116.06999969482422
       },
       "monthly": {
         "2011-08-31": 18.860000610351562,
@@ -18022,7 +18022,7 @@
         "2026-07-31": 96.12999725341797,
         "2026-08-07": 97.7699966430664,
         "2026-08-14": 97.66000366210938,
-        "2026-08-21": 94.37000274658203
+        "2026-08-21": 94.33999633789062
       },
       "monthly": {
         "2011-08-31": 29.946523666381836,
@@ -18205,7 +18205,7 @@
         "2026-07-31": 122.08000183105469,
         "2026-08-07": 121.27999877929688,
         "2026-08-14": 125.12999725341797,
-        "2026-08-21": 121.19000244140625
+        "2026-08-21": 121.1500015258789
       },
       "monthly": {
         "2011-08-31": 50.209999084472656,
@@ -18571,7 +18571,7 @@
         "2026-07-31": 264.0799865722656,
         "2026-08-07": 267,
         "2026-08-14": 261.4100036621094,
-        "2026-08-21": 253.80999755859375
+        "2026-08-21": 253.8300018310547
       },
       "monthly": {
         "2011-08-31": 26.229999542236328,
@@ -18754,7 +18754,7 @@
         "2026-07-31": 141.91000366210938,
         "2026-08-07": 143.27999877929688,
         "2026-08-14": 138.02000427246094,
-        "2026-08-21": 136.05999755859375
+        "2026-08-21": 136.10000610351562
       },
       "monthly": {
         "2011-08-31": 19.139999389648438,
@@ -18937,7 +18937,7 @@
         "2026-07-31": 350.67999267578125,
         "2026-08-07": 350.30999755859375,
         "2026-08-14": 343.6400146484375,
-        "2026-08-21": 341
+        "2026-08-21": 340.989990234375
       },
       "monthly": {
         "2011-08-31": 64.58000183105469,
@@ -19120,7 +19120,7 @@
         "2026-07-31": 360.54998779296875,
         "2026-08-07": 358.29998779296875,
         "2026-08-14": 355.8299865722656,
-        "2026-08-21": 355.1600036621094
+        "2026-08-21": 355.1099853515625
       },
       "monthly": {
         "2011-08-31": 46.72999954223633,
@@ -19311,7 +19311,7 @@
         "2026-07-31": 70.4000015258789,
         "2026-08-07": 71.43000030517578,
         "2026-08-14": 70.54000091552734,
-        "2026-08-21": 72.9000015258789
+        "2026-08-21": 72.91999816894531
       },
       "monthly": {
         "2011-08-31": 10.505000114440918,
@@ -19494,7 +19494,7 @@
         "2026-07-31": 30.950000762939453,
         "2026-08-07": 31.43000030517578,
         "2026-08-14": 31.899999618530273,
-        "2026-08-21": 30.405000686645508
+        "2026-08-21": 30.40999984741211
       },
       "monthly": {
         "2011-08-31": 4.539999961853027,
@@ -19677,7 +19677,7 @@
         "2026-07-31": 22.59000015258789,
         "2026-08-07": 22.729999542236328,
         "2026-08-14": 23.309999465942383,
-        "2026-08-21": 21.8799991607666
+        "2026-08-21": 21.8700008392334
       },
       "monthly": {
         "2011-08-31": 6.639999866485596,
@@ -20043,7 +20043,7 @@
         "2026-07-31": 71.6500015258789,
         "2026-08-07": 72.66999816894531,
         "2026-08-14": 74.7300033569336,
-        "2026-08-21": 69.86100006103516
+        "2026-08-21": 69.86000061035156
       },
       "monthly": {
         "2014-09-30": 23.420000076293945,
@@ -20199,7 +20199,7 @@
         "2026-07-31": 184.16000366210938,
         "2026-08-07": 184.67999267578125,
         "2026-08-14": 191.74000549316406,
-        "2026-08-21": 187.13999938964844
+        "2026-08-21": 187.1300048828125
       },
       "monthly": {
         "2011-08-31": 35.52000045776367,
@@ -20748,7 +20748,7 @@
         "2026-07-31": 57.56999969482422,
         "2026-08-07": 62.689998626708984,
         "2026-08-14": 58.56999969482422,
-        "2026-08-21": 54.279998779296875
+        "2026-08-21": 54.2599983215332
       },
       "monthly": {
         "2017-05-31": 38.709999084472656,
@@ -20882,7 +20882,7 @@
         "2026-07-31": 414.3999938964844,
         "2026-08-07": 407.0799865722656,
         "2026-08-14": 401.7300109863281,
-        "2026-08-21": 390.04998779296875
+        "2026-08-21": 390.1099853515625
       },
       "monthly": {
         "2011-08-31": 47.52000045776367,
@@ -21065,7 +21065,7 @@
         "2026-07-31": 256.3500061035156,
         "2026-08-07": 259.239990234375,
         "2026-08-14": 260.3500061035156,
-        "2026-08-21": 270.2950134277344
+        "2026-08-21": 270.239990234375
       },
       "monthly": {
         "2011-08-31": 65.80000305175781,
@@ -21248,7 +21248,7 @@
         "2026-07-31": 25.010000228881836,
         "2026-08-07": 26.760000228881836,
         "2026-08-14": 26.790000915527344,
-        "2026-08-21": 28.065000534057617
+        "2026-08-21": 28.06999969482422
       },
       "monthly": {
         "2011-08-31": 18.00758934020996,
@@ -21431,7 +21431,7 @@
         "2026-07-31": 250.94000244140625,
         "2026-08-07": 246.0399932861328,
         "2026-08-14": 249.4600067138672,
-        "2026-08-21": 264.94000244140625
+        "2026-08-21": 264.9599914550781
       },
       "monthly": {
         "2013-01-31": 36.689998626708984,
@@ -21601,7 +21601,7 @@
         "2026-07-31": 1148.8399658203125,
         "2026-08-07": 1185.7099609375,
         "2026-08-14": 1180.1600341796875,
-        "2026-08-21": 1254.77001953125
+        "2026-08-21": 1255.4000244140625
       },
       "monthly": {
         "2011-08-31": 37.5099983215332,
@@ -21784,7 +21784,7 @@
         "2026-07-31": 130.1999969482422,
         "2026-08-07": 128.5800018310547,
         "2026-08-14": 135.83999633789062,
-        "2026-08-21": 152.52000427246094
+        "2026-08-21": 152.5500030517578
       },
       "monthly": {
         "2011-08-31": 31.583969116210938,
@@ -21967,7 +21967,7 @@
         "2026-07-31": 574.2999877929688,
         "2026-08-07": 594,
         "2026-08-14": 588.2899780273438,
-        "2026-08-21": 629.1099853515625
+        "2026-08-21": 629.27001953125
       },
       "monthly": {
         "2011-08-31": 54.93000030517578,
@@ -22150,7 +22150,7 @@
         "2026-07-31": 105.69999694824219,
         "2026-08-07": 107.80999755859375,
         "2026-08-14": 111.25,
-        "2026-08-21": 116.62999725341797
+        "2026-08-21": 116.63999938964844
       },
       "monthly": {
         "2011-08-31": 25.194297790527344,
@@ -22333,7 +22333,7 @@
         "2026-07-31": 65.30999755859375,
         "2026-08-07": 64.72000122070312,
         "2026-08-14": 63.83000183105469,
-        "2026-08-21": 67.01499938964844
+        "2026-08-21": 67.01000213623047
       },
       "monthly": {
         "2011-08-31": 29.75,
@@ -22882,7 +22882,7 @@
         "2026-07-31": 104.43000030517578,
         "2026-08-07": 95.69999694824219,
         "2026-08-14": 97.16000366210938,
-        "2026-08-21": 93.01499938964844
+        "2026-08-21": 93.0199966430664
       },
       "monthly": {
         "2011-08-31": 35.90999984741211,
@@ -23248,7 +23248,7 @@
         "2026-07-31": 85.38999938964844,
         "2026-08-07": 87.16000366210938,
         "2026-08-14": 91.2699966430664,
-        "2026-08-21": 93.33999633789062
+        "2026-08-21": 93.3499984741211
       },
       "monthly": {
         "2011-08-31": 35.06999969482422,
@@ -23431,7 +23431,7 @@
         "2026-07-31": 325.70001220703125,
         "2026-08-07": 339.0299987792969,
         "2026-08-14": 339.2099914550781,
-        "2026-08-21": 329.2330017089844
+        "2026-08-21": 329.45001220703125
       },
       "monthly": {
         "2011-08-31": 48.84000015258789,
@@ -23614,7 +23614,7 @@
         "2026-07-31": 77.29000091552734,
         "2026-08-07": 72.66000366210938,
         "2026-08-14": 73.79000091552734,
-        "2026-08-21": 77.73999786376953
+        "2026-08-21": 77.7300033569336
       },
       "monthly": {
         "2013-02-28": 33.45000076293945,
@@ -24452,7 +24452,7 @@
         "2026-07-31": 194.97999572753906,
         "2026-08-07": 204.75999450683594,
         "2026-08-14": 202.4499969482422,
-        "2026-08-21": 218.8699951171875
+        "2026-08-21": 218.85000610351562
       },
       "monthly": {
         "2011-08-31": 30.789766311645508,
@@ -24635,7 +24635,7 @@
         "2026-07-31": 86.06999969482422,
         "2026-08-07": 89.72000122070312,
         "2026-08-14": 91.5999984741211,
-        "2026-08-21": 89.80000305175781
+        "2026-08-21": 89.79000091552734
       },
       "monthly": {
         "2011-08-31": 12.574999809265137,
@@ -25001,7 +25001,7 @@
         "2026-07-31": 235.02000427246094,
         "2026-08-07": 238.6999969482422,
         "2026-08-14": 236.66000366210938,
-        "2026-08-21": 260.07000732421875
+        "2026-08-21": 259.82000732421875
       },
       "monthly": {
         "2013-05-31": 44.040000915527344,
@@ -25538,7 +25538,7 @@
         "2026-07-31": 233.00999450683594,
         "2026-08-07": 238.35000610351562,
         "2026-08-14": 234.39999389648438,
-        "2026-08-21": 244.33999633789062
+        "2026-08-21": 244.38999938964844
       },
       "monthly": {
         "2011-08-31": 50.06999969482422,
@@ -25721,7 +25721,7 @@
         "2026-07-31": 309.20001220703125,
         "2026-08-07": 319.1700134277344,
         "2026-08-14": 318.1300048828125,
-        "2026-08-21": 336.2200012207031
+        "2026-08-21": 336.3399963378906
       },
       "monthly": {
         "2011-08-31": 71.76116943359375,
@@ -26087,7 +26087,7 @@
         "2026-07-31": 402.5899963378906,
         "2026-08-07": 413.3599853515625,
         "2026-08-14": 404.67999267578125,
-        "2026-08-21": 429.1700134277344
+        "2026-08-21": 429.19000244140625
       },
       "monthly": {
         "2011-08-31": 20.030000686645508,
@@ -26270,7 +26270,7 @@
         "2026-07-31": 62.220001220703125,
         "2026-08-07": 65.7699966430664,
         "2026-08-14": 67.47000122070312,
-        "2026-08-21": 64.99539947509766
+        "2026-08-21": 65.0199966430664
       },
       "monthly": {
         "2011-08-31": 7.972499847412109,
@@ -26453,7 +26453,7 @@
         "2026-07-31": 363.8599853515625,
         "2026-08-07": 385,
         "2026-08-14": 389.04998779296875,
-        "2026-08-21": 378.7799987792969
+        "2026-08-21": 378.8800048828125
       },
       "monthly": {
         "2011-08-31": 77.63999938964844,
@@ -26636,7 +26636,7 @@
         "2026-07-31": 279.04998779296875,
         "2026-08-07": 282.489990234375,
         "2026-08-14": 282.55999755859375,
-        "2026-08-21": 277.4700012207031
+        "2026-08-21": 277.510009765625
       },
       "monthly": {
         "2011-08-31": 46.7400016784668,
@@ -26819,7 +26819,7 @@
         "2026-07-31": 195.6199951171875,
         "2026-08-07": 196.4499969482422,
         "2026-08-14": 212.42999267578125,
-        "2026-08-21": 200.39999389648438
+        "2026-08-21": 200.2899932861328
       },
       "monthly": {
         "2011-08-31": 19.229999542236328,
@@ -27002,7 +27002,7 @@
         "2026-07-31": 78.69999694824219,
         "2026-08-07": 85.23999786376953,
         "2026-08-14": 87.56999969482422,
-        "2026-08-21": 87.52999877929688
+        "2026-08-21": 87.54000091552734
       },
       "monthly": {
         "2011-08-31": 40.54999923706055,
@@ -27189,7 +27189,7 @@
         "2026-07-31": 112.5199966430664,
         "2026-08-07": 114.66000366210938,
         "2026-08-14": 116.83999633789062,
-        "2026-08-21": 124.70999908447266
+        "2026-08-21": 124.75
       },
       "monthly": {
         "2011-08-31": 22.8700008392334,
@@ -27657,7 +27657,7 @@
         "2026-07-31": 144.49000549316406,
         "2026-08-07": 145.7899932861328,
         "2026-08-14": 144.5500030517578,
-        "2026-08-21": 144.69000244140625
+        "2026-08-21": 144.67999267578125
       },
       "monthly": {
         "2011-08-31": 63.68000030517578,
@@ -27840,7 +27840,7 @@
         "2026-07-31": 87.58999633789062,
         "2026-08-07": 87.05000305175781,
         "2026-08-14": 87.70999908447266,
-        "2026-08-21": 91.09500122070312
+        "2026-08-21": 91.0999984741211
       },
       "monthly": {
         "2011-08-31": 35.224998474121094,
@@ -28206,7 +28206,7 @@
         "2026-07-31": 270.6400146484375,
         "2026-08-07": 274.4800109863281,
         "2026-08-14": 272.8299865722656,
-        "2026-08-21": 270.94000244140625
+        "2026-08-21": 270.95001220703125
       },
       "monthly": {
         "2011-08-31": 90.41000366210938,
@@ -28572,7 +28572,7 @@
         "2026-07-31": 41.709999084472656,
         "2026-08-07": 41.70000076293945,
         "2026-08-14": 40.72999954223633,
-        "2026-08-21": 40.755001068115234
+        "2026-08-21": 40.7599983215332
       },
       "monthly": {
         "2011-08-31": 21.662500381469727,
@@ -28755,7 +28755,7 @@
         "2026-07-31": 96.19000244140625,
         "2026-08-07": 104.91000366210938,
         "2026-08-14": 106.8499984741211,
-        "2026-08-21": 107.7750015258789
+        "2026-08-21": 107.77999877929688
       },
       "monthly": {
         "2011-08-31": 34.060001373291016,
@@ -29121,7 +29121,7 @@
         "2026-07-31": 23.25,
         "2026-08-07": 23.790000915527344,
         "2026-08-14": 24.889999389648438,
-        "2026-08-21": 25.309999465942383
+        "2026-08-21": 25.290000915527344
       },
       "monthly": {
         "2011-08-31": 21.510574340820312,
@@ -29670,7 +29670,7 @@
         "2026-07-31": 331.9599914550781,
         "2026-08-07": 355.6199951171875,
         "2026-08-14": 338.8599853515625,
-        "2026-08-21": 335.7049865722656
+        "2026-08-21": 335.6099853515625
       },
       "monthly": {
         "2011-08-31": 33.380001068115234,
@@ -29853,7 +29853,7 @@
         "2026-07-31": 207.80999755859375,
         "2026-08-07": 223.35000610351562,
         "2026-08-14": 218.47000122070312,
-        "2026-08-21": 216.02999877929688
+        "2026-08-21": 216.08999633789062
       },
       "monthly": {
         "2011-08-31": 19.93000030517578,
@@ -30219,7 +30219,7 @@
         "2026-07-31": 144.49000549316406,
         "2026-08-07": 149.6999969482422,
         "2026-08-14": 154.47999572753906,
-        "2026-08-21": 165.4199981689453
+        "2026-08-21": 165.44000244140625
       },
       "monthly": {
         "2011-08-31": 51.66999816894531,
@@ -30951,7 +30951,7 @@
         "2026-07-31": 127.05000305175781,
         "2026-08-07": 126.58999633789062,
         "2026-08-14": 123.27999877929688,
-        "2026-08-21": 123.37999725341797
+        "2026-08-21": 123.41000366210938
       },
       "monthly": {
         "2011-08-31": 36.599998474121094,
@@ -31504,7 +31504,7 @@
         "2026-07-31": 3016.25,
         "2026-08-07": 3127.2900390625,
         "2026-08-14": 3025,
-        "2026-08-21": 2959.469970703125
+        "2026-08-21": 2957.949951171875
       },
       "monthly": {
         "2011-08-31": 307,
@@ -32236,7 +32236,7 @@
         "2026-07-31": 124.37000274658203,
         "2026-08-07": 135.6300048828125,
         "2026-08-14": 135.02999877929688,
-        "2026-08-21": 133.91000366210938
+        "2026-08-21": 133.9600067138672
       },
       "monthly": {
         "2011-08-31": 55.02000045776367,
@@ -32419,7 +32419,7 @@
         "2026-07-31": 14.970000267028809,
         "2026-08-07": 16.829999923706055,
         "2026-08-14": 16.420000076293945,
-        "2026-08-21": 16.579999923706055
+        "2026-08-21": 16.56999969482422
       },
       "monthly": {
         "2011-08-31": 16.899999618530273,
@@ -32602,7 +32602,7 @@
         "2026-07-31": 157.33999633789062,
         "2026-08-07": 161.36000061035156,
         "2026-08-14": 152.11000061035156,
-        "2026-08-21": 140.5
+        "2026-08-21": 140.52999877929688
       },
       "monthly": {
         "2011-08-31": 13.654999732971191,
@@ -33136,7 +33136,7 @@
         "2026-07-31": 24.81999969482422,
         "2026-08-07": 25.399999618530273,
         "2026-08-14": 23.40999984741211,
-        "2026-08-21": 22.899999618530273
+        "2026-08-21": 22.81999969482422
       },
       "monthly": {
         "2011-08-31": 25.950000762939453,
@@ -33319,7 +33319,7 @@
         "2026-07-31": 19.139999389648438,
         "2026-08-07": 19.299999237060547,
         "2026-08-14": 19.209999084472656,
-        "2026-08-21": 17.594999313354492
+        "2026-08-21": 17.600000381469727
       },
       "monthly": {
         "2011-08-31": 46.34000015258789,
@@ -33689,7 +33689,7 @@
         "2026-07-31": 37.220001220703125,
         "2026-08-07": 32.790000915527344,
         "2026-08-14": 33.5,
-        "2026-08-21": 36.880001068115234
+        "2026-08-21": 36.900001525878906
       },
       "monthly": {
         "2011-08-31": 6.267399787902832,
@@ -34055,7 +34055,7 @@
         "2026-07-31": 44.56999969482422,
         "2026-08-07": 44.470001220703125,
         "2026-08-14": 44.099998474121094,
-        "2026-08-21": 43.75
+        "2026-08-21": 43.7400016784668
       },
       "monthly": {
         "2011-08-31": 11.069999694824219,
@@ -35462,7 +35462,7 @@
         "2026-07-31": 814.8099975585938,
         "2026-08-07": 842.1900024414062,
         "2026-08-14": 856.5700073242188,
-        "2026-08-21": 827.9099731445312
+        "2026-08-21": 827.9000244140625
       },
       "monthly": {
         "2011-08-31": 91,
@@ -36011,7 +36011,7 @@
         "2026-07-31": 307.3999938964844,
         "2026-08-07": 318.57000732421875,
         "2026-08-14": 334.6400146484375,
-        "2026-08-21": 325.1499938964844
+        "2026-08-21": 325.0799865722656
       },
       "monthly": {
         "2011-08-31": 63.432716369628906,
@@ -36194,7 +36194,7 @@
         "2026-07-31": 215.22000122070312,
         "2026-08-07": 223.02999877929688,
         "2026-08-14": 222.97000122070312,
-        "2026-08-21": 209.97999572753906
+        "2026-08-21": 209.91000366210938
       },
       "monthly": {
         "2011-08-31": 46.727500915527344,
@@ -36377,7 +36377,7 @@
         "2026-07-31": 360.07000732421875,
         "2026-08-07": 370.0799865722656,
         "2026-08-14": 368.3800048828125,
-        "2026-08-21": 348.44000244140625
+        "2026-08-21": 348.3699951171875
       },
       "monthly": {
         "2011-08-31": 78.16465759277344,
@@ -36560,7 +36560,7 @@
         "2026-07-31": 176.27999877929688,
         "2026-08-07": 182.89999389648438,
         "2026-08-14": 182.64999389648438,
-        "2026-08-21": 178.9499969482422
+        "2026-08-21": 178.9600067138672
       },
       "monthly": {
         "2011-08-31": 69.38127136230469,
@@ -36743,7 +36743,7 @@
         "2026-07-31": 149.82000732421875,
         "2026-08-07": 158.25999450683594,
         "2026-08-14": 163.1699981689453,
-        "2026-08-21": 157.27000427246094
+        "2026-08-21": 157.25999450683594
       },
       "monthly": {
         "2011-08-31": 46.54999923706055,
@@ -36926,7 +36926,7 @@
         "2026-07-31": 592.6699829101562,
         "2026-08-07": 620.8300170898438,
         "2026-08-14": 608.8499755859375,
-        "2026-08-21": 647.72998046875
+        "2026-08-21": 647.469970703125
       },
       "monthly": {
         "2011-08-31": 80.81999969482422,
@@ -37109,7 +37109,7 @@
         "2026-07-31": 634.2000122070312,
         "2026-08-07": 644.260009765625,
         "2026-08-14": 631.260009765625,
-        "2026-08-21": 587.5549926757812
+        "2026-08-21": 587.6799926757812
       },
       "monthly": {
         "2011-08-31": 92.91999816894531,
@@ -37292,7 +37292,7 @@
         "2026-07-31": 94.58000183105469,
         "2026-08-07": 103.88999938964844,
         "2026-08-14": 102.06999969482422,
-        "2026-08-21": 100
+        "2026-08-21": 100.0199966430664
       },
       "monthly": {
         "2011-08-31": 61.97999954223633,
@@ -37475,7 +37475,7 @@
         "2026-07-31": 286.95001220703125,
         "2026-08-07": 296.6600036621094,
         "2026-08-14": 290.80999755859375,
-        "2026-08-21": 282.2950134277344
+        "2026-08-21": 282.2900085449219
       },
       "monthly": {
         "2011-08-31": 46.540000915527344,
@@ -37658,7 +37658,7 @@
         "2026-07-31": 415.20001220703125,
         "2026-08-07": 448.67999267578125,
         "2026-08-14": 451.510009765625,
-        "2026-08-21": 419.25
+        "2026-08-21": 419.20001220703125
       },
       "monthly": {
         "2011-08-31": 42.95000076293945,
@@ -37841,7 +37841,7 @@
         "2026-07-31": 160.6999969482422,
         "2026-08-07": 169.17999267578125,
         "2026-08-14": 167.11000061035156,
-        "2026-08-21": 157
+        "2026-08-21": 157.00999450683594
       },
       "monthly": {
         "2011-08-31": 5.872499942779541,
@@ -38024,7 +38024,7 @@
         "2026-07-31": 976.530029296875,
         "2026-08-07": 1073.8699951171875,
         "2026-08-14": 1055.8499755859375,
-        "2026-08-21": 1002.14501953125
+        "2026-08-21": 1001.739990234375
       },
       "monthly": {
         "2011-08-31": 73.43000030517578,
@@ -38500,7 +38500,7 @@
         "2026-07-31": 71.94999694824219,
         "2026-08-07": 73.98999786376953,
         "2026-08-14": 72.62999725341797,
-        "2026-08-21": 71.4749984741211
+        "2026-08-21": 71.48999786376953
       },
       "monthly": {
         "2020-03-31": 50,
@@ -38793,7 +38793,7 @@
         "2026-07-31": 210.5500030517578,
         "2026-08-07": 214.55999755859375,
         "2026-08-14": 214.7100067138672,
-        "2026-08-21": 220.63999938964844
+        "2026-08-21": 220.6699981689453
       },
       "monthly": {
         "2011-08-31": 30.360000610351562,
@@ -39525,7 +39525,7 @@
         "2026-07-31": 667.3599853515625,
         "2026-08-07": 671.8599853515625,
         "2026-08-14": 685.780029296875,
-        "2026-08-21": 639.3300170898438
+        "2026-08-21": 639.3400268554688
       },
       "monthly": {
         "2011-08-31": 19.190000534057617,
@@ -39891,7 +39891,7 @@
         "2026-07-31": 59.209999084472656,
         "2026-08-07": 61.709999084472656,
         "2026-08-14": 61.619998931884766,
-        "2026-08-21": 60.06999969482422
+        "2026-08-21": 60.08000183105469
       },
       "monthly": {
         "2016-08-31": 33.21425247192383,
@@ -40032,7 +40032,7 @@
         "2026-07-31": 241.7100067138672,
         "2026-08-07": 253.66000366210938,
         "2026-08-14": 254.7899932861328,
-        "2026-08-21": 239.57000732421875
+        "2026-08-21": 239.5500030517578
       },
       "monthly": {
         "2011-08-31": 26.053333282470703,
@@ -40396,7 +40396,7 @@
         "2026-07-31": 115.5999984741211,
         "2026-08-07": 137.57000732421875,
         "2026-08-14": 143.8300018310547,
-        "2026-08-21": 141.5
+        "2026-08-21": 141.38999938964844
       },
       "monthly": {
         "2011-08-31": 37.03703689575195,
@@ -40579,7 +40579,7 @@
         "2026-07-31": 290.8599853515625,
         "2026-08-07": 291.80999755859375,
         "2026-08-14": 299.0199890136719,
-        "2026-08-21": 297.6400146484375
+        "2026-08-21": 297.57000732421875
       },
       "monthly": {
         "2011-08-31": 30.44499969482422,
@@ -40945,7 +40945,7 @@
         "2026-07-31": 83.37999725341797,
         "2026-08-07": 86.97000122070312,
         "2026-08-14": 83.33999633789062,
-        "2026-08-21": 80.53500366210938
+        "2026-08-21": 80.51000213623047
       },
       "monthly": {
         "2017-05-31": 22.93000030517578,
@@ -41079,7 +41079,7 @@
         "2026-07-31": 454.95001220703125,
         "2026-08-07": 482.30999755859375,
         "2026-08-14": 480.20001220703125,
-        "2026-08-21": 453.3699951171875
+        "2026-08-21": 453.42999267578125
       },
       "monthly": {
         "2011-08-31": 20.76429557800293,
@@ -41262,7 +41262,7 @@
         "2026-07-31": 1254.3800048828125,
         "2026-08-07": 1225.25,
         "2026-08-14": 1256.9000244140625,
-        "2026-08-21": 1200.4239501953125
+        "2026-08-21": 1200.3499755859375
       },
       "monthly": {
         "2011-08-31": 91.86000061035156,
@@ -41445,7 +41445,7 @@
         "2026-07-31": 44.970001220703125,
         "2026-08-07": 47.04999923706055,
         "2026-08-14": 44.2599983215332,
-        "2026-08-21": 40.369998931884766
+        "2026-08-21": 40.380001068115234
       },
       "monthly": {
         "2011-08-31": 8.619999885559082,
@@ -41628,7 +41628,7 @@
         "2026-07-31": 87.44000244140625,
         "2026-08-07": 91.33999633789062,
         "2026-08-14": 89.3499984741211,
-        "2026-08-21": 82.41999816894531
+        "2026-08-21": 82.41000366210938
       },
       "monthly": {
         "2011-08-31": 7.53000020980835,
@@ -42177,7 +42177,7 @@
         "2026-07-31": 47.45000076293945,
         "2026-08-07": 49.959999084472656,
         "2026-08-14": 45.959999084472656,
-        "2026-08-21": 40.380001068115234
+        "2026-08-21": 40.40999984741211
       },
       "monthly": {
         "2011-08-31": 14.432499885559082,
@@ -42547,7 +42547,7 @@
         "2026-07-31": 335.4800109863281,
         "2026-08-07": 334.3599853515625,
         "2026-08-14": 334.4100036621094,
-        "2026-08-21": 350.7749938964844
+        "2026-08-21": 350.7200012207031
       },
       "monthly": {
         "2011-08-31": 67.68000030517578,
@@ -42730,7 +42730,7 @@
         "2026-07-31": 292.1300048828125,
         "2026-08-07": 293.1300048828125,
         "2026-08-14": 293.67999267578125,
-        "2026-08-21": 308.0950012207031
+        "2026-08-21": 308.04998779296875
       },
       "monthly": {
         "2011-08-31": 46.084999084472656,
@@ -43096,7 +43096,7 @@
         "2026-07-31": 110.5199966430664,
         "2026-08-07": 119.72000122070312,
         "2026-08-14": 114.11000061035156,
-        "2026-08-21": 113.62699890136719
+        "2026-08-21": 113.62999725341797
       },
       "monthly": {
         "2011-08-31": 38.29499816894531,
@@ -43279,7 +43279,7 @@
         "2026-07-31": 340.8500061035156,
         "2026-08-07": 369.7300109863281,
         "2026-08-14": 359.1000061035156,
-        "2026-08-21": 346.6199951171875
+        "2026-08-21": 346.5899963378906
       },
       "monthly": {
         "2011-08-31": 25.246667861938477,
@@ -43462,7 +43462,7 @@
         "2026-07-31": 169.72999572753906,
         "2026-08-07": 177.17999267578125,
         "2026-08-14": 178.92999267578125,
-        "2026-08-21": 183.6999969482422
+        "2026-08-21": 183.7100067138672
       },
       "monthly": {
         "2011-08-31": 29.110000610351562,
@@ -43645,7 +43645,7 @@
         "2026-07-31": 245.83999633789062,
         "2026-08-07": 256.0400085449219,
         "2026-08-14": 255.47999572753906,
-        "2026-08-21": 252.72999572753906
+        "2026-08-21": 252.7899932861328
       },
       "monthly": {
         "2011-08-31": 25.350000381469727,
@@ -44377,7 +44377,7 @@
         "2026-07-31": 196.8300018310547,
         "2026-08-07": 186.55999755859375,
         "2026-08-14": 200,
-        "2026-08-21": 205.25999450683594
+        "2026-08-21": 205.27000427246094
       },
       "monthly": {
         "2011-08-31": 98.83999633789062,
@@ -44560,7 +44560,7 @@
         "2026-07-31": 120.4800033569336,
         "2026-08-07": 117.61000061035156,
         "2026-08-14": 126.77999877929688,
-        "2026-08-21": 134.9250030517578
+        "2026-08-21": 134.8699951171875
       },
       "monthly": {
         "2011-08-31": 51.89088821411133,
@@ -44743,7 +44743,7 @@
         "2026-07-31": 49.59000015258789,
         "2026-08-07": 50.529998779296875,
         "2026-08-14": 53.77000045776367,
-        "2026-08-21": 53.875
+        "2026-08-21": 53.869998931884766
       },
       "monthly": {
         "2011-08-31": 78.12000274658203,
@@ -44926,7 +44926,7 @@
         "2026-07-31": 148.69000244140625,
         "2026-08-07": 134.74000549316406,
         "2026-08-14": 142.61000061035156,
-        "2026-08-21": 153.05999755859375
+        "2026-08-21": 153.0500030517578
       },
       "monthly": {
         "2011-08-31": 46.29499816894531,
@@ -45109,7 +45109,7 @@
         "2026-07-31": 316.4700012207031,
         "2026-08-07": 298.20001220703125,
         "2026-08-14": 355.4200134277344,
-        "2026-08-21": 360.80999755859375
+        "2026-08-21": 360.7200012207031
       },
       "monthly": {
         "2011-08-31": 18.530000686645508,
@@ -45292,7 +45292,7 @@
         "2026-07-31": 211.67999267578125,
         "2026-08-07": 203.91000366210938,
         "2026-08-14": 233.61000061035156,
-        "2026-08-21": 242.85499572753906
+        "2026-08-21": 242.8699951171875
       },
       "monthly": {
         "2012-04-30": 34.04999923706055,
@@ -45469,7 +45469,7 @@
         "2026-07-31": 312.8999938964844,
         "2026-08-07": 298.30999755859375,
         "2026-08-14": 341.6700134277344,
-        "2026-08-21": 348.8800048828125
+        "2026-08-21": 348.8599853515625
       },
       "monthly": {
         "2011-08-31": 20.767824172973633,
@@ -45652,7 +45652,7 @@
         "2026-07-31": 57.06999969482422,
         "2026-08-07": 55.90999984741211,
         "2026-08-14": 58.36000061035156,
-        "2026-08-21": 61.29499816894531
+        "2026-08-21": 61.29999923706055
       },
       "monthly": {
         "2011-08-31": 83.10224914550781,
@@ -46018,7 +46018,7 @@
         "2026-07-31": 94.54000091552734,
         "2026-08-07": 92.69000244140625,
         "2026-08-14": 92.80000305175781,
-        "2026-08-21": 88.96980285644531
+        "2026-08-21": 88.94000244140625
       },
       "monthly": {
         "2011-08-31": 41.36000061035156,
@@ -46750,7 +46750,7 @@
         "2026-07-31": 88.55000305175781,
         "2026-08-07": 83.87999725341797,
         "2026-08-14": 86.41000366210938,
-        "2026-08-21": 82.88500213623047
+        "2026-08-21": 82.88999938964844
       },
       "monthly": {
         "2011-08-31": 26.260000228881836,
@@ -47116,7 +47116,7 @@
         "2026-07-31": 30.290000915527344,
         "2026-08-07": 29.34000015258789,
         "2026-08-14": 31.06999969482422,
-        "2026-08-21": 32.34000015258789
+        "2026-08-21": 32.349998474121094
       },
       "monthly": {
         "2019-04-30": 56.72999954223633,
@@ -47233,7 +47233,7 @@
         "2026-07-31": 137,
         "2026-08-07": 142.47000122070312,
         "2026-08-14": 146.25999450683594,
-        "2026-08-21": 138.35000610351562
+        "2026-08-21": 138.3300018310547
       },
       "monthly": {
         "2011-08-31": 50.82680892944336,
@@ -47416,7 +47416,7 @@
         "2026-07-31": 62.08000183105469,
         "2026-08-07": 59.59000015258789,
         "2026-08-14": 63.7599983215332,
-        "2026-08-21": 67.53500366210938
+        "2026-08-21": 67.52999877929688
       },
       "monthly": {
         "2011-08-31": 34.650001525878906,
@@ -47599,7 +47599,7 @@
         "2026-07-31": 294.8900146484375,
         "2026-08-07": 303.44000244140625,
         "2026-08-14": 308.9700012207031,
-        "2026-08-21": 305.1300048828125
+        "2026-08-21": 305.1000061035156
       },
       "monthly": {
         "2011-08-31": 75.73542785644531,
@@ -47955,7 +47955,7 @@
         "2026-07-31": 32.25,
         "2026-08-07": 31.889999389648438,
         "2026-08-14": 34.41999816894531,
-        "2026-08-21": 35.31999969482422
+        "2026-08-21": 35.34000015258789
       },
       "monthly": {
         "2011-08-31": 44.369998931884766,
@@ -48882,7 +48882,7 @@
         "2026-07-31": 40.83000183105469,
         "2026-08-07": 41.58000183105469,
         "2026-08-14": 40.7400016784668,
-        "2026-08-21": 41.47999954223633
+        "2026-08-21": 41.4900016784668
       },
       "monthly": {
         "2011-08-31": 25.355253219604492,
@@ -49065,7 +49065,7 @@
         "2026-07-31": 371.5400085449219,
         "2026-08-07": 398.4700012207031,
         "2026-08-14": 401.4800109863281,
-        "2026-08-21": 423.4100036621094
+        "2026-08-21": 423.3599853515625
       },
       "monthly": {
         "2011-08-31": 177.72000122070312,
@@ -49248,7 +49248,7 @@
         "2026-07-31": 52.36000061035156,
         "2026-08-07": 57.5,
         "2026-08-14": 58.47999954223633,
-        "2026-08-21": 62.71500015258789
+        "2026-08-21": 62.720001220703125
       },
       "monthly": {
         "2011-08-31": 40.45000076293945,
@@ -49435,7 +49435,7 @@
         "2026-07-31": 21.530000686645508,
         "2026-08-07": 19.59000015258789,
         "2026-08-14": 20.920000076293945,
-        "2026-08-21": 22.184999465942383
+        "2026-08-21": 22.170000076293945
       },
       "monthly": {
         "2011-08-31": 26.25,
@@ -49618,7 +49618,7 @@
         "2026-07-31": 173.36000061035156,
         "2026-08-07": 172.5399932861328,
         "2026-08-14": 175.5800018310547,
-        "2026-08-21": 175.77000427246094
+        "2026-08-21": 175.8000030517578
       },
       "monthly": {
         "2011-08-31": 53.86000061035156,
@@ -49801,7 +49801,7 @@
         "2026-07-31": 144.61000061035156,
         "2026-08-07": 140.16000366210938,
         "2026-08-14": 141.02999877929688,
-        "2026-08-21": 141.80499267578125
+        "2026-08-21": 141.8000030517578
       },
       "monthly": {
         "2011-08-31": 27.229999542236328,
@@ -49984,7 +49984,7 @@
         "2026-07-31": 76.30000305175781,
         "2026-08-07": 75.58999633789062,
         "2026-08-14": 75.9800033569336,
-        "2026-08-21": 75.51399993896484
+        "2026-08-21": 75.51000213623047
       },
       "monthly": {
         "2011-08-31": 43.43000030517578,
@@ -50350,7 +50350,7 @@
         "2026-07-31": 229.3699951171875,
         "2026-08-07": 222.91000366210938,
         "2026-08-14": 219.5800018310547,
-        "2026-08-21": 218.27999877929688
+        "2026-08-21": 218.2899932861328
       },
       "monthly": {
         "2011-08-31": 110.53621673583984,
@@ -50533,7 +50533,7 @@
         "2026-07-31": 63.869998931884766,
         "2026-08-07": 62.5099983215332,
         "2026-08-14": 62.7400016784668,
-        "2026-08-21": 62.59000015258789
+        "2026-08-21": 62.599998474121094
       },
       "monthly": {
         "2011-08-31": 33.604652404785156,
@@ -50716,7 +50716,7 @@
         "2026-07-31": 234.44000244140625,
         "2026-08-07": 236.9199981689453,
         "2026-08-14": 235.52000427246094,
-        "2026-08-21": 239.26499938964844
+        "2026-08-21": 239.22000122070312
       },
       "monthly": {
         "2011-08-31": 50.959999084472656,
@@ -50899,7 +50899,7 @@
         "2026-07-31": 188.52000427246094,
         "2026-08-07": 193.8000030517578,
         "2026-08-14": 200.14999389648438,
-        "2026-08-21": 190.72300720214844
+        "2026-08-21": 190.6199951171875
       },
       "monthly": {
         "2011-08-31": 59.75,
@@ -51625,7 +51625,7 @@
         "2026-07-31": 76.68000030517578,
         "2026-08-07": 75.66000366210938,
         "2026-08-14": 76.04000091552734,
-        "2026-08-21": 72.61499786376953
+        "2026-08-21": 72.61000061035156
       },
       "monthly": {
         "2011-08-31": 34.130001068115234,
@@ -51808,7 +51808,7 @@
         "2026-07-31": 71.58999633789062,
         "2026-08-07": 72.33000183105469,
         "2026-08-14": 72.36000061035156,
-        "2026-08-21": 70.19499969482422
+        "2026-08-21": 70.20999908447266
       },
       "monthly": {
         "2011-08-31": 34.70000076293945,
@@ -51991,7 +51991,7 @@
         "2026-07-31": 134.1699981689453,
         "2026-08-07": 135.30999755859375,
         "2026-08-14": 136.1999969482422,
-        "2026-08-21": 135.42999267578125
+        "2026-08-21": 135.38999938964844
       },
       "monthly": {
         "2011-08-31": 29.780000686645508,
@@ -52174,7 +52174,7 @@
         "2026-07-31": 44.43000030517578,
         "2026-08-07": 42.61000061035156,
         "2026-08-14": 42.5,
-        "2026-08-21": 40.625
+        "2026-08-21": 40.619998931884766
       },
       "monthly": {
         "2011-08-31": 8.392927169799805,
@@ -52357,7 +52357,7 @@
         "2026-07-31": 107.62000274658203,
         "2026-08-07": 107.18000030517578,
         "2026-08-14": 107.83999633789062,
-        "2026-08-21": 104.5999984741211
+        "2026-08-21": 104.62000274658203
       },
       "monthly": {
         "2011-08-31": 32.60499954223633,
@@ -52540,7 +52540,7 @@
         "2026-07-31": 109.61000061035156,
         "2026-08-07": 108.83999633789062,
         "2026-08-14": 109.73999786376953,
-        "2026-08-21": 106.11000061035156
+        "2026-08-21": 106.12999725341797
       },
       "monthly": {
         "2011-08-31": 30.260000228881836,
@@ -52906,7 +52906,7 @@
         "2026-07-31": 172.77999877929688,
         "2026-08-07": 170.19000244140625,
         "2026-08-14": 169.9199981689453,
-        "2026-08-21": 166.88999938964844
+        "2026-08-21": 166.85000610351562
       },
       "monthly": {
         "2011-08-31": 33.540000915527344,
@@ -53089,7 +53089,7 @@
         "2026-07-31": 42.040000915527344,
         "2026-08-07": 40.68000030517578,
         "2026-08-14": 40.83000183105469,
-        "2026-08-21": 38.76499938964844
+        "2026-08-21": 38.77000045776367
       },
       "monthly": {
         "2011-08-31": 20.010000228881836,
@@ -54004,7 +54004,7 @@
         "2026-07-31": 291.20001220703125,
         "2026-08-07": 301.55999755859375,
         "2026-08-14": 305.0899963378906,
-        "2026-08-21": 299.92999267578125
+        "2026-08-21": 299.9599914550781
       },
       "monthly": {
         "2011-08-31": 72.6500015258789,
@@ -54187,7 +54187,7 @@
         "2026-07-31": 105.58000183105469,
         "2026-08-07": 108.55000305175781,
         "2026-08-14": 108.63999938964844,
-        "2026-08-21": 108.25
+        "2026-08-21": 108.23999786376953
       },
       "monthly": {
         "2011-08-31": 53.56999969482422,
@@ -54553,7 +54553,7 @@
         "2026-07-31": 750.3200073242188,
         "2026-08-07": 776.72998046875,
         "2026-08-14": 780.0399780273438,
-        "2026-08-21": 769.2999877929688
+        "2026-08-21": 769.3099975585938
       },
       "monthly": {
         "2011-08-31": 122.63999938964844,
@@ -55192,7 +55192,7 @@
         "2026-07-31": 52.349998474121094,
         "2026-08-07": 52.599998474121094,
         "2026-08-14": 53.279998779296875,
-        "2026-08-21": 53.220001220703125
+        "2026-08-21": 53.22999954223633
       },
       "monthly": {
         "2012-10-31": 25.059999465942383,
@@ -55365,7 +55365,7 @@
         "2026-07-31": 49.5,
         "2026-08-07": 49.900001525878906,
         "2026-08-14": 50.40999984741211,
-        "2026-08-21": 50.41999816894531
+        "2026-08-21": 50.43000030517578
       },
       "monthly": {
         "2015-11-30": 29.729999542236328,
@@ -55512,7 +55512,7 @@
         "2026-07-31": 215.00999450683594,
         "2026-08-07": 220.08999633789062,
         "2026-08-14": 222.77000427246094,
-        "2026-08-21": 221.66000366210938
+        "2026-08-21": 221.6699981689453
       },
       "monthly": {
         "2011-08-31": 45.689998626708984,
@@ -55695,7 +55695,7 @@
         "2026-07-31": 135.25,
         "2026-08-07": 142.10000610351562,
         "2026-08-14": 141.97999572753906,
-        "2026-08-21": 138.86000061035156
+        "2026-08-21": 138.8300018310547
       },
       "monthly": {
         "2011-08-31": 16.4424991607666,
@@ -56061,7 +56061,7 @@
         "2026-07-31": 304.80999755859375,
         "2026-08-07": 312.1199951171875,
         "2026-08-14": 314.70001220703125,
-        "2026-08-21": 327.6600036621094
+        "2026-08-21": 327.70001220703125
       },
       "monthly": {
         "2011-08-31": 59.59000015258789,
@@ -56244,7 +56244,7 @@
         "2026-07-31": 139.22999572753906,
         "2026-08-07": 140.89999389648438,
         "2026-08-14": 142.6300048828125,
-        "2026-08-21": 140.7050018310547
+        "2026-08-21": 140.72000122070312
       },
       "monthly": {
         "2011-08-31": 28.25,
@@ -56427,7 +56427,7 @@
         "2026-07-31": 344.44000244140625,
         "2026-08-07": 356.8299865722656,
         "2026-08-14": 358.9700012207031,
-        "2026-08-21": 346.0299987792969
+        "2026-08-21": 345.760009765625
       },
       "monthly": {
         "2011-08-31": 60.130001068115234,
@@ -56610,7 +56610,7 @@
         "2026-07-31": 391.29998779296875,
         "2026-08-07": 403.0400085449219,
         "2026-08-14": 398.3500061035156,
-        "2026-08-21": 398.3299865722656
+        "2026-08-21": 397.1300048828125
       },
       "monthly": {
         "2011-08-31": 60.29999923706055,
@@ -56793,7 +56793,7 @@
         "2026-07-31": 230.42999267578125,
         "2026-08-07": 231.22000122070312,
         "2026-08-14": 233.27999877929688,
-        "2026-08-21": 231.77000427246094
+        "2026-08-21": 231.75
       },
       "monthly": {
         "2011-08-31": 78.94999694824219,
@@ -56976,7 +56976,7 @@
         "2026-07-31": 167.97000122070312,
         "2026-08-07": 162.3699951171875,
         "2026-08-14": 174.67999267578125,
-        "2026-08-21": 179.50999450683594
+        "2026-08-21": 179.5800018310547
       },
       "monthly": {
         "2011-08-31": 100.29000091552734,
@@ -57159,7 +57159,7 @@
         "2026-07-31": 222.8699951171875,
         "2026-08-07": 236.41000366210938,
         "2026-08-14": 235.47999572753906,
-        "2026-08-21": 239.75999450683594
+        "2026-08-21": 239.66900634765625
       },
       "monthly": {
         "2011-08-31": 77.55999755859375,
@@ -57346,7 +57346,7 @@
         "2026-07-31": 181.77999877929688,
         "2026-08-07": 187.52000427246094,
         "2026-08-14": 189.17999267578125,
-        "2026-08-21": 185.97000122070312
+        "2026-08-21": 185.9600067138672
       },
       "monthly": {
         "2011-08-31": 65.1500015258789,
@@ -57529,7 +57529,7 @@
         "2026-07-31": 175.35000610351562,
         "2026-08-07": 187.97000122070312,
         "2026-08-14": 190.00999450683594,
-        "2026-08-21": 183.35000610351562
+        "2026-08-21": 183.30999755859375
       },
       "monthly": {
         "2011-08-31": 12.220000267028809,
@@ -58078,7 +58078,7 @@
         "2026-07-31": 59.54999923706055,
         "2026-08-07": 57.5,
         "2026-08-14": 61.90999984741211,
-        "2026-08-21": 63.619998931884766
+        "2026-08-21": 63.63999938964844
       },
       "monthly": {
         "2011-08-31": 34.31999969482422,
@@ -58261,7 +58261,7 @@
         "2026-07-31": 116.08999633789062,
         "2026-08-07": 119.86000061035156,
         "2026-08-14": 118.19999694824219,
-        "2026-08-21": 118
+        "2026-08-21": 118.0199966430664
       },
       "monthly": {
         "2011-08-31": 18.78499984741211,
@@ -58627,7 +58627,7 @@
         "2026-07-31": 179.83999633789062,
         "2026-08-07": 185.17999267578125,
         "2026-08-14": 186.50999450683594,
-        "2026-08-21": 180.24000549316406
+        "2026-08-21": 180.25
       },
       "monthly": {
         "2011-08-31": 32.400001525878906,
@@ -58810,7 +58810,7 @@
         "2026-07-31": 50.43000030517578,
         "2026-08-07": 52.86000061035156,
         "2026-08-14": 52.540000915527344,
-        "2026-08-21": 53.52000045776367
+        "2026-08-21": 53.540000915527344
       },
       "monthly": {
         "2011-08-31": 17.670000076293945,
@@ -58993,7 +58993,7 @@
         "2026-07-31": 45.06999969482422,
         "2026-08-07": 44.97999954223633,
         "2026-08-14": 45.27000045776367,
-        "2026-08-21": 45.06999969482422
+        "2026-08-21": 45.08000183105469
       },
       "monthly": {
         "2015-11-30": 30.75,
@@ -59140,7 +59140,7 @@
         "2026-07-31": 108.23999786376953,
         "2026-08-07": 111.25,
         "2026-08-14": 112.94999694824219,
-        "2026-08-21": 111.38999938964844
+        "2026-08-21": 111.4000015258789
       },
       "monthly": {
         "2018-07-31": 48.459999084472656,
@@ -59368,7 +59368,7 @@
         "2026-07-31": 85.19999694824219,
         "2026-08-07": 89.4000015258789,
         "2026-08-14": 89.33999633789062,
-        "2026-08-21": 87.48999786376953
+        "2026-08-21": 87.5
       },
       "monthly": {
         "2011-08-31": 10.096667289733887,
@@ -59551,7 +59551,7 @@
         "2026-07-31": 219.9499969482422,
         "2026-08-07": 224.30999755859375,
         "2026-08-14": 227.50999450683594,
-        "2026-08-21": 226.35000610351562
+        "2026-08-21": 226.39999389648438
       },
       "monthly": {
         "2011-08-31": 50.900001525878906,
@@ -59734,7 +59734,7 @@
         "2026-07-31": 80.94999694824219,
         "2026-08-07": 82.69000244140625,
         "2026-08-14": 84.45999908447266,
-        "2026-08-21": 82.9749984741211
+        "2026-08-21": 82.97000122070312
       },
       "monthly": {
         "2011-08-31": 18.0625,
@@ -59917,7 +59917,7 @@
         "2026-07-31": 295.1400146484375,
         "2026-08-07": 306.0899963378906,
         "2026-08-14": 309.2900085449219,
-        "2026-08-21": 304.80499267578125
+        "2026-08-21": 304.760009765625
       },
       "monthly": {
         "2011-08-31": 68.94000244140625,
@@ -60100,7 +60100,7 @@
         "2026-07-31": 98.94999694824219,
         "2026-08-07": 98.43000030517578,
         "2026-08-14": 98.83000183105469,
-        "2026-08-21": 98.48999786376953
+        "2026-08-21": 98.5
       },
       "monthly": {
         "2011-08-31": 57.61000061035156,
@@ -60466,7 +60466,7 @@
         "2026-07-31": 97.37000274658203,
         "2026-08-07": 97.5999984741211,
         "2026-08-14": 97.4800033569336,
-        "2026-08-21": 97.36000061035156
+        "2026-08-21": 97.3499984741211
       },
       "monthly": {
         "2011-08-31": 109.5,
@@ -60649,7 +60649,7 @@
         "2026-07-31": 33.470001220703125,
         "2026-08-07": 33.900001525878906,
         "2026-08-14": 34.52000045776367,
-        "2026-08-21": 35.109798431396484
+        "2026-08-21": 35.11000061035156
       },
       "monthly": {
         "2011-10-31": 8.5,
@@ -60830,7 +60830,7 @@
         "2026-07-31": 150.52000427246094,
         "2026-08-07": 158.67999267578125,
         "2026-08-14": 159.94000244140625,
-        "2026-08-21": 160.17999267578125
+        "2026-08-21": 160.05999755859375
       },
       "monthly": {
         "2011-08-31": 92.22000122070312,
@@ -61851,7 +61851,7 @@
         "2026-07-31": 92.38999938964844,
         "2026-08-07": 96.9000015258789,
         "2026-08-14": 98.20999908447266,
-        "2026-08-21": 95.16999816894531
+        "2026-08-21": 95.18000030517578
       },
       "monthly": {
         "2011-08-31": 39.400001525878906,
@@ -62034,7 +62034,7 @@
         "2026-07-31": 36.650001525878906,
         "2026-08-07": 35.34000015258789,
         "2026-08-14": 33.93000030517578,
-        "2026-08-21": 35.06999969482422
+        "2026-08-21": 35.060001373291016
       },
       "monthly": {
         "2011-08-31": 65.5,
@@ -62217,7 +62217,7 @@
         "2026-07-31": 59.38999938964844,
         "2026-08-07": 61.29999923706055,
         "2026-08-14": 62.22999954223633,
-        "2026-08-21": 62.34000015258789
+        "2026-08-21": 62.36000061035156
       },
       "monthly": {
         "2011-08-31": 29.889999389648438,
@@ -62587,7 +62587,7 @@
         "2026-07-31": 42.83000183105469,
         "2026-08-07": 44.189998626708984,
         "2026-08-14": 44.45000076293945,
-        "2026-08-21": 44.380001068115234
+        "2026-08-21": 44.41999816894531
       },
       "monthly": {
         "2011-08-31": 30.399999618530273,
@@ -62770,7 +62770,7 @@
         "2026-07-31": 73.04000091552734,
         "2026-08-07": 73.62999725341797,
         "2026-08-14": 72.81999969482422,
-        "2026-08-21": 74.75
+        "2026-08-21": 74.76000213623047
       },
       "monthly": {
         "2011-08-31": 66.31999969482422,
@@ -62953,7 +62953,7 @@
         "2026-07-31": 44.380001068115234,
         "2026-08-07": 44.61000061035156,
         "2026-08-14": 44.70000076293945,
-        "2026-08-21": 45.087501525878906
+        "2026-08-21": 45.09000015258789
       },
       "monthly": {
         "2011-08-31": 32.630001068115234,
@@ -63298,7 +63298,7 @@
         "2026-07-31": 39.310001373291016,
         "2026-08-07": 42.4900016784668,
         "2026-08-14": 44.20000076293945,
-        "2026-08-21": 42.86000061035156
+        "2026-08-21": 42.909000396728516
       },
       "monthly": {
         "2026-07-31": 39.310001373291016
@@ -63375,7 +63375,7 @@
         "2026-07-31": 22.450000762939453,
         "2026-08-07": 22.489999771118164,
         "2026-08-14": 22.459999084472656,
-        "2026-08-21": 22.44499969482422
+        "2026-08-21": 22.450000762939453
       },
       "monthly": {
         "2012-02-29": 24.81999969482422,
@@ -64102,7 +64102,7 @@
         "2026-07-31": 107.62999725341797,
         "2026-08-07": 107.08000183105469,
         "2026-08-14": 106.98999786376953,
-        "2026-08-21": 107.12000274658203
+        "2026-08-21": 107.12999725341797
       },
       "monthly": {
         "2011-08-31": 114.31999969482422,
@@ -64834,7 +64834,7 @@
         "2026-07-31": 77.58000183105469,
         "2026-08-07": 77.55999755859375,
         "2026-08-14": 77.62999725341797,
-        "2026-08-21": 77.57499694824219
+        "2026-08-21": 77.56999969482422
       },
       "monthly": {
         "2011-08-31": 81.77999877929688,
@@ -65017,7 +65017,7 @@
         "2026-07-31": 75.54000091552734,
         "2026-08-07": 75.69000244140625,
         "2026-08-14": 75.5999984741211,
-        "2026-08-21": 75.41999816894531
+        "2026-08-21": 75.43000030517578
       },
       "monthly": {
         "2011-08-31": 87.69000244140625,
@@ -65200,7 +65200,7 @@
         "2026-07-31": 105.63999938964844,
         "2026-08-07": 105.94000244140625,
         "2026-08-14": 105.86000061035156,
-        "2026-08-21": 105.3499984741211
+        "2026-08-21": 105.33999633789062
       },
       "monthly": {
         "2011-08-31": 106.98999786376953,
@@ -66232,7 +66232,7 @@
         "2026-07-31": 71.23999786376953,
         "2026-08-07": 79.43000030517578,
         "2026-08-14": 81.0999984741211,
-        "2026-08-21": 86.22000122070312
+        "2026-08-21": 86.20999908447266
       },
       "monthly": {
         "2014-10-31": 20.3799991607666,
@@ -66387,7 +66387,7 @@
         "2026-07-31": 115.06999969482422,
         "2026-08-07": 127.8499984741211,
         "2026-08-14": 130.38999938964844,
-        "2026-08-21": 125.5999984741211
+        "2026-08-21": 125.58000183105469
       },
       "monthly": {
         "2014-09-30": 19.81999969482422,
@@ -66543,7 +66543,7 @@
         "2026-07-31": 39.650001525878906,
         "2026-08-07": 42.97999954223633,
         "2026-08-14": 43.58000183105469,
-        "2026-08-21": 45.689998626708984
+        "2026-08-21": 45.720001220703125
       },
       "monthly": {
         "2019-02-28": 21.209999084472656,
@@ -66661,7 +66661,7 @@
         "2026-07-31": 136.83999633789062,
         "2026-08-07": 147.9199981689453,
         "2026-08-14": 152.35000610351562,
-        "2026-08-21": 155.28500366210938
+        "2026-08-21": 155.49000549316406
       },
       "monthly": {
         "2014-09-30": 19.989999771118164,
@@ -66817,7 +66817,7 @@
         "2026-07-31": 20.850000381469727,
         "2026-08-07": 21.540000915527344,
         "2026-08-14": 20.850000381469727,
-        "2026-08-21": 25.540000915527344
+        "2026-08-21": 25.549999237060547
       },
       "monthly": {
         "2024-01-31": 14.183333396911621,
@@ -67122,7 +67122,7 @@
         "2026-07-31": 54.709999084472656,
         "2026-08-07": 56.529998779296875,
         "2026-08-14": 54.7400016784668,
-        "2026-08-21": 67.02999877929688
+        "2026-08-21": 67.0199966430664
       },
       "monthly": {
         "2024-01-31": 37.2400016784668,
@@ -67746,7 +67746,7 @@
         "2026-07-31": 59.2599983215332,
         "2026-08-07": 59.88999938964844,
         "2026-08-14": 60.72999954223633,
-        "2026-08-21": 62.880001068115234
+        "2026-08-21": 62.95000076293945
       },
       "monthly": {
         "2018-01-31": 20.889999389648438,
@@ -67926,7 +67926,7 @@
         "2026-07-31": 26.106000900268555,
         "2026-08-07": 27.38800048828125,
         "2026-08-14": 27.959999084472656,
-        "2026-08-21": 27.399999618530273
+        "2026-08-21": 27.418500900268555
       },
       "monthly": {
         "2019-10-31": 15.029999732971191,
@@ -68039,7 +68039,7 @@
         "2026-07-31": 36.959999084472656,
         "2026-08-07": 37.650001525878906,
         "2026-08-14": 37.83000183105469,
-        "2026-08-21": 38.314998626708984
+        "2026-08-21": 38.310001373291016
       },
       "monthly": {
         "2015-09-30": 25.219999313354492,
@@ -68190,7 +68190,7 @@
         "2026-07-31": 62813.74609375,
         "2026-08-07": 64880.19140625,
         "2026-08-14": 62975.59375,
-        "2026-08-21": 77017.203125
+        "2026-08-21": 77481.0625
       },
       "monthly": {
         "2014-09-30": 386.9440002441406,
@@ -68392,7 +68392,7 @@
         "2026-07-31": 1860.345947265625,
         "2026-08-07": 1913.2794189453125,
         "2026-08-14": 1880.6500244140625,
-        "2026-08-21": 2422.669921875
+        "2026-08-21": 2437.199951171875
       },
       "monthly": {
         "2017-11-30": 447.114013671875,
@@ -68556,7 +68556,7 @@
         "2026-07-31": 72.78968048095703,
         "2026-08-07": 73.64265441894531,
         "2026-08-14": 75.32730865478516,
-        "2026-08-21": 91.1500015258789
+        "2026-08-21": 91.83000183105469
       },
       "monthly": {
         "2020-04-30": 0.6910449862480164,
@@ -68691,7 +68691,7 @@
         "2026-07-31": 586.427001953125,
         "2026-08-07": 592.1971435546875,
         "2026-08-14": 607.5797729492188,
-        "2026-08-21": 671.8300170898438
+        "2026-08-21": 674.9600219726562
       },
       "monthly": {
         "2017-11-30": 1.9969700574874878,
@@ -68855,7 +68855,7 @@
         "2026-07-31": 1.060534954071045,
         "2026-08-07": 1.0212370157241821,
         "2026-08-14": 0.9980379939079285,
-        "2026-08-21": 1.3690999746322632
+        "2026-08-21": 1.37090003490448
       },
       "monthly": {
         "2017-11-30": 0.2508780062198639,
@@ -69019,7 +69019,7 @@
         "2026-07-31": 0.16796399652957916,
         "2026-08-07": 0.20110000669956207,
         "2026-08-14": 0.17985300719738007,
-        "2026-08-21": 0.21825000643730164
+        "2026-08-21": 0.2186799943447113
       },
       "monthly": {
         "2017-11-30": 0.11988300085067749,
@@ -69183,7 +69183,7 @@
         "2026-07-31": 0.0695199966430664,
         "2026-08-07": 0.06962300091981888,
         "2026-08-14": 0.0700019970536232,
-        "2026-08-21": 0.08478999882936478
+        "2026-08-21": 0.0868000015616417
       },
       "monthly": {
         "2017-11-30": 0.002078999998047948,
@@ -69347,7 +69347,7 @@
         "2026-07-31": 0.7580519914627075,
         "2026-08-07": 0.8177980184555054,
         "2026-08-14": 0.76425701379776,
-        "2026-08-21": 0.8955000042915344
+        "2026-08-21": 0.90420001745224
       },
       "monthly": {
         "2020-08-31": 6.300020217895508,
@@ -69554,7 +69554,7 @@
         "2026-07-31": 8.161294937133789,
         "2026-08-07": 8.18077278137207,
         "2026-08-14": 8.966767311096191,
-        "2026-08-21": 11.6899995803833
+        "2026-08-21": 11.777999877929688
       },
       "monthly": {
         "2017-11-30": 0.1704609990119934,
@@ -69718,7 +69718,7 @@
         "2026-07-31": 6.378219127655029,
         "2026-08-07": 6.4272589683532715,
         "2026-08-14": 6.4691548347473145,
-        "2026-08-21": 7.561999797821045
+        "2026-08-21": 7.609000205993652
       },
       "monthly": {
         "2020-09-30": 4.322546005249023,
@@ -69919,7 +69919,7 @@
         "2026-07-31": 1.2237299680709839,
         "2026-08-07": 1.361225962638855,
         "2026-08-14": 1.5093950033187866,
-        "2026-08-21": 1.5460000038146973
+        "2026-08-21": 1.5602999925613403
       },
       "monthly": {
         "2019-03-31": 3.62432599067688,
@@ -70067,7 +70067,7 @@
         "2026-07-31": 44.24483108520508,
         "2026-08-07": 45.568084716796875,
         "2026-08-14": 43.76597595214844,
-        "2026-08-21": 51.68600082397461
+        "2026-08-21": 52.26599884033203
       },
       "monthly": {
         "2014-09-30": 4.474730014801025,
@@ -70269,7 +70269,7 @@
         "2026-07-31": 210.01429748535156,
         "2026-08-07": 214.74972534179688,
         "2026-08-14": 204.61227416992188,
-        "2026-08-21": 282.79998779296875
+        "2026-08-21": 287.1000061035156
       },
       "monthly": {
         "2017-11-30": 1389.780029296875,
@@ -70433,7 +70433,7 @@
         "2026-07-31": 0.17199300229549408,
         "2026-08-07": 0.16125699877738953,
         "2026-08-14": 0.15789799392223358,
-        "2026-08-21": 0.19179199635982513
+        "2026-08-21": 0.1927500069141388
       },
       "monthly": {
         "2017-11-30": 0.07287099957466125,
@@ -70597,7 +70597,7 @@
         "2026-07-31": 0.07876800000667572,
         "2026-08-07": 0.08889400213956833,
         "2026-08-14": 0.07938499748706818,
-        "2026-08-21": 0.09382999688386917
+        "2026-08-21": 0.09380000084638596
       },
       "monthly": {
         "2019-06-30": 1.4347820281982422,
@@ -70742,7 +70742,7 @@
         "2026-07-31": 0.0047439998015761375,
         "2026-08-07": 0.004685999825596809,
         "2026-08-14": 0.004482999909669161,
-        "2026-08-21": 0.005475999787449837
+        "2026-08-21": 0.005535999778658152
       },
       "monthly": {
         "2018-08-31": 0.017142999917268753,
@@ -70897,7 +70897,7 @@
         "2026-07-31": 0.7145100235939026,
         "2026-08-07": 0.6835110187530518,
         "2026-08-14": 0.6798210144042969,
-        "2026-08-21": 0.7851999998092651
+        "2026-08-21": 0.7950000166893005
       },
       "monthly": {
         "2017-12-31": 20.07819938659668,
@@ -71060,7 +71060,7 @@
         "2026-07-31": 2.068521022796631,
         "2026-08-07": 2.0985960960388184,
         "2026-08-14": 2.2408030033111572,
-        "2026-08-21": 2.452399969100952
+        "2026-08-21": 2.486799955368042
       },
       "monthly": {
         "2021-05-31": 114.80200958251953,
@@ -73358,7 +73358,7 @@
         "2026-07-31": 582.739990234375,
         "2026-08-07": 587.9500122070312,
         "2026-08-14": 608.6799926757812,
-        "2026-08-21": 563.6799926757812
+        "2026-08-21": 563.5700073242188
       },
       "monthly": {
         "2011-08-31": 74.19000244140625,
@@ -73541,7 +73541,7 @@
         "2026-07-31": 542.47998046875,
         "2026-08-07": 571.5800170898438,
         "2026-08-14": 585.8699951171875,
-        "2026-08-21": 551.1099853515625
+        "2026-08-21": 551.030029296875
       },
       "monthly": {
         "2011-08-31": 54.619998931884766,
@@ -73724,7 +73724,7 @@
         "2026-07-31": 383.4200134277344,
         "2026-08-07": 392.04998779296875,
         "2026-08-14": 395.7799987792969,
-        "2026-08-21": 384.2099914550781
+        "2026-08-21": 384.2900085449219
       },
       "monthly": {
         "2011-08-31": 64.08000183105469,
@@ -73907,7 +73907,7 @@
         "2026-07-31": 277.05999755859375,
         "2026-08-07": 286.6700134277344,
         "2026-08-14": 291.82000732421875,
-        "2026-08-21": 266.6199951171875
+        "2026-08-21": 266.7300109863281
       },
       "monthly": {
         "2011-08-31": 40.349998474121094,
@@ -74090,7 +74090,7 @@
         "2026-07-31": 326.45001220703125,
         "2026-08-07": 324.4800109863281,
         "2026-08-14": 327.7099914550781,
-        "2026-08-21": 298.32000732421875
+        "2026-08-21": 298.20001220703125
       },
       "monthly": {
         "2011-08-31": 29.940000534057617,
@@ -74277,7 +74277,7 @@
         "2026-07-31": 17.3799991607666,
         "2026-08-07": 17.459999084472656,
         "2026-08-14": 17.84000015258789,
-        "2026-08-21": 17.604999542236328
+        "2026-08-21": 17.600000381469727
       },
       "monthly": {
         "2011-08-31": 42.349998474121094,
@@ -74460,7 +74460,7 @@
         "2026-07-31": 20.479999542236328,
         "2026-08-07": 23.93000030517578,
         "2026-08-14": 24.690000534057617,
-        "2026-08-21": 22.295000076293945
+        "2026-08-21": 22.290000915527344
       },
       "monthly": {
         "2021-04-30": 9.920000076293945,
@@ -75006,7 +75006,7 @@
         "2026-07-31": 404.25,
         "2026-08-07": 420.0400085449219,
         "2026-08-14": 426.3500061035156,
-        "2026-08-21": 418.8999938964844
+        "2026-08-21": 418.95001220703125
       },
       "monthly": {
         "2011-08-31": 11.970000267028809,
@@ -75189,7 +75189,7 @@
         "2026-07-31": 122.25,
         "2026-08-07": 128.41000366210938,
         "2026-08-14": 123.80999755859375,
-        "2026-08-21": 119.33000183105469
+        "2026-08-21": 119.33999633789062
       },
       "monthly": {
         "2014-09-30": 88.8499984741211,
@@ -75345,7 +75345,7 @@
         "2026-07-31": 61.43000030517578,
         "2026-08-07": 61.91999816894531,
         "2026-08-14": 56.5,
-        "2026-08-21": 58.119998931884766
+        "2026-08-21": 58.11000061035156
       },
       "monthly": {
         "2011-08-31": 4.788000106811523,
@@ -75637,7 +75637,7 @@
         "2026-07-31": 49.79999923706055,
         "2026-08-07": 50.369998931884766,
         "2026-08-14": 49.779998779296875,
-        "2026-08-21": 49.630001068115234
+        "2026-08-21": 49.63999938964844
       },
       "monthly": {
         "2012-02-29": 26,
@@ -76163,7 +76163,7 @@
         "2026-07-31": 34.20000076293945,
         "2026-08-07": 35.119998931884766,
         "2026-08-14": 34.72999954223633,
-        "2026-08-21": 34.48500061035156
+        "2026-08-21": 34.4900016784668
       },
       "monthly": {
         "2013-12-31": 24.65999984741211,
@@ -76326,7 +76326,7 @@
         "2026-07-31": 77.61000061035156,
         "2026-08-07": 79.98999786376953,
         "2026-08-14": 81.19000244140625,
-        "2026-08-21": 81.55999755859375
+        "2026-08-21": 81.56999969482422
       },
       "monthly": {
         "2012-10-31": 48.22999954223633,
@@ -76499,7 +76499,7 @@
         "2026-07-31": 31.690000534057617,
         "2026-08-07": 32.1349983215332,
         "2026-08-14": 32.23500061035156,
-        "2026-08-21": 32.16999816894531
+        "2026-08-21": 32.119998931884766
       },
       "monthly": {
         "2024-05-31": 25.684999465942383,
@@ -76727,7 +76727,7 @@
         "2026-07-31": 47.380001068115234,
         "2026-08-07": 47.02000045776367,
         "2026-08-14": 48.61000061035156,
-        "2026-08-21": 50.66999816894531
+        "2026-08-21": 50.619998931884766
       },
       "monthly": {
         "2011-08-31": 49.470001220703125,

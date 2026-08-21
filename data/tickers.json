@@ -51,8 +51,8 @@
     },
     {
       "symbol": "AMD",
-      "name": "AMD",
-      "exchange": "",
+      "name": "Advanced Micro Devices, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc. Class A Common Stock",
+      "name": "Roku, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -205,8 +205,8 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc. Class A Common Stock",
-      "exchange": "NMS",
+      "name": "WDAY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,8 +401,8 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
-      "exchange": "NMS",
+      "name": "CDW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
