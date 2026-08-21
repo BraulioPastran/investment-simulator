@@ -178,7 +178,7 @@
     {
       "symbol": "ZM",
       "name": "Zoom Communications, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc.",
+      "name": "Roku, Inc. Class A Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -205,7 +205,7 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc.",
+      "name": "Workday, Inc. Class A Common Stock",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -500,7 +500,7 @@
     {
       "symbol": "AXP",
       "name": "American Express Company",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -590,8 +590,8 @@
     },
     {
       "symbol": "WY",
-      "name": "WY",
-      "exchange": "",
+      "name": "Weyerhaeuser Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -674,8 +674,8 @@
     },
     {
       "symbol": "RF",
-      "name": "RF",
-      "exchange": "",
+      "name": "Regions Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
