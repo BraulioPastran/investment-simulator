@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "AAPL",
-      "exchange": "",
+      "name": "Apple Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -205,8 +205,8 @@
     },
     {
       "symbol": "WDAY",
-      "name": "WDAY",
-      "exchange": "",
+      "name": "Workday, Inc. Class A Common Stock",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
