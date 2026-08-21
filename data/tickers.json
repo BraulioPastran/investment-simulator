@@ -45,14 +45,14 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NMS",
+      "name": "AMD",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
