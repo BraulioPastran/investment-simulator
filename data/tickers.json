@@ -345,8 +345,8 @@
     },
     {
       "symbol": "INTU",
-      "name": "INTU",
-      "exchange": "",
+      "name": "Intuit Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -548,8 +548,8 @@
     },
     {
       "symbol": "MCO",
-      "name": "MCO",
-      "exchange": "",
+      "name": "Moody's Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -583,8 +583,8 @@
     },
     {
       "symbol": "VICI",
-      "name": "VICI Properties Inc.",
-      "exchange": "NYQ",
+      "name": "VICI",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
