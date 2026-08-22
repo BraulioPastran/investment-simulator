@@ -527,15 +527,15 @@
     },
     {
       "symbol": "PNC",
-      "name": "PNC",
-      "exchange": "",
+      "name": "The PNC Financial Services Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TFC",
       "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
