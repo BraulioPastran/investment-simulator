@@ -107,8 +107,8 @@
     },
     {
       "symbol": "UBER",
-      "name": "UBER",
-      "exchange": "",
+      "name": "Uber Technologies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc. Class A Common Stock",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
