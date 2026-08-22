@@ -80,7 +80,7 @@
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -255,7 +255,7 @@
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -584,7 +584,7 @@
     {
       "symbol": "VICI",
       "name": "VICI Properties Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
