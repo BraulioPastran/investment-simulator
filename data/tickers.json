@@ -93,8 +93,8 @@
     },
     {
       "symbol": "SHOP",
-      "name": "Shopify Inc.",
-      "exchange": "NMS",
+      "name": "SHOP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -248,7 +248,7 @@
     {
       "symbol": "TWLO",
       "name": "Twilio Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -275,8 +275,8 @@
     },
     {
       "symbol": "IBM",
-      "name": "International Business Machines Corporation",
-      "exchange": "NYQ",
+      "name": "IBM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -555,8 +555,8 @@
     },
     {
       "symbol": "SPGI",
-      "name": "S&P Global Inc.",
-      "exchange": "NYQ",
+      "name": "SPGI",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -612,7 +612,7 @@
     {
       "symbol": "PRU",
       "name": "Prudential Financial, Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
