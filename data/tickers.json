@@ -52,7 +52,7 @@
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -541,8 +541,8 @@
     },
     {
       "symbol": "SCHW",
-      "name": "The Charles Schwab Corporation",
-      "exchange": "NYQ",
+      "name": "SCHW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
