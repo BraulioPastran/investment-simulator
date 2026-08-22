@@ -107,8 +107,8 @@
     },
     {
       "symbol": "UBER",
-      "name": "Uber Technologies, Inc.",
-      "exchange": "NYQ",
+      "name": "UBER",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -499,8 +499,8 @@
     },
     {
       "symbol": "AXP",
-      "name": "AXP",
-      "exchange": "",
+      "name": "American Express Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -639,8 +639,8 @@
     },
     {
       "symbol": "CB",
-      "name": "CB",
-      "exchange": "",
+      "name": "Chubb Limited",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
