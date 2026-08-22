@@ -45,7 +45,7 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -220,7 +220,7 @@
     {
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -444,7 +444,7 @@
     {
       "symbol": "NXGL",
       "name": "NEXGEL, Inc.",
-      "exchange": "NCM",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -675,7 +675,7 @@
     {
       "symbol": "RF",
       "name": "Regions Financial Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
