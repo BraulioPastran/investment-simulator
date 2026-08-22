@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc. Class A Common Stock",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -415,8 +415,8 @@
     },
     {
       "symbol": "TTWO",
-      "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NMS",
+      "name": "TTWO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
