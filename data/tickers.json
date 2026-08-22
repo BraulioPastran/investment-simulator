@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc. Class A Common Stock",
+      "name": "Roku, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -205,15 +205,15 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc. Class A Common Stock",
+      "name": "Workday, Inc.",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "PANW",
-      "name": "Palo Alto Networks, Inc.",
-      "exchange": "NMS",
+      "name": "PANW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -415,8 +415,8 @@
     },
     {
       "symbol": "TTWO",
-      "name": "TTWO",
-      "exchange": "",
+      "name": "Take-Two Interactive Software, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
