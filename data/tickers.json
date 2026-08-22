@@ -227,7 +227,7 @@
     {
       "symbol": "ZS",
       "name": "Zscaler, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -248,7 +248,7 @@
     {
       "symbol": "TWLO",
       "name": "Twilio Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -612,7 +612,7 @@
     {
       "symbol": "PRU",
       "name": "Prudential Financial, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
