@@ -121,15 +121,15 @@
     },
     {
       "symbol": "COIN",
-      "name": "COIN",
-      "exchange": "",
+      "name": "Coinbase Global, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SNOW",
-      "name": "Snowflake Inc.",
-      "exchange": "NYQ",
+      "name": "SNOW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -436,8 +436,8 @@
     },
     {
       "symbol": "UBS",
-      "name": "UBS",
-      "exchange": "",
+      "name": "UBS Group AG",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -464,8 +464,8 @@
     },
     {
       "symbol": "WFC",
-      "name": "Wells Fargo & Company",
-      "exchange": "NYQ",
+      "name": "WFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -541,8 +541,8 @@
     },
     {
       "symbol": "SCHW",
-      "name": "The Charles Schwab Corporation",
-      "exchange": "NYQ",
+      "name": "SCHW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -597,8 +597,8 @@
     },
     {
       "symbol": "AFL",
-      "name": "Aflac Incorporated",
-      "exchange": "NYQ",
+      "name": "AFL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
