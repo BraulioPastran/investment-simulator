@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "exchange": "NMS",
+      "name": "COIN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -436,8 +436,8 @@
     },
     {
       "symbol": "UBS",
-      "name": "UBS Group AG",
-      "exchange": "NYQ",
+      "name": "UBS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -598,7 +598,7 @@
     {
       "symbol": "AFL",
       "name": "Aflac Incorporated",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -675,7 +675,7 @@
     {
       "symbol": "RF",
       "name": "Regions Financial Corporation",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
