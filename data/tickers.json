@@ -401,8 +401,8 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW",
-      "exchange": "",
+      "name": "CDW Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
