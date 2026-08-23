@@ -79,8 +79,8 @@
     },
     {
       "symbol": "NFLX",
-      "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "name": "NFLX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -521,7 +521,7 @@
     {
       "symbol": "USB",
       "name": "U.S. Bancorp",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KeyCorp",
-      "exchange": "NYQ",
+      "name": "KEY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
