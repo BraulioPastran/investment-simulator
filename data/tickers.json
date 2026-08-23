@@ -268,8 +268,8 @@
     },
     {
       "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "exchange": "NYQ",
+      "name": "ORCL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -598,7 +598,7 @@
     {
       "symbol": "AFL",
       "name": "Aflac Incorporated",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
