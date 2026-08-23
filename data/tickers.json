@@ -415,8 +415,8 @@
     },
     {
       "symbol": "TTWO",
-      "name": "TTWO",
-      "exchange": "",
+      "name": "Take-Two Interactive Software, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -598,7 +598,7 @@
     {
       "symbol": "AFL",
       "name": "Aflac Incorporated",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
