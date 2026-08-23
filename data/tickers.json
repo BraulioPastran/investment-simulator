@@ -325,7 +325,7 @@
     {
       "symbol": "KLAC",
       "name": "KLA Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "BAC",
-      "exchange": "",
+      "name": "Bank of America Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
