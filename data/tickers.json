@@ -128,8 +128,8 @@
     },
     {
       "symbol": "SNOW",
-      "name": "Snowflake Inc.",
-      "exchange": "NYQ",
+      "name": "SNOW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -282,8 +282,8 @@
     },
     {
       "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "exchange": "NMS",
+      "name": "QCOM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -667,8 +667,8 @@
     },
     {
       "symbol": "BRO",
-      "name": "Brown & Brown, Inc.",
-      "exchange": "NYQ",
+      "name": "BRO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
