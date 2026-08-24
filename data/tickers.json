@@ -80,7 +80,7 @@
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -163,8 +163,8 @@
     },
     {
       "symbol": "SNAP",
-      "name": "Snap Inc.",
-      "exchange": "NYQ",
+      "name": "SNAP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
