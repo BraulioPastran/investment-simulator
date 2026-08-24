@@ -374,7 +374,7 @@
     {
       "symbol": "GPN",
       "name": "Global Payments Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -464,8 +464,8 @@
     },
     {
       "symbol": "WFC",
-      "name": "Wells Fargo & Company",
-      "exchange": "NYQ",
+      "name": "WFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -569,8 +569,8 @@
     },
     {
       "symbol": "ICE",
-      "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYQ",
+      "name": "ICE",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
