@@ -164,7 +164,7 @@
     {
       "symbol": "SNAP",
       "name": "Snap Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -486,7 +486,7 @@
     {
       "symbol": "V",
       "name": "Visa Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -612,7 +612,7 @@
     {
       "symbol": "PRU",
       "name": "Prudential Financial, Inc.",
-      "exchange": "NYS",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
