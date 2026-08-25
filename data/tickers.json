@@ -93,8 +93,8 @@
     },
     {
       "symbol": "SHOP",
-      "name": "Shopify Inc.",
-      "exchange": "NMS",
+      "name": "SHOP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -311,7 +311,7 @@
     {
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-08-24"
+  "updated": "2026-08-25"
 }
