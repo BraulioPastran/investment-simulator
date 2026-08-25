@@ -90,7 +90,7 @@
       "updated": "2026-08-25"
     },
     "AMD": {
-      "current": 456.7449951171875,
+      "current": 456.75,
       "previousClose": 473.25,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -414,7 +414,7 @@
       "updated": null
     },
     "NTDOY": {
-      "current": 13.800000190734863,
+      "current": 13.819999694824219,
       "previousClose": 13.550000190734863,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -528,7 +528,7 @@
       "updated": "2026-08-25"
     },
     "CME": {
-      "current": 279.1650085449219,
+      "current": 279.1700134277344,
       "previousClose": 274.9800109863281,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -1338,7 +1338,7 @@
       "updated": "2026-08-25"
     },
     "VRSN": {
-      "current": 290.7850036621094,
+      "current": 290.7900085449219,
       "previousClose": 281.79998779296875,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -1626,7 +1626,7 @@
       "updated": "2026-08-25"
     },
     "BKR": {
-      "current": 61.98500061035156,
+      "current": 61.9900016784668,
       "previousClose": 62.34000015258789,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2172,7 +2172,7 @@
       "updated": "2026-08-25"
     },
     "IDV": {
-      "current": 45.03499984741211,
+      "current": 45.040000915527344,
       "previousClose": 45.09000015258789,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2220,7 +2220,7 @@
       "updated": null
     },
     "EQQQ": {
-      "current": 42.48500061035156,
+      "current": 42.4900016784668,
       "previousClose": 42.90999984741211,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2274,7 +2274,7 @@
       "updated": "2026-08-25"
     },
     "SHY": {
-      "current": 81.99500274658203,
+      "current": 82,
       "previousClose": 82,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2340,7 +2340,7 @@
       "updated": "2026-08-25"
     },
     "MLN": {
-      "current": 17.354999542236328,
+      "current": 17.360000610351562,
       "previousClose": 17.329999923706055,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2454,49 +2454,49 @@
       "updated": "2026-08-25"
     },
     "BTC-USD": {
-      "current": 80820.0390625,
+      "current": 80449.921875,
       "previousClose": 77755.265625,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "ETH-USD": {
-      "current": 2511.389892578125,
+      "current": 2498.219970703125,
       "previousClose": 2463.81591796875,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "SOL-USD": {
-      "current": 101.41000366210938,
+      "current": 101.37000274658203,
       "previousClose": 95.44223022460938,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "BNB-USD": {
-      "current": 717.1500244140625,
+      "current": 715.52001953125,
       "previousClose": 701.8467407226562,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "XRP-USD": {
-      "current": 1.5298000574111938,
+      "current": 1.5145000219345093,
       "previousClose": 1.5221879482269287,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "ADA-USD": {
-      "current": 0.22824999690055847,
+      "current": 0.2268500030040741,
       "previousClose": 0.22686199843883514,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "DOGE-USD": {
-      "current": 0.09286999702453613,
+      "current": 0.09203000366687775,
       "previousClose": 0.09341800212860107,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "DOT-USD": {
-      "current": 0.919700026512146,
+      "current": 0.9121000170707703,
       "previousClose": 0.9288110136985779,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2508,13 +2508,13 @@
       "updated": "2026-08-25"
     },
     "LINK-USD": {
-      "current": 11.859000205993652,
+      "current": 11.744999885559082,
       "previousClose": 11.531238555908203,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "AVAX-USD": {
-      "current": 7.710999965667725,
+      "current": 7.645999908447266,
       "previousClose": 7.606296062469482,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2526,31 +2526,31 @@
       "updated": "2026-08-25"
     },
     "ATOM-USD": {
-      "current": 1.5500999689102173,
+      "current": 1.5542000532150269,
       "previousClose": 1.6047500371932983,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "LTC-USD": {
-      "current": 52.724998474121094,
+      "current": 52.310001373291016,
       "previousClose": 52.29850769042969,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "BCH-USD": {
-      "current": 279.2200012207031,
+      "current": 276.70001220703125,
       "previousClose": 274.23565673828125,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "XLM-USD": {
-      "current": 0.19945700466632843,
+      "current": 0.19835099577903748,
       "previousClose": 0.19962799549102783,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "ALGO-USD": {
-      "current": 0.09431999921798706,
+      "current": 0.09415999799966812,
       "previousClose": 0.09407299757003784,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2562,13 +2562,13 @@
       "updated": "2026-08-25"
     },
     "FIL-USD": {
-      "current": 0.7702000141143799,
+      "current": 0.7612000107765198,
       "previousClose": 0.7741940021514893,
       "changePercent": null,
       "updated": "2026-08-25"
     },
     "ICP-USD": {
-      "current": 2.440000057220459,
+      "current": 2.44950008392334,
       "previousClose": 2.4355759620666504,
       "changePercent": null,
       "updated": "2026-08-25"
@@ -2754,7 +2754,7 @@
       "updated": "2026-08-25"
     },
     "9988.HK": {
-      "current": 113,
+      "current": 113.30000305175781,
       "previousClose": 112.5,
       "changePercent": null,
       "updated": "2026-08-25"

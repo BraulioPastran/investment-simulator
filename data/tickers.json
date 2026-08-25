@@ -338,8 +338,8 @@
     },
     {
       "symbol": "CDNS",
-      "name": "Cadence Design Systems, Inc.",
-      "exchange": "NMS",
+      "name": "CDNS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -562,8 +562,8 @@
     },
     {
       "symbol": "CME",
-      "name": "CME Group Inc.",
-      "exchange": "NMS",
+      "name": "CME",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -639,8 +639,8 @@
     },
     {
       "symbol": "CB",
-      "name": "Chubb Limited",
-      "exchange": "NYQ",
+      "name": "CB",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
