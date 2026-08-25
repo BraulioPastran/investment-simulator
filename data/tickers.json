@@ -325,7 +325,7 @@
     {
       "symbol": "KLAC",
       "name": "KLA Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -569,8 +569,8 @@
     },
     {
       "symbol": "ICE",
-      "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYQ",
+      "name": "ICE",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
