@@ -255,7 +255,7 @@
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -576,8 +576,8 @@
     },
     {
       "symbol": "BLK",
-      "name": "BLK",
-      "exchange": "",
+      "name": "BlackRock, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
