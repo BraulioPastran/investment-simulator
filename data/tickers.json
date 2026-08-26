@@ -248,7 +248,7 @@
     {
       "symbol": "TWLO",
       "name": "Twilio Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -297,7 +297,7 @@
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -486,7 +486,7 @@
     {
       "symbol": "V",
       "name": "Visa Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
