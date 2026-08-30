@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -563,7 +563,7 @@
     {
       "symbol": "CME",
       "name": "CME Group Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
