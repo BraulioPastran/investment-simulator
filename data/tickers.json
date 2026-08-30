@@ -226,8 +226,8 @@
     },
     {
       "symbol": "ZS",
-      "name": "ZS",
-      "exchange": "",
+      "name": "Zscaler, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -296,8 +296,8 @@
     },
     {
       "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "exchange": "NMS",
+      "name": "AVGO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -317,8 +317,8 @@
     },
     {
       "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "exchange": "NMS",
+      "name": "LRCX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -667,8 +667,8 @@
     },
     {
       "symbol": "BRO",
-      "name": "BRO",
-      "exchange": "",
+      "name": "Brown & Brown, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
