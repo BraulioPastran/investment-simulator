@@ -247,8 +247,8 @@
     },
     {
       "symbol": "TWLO",
-      "name": "Twilio Inc.",
-      "exchange": "NYQ",
+      "name": "TWLO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -296,8 +296,8 @@
     },
     {
       "symbol": "AVGO",
-      "name": "AVGO",
-      "exchange": "",
+      "name": "Broadcom Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -317,8 +317,8 @@
     },
     {
       "symbol": "LRCX",
-      "name": "LRCX",
-      "exchange": "",
+      "name": "Lam Research Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
