@@ -115,7 +115,7 @@
     {
       "symbol": "LYFT",
       "name": "Lyft, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -682,7 +682,7 @@
     {
       "symbol": "KEY",
       "name": "KeyCorp",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-02"
+  "updated": "2026-09-03"
 }
