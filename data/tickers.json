@@ -44,8 +44,8 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "exchange": "NMS",
+      "name": "NVDA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -458,7 +458,7 @@
     {
       "symbol": "BAC",
       "name": "Bank of America Corporation",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -527,8 +527,8 @@
     },
     {
       "symbol": "PNC",
-      "name": "The PNC Financial Services Group, Inc.",
-      "exchange": "NYQ",
+      "name": "PNC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
