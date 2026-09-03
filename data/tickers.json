@@ -367,7 +367,7 @@
     {
       "symbol": "FISV",
       "name": "Fiserv, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -499,8 +499,8 @@
     },
     {
       "symbol": "AXP",
-      "name": "American Express Company",
-      "exchange": "NYQ",
+      "name": "AXP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
