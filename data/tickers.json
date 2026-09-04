@@ -44,8 +44,8 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVDA",
-      "exchange": "",
+      "name": "NVIDIA Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -73,7 +73,7 @@
     {
       "symbol": "ADBE",
       "name": "Adobe Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -304,7 +304,7 @@
     {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -388,7 +388,7 @@
     {
       "symbol": "ADSK",
       "name": "Autodesk, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -527,8 +527,8 @@
     },
     {
       "symbol": "PNC",
-      "name": "PNC",
-      "exchange": "",
+      "name": "The PNC Financial Services Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -640,7 +640,7 @@
     {
       "symbol": "CB",
       "name": "Chubb Limited",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-03"
+  "updated": "2026-09-04"
 }
