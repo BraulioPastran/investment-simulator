@@ -10,7 +10,7 @@
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -430,7 +430,7 @@
     {
       "symbol": "NTDOY",
       "name": "Nintendo Co., Ltd.",
-      "exchange": "OTCM",
+      "exchange": "PNK",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -640,7 +640,7 @@
     {
       "symbol": "CB",
       "name": "Chubb Limited",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
