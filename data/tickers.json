@@ -30,8 +30,8 @@
     },
     {
       "symbol": "TSLA",
-      "name": "Tesla, Inc.",
-      "exchange": "NMS",
+      "name": "TSLA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -157,7 +157,7 @@
     {
       "symbol": "DDOG",
       "name": "Datadog, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -233,8 +233,8 @@
     },
     {
       "symbol": "OKTA",
-      "name": "Okta, Inc.",
-      "exchange": "NMS",
+      "name": "OKTA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
