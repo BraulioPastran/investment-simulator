@@ -2454,49 +2454,49 @@
       "updated": "2026-09-06"
     },
     "BTC-USD": {
-      "current": 79985.40625,
+      "current": 79689.90625,
       "previousClose": 79823.8671875,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "ETH-USD": {
-      "current": 2503.669921875,
+      "current": 2479.669921875,
       "previousClose": 2480.735595703125,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "SOL-USD": {
-      "current": 106.70999908447266,
+      "current": 105.79000091552734,
       "previousClose": 103.18762969970703,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "BNB-USD": {
-      "current": 757.9299926757812,
+      "current": 745.9600219726562,
       "previousClose": 766.9117431640625,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "XRP-USD": {
-      "current": 1.426200032234192,
+      "current": 1.409999966621399,
       "previousClose": 1.4124729633331299,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "ADA-USD": {
-      "current": 0.22141000628471375,
+      "current": 0.21734000742435455,
       "previousClose": 0.218531996011734,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "DOGE-USD": {
-      "current": 0.09003999829292297,
+      "current": 0.08884000033140182,
       "previousClose": 0.08968400210142136,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "DOT-USD": {
-      "current": 0.9896000027656555,
+      "current": 0.95169997215271,
       "previousClose": 0.9156669974327087,
       "changePercent": null,
       "updated": "2026-09-06"
@@ -2508,13 +2508,13 @@
       "updated": "2026-09-06"
     },
     "LINK-USD": {
-      "current": 12.366999626159668,
+      "current": 12.217000007629395,
       "previousClose": 12.049007415771484,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "AVAX-USD": {
-      "current": 7.708000183105469,
+      "current": 7.616000175476074,
       "previousClose": 7.594252109527588,
       "changePercent": null,
       "updated": "2026-09-06"
@@ -2526,49 +2526,49 @@
       "updated": "2026-09-06"
     },
     "ATOM-USD": {
-      "current": 1.594499945640564,
+      "current": 1.5851000547409058,
       "previousClose": 1.556777000427246,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "LTC-USD": {
-      "current": 54.59700012207031,
+      "current": 54.30500030517578,
       "previousClose": 54.685813903808594,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "BCH-USD": {
-      "current": 259.6000061035156,
+      "current": 254.94000244140625,
       "previousClose": 257.2412109375,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "XLM-USD": {
-      "current": 0.1870030015707016,
+      "current": 0.18377900123596191,
       "previousClose": 0.18407399952411652,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "ALGO-USD": {
-      "current": 0.09532999992370605,
+      "current": 0.09438999742269516,
       "previousClose": 0.09440299868583679,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "VET-USD": {
-      "current": 0.007009999826550484,
+      "current": 0.007042999844998121,
       "previousClose": 0.006941999774426222,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "FIL-USD": {
-      "current": 0.7975000143051147,
+      "current": 0.7871000170707703,
       "previousClose": 0.7873780131340027,
       "changePercent": null,
       "updated": "2026-09-06"
     },
     "ICP-USD": {
-      "current": 2.6656999588012695,
+      "current": 2.6735999584198,
       "previousClose": 2.6692769527435303,
       "changePercent": null,
       "updated": "2026-09-06"
@@ -50820,10 +50820,13 @@
     "EQR": {
       "weekly": {
         "2026-07-17": 69,
+        "2026-07-31": 66.44999694824219,
         "2026-08-14": 65.97000122070312,
         "2026-08-21": 63.65999984741211
       },
-      "monthly": {}
+      "monthly": {
+        "2026-07-31": 66.44999694824219
+      }
     },
     "ED": {
       "weekly": {
@@ -54550,6 +54553,7 @@
         "2026-06-26": 81.52780151367188,
         "2026-07-10": 83.51139831542969,
         "2026-07-24": 82.74859619140625,
+        "2026-08-07": 88.98899841308594,
         "2026-08-14": 88.3031997680664,
         "2026-08-21": 87.78579711914062,
         "2026-08-28": 88.6635971069336
