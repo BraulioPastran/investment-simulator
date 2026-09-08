@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "COIN",
-      "exchange": "",
+      "name": "Coinbase Global, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -199,7 +199,7 @@
     {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KEY",
-      "exchange": "",
+      "name": "KeyCorp",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
