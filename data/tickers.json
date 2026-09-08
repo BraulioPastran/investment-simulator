@@ -31,7 +31,7 @@
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -94,7 +94,7 @@
     {
       "symbol": "SHOP",
       "name": "Shopify Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -276,7 +276,7 @@
     {
       "symbol": "IBM",
       "name": "International Business Machines Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -626,7 +626,7 @@
     {
       "symbol": "ALL",
       "name": "The Allstate Corporation",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
