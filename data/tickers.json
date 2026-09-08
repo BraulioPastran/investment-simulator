@@ -199,7 +199,7 @@
     {
       "symbol": "TEAM",
       "name": "Atlassian Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -556,7 +556,7 @@
     {
       "symbol": "SPGI",
       "name": "S&P Global Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
