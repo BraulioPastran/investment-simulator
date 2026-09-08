@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "exchange": "NMS",
+      "name": "COIN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -311,7 +311,7 @@
     {
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KeyCorp",
-      "exchange": "NYQ",
+      "name": "KEY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
