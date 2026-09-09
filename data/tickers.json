@@ -51,8 +51,8 @@
     },
     {
       "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NMS",
+      "name": "AMD",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -618,8 +618,8 @@
     },
     {
       "symbol": "TRV",
-      "name": "The Travelers Companies, Inc.",
-      "exchange": "NYQ",
+      "name": "TRV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
