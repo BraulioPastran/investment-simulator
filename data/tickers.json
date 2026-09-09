@@ -51,8 +51,8 @@
     },
     {
       "symbol": "AMD",
-      "name": "AMD",
-      "exchange": "",
+      "name": "Advanced Micro Devices, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -107,8 +107,8 @@
     },
     {
       "symbol": "UBER",
-      "name": "Uber Technologies, Inc.",
-      "exchange": "NYQ",
+      "name": "UBER",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "exchange": "NMS",
+      "name": "COIN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -177,8 +177,8 @@
     },
     {
       "symbol": "ZM",
-      "name": "ZM",
-      "exchange": "",
+      "name": "Zoom Communications, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -443,8 +443,8 @@
     },
     {
       "symbol": "NXGL",
-      "name": "NEXGEL, Inc.",
-      "exchange": "NCM",
+      "name": "NXGL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
