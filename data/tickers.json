@@ -86,8 +86,8 @@
     },
     {
       "symbol": "PYPL",
-      "name": "PayPal Holdings, Inc.",
-      "exchange": "NMS",
+      "name": "PYPL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -275,15 +275,15 @@
     },
     {
       "symbol": "IBM",
-      "name": "IBM",
-      "exchange": "",
+      "name": "International Business Machines Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "QCOM",
-      "name": "QCOM",
-      "exchange": "",
+      "name": "QUALCOMM Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -471,22 +471,22 @@
     },
     {
       "symbol": "GS",
-      "name": "GS",
-      "exchange": "",
+      "name": "The Goldman Sachs Group, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MS",
-      "name": "MS",
-      "exchange": "",
+      "name": "Morgan Stanley",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "V",
-      "name": "V",
-      "exchange": "",
+      "name": "Visa Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -520,8 +520,8 @@
     },
     {
       "symbol": "USB",
-      "name": "U.S. Bancorp",
-      "exchange": "NYQ",
+      "name": "USB",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -534,8 +534,8 @@
     },
     {
       "symbol": "TFC",
-      "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "name": "TFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -646,8 +646,8 @@
     },
     {
       "symbol": "AON",
-      "name": "Aon plc",
-      "exchange": "NYQ",
+      "name": "AON",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-09"
+  "updated": "2026-09-10"
 }
