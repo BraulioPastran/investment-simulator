@@ -107,8 +107,8 @@
     },
     {
       "symbol": "UBER",
-      "name": "UBER",
-      "exchange": "",
+      "name": "Uber Technologies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "COIN",
-      "exchange": "",
+      "name": "Coinbase Global, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -275,15 +275,15 @@
     },
     {
       "symbol": "IBM",
-      "name": "International Business Machines Corporation",
-      "exchange": "NYQ",
+      "name": "IBM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "exchange": "NMS",
+      "name": "QCOM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -443,8 +443,8 @@
     },
     {
       "symbol": "NXGL",
-      "name": "NXGL",
-      "exchange": "",
+      "name": "NEXGEL, Inc.",
+      "exchange": "NCM",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -471,22 +471,22 @@
     },
     {
       "symbol": "GS",
-      "name": "The Goldman Sachs Group, Inc.",
-      "exchange": "NYQ",
+      "name": "GS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "MS",
-      "name": "Morgan Stanley",
-      "exchange": "NYQ",
+      "name": "MS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "V",
-      "name": "Visa Inc.",
-      "exchange": "NYQ",
+      "name": "V",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
