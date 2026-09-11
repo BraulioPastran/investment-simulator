@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -198,8 +198,8 @@
     },
     {
       "symbol": "TEAM",
-      "name": "TEAM",
-      "exchange": "",
+      "name": "Atlassian Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -443,8 +443,8 @@
     },
     {
       "symbol": "NXGL",
-      "name": "NXGL",
-      "exchange": "",
+      "name": "NEXGEL, Inc.",
+      "exchange": "NCM",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -682,7 +682,7 @@
     {
       "symbol": "KEY",
       "name": "KeyCorp",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
