@@ -80,7 +80,7 @@
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -198,8 +198,8 @@
     },
     {
       "symbol": "TEAM",
-      "name": "Atlassian Corporation",
-      "exchange": "NMS",
+      "name": "TEAM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -443,8 +443,8 @@
     },
     {
       "symbol": "NXGL",
-      "name": "NEXGEL, Inc.",
-      "exchange": "NCM",
+      "name": "NXGL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
