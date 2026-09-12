@@ -2454,49 +2454,49 @@
       "updated": "2026-09-12"
     },
     "BTC-USD": {
-      "current": 77175.8515625,
+      "current": 77202.7109375,
       "previousClose": 77173.796875,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "ETH-USD": {
-      "current": 2523.669921875,
+      "current": 2524.77001953125,
       "previousClose": 2514.73388671875,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "SOL-USD": {
-      "current": 101.69000244140625,
+      "current": 101.54000091552734,
       "previousClose": 102.39624786376953,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "BNB-USD": {
-      "current": 729.3800048828125,
+      "current": 726.719970703125,
       "previousClose": 726.9684448242188,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "XRP-USD": {
-      "current": 1.3645999431610107,
+      "current": 1.3658000230789185,
       "previousClose": 1.3561749458312988,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "ADA-USD": {
-      "current": 0.20747999846935272,
+      "current": 0.208079993724823,
       "previousClose": 0.20616400241851807,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "DOGE-USD": {
-      "current": 0.08483000099658966,
+      "current": 0.08490999788045883,
       "previousClose": 0.08428400009870529,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "DOT-USD": {
-      "current": 1.0322999954223633,
+      "current": 1.0295000076293945,
       "previousClose": 1.0400019884109497,
       "changePercent": null,
       "updated": "2026-09-12"
@@ -2508,7 +2508,7 @@
       "updated": "2026-09-12"
     },
     "LINK-USD": {
-      "current": 11.53499984741211,
+      "current": 11.52299976348877,
       "previousClose": 11.539270401000977,
       "changePercent": null,
       "updated": "2026-09-12"
@@ -2526,49 +2526,49 @@
       "updated": "2026-09-12"
     },
     "ATOM-USD": {
-      "current": 1.6198999881744385,
+      "current": 1.6095000505447388,
       "previousClose": 1.6416499614715576,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "LTC-USD": {
-      "current": 53.79100036621094,
+      "current": 53.74300003051758,
       "previousClose": 53.26611328125,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "BCH-USD": {
-      "current": 227.38999938964844,
+      "current": 225.74000549316406,
       "previousClose": 228.01327514648438,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "XLM-USD": {
-      "current": 0.18053999543190002,
+      "current": 0.18032799661159515,
       "previousClose": 0.17823800444602966,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "ALGO-USD": {
-      "current": 0.09370999783277512,
+      "current": 0.09376999735832214,
       "previousClose": 0.09335199743509293,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "VET-USD": {
-      "current": 0.007579000201076269,
+      "current": 0.007586999796330929,
       "previousClose": 0.007298999931663275,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "FIL-USD": {
-      "current": 0.8044000267982483,
+      "current": 0.8040000200271606,
       "previousClose": 0.7853549718856812,
       "changePercent": null,
       "updated": "2026-09-12"
     },
     "ICP-USD": {
-      "current": 2.730799913406372,
+      "current": 2.746999979019165,
       "previousClose": 2.7234880924224854,
       "changePercent": null,
       "updated": "2026-09-12"
@@ -51093,13 +51093,10 @@
     "EQR": {
       "weekly": {
         "2026-07-17": 69,
-        "2026-07-31": 66.44999694824219,
         "2026-08-14": 65.97000122070312,
         "2026-08-21": 63.65999984741211
       },
-      "monthly": {
-        "2026-07-31": 66.44999694824219
-      }
+      "monthly": {}
     },
     "ED": {
       "weekly": {
