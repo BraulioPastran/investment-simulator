@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "exchange": "NMS",
+      "name": "AAPL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -401,8 +401,8 @@
     },
     {
       "symbol": "CDW",
-      "name": "CDW Corporation",
-      "exchange": "NMS",
+      "name": "CDW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
