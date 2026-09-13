@@ -184,8 +184,8 @@
     },
     {
       "symbol": "SPOT",
-      "name": "SPOT",
-      "exchange": "",
+      "name": "Spotify Technology S.A.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -563,7 +563,7 @@
     {
       "symbol": "CME",
       "name": "CME Group Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
