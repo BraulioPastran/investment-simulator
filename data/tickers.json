@@ -402,7 +402,7 @@
     {
       "symbol": "CDW",
       "name": "CDW Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -548,8 +548,8 @@
     },
     {
       "symbol": "MCO",
-      "name": "MCO",
-      "exchange": "",
+      "name": "Moody's Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
