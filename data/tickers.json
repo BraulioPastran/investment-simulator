@@ -402,7 +402,7 @@
     {
       "symbol": "CDW",
       "name": "CDW Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-14"
+  "updated": "2026-09-15"
 }
