@@ -58,8 +58,8 @@
     },
     {
       "symbol": "INTC",
-      "name": "Intel Corporation",
-      "exchange": "NMS",
+      "name": "INTC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -234,7 +234,7 @@
     {
       "symbol": "OKTA",
       "name": "Okta, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -374,7 +374,7 @@
     {
       "symbol": "GPN",
       "name": "Global Payments Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -646,8 +646,8 @@
     },
     {
       "symbol": "AON",
-      "name": "Aon plc",
-      "exchange": "NYQ",
+      "name": "AON",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
