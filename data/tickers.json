@@ -234,14 +234,14 @@
     {
       "symbol": "OKTA",
       "name": "Okta, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "HUBS",
       "name": "HubSpot, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -465,7 +465,7 @@
     {
       "symbol": "WFC",
       "name": "Wells Fargo & Company",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
