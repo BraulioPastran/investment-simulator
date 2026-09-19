@@ -86,8 +86,8 @@
     },
     {
       "symbol": "PYPL",
-      "name": "PayPal Holdings, Inc.",
-      "exchange": "NMS",
+      "name": "PYPL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -478,8 +478,8 @@
     },
     {
       "symbol": "MS",
-      "name": "Morgan Stanley",
-      "exchange": "NYQ",
+      "name": "MS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
