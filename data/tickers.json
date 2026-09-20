@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -269,7 +269,7 @@
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
