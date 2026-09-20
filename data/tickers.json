@@ -86,8 +86,8 @@
     },
     {
       "symbol": "PYPL",
-      "name": "PYPL",
-      "exchange": "",
+      "name": "PayPal Holdings, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -269,7 +269,7 @@
     {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -478,8 +478,8 @@
     },
     {
       "symbol": "MS",
-      "name": "MS",
-      "exchange": "",
+      "name": "Morgan Stanley",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-19"
+  "updated": "2026-09-20"
 }
