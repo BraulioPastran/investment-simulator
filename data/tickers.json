@@ -3,7 +3,7 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -626,7 +626,7 @@
     {
       "symbol": "ALL",
       "name": "The Allstate Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
