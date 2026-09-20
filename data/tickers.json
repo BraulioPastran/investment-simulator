@@ -416,7 +416,7 @@
     {
       "symbol": "TTWO",
       "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -569,8 +569,8 @@
     },
     {
       "symbol": "ICE",
-      "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYQ",
+      "name": "ICE",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
