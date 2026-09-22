@@ -23,8 +23,8 @@
     },
     {
       "symbol": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "exchange": "NMS",
+      "name": "AMZN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -44,8 +44,8 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "exchange": "NMS",
+      "name": "NVDA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -226,8 +226,8 @@
     },
     {
       "symbol": "ZS",
-      "name": "ZS",
-      "exchange": "",
+      "name": "Zscaler, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -485,8 +485,8 @@
     },
     {
       "symbol": "V",
-      "name": "V",
-      "exchange": "",
+      "name": "Visa Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
