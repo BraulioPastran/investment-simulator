@@ -115,7 +115,7 @@
     {
       "symbol": "LYFT",
       "name": "Lyft, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -268,8 +268,8 @@
     },
     {
       "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "exchange": "NYQ",
+      "name": "ORCL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
