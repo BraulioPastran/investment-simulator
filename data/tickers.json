@@ -115,7 +115,7 @@
     {
       "symbol": "LYFT",
       "name": "Lyft, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -478,8 +478,8 @@
     },
     {
       "symbol": "MS",
-      "name": "MS",
-      "exchange": "",
+      "name": "Morgan Stanley",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -513,8 +513,8 @@
     },
     {
       "symbol": "C",
-      "name": "C",
-      "exchange": "",
+      "name": "Citigroup Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -534,8 +534,8 @@
     },
     {
       "symbol": "TFC",
-      "name": "TFC",
-      "exchange": "",
+      "name": "Truist Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
