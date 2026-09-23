@@ -268,8 +268,8 @@
     },
     {
       "symbol": "ORCL",
-      "name": "ORCL",
-      "exchange": "",
+      "name": "Oracle Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -584,7 +584,7 @@
     {
       "symbol": "VICI",
       "name": "VICI Properties Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -598,7 +598,7 @@
     {
       "symbol": "AFL",
       "name": "Aflac Incorporated",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -668,7 +668,7 @@
     {
       "symbol": "BRO",
       "name": "Brown & Brown, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-22"
+  "updated": "2026-09-23"
 }
