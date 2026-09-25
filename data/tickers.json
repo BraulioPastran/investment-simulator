@@ -107,8 +107,8 @@
     },
     {
       "symbol": "UBER",
-      "name": "Uber Technologies, Inc.",
-      "exchange": "NYQ",
+      "name": "UBER",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -339,7 +339,7 @@
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -499,8 +499,8 @@
     },
     {
       "symbol": "AXP",
-      "name": "American Express Company",
-      "exchange": "NYQ",
+      "name": "AXP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-09-24"
+  "updated": "2026-09-25"
 }
