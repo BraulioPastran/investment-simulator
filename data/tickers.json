@@ -44,8 +44,8 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "exchange": "NMS",
+      "name": "NVDA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -87,7 +87,7 @@
     {
       "symbol": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
