@@ -44,8 +44,8 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVDA",
-      "exchange": "",
+      "name": "NVIDIA Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -380,8 +380,8 @@
     },
     {
       "symbol": "PAYX",
-      "name": "Paychex, Inc.",
-      "exchange": "NMS",
+      "name": "PAYX",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
