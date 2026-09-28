@@ -184,8 +184,8 @@
     },
     {
       "symbol": "SPOT",
-      "name": "Spotify Technology S.A.",
-      "exchange": "NYQ",
+      "name": "SPOT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -576,8 +576,8 @@
     },
     {
       "symbol": "BLK",
-      "name": "BlackRock, Inc.",
-      "exchange": "NYQ",
+      "name": "BLK",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
