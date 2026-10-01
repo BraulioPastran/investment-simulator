@@ -275,8 +275,8 @@
     },
     {
       "symbol": "IBM",
-      "name": "International Business Machines Corporation",
-      "exchange": "NYQ",
+      "name": "IBM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -520,8 +520,8 @@
     },
     {
       "symbol": "USB",
-      "name": "U.S. Bancorp",
-      "exchange": "NYQ",
+      "name": "USB",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -618,8 +618,8 @@
     },
     {
       "symbol": "TRV",
-      "name": "TRV",
-      "exchange": "",
+      "name": "The Travelers Companies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
