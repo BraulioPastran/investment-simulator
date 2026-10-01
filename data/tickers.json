@@ -311,7 +311,7 @@
     {
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -618,8 +618,8 @@
     },
     {
       "symbol": "TRV",
-      "name": "The Travelers Companies, Inc.",
-      "exchange": "NYQ",
+      "name": "TRV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
