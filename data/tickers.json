@@ -184,8 +184,8 @@
     },
     {
       "symbol": "SPOT",
-      "name": "Spotify Technology S.A.",
-      "exchange": "NYQ",
+      "name": "SPOT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -478,8 +478,8 @@
     },
     {
       "symbol": "MS",
-      "name": "Morgan Stanley",
-      "exchange": "NYQ",
+      "name": "MS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -674,8 +674,8 @@
     },
     {
       "symbol": "RF",
-      "name": "RF",
-      "exchange": "",
+      "name": "Regions Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
