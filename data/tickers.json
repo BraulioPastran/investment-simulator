@@ -611,8 +611,8 @@
     },
     {
       "symbol": "PRU",
-      "name": "PRU",
-      "exchange": "",
+      "name": "Prudential Financial, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -674,8 +674,8 @@
     },
     {
       "symbol": "RF",
-      "name": "Regions Financial Corporation",
-      "exchange": "NYQ",
+      "name": "RF",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
