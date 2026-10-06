@@ -192,7 +192,7 @@
     {
       "symbol": "ROKU",
       "name": "Roku, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -205,8 +205,8 @@
     },
     {
       "symbol": "WDAY",
-      "name": "Workday, Inc.",
-      "exchange": "NMS",
+      "name": "WDAY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -555,8 +555,8 @@
     },
     {
       "symbol": "SPGI",
-      "name": "S&P Global Inc.",
-      "exchange": "NYQ",
+      "name": "SPGI",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
