@@ -184,8 +184,8 @@
     },
     {
       "symbol": "SPOT",
-      "name": "Spotify Technology S.A.",
-      "exchange": "NYQ",
+      "name": "SPOT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -296,8 +296,8 @@
     },
     {
       "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "exchange": "NMS",
+      "name": "AVGO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -570,7 +570,7 @@
     {
       "symbol": "ICE",
       "name": "Intercontinental Exchange, Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
