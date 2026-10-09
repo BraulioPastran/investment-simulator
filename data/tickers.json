@@ -9,8 +9,8 @@
     },
     {
       "symbol": "MSFT",
-      "name": "MSFT",
-      "exchange": "",
+      "name": "Microsoft Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -23,8 +23,8 @@
     },
     {
       "symbol": "AMZN",
-      "name": "AMZN",
-      "exchange": "",
+      "name": "Amazon.com, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -52,7 +52,7 @@
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -164,7 +164,7 @@
     {
       "symbol": "SNAP",
       "name": "Snap Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -415,8 +415,8 @@
     },
     {
       "symbol": "TTWO",
-      "name": "TTWO",
-      "exchange": "",
+      "name": "Take-Two Interactive Software, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-10-08"
+  "updated": "2026-10-09"
 }
