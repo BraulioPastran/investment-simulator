@@ -185,7 +185,7 @@
     {
       "symbol": "SPOT",
       "name": "Spotify Technology S.A.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -219,8 +219,8 @@
     },
     {
       "symbol": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "exchange": "NMS",
+      "name": "CRWD",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
