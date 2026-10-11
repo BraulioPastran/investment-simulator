@@ -338,8 +338,8 @@
     },
     {
       "symbol": "CDNS",
-      "name": "Cadence Design Systems, Inc.",
-      "exchange": "NMS",
+      "name": "CDNS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -500,7 +500,7 @@
     {
       "symbol": "AXP",
       "name": "American Express Company",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
