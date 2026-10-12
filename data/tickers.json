@@ -233,8 +233,8 @@
     },
     {
       "symbol": "OKTA",
-      "name": "Okta, Inc.",
-      "exchange": "NMS",
+      "name": "OKTA",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -268,8 +268,8 @@
     },
     {
       "symbol": "ORCL",
-      "name": "Oracle Corporation",
-      "exchange": "NYQ",
+      "name": "ORCL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -415,8 +415,8 @@
     },
     {
       "symbol": "TTWO",
-      "name": "Take-Two Interactive Software, Inc.",
-      "exchange": "NMS",
+      "name": "TTWO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-10-11"
+  "updated": "2026-10-12"
 }
