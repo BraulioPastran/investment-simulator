@@ -254,8 +254,8 @@
     },
     {
       "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "exchange": "NMS",
+      "name": "MSTR",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -324,8 +324,8 @@
     },
     {
       "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "exchange": "NMS",
+      "name": "KLAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -345,8 +345,8 @@
     },
     {
       "symbol": "INTU",
-      "name": "Intuit Inc.",
-      "exchange": "NMS",
+      "name": "INTU",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -479,7 +479,7 @@
     {
       "symbol": "MS",
       "name": "Morgan Stanley",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
