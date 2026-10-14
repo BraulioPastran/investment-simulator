@@ -289,8 +289,8 @@
     },
     {
       "symbol": "TXN",
-      "name": "TXN",
-      "exchange": "",
+      "name": "Texas Instruments Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -373,8 +373,8 @@
     },
     {
       "symbol": "GPN",
-      "name": "GPN",
-      "exchange": "",
+      "name": "Global Payments Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -478,8 +478,8 @@
     },
     {
       "symbol": "MS",
-      "name": "MS",
-      "exchange": "",
+      "name": "Morgan Stanley",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -583,8 +583,8 @@
     },
     {
       "symbol": "VICI",
-      "name": "VICI",
-      "exchange": "",
+      "name": "VICI Properties Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -667,8 +667,8 @@
     },
     {
       "symbol": "BRO",
-      "name": "Brown & Brown, Inc.",
-      "exchange": "NYQ",
+      "name": "BRO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KeyCorp",
-      "exchange": "NYQ",
+      "name": "KEY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
