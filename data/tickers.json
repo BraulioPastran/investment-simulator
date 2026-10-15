@@ -142,8 +142,8 @@
     },
     {
       "symbol": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "exchange": "NMS",
+      "name": "PLTR",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -290,7 +290,7 @@
     {
       "symbol": "TXN",
       "name": "Texas Instruments Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
