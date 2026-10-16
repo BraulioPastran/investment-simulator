@@ -65,8 +65,8 @@
     },
     {
       "symbol": "CRM",
-      "name": "Salesforce, Inc.",
-      "exchange": "NYQ",
+      "name": "CRM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -142,8 +142,8 @@
     },
     {
       "symbol": "PLTR",
-      "name": "PLTR",
-      "exchange": "",
+      "name": "Palantir Technologies Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -471,8 +471,8 @@
     },
     {
       "symbol": "GS",
-      "name": "The Goldman Sachs Group, Inc.",
-      "exchange": "NYQ",
+      "name": "GS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-10-15"
+  "updated": "2026-10-16"
 }
