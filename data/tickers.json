@@ -51,8 +51,8 @@
     },
     {
       "symbol": "AMD",
-      "name": "AMD",
-      "exchange": "",
+      "name": "Advanced Micro Devices, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -366,8 +366,8 @@
     },
     {
       "symbol": "FISV",
-      "name": "FISV",
-      "exchange": "",
+      "name": "Fiserv, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -450,8 +450,8 @@
     },
     {
       "symbol": "JPM",
-      "name": "JPMorgan Chase & Co.",
-      "exchange": "NYQ",
+      "name": "JPM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
