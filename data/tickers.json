@@ -311,7 +311,7 @@
     {
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -339,7 +339,7 @@
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -437,7 +437,7 @@
     {
       "symbol": "UBS",
       "name": "UBS Group AG",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -619,7 +619,7 @@
     {
       "symbol": "TRV",
       "name": "The Travelers Companies, Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -640,7 +640,7 @@
     {
       "symbol": "CB",
       "name": "Chubb Limited",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
