@@ -51,8 +51,8 @@
     },
     {
       "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "exchange": "NMS",
+      "name": "AMD",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -339,7 +339,7 @@
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -366,8 +366,8 @@
     },
     {
       "symbol": "FISV",
-      "name": "Fiserv, Inc.",
-      "exchange": "NMS",
+      "name": "FISV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -436,8 +436,8 @@
     },
     {
       "symbol": "UBS",
-      "name": "UBS Group AG",
-      "exchange": "NYSE",
+      "name": "UBS",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -640,7 +640,7 @@
     {
       "symbol": "CB",
       "name": "Chubb Limited",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
