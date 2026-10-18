@@ -590,15 +590,15 @@
     },
     {
       "symbol": "WY",
-      "name": "Weyerhaeuser Company",
-      "exchange": "NYQ",
+      "name": "WY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "AFL",
-      "name": "AFL",
-      "exchange": "",
+      "name": "Aflac Incorporated",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -667,8 +667,8 @@
     },
     {
       "symbol": "BRO",
-      "name": "Brown & Brown, Inc.",
-      "exchange": "NYQ",
+      "name": "BRO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
