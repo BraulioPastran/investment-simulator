@@ -346,7 +346,7 @@
     {
       "symbol": "INTU",
       "name": "Intuit Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -597,8 +597,8 @@
     },
     {
       "symbol": "AFL",
-      "name": "Aflac Incorporated",
-      "exchange": "NYQ",
+      "name": "AFL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
