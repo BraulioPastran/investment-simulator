@@ -44,8 +44,8 @@
     },
     {
       "symbol": "NVDA",
-      "name": "NVDA",
-      "exchange": "",
+      "name": "NVIDIA Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -318,7 +318,7 @@
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -528,14 +528,14 @@
     {
       "symbol": "PNC",
       "name": "The PNC Financial Services Group, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "TFC",
       "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -569,8 +569,8 @@
     },
     {
       "symbol": "ICE",
-      "name": "ICE",
-      "exchange": "",
+      "name": "Intercontinental Exchange, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-10-18"
+  "updated": "2026-10-19"
 }
