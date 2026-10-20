@@ -16,8 +16,8 @@
     },
     {
       "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
-      "exchange": "NMS",
+      "name": "GOOGL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -534,8 +534,8 @@
     },
     {
       "symbol": "TFC",
-      "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "name": "TFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
