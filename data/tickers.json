@@ -16,8 +16,8 @@
     },
     {
       "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
-      "exchange": "NMS",
+      "name": "GOOGL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -58,15 +58,15 @@
     },
     {
       "symbol": "INTC",
-      "name": "Intel Corporation",
-      "exchange": "NMS",
+      "name": "INTC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "CRM",
-      "name": "Salesforce, Inc.",
-      "exchange": "NYQ",
+      "name": "CRM",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -128,8 +128,8 @@
     },
     {
       "symbol": "SNOW",
-      "name": "Snowflake Inc.",
-      "exchange": "NYQ",
+      "name": "SNOW",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -514,7 +514,7 @@
     {
       "symbol": "C",
       "name": "Citigroup Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
