@@ -142,8 +142,8 @@
     },
     {
       "symbol": "PLTR",
-      "name": "PLTR",
-      "exchange": "",
+      "name": "Palantir Technologies Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -276,7 +276,7 @@
     {
       "symbol": "IBM",
       "name": "International Business Machines Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -688,8 +688,8 @@
     },
     {
       "symbol": "HBAN",
-      "name": "HBAN",
-      "exchange": "",
+      "name": "Huntington Bancshares Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
