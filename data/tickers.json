@@ -59,7 +59,7 @@
     {
       "symbol": "INTC",
       "name": "Intel Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -303,8 +303,8 @@
     },
     {
       "symbol": "MU",
-      "name": "Micron Technology, Inc.",
-      "exchange": "NMS",
+      "name": "MU",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -675,7 +675,7 @@
     {
       "symbol": "RF",
       "name": "Regions Financial Corporation",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
