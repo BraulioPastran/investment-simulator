@@ -499,8 +499,8 @@
     },
     {
       "symbol": "AXP",
-      "name": "AXP",
-      "exchange": "",
+      "name": "American Express Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -534,8 +534,8 @@
     },
     {
       "symbol": "TFC",
-      "name": "Truist Financial Corporation",
-      "exchange": "NYQ",
+      "name": "TFC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -548,8 +548,8 @@
     },
     {
       "symbol": "MCO",
-      "name": "Moody's Corporation",
-      "exchange": "NYQ",
+      "name": "MCO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -590,8 +590,8 @@
     },
     {
       "symbol": "WY",
-      "name": "Weyerhaeuser Company",
-      "exchange": "NYQ",
+      "name": "WY",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -604,8 +604,8 @@
     },
     {
       "symbol": "MET",
-      "name": "MET",
-      "exchange": "",
+      "name": "MetLife, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
