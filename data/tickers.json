@@ -534,8 +534,8 @@
     },
     {
       "symbol": "TFC",
-      "name": "TFC",
-      "exchange": "",
+      "name": "Truist Financial Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -548,8 +548,8 @@
     },
     {
       "symbol": "MCO",
-      "name": "MCO",
-      "exchange": "",
+      "name": "Moody's Corporation",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -590,8 +590,8 @@
     },
     {
       "symbol": "WY",
-      "name": "WY",
-      "exchange": "",
+      "name": "Weyerhaeuser Company",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
