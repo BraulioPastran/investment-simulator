@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "exchange": "NMS",
+      "name": "AAPL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -72,8 +72,8 @@
     },
     {
       "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "exchange": "NMS",
+      "name": "ADBE",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -143,7 +143,7 @@
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -493,7 +493,7 @@
     {
       "symbol": "MA",
       "name": "Mastercard Incorporated",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -688,8 +688,8 @@
     },
     {
       "symbol": "HBAN",
-      "name": "Huntington Bancshares Incorporated",
-      "exchange": "NMS",
+      "name": "HBAN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-10-25"
+  "updated": "2026-10-26"
 }
