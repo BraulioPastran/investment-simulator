@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "AAPL",
-      "exchange": "",
+      "name": "Apple Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -72,8 +72,8 @@
     },
     {
       "symbol": "ADBE",
-      "name": "ADBE",
-      "exchange": "",
+      "name": "Adobe Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -688,8 +688,8 @@
     },
     {
       "symbol": "HBAN",
-      "name": "HBAN",
-      "exchange": "",
+      "name": "Huntington Bancshares Incorporated",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
