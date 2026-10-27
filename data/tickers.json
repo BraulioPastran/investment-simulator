@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "exchange": "NMS",
+      "name": "AAPL",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
