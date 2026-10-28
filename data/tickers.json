@@ -163,8 +163,8 @@
     },
     {
       "symbol": "SNAP",
-      "name": "Snap Inc.",
-      "exchange": "NYQ",
+      "name": "SNAP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -395,7 +395,7 @@
     {
       "symbol": "FFIV",
       "name": "F5, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -696,7 +696,7 @@
     {
       "symbol": "CFG",
       "name": "Citizens Financial Group, Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
