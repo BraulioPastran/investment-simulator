@@ -9,8 +9,8 @@
     },
     {
       "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "exchange": "NMS",
+      "name": "MSFT",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -121,8 +121,8 @@
     },
     {
       "symbol": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "exchange": "NMS",
+      "name": "COIN",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -485,8 +485,8 @@
     },
     {
       "symbol": "V",
-      "name": "Visa Inc.",
-      "exchange": "NYQ",
+      "name": "V",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -548,15 +548,15 @@
     },
     {
       "symbol": "MCO",
-      "name": "Moody's Corporation",
-      "exchange": "NYQ",
+      "name": "MCO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "SPGI",
-      "name": "S&P Global Inc.",
-      "exchange": "NYQ",
+      "name": "SPGI",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -605,7 +605,7 @@
     {
       "symbol": "MET",
       "name": "MetLife, Inc.",
-      "exchange": "NYSE",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
