@@ -2,8 +2,8 @@
   "tickers": [
     {
       "symbol": "AAPL",
-      "name": "AAPL",
-      "exchange": "",
+      "name": "Apple Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -444,7 +444,7 @@
     {
       "symbol": "NXGL",
       "name": "NEXGEL, Inc.",
-      "exchange": "NCM",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
