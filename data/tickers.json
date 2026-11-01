@@ -318,14 +318,14 @@
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
     {
       "symbol": "KLAC",
       "name": "KLA Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -479,7 +479,7 @@
     {
       "symbol": "MS",
       "name": "Morgan Stanley",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
