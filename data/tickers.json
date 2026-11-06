@@ -226,8 +226,8 @@
     },
     {
       "symbol": "ZS",
-      "name": "ZS",
-      "exchange": "",
+      "name": "Zscaler, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -689,7 +689,7 @@
     {
       "symbol": "HBAN",
       "name": "Huntington Bancshares Incorporated",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
