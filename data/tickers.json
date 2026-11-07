@@ -198,8 +198,8 @@
     },
     {
       "symbol": "TEAM",
-      "name": "TEAM",
-      "exchange": "",
+      "name": "Atlassian Corporation",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
