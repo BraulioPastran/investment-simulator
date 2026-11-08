@@ -80,7 +80,7 @@
     {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -283,7 +283,7 @@
     {
       "symbol": "QCOM",
       "name": "QUALCOMM Incorporated",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -318,7 +318,7 @@
     {
       "symbol": "LRCX",
       "name": "Lam Research Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-07"
+  "updated": "2026-11-08"
 }
