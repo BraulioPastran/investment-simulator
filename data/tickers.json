@@ -72,8 +72,8 @@
     },
     {
       "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "exchange": "NMS",
+      "name": "ADBE",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -394,8 +394,8 @@
     },
     {
       "symbol": "FFIV",
-      "name": "FFIV",
-      "exchange": "",
+      "name": "F5, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -457,8 +457,8 @@
     },
     {
       "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "exchange": "NYQ",
+      "name": "BAC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-10"
 }
