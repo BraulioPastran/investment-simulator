@@ -262,7 +262,7 @@
     {
       "symbol": "SAP",
       "name": "SAP SE",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -605,7 +605,7 @@
     {
       "symbol": "MET",
       "name": "MetLife, Inc.",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-10"
+  "updated": "2026-11-11"
 }
