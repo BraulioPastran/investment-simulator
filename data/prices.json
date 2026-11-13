@@ -1,38 +1,38 @@
 {
   "prices": {
     "VOO": {
-      "current": 698.3499755859375,
-      "previousClose": 689.5,
+      "current": 696,
+      "previousClose": 698.3499755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VTI": {
-      "current": 374.25,
-      "previousClose": 369.54998779296875,
+      "current": 372.6199951171875,
+      "previousClose": 374.25,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SPY": {
-      "current": 759.8099975585938,
-      "previousClose": 749.9199829101562,
+      "current": 757.1199951171875,
+      "previousClose": 759.8099975585938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "QQQ": {
-      "current": 690.3800048828125,
-      "previousClose": 674.760009765625,
+      "current": 688.1699829101562,
+      "previousClose": 690.3800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AAPL": {
-      "current": 355.6300048828125,
-      "previousClose": 348.510009765625,
+      "current": 354.8800048828125,
+      "previousClose": 355.6300048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MSFT": {
-      "current": 521.1300048828125,
-      "previousClose": 533.1599731445312,
+      "current": 523,
+      "previousClose": 521.1300048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -42,92 +42,92 @@
       "updated": "2026-05-26"
     },
     "NEE": {
-      "current": 85.98999786376953,
-      "previousClose": 86.2699966430664,
+      "current": 85.29000091552734,
+      "previousClose": 85.98999786376953,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VEA": {
-      "current": 69.91999816894531,
-      "previousClose": 69.36000061035156,
+      "current": 69.43000030517578,
+      "previousClose": 69.91999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VT": {
-      "current": 156.7100067138672,
-      "previousClose": 154.94000244140625,
+      "current": 155.75,
+      "previousClose": 156.7100067138672,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NVDA": {
-      "current": 173.72999572753906,
-      "previousClose": 168.88999938964844,
+      "current": 166.19000244140625,
+      "previousClose": 173.72999572753906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GOOGL": {
-      "current": 293.45001220703125,
-      "previousClose": 287.3800048828125,
+      "current": 298.70001220703125,
+      "previousClose": 293.45001220703125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AMZN": {
-      "current": 266.1700134277344,
-      "previousClose": 270.8699951171875,
+      "current": 267.44000244140625,
+      "previousClose": 266.1700134277344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "META": {
-      "current": 628.77001953125,
-      "previousClose": 641.3900146484375,
+      "current": 623.6099853515625,
+      "previousClose": 628.77001953125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TSLA": {
-      "current": 390.8399963378906,
-      "previousClose": 379.7799987792969,
+      "current": 397.45001220703125,
+      "previousClose": 390.8399963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AMD": {
-      "current": 552.9000244140625,
-      "previousClose": 515.2100219726562,
+      "current": 585.2999877929688,
+      "previousClose": 552.9000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "INTC": {
-      "current": 62.5,
-      "previousClose": 58.130001068115234,
+      "current": 61.20000076293945,
+      "previousClose": 62.5,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CRM": {
-      "current": 218.00999450683594,
-      "previousClose": 213.47999572753906,
+      "current": 217.57000732421875,
+      "previousClose": 218.00999450683594,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ADBE": {
-      "current": 237.60000610351562,
-      "previousClose": 236.6999969482422,
+      "current": 238.5399932861328,
+      "previousClose": 237.60000610351562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NFLX": {
-      "current": 64.54000091552734,
-      "previousClose": 63.2599983215332,
+      "current": 62.689998626708984,
+      "previousClose": 64.54000091552734,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PYPL": {
-      "current": 59.47999954223633,
-      "previousClose": 58.779998779296875,
+      "current": 58.29999923706055,
+      "previousClose": 59.47999954223633,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SHOP": {
-      "current": 149.25999450683594,
-      "previousClose": 146.61000061035156,
+      "current": 146.77999877929688,
+      "previousClose": 149.25999450683594,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -138,74 +138,74 @@
       "updated": null
     },
     "UBER": {
-      "current": 70.68000030517578,
-      "previousClose": 70.05000305175781,
+      "current": 69.12000274658203,
+      "previousClose": 70.68000030517578,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LYFT": {
-      "current": 17.290000915527344,
-      "previousClose": 17.020000457763672,
+      "current": 16.610000610351562,
+      "previousClose": 17.290000915527344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "COIN": {
-      "current": 136.27000427246094,
-      "previousClose": 132.1300048828125,
+      "current": 130.6699981689453,
+      "previousClose": 136.27000427246094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SNOW": {
-      "current": 301.2200012207031,
-      "previousClose": 295.760009765625,
+      "current": 298.70001220703125,
+      "previousClose": 301.2200012207031,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NOW": {
-      "current": 102.76000213623047,
-      "previousClose": 99.61000061035156,
+      "current": 100.66000366210938,
+      "previousClose": 102.76000213623047,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PLTR": {
-      "current": 172.39999389648438,
-      "previousClose": 168.82000732421875,
+      "current": 171.5800018310547,
+      "previousClose": 172.39999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NET": {
-      "current": 315,
-      "previousClose": 305.79998779296875,
+      "current": 318.5,
+      "previousClose": 315,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DDOG": {
-      "current": 184.3800048828125,
-      "previousClose": 178.39999389648438,
+      "current": 184.4600067138672,
+      "previousClose": 184.3800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SNAP": {
-      "current": 5.340000152587891,
-      "previousClose": 5,
+      "current": 5.21999979019165,
+      "previousClose": 5.340000152587891,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DOCU": {
       "current": 80.1500015258789,
-      "previousClose": 77.66000366210938,
+      "previousClose": 80.1500015258789,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ZM": {
-      "current": 98.08000183105469,
-      "previousClose": 90.91000366210938,
+      "current": 97.69999694824219,
+      "previousClose": 98.08000183105469,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SPOT": {
-      "current": 609.1199951171875,
-      "previousClose": 606.219970703125,
+      "current": 598.510009765625,
+      "previousClose": 609.1199951171875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -216,182 +216,182 @@
       "updated": "2026-11-13"
     },
     "TEAM": {
-      "current": 152.44000244140625,
-      "previousClose": 148.60000610351562,
+      "current": 152.2899932861328,
+      "previousClose": 152.44000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WDAY": {
-      "current": 191.16000366210938,
-      "previousClose": 188.88999938964844,
+      "current": 190.63999938964844,
+      "previousClose": 191.16000366210938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PANW": {
-      "current": 334.4700012207031,
-      "previousClose": 326.3599853515625,
+      "current": 322.6600036621094,
+      "previousClose": 334.4700012207031,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CRWD": {
-      "current": 229.05999755859375,
-      "previousClose": 225.75999450683594,
+      "current": 229.8699951171875,
+      "previousClose": 229.05999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ZS": {
-      "current": 193.7949981689453,
-      "previousClose": 194.9199981689453,
+      "current": 193.22000122070312,
+      "previousClose": 193.7949981689453,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "OKTA": {
-      "current": 182.25,
-      "previousClose": 178.36000061035156,
+      "current": 182.5399932861328,
+      "previousClose": 182.25,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HUBS": {
-      "current": 202.8800048828125,
-      "previousClose": 196.99000549316406,
+      "current": 215.83999633789062,
+      "previousClose": 202.8800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TWLO": {
-      "current": 219.47999572753906,
-      "previousClose": 214.2100067138672,
+      "current": 212.2100067138672,
+      "previousClose": 219.47999572753906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MSTR": {
-      "current": 122.3499984741211,
-      "previousClose": 121.06999969482422,
+      "current": 114.41000366210938,
+      "previousClose": 122.3499984741211,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SAP": {
-      "current": 234.10000610351562,
-      "previousClose": 233.74000549316406,
+      "current": 234.05999755859375,
+      "previousClose": 234.10000610351562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ORCL": {
-      "current": 128.3800048828125,
-      "previousClose": 117.9800033569336,
+      "current": 127.11000061035156,
+      "previousClose": 128.3800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IBM": {
-      "current": 248.22000122070312,
-      "previousClose": 244.52999877929688,
+      "current": 244.6699981689453,
+      "previousClose": 248.22000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "QCOM": {
-      "current": 176.57000732421875,
-      "previousClose": 173.52999877929688,
+      "current": 177.13999938964844,
+      "previousClose": 176.57000732421875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TXN": {
-      "current": 309.80999755859375,
-      "previousClose": 300.5199890136719,
+      "current": 312.4800109863281,
+      "previousClose": 309.80999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AVGO": {
-      "current": 345.2200012207031,
-      "previousClose": 331.9800109863281,
+      "current": 364.3599853515625,
+      "previousClose": 345.2200012207031,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MU": {
-      "current": 811.2999877929688,
-      "previousClose": 725.1099853515625,
+      "current": 798.4400024414062,
+      "previousClose": 811.2999877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AMAT": {
-      "current": 395.0799865722656,
-      "previousClose": 372.5299987792969,
+      "current": 380.95001220703125,
+      "previousClose": 395.0799865722656,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LRCX": {
-      "current": 235.8800048828125,
-      "previousClose": 222.38999938964844,
+      "current": 233.77999877929688,
+      "previousClose": 235.8800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KLAC": {
-      "current": 161.00999450683594,
-      "previousClose": 152.99000549316406,
+      "current": 157.3000030517578,
+      "previousClose": 161.00999450683594,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SNPS": {
-      "current": 462.1199951171875,
-      "previousClose": 459.95001220703125,
+      "current": 462.69000244140625,
+      "previousClose": 462.1199951171875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CDNS": {
-      "current": 329.260009765625,
-      "previousClose": 331.6400146484375,
+      "current": 333.32000732421875,
+      "previousClose": 329.260009765625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "INTU": {
-      "current": 342.6400146484375,
-      "previousClose": 340.44000244140625,
+      "current": 340.1700134277344,
+      "previousClose": 342.6400146484375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ADP": {
-      "current": 306.3599853515625,
-      "previousClose": 305.44000244140625,
+      "current": 307.9200134277344,
+      "previousClose": 306.3599853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FIS": {
-      "current": 30.209999084472656,
-      "previousClose": 28.309999465942383,
+      "current": 28.360000610351562,
+      "previousClose": 30.209999084472656,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FISV": {
-      "current": 63.900001525878906,
-      "previousClose": 63.31999969482422,
+      "current": 61.5,
+      "previousClose": 63.900001525878906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GPN": {
-      "current": 100.2300033569336,
-      "previousClose": 101.58999633789062,
+      "current": 88.19000244140625,
+      "previousClose": 100.2300033569336,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PAYX": {
-      "current": 115.37000274658203,
-      "previousClose": 116.19999694824219,
+      "current": 115.18000030517578,
+      "previousClose": 115.37000274658203,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ADSK": {
-      "current": 260.010009765625,
-      "previousClose": 260.1099853515625,
+      "current": 259.4800109863281,
+      "previousClose": 260.010009765625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FFIV": {
-      "current": 320.010009765625,
-      "previousClose": 317.30999755859375,
+      "current": 317.6400146484375,
+      "previousClose": 320.010009765625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CDW": {
-      "current": 173.0800018310547,
-      "previousClose": 169.36000061035156,
+      "current": 172.7899932861328,
+      "previousClose": 173.0800018310547,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -402,8 +402,8 @@
       "updated": "2026-11-13"
     },
     "TTWO": {
-      "current": 231.30999755859375,
-      "previousClose": 224.63999938964844,
+      "current": 226.9499969482422,
+      "previousClose": 231.30999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -414,68 +414,68 @@
       "updated": null
     },
     "NTDOY": {
-      "current": 13.180000305175781,
+      "current": 13.170000076293945,
       "previousClose": 13.25,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "UBS": {
-      "current": 49.380001068115234,
-      "previousClose": 49.16999816894531,
+      "current": 48.439998626708984,
+      "previousClose": 49.380001068115234,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NXGL": {
-      "current": 4.239999771118164,
-      "previousClose": 3.5799999237060547,
+      "current": 3.7899999618530273,
+      "previousClose": 4.239999771118164,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "JPM": {
-      "current": 343.3900146484375,
-      "previousClose": 342.07000732421875,
+      "current": 342.82000732421875,
+      "previousClose": 343.3900146484375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BAC": {
-      "current": 50.66999816894531,
-      "previousClose": 50.68000030517578,
+      "current": 50.5099983215332,
+      "previousClose": 50.66999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WFC": {
-      "current": 85.80000305175781,
-      "previousClose": 85.76000213623047,
+      "current": 85.76000213623047,
+      "previousClose": 85.80000305175781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GS": {
-      "current": 926.8099975585938,
-      "previousClose": 910.1900024414062,
+      "current": 913.5999755859375,
+      "previousClose": 926.8099975585938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MS": {
-      "current": 190.61000061035156,
-      "previousClose": 187.55999755859375,
+      "current": 189.1699981689453,
+      "previousClose": 190.61000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "V": {
-      "current": 425.54998779296875,
-      "previousClose": 423,
+      "current": 420.30999755859375,
+      "previousClose": 425.54998779296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MA": {
-      "current": 660.72998046875,
-      "previousClose": 658.8400268554688,
+      "current": 652.5999755859375,
+      "previousClose": 660.72998046875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AXP": {
-      "current": 323.1099853515625,
-      "previousClose": 323.4599914550781,
+      "current": 318.05999755859375,
+      "previousClose": 323.1099853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -486,122 +486,122 @@
       "updated": null
     },
     "C": {
-      "current": 124.20999908447266,
-      "previousClose": 122.2699966430664,
+      "current": 124.05999755859375,
+      "previousClose": 124.20999908447266,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "USB": {
-      "current": 60.70000076293945,
-      "previousClose": 60.75,
+      "current": 60.470001220703125,
+      "previousClose": 60.70000076293945,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PNC": {
-      "current": 232,
-      "previousClose": 231.3000030517578,
+      "current": 231.02999877929688,
+      "previousClose": 232,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TFC": {
-      "current": 50.2599983215332,
+      "current": 49.88999938964844,
       "previousClose": 50.2599983215332,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SCHW": {
-      "current": 92.77999877929688,
-      "previousClose": 93.02999877929688,
+      "current": 91.72000122070312,
+      "previousClose": 92.77999877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MCO": {
-      "current": 514.9299926757812,
-      "previousClose": 510.7099914550781,
+      "current": 506.55999755859375,
+      "previousClose": 514.9299926757812,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SPGI": {
-      "current": 475.1099853515625,
-      "previousClose": 473.3800048828125,
+      "current": 468.510009765625,
+      "previousClose": 475.1099853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CME": {
-      "current": 315.8699951171875,
-      "previousClose": 309.0899963378906,
+      "current": 315.5,
+      "previousClose": 315.8699951171875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ICE": {
-      "current": 180.58999633789062,
-      "previousClose": 176.36000061035156,
+      "current": 177.86000061035156,
+      "previousClose": 180.58999633789062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BLK": {
-      "current": 1226.31005859375,
-      "previousClose": 1222.1500244140625,
+      "current": 1216.6099853515625,
+      "previousClose": 1226.31005859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VICI": {
-      "current": 24.940000534057617,
-      "previousClose": 24.989999771118164,
+      "current": 24.799999237060547,
+      "previousClose": 24.940000534057617,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WY": {
-      "current": 20.649999618530273,
-      "previousClose": 20.6299991607666,
+      "current": 20.459999084472656,
+      "previousClose": 20.649999618530273,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AFL": {
-      "current": 127.11000061035156,
-      "previousClose": 126.63999938964844,
+      "current": 126.51000213623047,
+      "previousClose": 127.11000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MET": {
-      "current": 102.94000244140625,
-      "previousClose": 102.44000244140625,
+      "current": 101.87000274658203,
+      "previousClose": 102.94000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PRU": {
-      "current": 123.04000091552734,
-      "previousClose": 123.30000305175781,
+      "current": 122.41000366210938,
+      "previousClose": 123.04000091552734,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TRV": {
-      "current": 399.4599914550781,
-      "previousClose": 400.7799987792969,
+      "current": 403.17999267578125,
+      "previousClose": 399.4599914550781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ALL": {
-      "current": 262.17999267578125,
-      "previousClose": 261.1199951171875,
+      "current": 266.69000244140625,
+      "previousClose": 262.17999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HIG": {
-      "current": 137.17999267578125,
-      "previousClose": 137.8000030517578,
+      "current": 136.89999389648438,
+      "previousClose": 137.17999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CB": {
-      "current": 370.3299865722656,
-      "previousClose": 369.1099853515625,
+      "current": 371.760009765625,
+      "previousClose": 370.3299865722656,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AON": {
-      "current": 336.54998779296875,
-      "previousClose": 336.3399963378906,
+      "current": 333.4200134277344,
+      "previousClose": 336.54998779296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -618,212 +618,212 @@
       "updated": null
     },
     "BRO": {
-      "current": 71.38999938964844,
-      "previousClose": 71.88999938964844,
+      "current": 70.55000305175781,
+      "previousClose": 71.38999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "RF": {
-      "current": 28.639999389648438,
-      "previousClose": 28.700000762939453,
+      "current": 28.510000228881836,
+      "previousClose": 28.639999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KEY": {
-      "current": 21.440000534057617,
-      "previousClose": 21.34000015258789,
+      "current": 21.329999923706055,
+      "previousClose": 21.440000534057617,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HBAN": {
-      "current": 15.880000114440918,
-      "previousClose": 15.84000015258789,
+      "current": 15.729999542236328,
+      "previousClose": 15.880000114440918,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CFG": {
-      "current": 65.37999725341797,
-      "previousClose": 64.81999969482422,
+      "current": 64.86000061035156,
+      "previousClose": 65.37999725341797,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "STT": {
-      "current": 174.1699981689453,
-      "previousClose": 171.6199951171875,
+      "current": 173.6999969482422,
+      "previousClose": 174.1699981689453,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TROW": {
-      "current": 110.69000244140625,
-      "previousClose": 110.9000015258789,
+      "current": 108.22000122070312,
+      "previousClose": 110.69000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NDAQ": {
-      "current": 109.68000030517578,
-      "previousClose": 110.0199966430664,
+      "current": 108.6500015258789,
+      "previousClose": 109.68000030517578,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FND": {
-      "current": 51.060001373291016,
-      "previousClose": 51.439998626708984,
+      "current": 48.83000183105469,
+      "previousClose": 51.060001373291016,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "UNH": {
-      "current": 402.94000244140625,
-      "previousClose": 405.1199951171875,
+      "current": 405.1300048828125,
+      "previousClose": 402.94000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "JNJ": {
-      "current": 280.4100036621094,
-      "previousClose": 280.7799987792969,
+      "current": 283.5199890136719,
+      "previousClose": 280.4100036621094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PFE": {
-      "current": 29.450000762939453,
-      "previousClose": 29.360000610351562,
+      "current": 28.829999923706055,
+      "previousClose": 29.450000762939453,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ABBV": {
-      "current": 294.9800109863281,
-      "previousClose": 293.8900146484375,
+      "current": 294.45001220703125,
+      "previousClose": 294.9800109863281,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LLY": {
-      "current": 1437.2900390625,
-      "previousClose": 1432.2900390625,
+      "current": 1427.280029296875,
+      "previousClose": 1437.2900390625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MRK": {
-      "current": 147.17999267578125,
-      "previousClose": 148.0500030517578,
+      "current": 146.9499969482422,
+      "previousClose": 147.17999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TMO": {
-      "current": 717.7100219726562,
-      "previousClose": 718.2000122070312,
+      "current": 699.4400024414062,
+      "previousClose": 717.7100219726562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ABT": {
-      "current": 109.29000091552734,
-      "previousClose": 110.45999908447266,
+      "current": 107.25,
+      "previousClose": 109.29000091552734,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BMY": {
-      "current": 62.90999984741211,
-      "previousClose": 62.79999923706055,
+      "current": 62.31999969482422,
+      "previousClose": 62.90999984741211,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AMGN": {
-      "current": 468.1099853515625,
-      "previousClose": 465.2300109863281,
+      "current": 467.05999755859375,
+      "previousClose": 468.1099853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GILD": {
-      "current": 169.72999572753906,
-      "previousClose": 170.8699951171875,
+      "current": 167.9499969482422,
+      "previousClose": 169.72999572753906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CVS": {
-      "current": 89.5199966430664,
-      "previousClose": 89.01000213623047,
+      "current": 89.79000091552734,
+      "previousClose": 89.5199966430664,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ISRG": {
-      "current": 449.5299987792969,
-      "previousClose": 450.0400085449219,
+      "current": 439.8900146484375,
+      "previousClose": 449.5299987792969,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MDT": {
-      "current": 101.61000061035156,
-      "previousClose": 101.58999633789062,
+      "current": 100.98999786376953,
+      "previousClose": 101.61000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SYK": {
-      "current": 318.7900085449219,
-      "previousClose": 324.2900085449219,
+      "current": 312.3900146484375,
+      "previousClose": 318.7900085449219,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ZTS": {
-      "current": 82.56999969482422,
-      "previousClose": 82.45999908447266,
+      "current": 82.95999908447266,
+      "previousClose": 82.56999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "REGN": {
-      "current": 959.4099731445312,
-      "previousClose": 916.0599975585938,
+      "current": 951.1900024414062,
+      "previousClose": 959.4099731445312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BIIB": {
-      "current": 253.39999389648438,
-      "previousClose": 253.25,
+      "current": 250.47999572753906,
+      "previousClose": 253.39999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MRNA": {
-      "current": 248.69000244140625,
-      "previousClose": 250.8300018310547,
+      "current": 231.35000610351562,
+      "previousClose": 248.69000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NVAX": {
-      "current": 9.979999542236328,
-      "previousClose": 10.199999809265137,
+      "current": 8.760000228881836,
+      "previousClose": 9.979999542236328,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DHR": {
-      "current": 235.30999755859375,
-      "previousClose": 236.11000061035156,
+      "current": 232.16000366210938,
+      "previousClose": 235.30999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EW": {
-      "current": 105.80999755859375,
-      "previousClose": 104.01000213623047,
+      "current": 105.80000305175781,
+      "previousClose": 105.80999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VRTX": {
-      "current": 547.030029296875,
-      "previousClose": 547.8900146484375,
+      "current": 542.6199951171875,
+      "previousClose": 547.030029296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IQV": {
-      "current": 274.5299987792969,
-      "previousClose": 275.1499938964844,
+      "current": 271.1099853515625,
+      "previousClose": 274.5299987792969,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IDXX": {
-      "current": 702.5900268554688,
-      "previousClose": 696.6400146484375,
+      "current": 698.02001953125,
+      "previousClose": 702.5900268554688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ALGN": {
-      "current": 172.0800018310547,
-      "previousClose": 174.25999450683594,
+      "current": 166.97000122070312,
+      "previousClose": 172.0800018310547,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -834,56 +834,56 @@
       "updated": "2026-06-08"
     },
     "DGX": {
-      "current": 258.69000244140625,
-      "previousClose": 258.44000244140625,
+      "current": 259.6499938964844,
+      "previousClose": 258.69000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LH": {
-      "current": 372.2300109863281,
-      "previousClose": 370.8800048828125,
+      "current": 372.32000732421875,
+      "previousClose": 372.2300109863281,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XRAY": {
-      "current": 9.760000228881836,
-      "previousClose": 9.699999809265137,
+      "current": 9.239999771118164,
+      "previousClose": 9.760000228881836,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HCA": {
-      "current": 506.0400085449219,
-      "previousClose": 504.4200134277344,
+      "current": 500.6600036621094,
+      "previousClose": 506.0400085449219,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CNC": {
-      "current": 70.4800033569336,
-      "previousClose": 70.19000244140625,
+      "current": 70.2699966430664,
+      "previousClose": 70.4800033569336,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HUM": {
-      "current": 446.30999755859375,
-      "previousClose": 438.05999755859375,
+      "current": 443.67999267578125,
+      "previousClose": 446.30999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CI": {
-      "current": 301.45001220703125,
-      "previousClose": 303.1300048828125,
+      "current": 296.2699890136719,
+      "previousClose": 301.45001220703125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MOH": {
-      "current": 209.25,
-      "previousClose": 206.35000610351562,
+      "current": 209.85000610351562,
+      "previousClose": 209.25,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "OMC": {
-      "current": 88.87999725341797,
-      "previousClose": 88.83999633789062,
+      "current": 86.83999633789062,
+      "previousClose": 88.87999725341797,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -894,146 +894,146 @@
       "updated": null
     },
     "RVTY": {
-      "current": 158.25,
-      "previousClose": 159.10000610351562,
+      "current": 157.02000427246094,
+      "previousClose": 158.25,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TECH": {
-      "current": 72.80000305175781,
-      "previousClose": 72.81999969482422,
+      "current": 72.83999633789062,
+      "previousClose": 72.80000305175781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BOLT": {
-      "current": 6.260000228881836,
-      "previousClose": 6.300000190734863,
+      "current": 5.909999847412109,
+      "previousClose": 6.260000228881836,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PG": {
-      "current": 167.6699981689453,
-      "previousClose": 168.66000366210938,
+      "current": 168.02999877929688,
+      "previousClose": 167.6699981689453,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KO": {
-      "current": 97.56999969482422,
-      "previousClose": 96.91000366210938,
+      "current": 97.44000244140625,
+      "previousClose": 97.56999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PEP": {
-      "current": 143.94000244140625,
-      "previousClose": 143.61000061035156,
+      "current": 142.25999450683594,
+      "previousClose": 143.94000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MCD": {
-      "current": 274.79998779296875,
-      "previousClose": 282.1700134277344,
+      "current": 273.6300048828125,
+      "previousClose": 274.79998779296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SBUX": {
-      "current": 109.88999938964844,
-      "previousClose": 109.94999694824219,
+      "current": 107.26000213623047,
+      "previousClose": 109.88999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NKE": {
-      "current": 38.31999969482422,
-      "previousClose": 38.66999816894531,
+      "current": 37.7599983215332,
+      "previousClose": 38.31999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DIS": {
-      "current": 119.6500015258789,
-      "previousClose": 119.20999908447266,
+      "current": 118.2300033569336,
+      "previousClose": 119.6500015258789,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CMCSA": {
-      "current": 25.020000457763672,
-      "previousClose": 24.75,
+      "current": 24.799999237060547,
+      "previousClose": 25.020000457763672,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "T": {
-      "current": 22.260000228881836,
-      "previousClose": 21.940000534057617,
+      "current": 22.18000030517578,
+      "previousClose": 22.260000228881836,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VZ": {
-      "current": 46.599998474121094,
-      "previousClose": 46.310001373291016,
+      "current": 46.54999923706055,
+      "previousClose": 46.599998474121094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TMUS": {
-      "current": 172.16000366210938,
-      "previousClose": 169.0800018310547,
+      "current": 171.02999877929688,
+      "previousClose": 172.16000366210938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HD": {
-      "current": 351.30999755859375,
-      "previousClose": 351,
+      "current": 348.260009765625,
+      "previousClose": 351.30999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LOW": {
-      "current": 231.60000610351562,
-      "previousClose": 231.8699951171875,
+      "current": 227.4600067138672,
+      "previousClose": 231.60000610351562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WMT": {
-      "current": 125.66999816894531,
-      "previousClose": 125.55000305175781,
+      "current": 126.19000244140625,
+      "previousClose": 125.66999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TGT": {
-      "current": 162.6999969482422,
-      "previousClose": 161.77999877929688,
+      "current": 160.89999389648438,
+      "previousClose": 162.6999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "COST": {
-      "current": 1087.6099853515625,
-      "previousClose": 1066.1400146484375,
+      "current": 1092.2099609375,
+      "previousClose": 1087.6099853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LULU": {
-      "current": 107.44999694824219,
-      "previousClose": 110.37000274658203,
+      "current": 104.45999908447266,
+      "previousClose": 107.44999694824219,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ROST": {
-      "current": 241.27000427246094,
-      "previousClose": 238.9499969482422,
+      "current": 237.24000549316406,
+      "previousClose": 241.27000427246094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DG": {
-      "current": 137.44000244140625,
-      "previousClose": 137.30999755859375,
+      "current": 134.61000061035156,
+      "previousClose": 137.44000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DLTR": {
-      "current": 142.89999389648438,
-      "previousClose": 140.8300018310547,
+      "current": 141.27000427246094,
+      "previousClose": 142.89999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "URBN": {
-      "current": 86,
-      "previousClose": 86.97000122070312,
+      "current": 84.80000305175781,
+      "previousClose": 86,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1044,50 +1044,50 @@
       "updated": null
     },
     "AZO": {
-      "current": 3237.72998046875,
-      "previousClose": 3217.43994140625,
+      "current": 3252.18994140625,
+      "previousClose": 3237.72998046875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ORLY": {
-      "current": 90.54000091552734,
-      "previousClose": 89.38999938964844,
+      "current": 91.55999755859375,
+      "previousClose": 90.54000091552734,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CPRT": {
-      "current": 32.16999816894531,
-      "previousClose": 32.29999923706055,
+      "current": 32,
+      "previousClose": 32.16999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KMX": {
-      "current": 53.88999938964844,
-      "previousClose": 54.189998626708984,
+      "current": 52.58000183105469,
+      "previousClose": 53.88999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GPC": {
-      "current": 123.75,
-      "previousClose": 124.70999908447266,
+      "current": 122.83999633789062,
+      "previousClose": 123.75,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SBH": {
-      "current": 19.219999313354492,
-      "previousClose": 20.540000915527344,
+      "current": 18.40999984741211,
+      "previousClose": 19.219999313354492,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TJX": {
-      "current": 136.44000244140625,
-      "previousClose": 136.9199981689453,
+      "current": 135.97999572753906,
+      "previousClose": 136.44000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BURL": {
-      "current": 256.2900085449219,
-      "previousClose": 253.9499969482422,
+      "current": 251.8699951171875,
+      "previousClose": 256.2900085449219,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1098,20 +1098,20 @@
       "updated": null
     },
     "ULTA": {
-      "current": 659.0800170898438,
-      "previousClose": 664.4099731445312,
+      "current": 650.969970703125,
+      "previousClose": 659.0800170898438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "M": {
-      "current": 24.850000381469727,
-      "previousClose": 25.079999923706055,
+      "current": 24.329999923706055,
+      "previousClose": 24.850000381469727,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KSS": {
-      "current": 24.649999618530273,
-      "previousClose": 24.75,
+      "current": 23.5,
+      "previousClose": 24.649999618530273,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1122,50 +1122,50 @@
       "updated": null
     },
     "DRI": {
-      "current": 228.94000244140625,
-      "previousClose": 228.66000366210938,
+      "current": 227.89999389648438,
+      "previousClose": 228.94000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CMG": {
-      "current": 36.63999938964844,
-      "previousClose": 35.91999816894531,
+      "current": 35.16999816894531,
+      "previousClose": 36.63999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WYNN": {
-      "current": 85.37999725341797,
-      "previousClose": 87.30000305175781,
+      "current": 83.0199966430664,
+      "previousClose": 85.37999725341797,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MGM": {
-      "current": 33.470001220703125,
-      "previousClose": 33.060001373291016,
+      "current": 33.2400016784668,
+      "previousClose": 33.470001220703125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CZR": {
       "current": 29.280000686645508,
-      "previousClose": 29.299999237060547,
+      "previousClose": 29.280000686645508,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LVS": {
-      "current": 40.22999954223633,
-      "previousClose": 40.81999969482422,
+      "current": 39.33000183105469,
+      "previousClose": 40.22999954223633,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HAS": {
-      "current": 124.0199966430664,
-      "previousClose": 121.81999969482422,
+      "current": 121.4800033569336,
+      "previousClose": 124.0199966430664,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MAT": {
-      "current": 16.079999923706055,
-      "previousClose": 16,
+      "current": 15.529999732971191,
+      "previousClose": 16.079999923706055,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1176,254 +1176,254 @@
       "updated": null
     },
     "NWS": {
-      "current": 29.93000030517578,
-      "previousClose": 29.809999465942383,
+      "current": 29.170000076293945,
+      "previousClose": 29.93000030517578,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NWSA": {
-      "current": 26.829999923706055,
-      "previousClose": 26.610000610351562,
+      "current": 26.270000457763672,
+      "previousClose": 26.829999923706055,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BA": {
-      "current": 174.5399932861328,
-      "previousClose": 173.3800048828125,
+      "current": 171.5500030517578,
+      "previousClose": 174.5399932861328,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CAT": {
-      "current": 601.6099853515625,
-      "previousClose": 584.5700073242188,
+      "current": 605.280029296875,
+      "previousClose": 601.6099853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HON": {
-      "current": 227.63999938964844,
-      "previousClose": 228.22000122070312,
+      "current": 223.4499969482422,
+      "previousClose": 227.63999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "UPS": {
-      "current": 112.44999694824219,
-      "previousClose": 111.05000305175781,
+      "current": 110.37999725341797,
+      "previousClose": 112.44999694824219,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FDX": {
-      "current": 322.6300048828125,
-      "previousClose": 319.4800109863281,
+      "current": 319.29998779296875,
+      "previousClose": 322.6300048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "RTX": {
-      "current": 201.2899932861328,
-      "previousClose": 200.27000427246094,
+      "current": 198.36000061035156,
+      "previousClose": 201.2899932861328,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GE": {
-      "current": 342.75,
-      "previousClose": 337.9100036621094,
+      "current": 330.8599853515625,
+      "previousClose": 342.75,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MMM": {
-      "current": 188.8800048828125,
-      "previousClose": 189.3699951171875,
+      "current": 186.24000549316406,
+      "previousClose": 188.8800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EMR": {
-      "current": 167.05999755859375,
-      "previousClose": 167.5399932861328,
+      "current": 166.9199981689453,
+      "previousClose": 167.05999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DE": {
-      "current": 691.75,
-      "previousClose": 687.6400146484375,
+      "current": 678.7899780273438,
+      "previousClose": 691.75,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CMI": {
-      "current": 463.260009765625,
-      "previousClose": 454.17999267578125,
+      "current": 455.3999938964844,
+      "previousClose": 463.260009765625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SWK": {
-      "current": 115.62000274658203,
-      "previousClose": 116.44000244140625,
+      "current": 113.0199966430664,
+      "previousClose": 115.62000274658203,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ITW": {
-      "current": 288.7200012207031,
-      "previousClose": 288.04998779296875,
+      "current": 286.75,
+      "previousClose": 288.7200012207031,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ETN": {
-      "current": 360.6199951171875,
-      "previousClose": 354.2200012207031,
+      "current": 359.0400085449219,
+      "previousClose": 360.6199951171875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "APH": {
-      "current": 79.30999755859375,
-      "previousClose": 79.94999694824219,
+      "current": 79.62000274658203,
+      "previousClose": 79.30999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PH": {
-      "current": 972.9000244140625,
-      "previousClose": 965.1699829101562,
+      "current": 957.97998046875,
+      "previousClose": 972.9000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ROK": {
-      "current": 406.19000244140625,
-      "previousClose": 397.1600036621094,
+      "current": 404.20001220703125,
+      "previousClose": 406.19000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CARR": {
-      "current": 54.58000183105469,
-      "previousClose": 53.0099983215332,
+      "current": 54.369998931884766,
+      "previousClose": 54.58000183105469,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "OTIS": {
-      "current": 77.5,
-      "previousClose": 78.12999725341797,
+      "current": 77.13999938964844,
+      "previousClose": 77.5,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WM": {
-      "current": 240.2899932861328,
-      "previousClose": 237.3800048828125,
+      "current": 244.11000061035156,
+      "previousClose": 240.2899932861328,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "RSG": {
-      "current": 249.33999633789062,
-      "previousClose": 247.6199951171875,
+      "current": 253,
+      "previousClose": 249.33999633789062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FAST": {
-      "current": 55.4900016784668,
-      "previousClose": 54.84000015258789,
+      "current": 55.54999923706055,
+      "previousClose": 55.4900016784668,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PCAR": {
-      "current": 108.12999725341797,
-      "previousClose": 105.56999969482422,
+      "current": 106.33000183105469,
+      "previousClose": 108.12999725341797,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "JCI": {
-      "current": 144.61000061035156,
-      "previousClose": 141.1199951171875,
+      "current": 142.5500030517578,
+      "previousClose": 144.61000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PWR": {
-      "current": 607.9400024414062,
-      "previousClose": 583.1400146484375,
+      "current": 606.1599731445312,
+      "previousClose": 607.9400024414062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VRSN": {
-      "current": 314.0899963378906,
-      "previousClose": 311.1199951171875,
+      "current": 312.4800109863281,
+      "previousClose": 314.0899963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FTV": {
-      "current": 67.88999938964844,
-      "previousClose": 67.7300033569336,
+      "current": 67.8499984741211,
+      "previousClose": 67.88999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AME": {
-      "current": 239.69000244140625,
-      "previousClose": 238.30999755859375,
+      "current": 241.0399932861328,
+      "previousClose": 239.69000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XYL": {
-      "current": 95.11000061035156,
-      "previousClose": 96.83999633789062,
+      "current": 94.02999877929688,
+      "previousClose": 95.11000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LDOS": {
-      "current": 133.88999938964844,
-      "previousClose": 137.24000549316406,
+      "current": 131.11000061035156,
+      "previousClose": 133.88999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WAB": {
-      "current": 304.17999267578125,
-      "previousClose": 303.489990234375,
+      "current": 300.510009765625,
+      "previousClose": 304.17999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NDSN": {
-      "current": 329.2300109863281,
-      "previousClose": 325.1000061035156,
+      "current": 326.6000061035156,
+      "previousClose": 329.2300109863281,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IR": {
-      "current": 85.08000183105469,
-      "previousClose": 85.86000061035156,
+      "current": 85.30999755859375,
+      "previousClose": 85.08000183105469,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TT": {
-      "current": 424.8399963378906,
-      "previousClose": 420.82000732421875,
+      "current": 424.04998779296875,
+      "previousClose": 424.8399963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TDG": {
-      "current": 1245,
-      "previousClose": 1225.5400390625,
+      "current": 1203,
+      "previousClose": 1245,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LUV": {
-      "current": 46.47999954223633,
-      "previousClose": 46.31999969482422,
+      "current": 45.22999954223633,
+      "previousClose": 46.47999954223633,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DAL": {
-      "current": 91.31999969482422,
-      "previousClose": 92.19999694824219,
+      "current": 86.55000305175781,
+      "previousClose": 91.31999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "UAL": {
-      "current": 118.37000274658203,
-      "previousClose": 120.55999755859375,
+      "current": 111.25,
+      "previousClose": 118.37000274658203,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AAL": {
-      "current": 14.100000381469727,
-      "previousClose": 14.109999656677246,
+      "current": 13.3100004196167,
+      "previousClose": 14.100000381469727,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ALK": {
-      "current": 41.029998779296875,
-      "previousClose": 41.540000915527344,
+      "current": 39.04999923706055,
+      "previousClose": 41.029998779296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1434,206 +1434,206 @@
       "updated": null
     },
     "CSX": {
-      "current": 51.900001525878906,
-      "previousClose": 51.08000183105469,
+      "current": 52.400001525878906,
+      "previousClose": 51.900001525878906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NSC": {
-      "current": 330.5899963378906,
-      "previousClose": 327.92999267578125,
+      "current": 333.239990234375,
+      "previousClose": 330.5899963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "UNP": {
-      "current": 302.1099853515625,
-      "previousClose": 300.6199951171875,
+      "current": 304.20001220703125,
+      "previousClose": 302.1099853515625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KMB": {
-      "current": 108.86000061035156,
-      "previousClose": 110.76000213623047,
+      "current": 107.19000244140625,
+      "previousClose": 108.86000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PPG": {
-      "current": 124.97000122070312,
-      "previousClose": 124.41999816894531,
+      "current": 122.3499984741211,
+      "previousClose": 124.97000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SHW": {
-      "current": 355.760009765625,
-      "previousClose": 355.3399963378906,
+      "current": 351.3900146484375,
+      "previousClose": 355.760009765625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AVY": {
-      "current": 188.17999267578125,
-      "previousClose": 189.0399932861328,
+      "current": 186.9600067138672,
+      "previousClose": 188.17999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PKG": {
-      "current": 253.00999450683594,
-      "previousClose": 254.22999572753906,
+      "current": 250.5800018310547,
+      "previousClose": 253.00999450683594,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CE": {
-      "current": 51.45000076293945,
-      "previousClose": 48.93000030517578,
+      "current": 51.2599983215332,
+      "previousClose": 51.45000076293945,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IFF": {
-      "current": 82.6500015258789,
-      "previousClose": 83.16999816894531,
+      "current": 80.37999725341797,
+      "previousClose": 82.6500015258789,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XOM": {
-      "current": 166.7100067138672,
-      "previousClose": 164.47000122070312,
+      "current": 169.77999877929688,
+      "previousClose": 166.7100067138672,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CVX": {
-      "current": 213.27999877929688,
-      "previousClose": 211.22000122070312,
+      "current": 216.35000610351562,
+      "previousClose": 213.27999877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "COP": {
-      "current": 137.86000061035156,
-      "previousClose": 135.58999633789062,
+      "current": 140.05999755859375,
+      "previousClose": 137.86000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SLB": {
-      "current": 50.959999084472656,
-      "previousClose": 49.900001525878906,
+      "current": 50.90999984741211,
+      "previousClose": 50.959999084472656,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EOG": {
-      "current": 153.77000427246094,
-      "previousClose": 151.50999450683594,
+      "current": 155.6199951171875,
+      "previousClose": 153.77000427246094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MPC": {
-      "current": 402.8399963378906,
-      "previousClose": 389.54998779296875,
+      "current": 412.8500061035156,
+      "previousClose": 402.8399963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PSX": {
-      "current": 258.67999267578125,
-      "previousClose": 250.6999969482422,
+      "current": 262.9100036621094,
+      "previousClose": 258.67999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VLO": {
-      "current": 363.7099914550781,
-      "previousClose": 350.7099914550781,
+      "current": 374.95001220703125,
+      "previousClose": 363.7099914550781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "OXY": {
-      "current": 57.2400016784668,
-      "previousClose": 56.900001525878906,
+      "current": 58.400001525878906,
+      "previousClose": 57.2400016784668,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DUK": {
-      "current": 128.77000427246094,
-      "previousClose": 128.94000244140625,
+      "current": 128.58999633789062,
+      "previousClose": 128.77000427246094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SO": {
-      "current": 93.83999633789062,
-      "previousClose": 93.6500015258789,
+      "current": 92.47000122070312,
+      "previousClose": 93.83999633789062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "D": {
-      "current": 68.05999755859375,
-      "previousClose": 68.37000274658203,
+      "current": 67.51000213623047,
+      "previousClose": 68.05999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AEP": {
-      "current": 129.2100067138672,
-      "previousClose": 127.83999633789062,
+      "current": 128.91000366210938,
+      "previousClose": 129.2100067138672,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EXC": {
-      "current": 45.61000061035156,
-      "previousClose": 45.529998779296875,
+      "current": 45.630001068115234,
+      "previousClose": 45.61000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SRE": {
-      "current": 78.22000122070312,
-      "previousClose": 78.37999725341797,
+      "current": 78.9800033569336,
+      "previousClose": 78.22000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EIX": {
-      "current": 59.91999816894531,
-      "previousClose": 60.20000076293945,
+      "current": 59.9900016784668,
+      "previousClose": 59.91999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DOW": {
-      "current": 32.540000915527344,
-      "previousClose": 31.479999542236328,
+      "current": 33.150001525878906,
+      "previousClose": 32.540000915527344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DD": {
-      "current": 155.61000061035156,
-      "previousClose": 156.8800048828125,
+      "current": 154.6999969482422,
+      "previousClose": 155.61000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LYB": {
-      "current": 62.58000183105469,
-      "previousClose": 60.599998474121094,
+      "current": 63.880001068115234,
+      "previousClose": 62.58000183105469,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "APD": {
-      "current": 315.17999267578125,
-      "previousClose": 312.25,
+      "current": 316.20001220703125,
+      "previousClose": 315.17999267578125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FANG": {
-      "current": 180.97999572753906,
-      "previousClose": 178.0800018310547,
+      "current": 182.1999969482422,
+      "previousClose": 180.97999572753906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HAL": {
-      "current": 32.93000030517578,
-      "previousClose": 31.860000610351562,
+      "current": 32.7599983215332,
+      "previousClose": 32.93000030517578,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BKR": {
-      "current": 49.40999984741211,
-      "previousClose": 47.77000045776367,
+      "current": 48.86000061035156,
+      "previousClose": 49.40999984741211,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DVN": {
-      "current": 44.95000076293945,
-      "previousClose": 43.40999984741211,
+      "current": 46.22999954223633,
+      "previousClose": 44.95000076293945,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1650,8 +1650,8 @@
       "updated": null
     },
     "APA": {
-      "current": 46.7400016784668,
-      "previousClose": 45.119998931884766,
+      "current": 47.65999984741211,
+      "previousClose": 46.7400016784668,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1662,26 +1662,26 @@
       "updated": "2026-07-09"
     },
     "LIN": {
-      "current": 526.5499877929688,
-      "previousClose": 521.780029296875,
+      "current": 522.489990234375,
+      "previousClose": 526.5499877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IP": {
-      "current": 34.65999984741211,
-      "previousClose": 35.130001068115234,
+      "current": 33.939998626708984,
+      "previousClose": 34.65999984741211,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GLD": {
-      "current": 365.1700134277344,
-      "previousClose": 369.3599853515625,
+      "current": 354.8900146484375,
+      "previousClose": 365.1700134277344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SLV": {
-      "current": 46.650001525878906,
-      "previousClose": 46.47999954223633,
+      "current": 45.119998931884766,
+      "previousClose": 46.650001525878906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1692,56 +1692,56 @@
       "updated": null
     },
     "DBO": {
-      "current": 22.899999618530273,
-      "previousClose": 22.829999923706055,
+      "current": 23.600000381469727,
+      "previousClose": 22.899999618530273,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AMT": {
-      "current": 190.24000549316406,
-      "previousClose": 190.3699951171875,
+      "current": 189.7899932861328,
+      "previousClose": 190.24000549316406,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PLD": {
-      "current": 130.02999877929688,
-      "previousClose": 130.10000610351562,
+      "current": 128.5500030517578,
+      "previousClose": 130.02999877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CCI": {
-      "current": 89.05999755859375,
-      "previousClose": 89.3499984741211,
+      "current": 89.69000244140625,
+      "previousClose": 89.05999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EQIX": {
-      "current": 1068.06005859375,
-      "previousClose": 1050,
+      "current": 1072.77001953125,
+      "previousClose": 1068.06005859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SPG": {
-      "current": 234.75,
-      "previousClose": 234.47999572753906,
+      "current": 233.61000061035156,
+      "previousClose": 234.75,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "O": {
-      "current": 59.56999969482422,
-      "previousClose": 59.540000915527344,
+      "current": 59.2599983215332,
+      "previousClose": 59.56999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "WELL": {
-      "current": 247.35000610351562,
-      "previousClose": 247.66000366210938,
+      "current": 244.92999267578125,
+      "previousClose": 247.35000610351562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DLR": {
-      "current": 181.1300048828125,
-      "previousClose": 180.8800048828125,
+      "current": 183.47000122070312,
+      "previousClose": 181.1300048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1758,128 +1758,128 @@
       "updated": "2026-11-13"
     },
     "ED": {
-      "current": 119.19000244140625,
-      "previousClose": 119.27999877929688,
+      "current": 119.3499984741211,
+      "previousClose": 119.19000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PEG": {
-      "current": 74.29000091552734,
-      "previousClose": 74.68000030517578,
+      "current": 74.80000305175781,
+      "previousClose": 74.29000091552734,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ES": {
-      "current": 70.54000091552734,
-      "previousClose": 69.62000274658203,
+      "current": 71.1500015258789,
+      "previousClose": 70.54000091552734,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AWK": {
-      "current": 149.66000366210938,
-      "previousClose": 150.36000061035156,
+      "current": 147.5800018310547,
+      "previousClose": 149.66000366210938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NI": {
-      "current": 45.54999923706055,
-      "previousClose": 45.290000915527344,
+      "current": 45.810001373291016,
+      "previousClose": 45.54999923706055,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ETR": {
-      "current": 111.98999786376953,
-      "previousClose": 111.70999908447266,
+      "current": 111.94999694824219,
+      "previousClose": 111.98999786376953,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AEE": {
-      "current": 113.27999877929688,
-      "previousClose": 113.68000030517578,
+      "current": 113.5199966430664,
+      "previousClose": 113.27999877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CMS": {
-      "current": 69.62000274658203,
-      "previousClose": 69.77999877929688,
+      "current": 69.22000122070312,
+      "previousClose": 69.62000274658203,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ATO": {
-      "current": 175.64999389648438,
-      "previousClose": 175.3699951171875,
+      "current": 175.9199981689453,
+      "previousClose": 175.64999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "CNP": {
-      "current": 41,
-      "previousClose": 41.2400016784668,
+      "current": 40.95000076293945,
+      "previousClose": 41,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DTE": {
-      "current": 139.69000244140625,
-      "previousClose": 138.99000549316406,
+      "current": 139.1999969482422,
+      "previousClose": 139.69000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FE": {
-      "current": 46.529998779296875,
-      "previousClose": 46.47999954223633,
+      "current": 46.5,
+      "previousClose": 46.529998779296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EVRG": {
-      "current": 88.33999633789062,
-      "previousClose": 88.44000244140625,
+      "current": 88.2699966430664,
+      "previousClose": 88.33999633789062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VWO": {
-      "current": 57.220001220703125,
-      "previousClose": 56.4900016784668,
+      "current": 56.43000030517578,
+      "previousClose": 57.220001220703125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IWM": {
-      "current": 283.0899963378906,
-      "previousClose": 280.5799865722656,
+      "current": 278.44000244140625,
+      "previousClose": 283.0899963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EFA": {
-      "current": 104.66000366210938,
-      "previousClose": 104.36000061035156,
+      "current": 104.01000213623047,
+      "previousClose": 104.66000366210938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EEM": {
-      "current": 62.040000915527344,
-      "previousClose": 60.56999969482422,
+      "current": 61.13999938964844,
+      "previousClose": 62.040000915527344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IVV": {
-      "current": 763.0800170898438,
-      "previousClose": 753.3699951171875,
+      "current": 760.780029296875,
+      "previousClose": 763.0800170898438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VTSAX": {
-      "current": 182.16000366210938,
-      "previousClose": 179.86000061035156,
+      "current": 181.3300018310547,
+      "previousClose": 182.16000366210938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FZROX": {
-      "current": 26.610000610351562,
-      "previousClose": 26.270000457763672,
+      "current": 26.479999542236328,
+      "previousClose": 26.610000610351562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FZILX": {
-      "current": 16.6299991607666,
-      "previousClose": 16.43000030517578,
+      "current": 16.459999084472656,
+      "previousClose": 16.6299991607666,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1890,74 +1890,74 @@
       "updated": "2026-11-13"
     },
     "SPHD": {
-      "current": 52.88999938964844,
-      "previousClose": 52.81999969482422,
+      "current": 52.70000076293945,
+      "previousClose": 52.88999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SPYD": {
-      "current": 50.060001373291016,
-      "previousClose": 50.0099983215332,
+      "current": 49.630001068115234,
+      "previousClose": 50.060001373291016,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "RSP": {
-      "current": 222.64999389648438,
-      "previousClose": 220.8800048828125,
+      "current": 220.72000122070312,
+      "previousClose": 222.64999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IVW": {
-      "current": 134.1699981689453,
-      "previousClose": 132,
+      "current": 133.82000732421875,
+      "previousClose": 134.1699981689453,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VGT": {
-      "current": 113.72000122070312,
-      "previousClose": 110.5199966430664,
+      "current": 113.08999633789062,
+      "previousClose": 113.72000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VHT": {
-      "current": 349.3500061035156,
-      "previousClose": 348.80999755859375,
+      "current": 346.45001220703125,
+      "previousClose": 349.3500061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VFH": {
-      "current": 141.88999938964844,
-      "previousClose": 141.24000549316406,
+      "current": 140.75999450683594,
+      "previousClose": 141.88999938964844,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VIS": {
-      "current": 328.7099914550781,
-      "previousClose": 324.55999755859375,
+      "current": 325.3900146484375,
+      "previousClose": 328.7099914550781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VCR": {
-      "current": 403,
-      "previousClose": 403.05999755859375,
+      "current": 400.2900085449219,
+      "previousClose": 403,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VDC": {
-      "current": 249.25,
-      "previousClose": 248.3699951171875,
+      "current": 248.5,
+      "previousClose": 249.25,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VDE": {
-      "current": 176.33999633789062,
-      "previousClose": 173.02999877929688,
+      "current": 179.02000427246094,
+      "previousClose": 176.33999633789062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VAW": {
-      "current": 232.7899932861328,
-      "previousClose": 231.8300018310547,
+      "current": 228.83999633789062,
+      "previousClose": 232.7899932861328,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -1968,134 +1968,134 @@
       "updated": null
     },
     "VOX": {
-      "current": 183.3300018310547,
-      "previousClose": 182.1199951171875,
+      "current": 181.99000549316406,
+      "previousClose": 183.3300018310547,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLK": {
-      "current": 174.36000061035156,
-      "previousClose": 168.91000366210938,
+      "current": 173.77000427246094,
+      "previousClose": 174.36000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLF": {
-      "current": 58.630001068115234,
-      "previousClose": 58.290000915527344,
+      "current": 58.209999084472656,
+      "previousClose": 58.630001068115234,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLV": {
-      "current": 188.9499969482422,
-      "previousClose": 188.8800048828125,
+      "current": 187.8300018310547,
+      "previousClose": 188.9499969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLE": {
-      "current": 63.369998931884766,
-      "previousClose": 62.209999084472656,
+      "current": 64.33000183105469,
+      "previousClose": 63.369998931884766,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLY": {
-      "current": 120.98999786376953,
-      "previousClose": 121.05000305175781,
+      "current": 120.45999908447266,
+      "previousClose": 120.98999786376953,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLP": {
-      "current": 91.44999694824219,
-      "previousClose": 91.02999877929688,
+      "current": 91.05999755859375,
+      "previousClose": 91.44999694824219,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLI": {
-      "current": 170.97000122070312,
-      "previousClose": 168.72999572753906,
+      "current": 169.44000244140625,
+      "previousClose": 170.97000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLB": {
-      "current": 53.02000045776367,
-      "previousClose": 52.849998474121094,
+      "current": 52.34000015258789,
+      "previousClose": 53.02000045776367,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLRE": {
-      "current": 44.59000015258789,
-      "previousClose": 44.58000183105469,
+      "current": 44.36000061035156,
+      "previousClose": 44.59000015258789,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLC": {
-      "current": 108.5999984741211,
-      "previousClose": 107.76000213623047,
+      "current": 107.55999755859375,
+      "previousClose": 108.5999984741211,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "QQQM": {
-      "current": 284.2300109863281,
-      "previousClose": 277.8699951171875,
+      "current": 283.3900146484375,
+      "previousClose": 284.2300109863281,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VUG": {
-      "current": 85.22000122070312,
-      "previousClose": 83.81999969482422,
+      "current": 85.01000213623047,
+      "previousClose": 85.22000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VTV": {
-      "current": 230.0399932861328,
-      "previousClose": 227.67999267578125,
+      "current": 229.0399932861328,
+      "previousClose": 230.0399932861328,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VO": {
-      "current": 82.55000305175781,
-      "previousClose": 81.5199966430664,
+      "current": 81.83000183105469,
+      "previousClose": 82.55000305175781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VB": {
-      "current": 295.4100036621094,
-      "previousClose": 293.1700134277344,
+      "current": 291.5799865722656,
+      "previousClose": 295.4100036621094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VNQ": {
-      "current": 97.0199966430664,
-      "previousClose": 97.08000183105469,
+      "current": 96.44000244140625,
+      "previousClose": 97.0199966430664,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BND": {
-      "current": 71.0999984741211,
-      "previousClose": 71.12999725341797,
+      "current": 70.6500015258789,
+      "previousClose": 71.0999984741211,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AGG": {
-      "current": 95.83999633789062,
-      "previousClose": 95.87999725341797,
+      "current": 95.22000122070312,
+      "previousClose": 95.83999633789062,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SCHD": {
-      "current": 36.02000045776367,
-      "previousClose": 35.83000183105469,
+      "current": 35.93000030517578,
+      "previousClose": 36.02000045776367,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VSS": {
-      "current": 149.77000427246094,
-      "previousClose": 148.52999877929688,
+      "current": 148.6300048828125,
+      "previousClose": 149.77000427246094,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VYMI": {
-      "current": 102.41999816894531,
-      "previousClose": 102.29000091552734,
+      "current": 102,
+      "previousClose": 102.41999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2106,50 +2106,50 @@
       "updated": null
     },
     "EFG": {
-      "current": 39.93000030517578,
-      "previousClose": 39.630001068115234,
+      "current": 39.369998931884766,
+      "previousClose": 39.93000030517578,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SCZ": {
-      "current": 83.31999969482422,
-      "previousClose": 83.08000183105469,
+      "current": 82.9000015258789,
+      "previousClose": 83.31999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EUFN": {
-      "current": 39.86000061035156,
-      "previousClose": 40.02000045776367,
+      "current": 39.560001373291016,
+      "previousClose": 39.86000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ESGE": {
-      "current": 50.27000045776367,
-      "previousClose": 49.060001373291016,
+      "current": 49.52000045776367,
+      "previousClose": 50.27000045776367,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EWJ": {
-      "current": 92.12000274658203,
-      "previousClose": 90.38999938964844,
+      "current": 91.47000122070312,
+      "previousClose": 92.12000274658203,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EWZ": {
-      "current": 32.439998626708984,
-      "previousClose": 32.150001525878906,
+      "current": 31.780000686645508,
+      "previousClose": 32.439998626708984,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EWC": {
-      "current": 60.47999954223633,
-      "previousClose": 60.290000915527344,
+      "current": 60.130001068115234,
+      "previousClose": 60.47999954223633,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "EIDO": {
-      "current": 10.210000038146973,
-      "previousClose": 10.199999809265137,
+      "current": 10.470000267028809,
+      "previousClose": 10.210000038146973,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2160,20 +2160,20 @@
       "updated": null
     },
     "EPOL": {
-      "current": 43.619998931884766,
-      "previousClose": 43.75,
+      "current": 43.939998626708984,
+      "previousClose": 43.619998931884766,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "THD": {
-      "current": 68.11000061035156,
-      "previousClose": 67.69000244140625,
+      "current": 67.63999938964844,
+      "previousClose": 68.11000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IDV": {
-      "current": 42.779998779296875,
-      "previousClose": 42.84000015258789,
+      "current": 42.7400016784668,
+      "previousClose": 42.779998779296875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2202,8 +2202,8 @@
       "updated": null
     },
     "SWRD": {
-      "current": 2.130000114440918,
-      "previousClose": 2.1600000858306885,
+      "current": 2.4700000286102295,
+      "previousClose": 2.130000114440918,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2220,8 +2220,8 @@
       "updated": null
     },
     "EQQQ": {
-      "current": 38.470001220703125,
-      "previousClose": 36.880001068115234,
+      "current": 37.709999084472656,
+      "previousClose": 38.470001220703125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2256,80 +2256,80 @@
       "updated": null
     },
     "GOVT": {
-      "current": 22.139999389648438,
-      "previousClose": 22.15999984741211,
+      "current": 22.020000457763672,
+      "previousClose": 22.139999389648438,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TLT": {
-      "current": 80.91999816894531,
-      "previousClose": 80.87999725341797,
+      "current": 79.72000122070312,
+      "previousClose": 80.91999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IEF": {
-      "current": 90.94000244140625,
-      "previousClose": 91.01000213623047,
+      "current": 90.20999908447266,
+      "previousClose": 90.94000244140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SHY": {
-      "current": 81.30999755859375,
-      "previousClose": 81.31999969482422,
+      "current": 81.13999938964844,
+      "previousClose": 81.30999755859375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TIP": {
-      "current": 105.26000213623047,
-      "previousClose": 105.29000091552734,
+      "current": 104.7699966430664,
+      "previousClose": 105.26000213623047,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VCIT": {
-      "current": 79.30000305175781,
-      "previousClose": 79.29000091552734,
+      "current": 78.76000213623047,
+      "previousClose": 79.30000305175781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VCLT": {
-      "current": 70.41999816894531,
-      "previousClose": 70.26000213623047,
+      "current": 69.51000213623047,
+      "previousClose": 70.41999816894531,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VGLT": {
-      "current": 51.939998626708984,
-      "previousClose": 51.93000030517578,
+      "current": 51.25,
+      "previousClose": 51.939998626708984,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BSV": {
-      "current": 76.61000061035156,
-      "previousClose": 76.66999816894531,
+      "current": 76.41000366210938,
+      "previousClose": 76.61000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BIV": {
-      "current": 73.86000061035156,
-      "previousClose": 73.9000015258789,
+      "current": 73.33999633789062,
+      "previousClose": 73.86000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MUB": {
-      "current": 104.81999969482422,
-      "previousClose": 104.54000091552734,
+      "current": 103.94999694824219,
+      "previousClose": 104.81999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MUNI": {
-      "current": 51.619998931884766,
-      "previousClose": 51.54999923706055,
+      "current": 51.310001373291016,
+      "previousClose": 51.619998931884766,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PZA": {
-      "current": 22.420000076293945,
-      "previousClose": 22.389999389648438,
+      "current": 22.15999984741211,
+      "previousClose": 22.420000076293945,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2346,56 +2346,56 @@
       "updated": "2026-11-13"
     },
     "RYLD": {
-      "current": 15.489999771118164,
-      "previousClose": 15.449999809265137,
+      "current": 15.4399995803833,
+      "previousClose": 15.489999771118164,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ARKK": {
-      "current": 78.47000122070312,
-      "previousClose": 77.0999984741211,
+      "current": 76.5,
+      "previousClose": 78.47000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ARKQ": {
-      "current": 111.75,
-      "previousClose": 109.83999633789062,
+      "current": 110.2699966430664,
+      "previousClose": 111.75,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ARKF": {
-      "current": 42.56999969482422,
-      "previousClose": 42.029998779296875,
+      "current": 41.599998474121094,
+      "previousClose": 42.56999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ARKW": {
-      "current": 145.6199951171875,
-      "previousClose": 141.94000244140625,
+      "current": 143.92999267578125,
+      "previousClose": 145.6199951171875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ARKB": {
-      "current": 24.719999313354492,
-      "previousClose": 24.40999984741211,
+      "current": 23.649999618530273,
+      "previousClose": 24.719999313354492,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GBTC": {
-      "current": 57.56999969482422,
-      "previousClose": 56.83000183105469,
+      "current": 55.0099983215332,
+      "previousClose": 57.56999969482422,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IBIT": {
-      "current": 42.2400016784668,
-      "previousClose": 41.68000030517578,
+      "current": 40.36000061035156,
+      "previousClose": 42.2400016784668,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FBTC": {
-      "current": 64.87999725341797,
-      "previousClose": 64.05000305175781,
+      "current": 62.029998779296875,
+      "previousClose": 64.87999725341797,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2406,32 +2406,32 @@
       "updated": null
     },
     "MARA": {
-      "current": 7.659999847412109,
-      "previousClose": 7.340000152587891,
+      "current": 7.199999809265137,
+      "previousClose": 7.659999847412109,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "RIOT": {
-      "current": 18.280000686645508,
-      "previousClose": 18.079999923706055,
+      "current": 17.829999923706055,
+      "previousClose": 18.280000686645508,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HUT": {
-      "current": 61.060001373291016,
-      "previousClose": 56.77000045776367,
+      "current": 61.974998474121094,
+      "previousClose": 61.060001373291016,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BITO": {
-      "current": 9.920000076293945,
-      "previousClose": 9.789999961853027,
+      "current": 9.489999771118164,
+      "previousClose": 9.920000076293945,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BLOK": {
-      "current": 51.75,
-      "previousClose": 50.040000915527344,
+      "current": 50.83000183105469,
+      "previousClose": 51.75,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2442,62 +2442,62 @@
       "updated": "2026-09-19"
     },
     "HERO": {
-      "current": 28.742000579833984,
-      "previousClose": 28.84000015258789,
+      "current": 28.655000686645508,
+      "previousClose": 28.742000579833984,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KSA": {
-      "current": 36.040000915527344,
-      "previousClose": 35.58000183105469,
+      "current": 36.130001068115234,
+      "previousClose": 36.040000915527344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BTC-USD": {
-      "current": 70938.703125,
-      "previousClose": 73964.46875,
+      "current": 68759.9296875,
+      "previousClose": 71342.96875,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ETH-USD": {
-      "current": 2009.5999755859375,
-      "previousClose": 2055.876220703125,
+      "current": 1933.510009765625,
+      "previousClose": 2016.8297119140625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SOL-USD": {
-      "current": 81.33999633789062,
-      "previousClose": 83.32109069824219,
+      "current": 80.01000213623047,
+      "previousClose": 81.66072845458984,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BNB-USD": {
-      "current": 654.7999877929688,
-      "previousClose": 679.5052490234375,
+      "current": 631.8099975585938,
+      "previousClose": 656.0533447265625,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XRP-USD": {
-      "current": 1.0305999517440796,
-      "previousClose": 1.0528370141983032,
+      "current": 1.0300999879837036,
+      "previousClose": 1.0399279594421387,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ADA-USD": {
-      "current": 0.17427000403404236,
-      "previousClose": 0.17440100014209747,
+      "current": 0.17034000158309937,
+      "previousClose": 0.1741349995136261,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DOGE-USD": {
-      "current": 0.06622999906539917,
-      "previousClose": 0.06751500070095062,
+      "current": 0.06458000093698502,
+      "previousClose": 0.06641799956560135,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DOT-USD": {
-      "current": 0.8353000283241272,
-      "previousClose": 0.8406550288200378,
+      "current": 0.828000009059906,
+      "previousClose": 0.8332039713859558,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2508,14 +2508,14 @@
       "updated": "2026-09-19"
     },
     "LINK-USD": {
-      "current": 10.07800006866455,
-      "previousClose": 10.193164825439453,
+      "current": 9.918000221252441,
+      "previousClose": 10.131871223449707,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AVAX-USD": {
-      "current": 8.342000007629395,
-      "previousClose": 8.516096115112305,
+      "current": 8.291999816894531,
+      "previousClose": 8.344382286071777,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2526,116 +2526,116 @@
       "updated": "2026-09-19"
     },
     "ATOM-USD": {
-      "current": 1.4170000553131104,
-      "previousClose": 1.3928890228271484,
+      "current": 1.392899990081787,
+      "previousClose": 1.4340729713439941,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LTC-USD": {
-      "current": 50.07099914550781,
-      "previousClose": 50.23801803588867,
+      "current": 48.90299987792969,
+      "previousClose": 49.98236083984375,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BCH-USD": {
-      "current": 224.36000061035156,
-      "previousClose": 228.38223266601562,
+      "current": 220.66000366210938,
+      "previousClose": 224.83555603027344,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "XLM-USD": {
-      "current": 0.14767999947071075,
-      "previousClose": 0.14702899754047394,
+      "current": 0.14635799825191498,
+      "previousClose": 0.14833800494670868,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ALGO-USD": {
-      "current": 0.08778999745845795,
-      "previousClose": 0.08914399892091751,
+      "current": 0.08732999861240387,
+      "previousClose": 0.08758000284433365,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "VET-USD": {
-      "current": 0.005175999831408262,
-      "previousClose": 0.005216000135987997,
+      "current": 0.005148000083863735,
+      "previousClose": 0.005193999968469143,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "FIL-USD": {
-      "current": 0.7426999807357788,
-      "previousClose": 0.7537660002708435,
+      "current": 0.7350000143051147,
+      "previousClose": 0.7436800003051758,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ICP-USD": {
-      "current": 2.5769999027252197,
-      "previousClose": 2.5883569717407227,
+      "current": 2.613800048828125,
+      "previousClose": 2.566723108291626,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SHEL.L": {
-      "current": 3670.5,
-      "previousClose": 3624.5,
+      "current": 3710,
+      "previousClose": 3665,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BP.L": {
-      "current": 567,
-      "previousClose": 552.2000122070312,
+      "current": 573.5999755859375,
+      "previousClose": 567,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HSBA.L": {
-      "current": 1355.5999755859375,
-      "previousClose": 1341.4000244140625,
+      "current": 1351.5999755859375,
+      "previousClose": 1354,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ULVR.L": {
-      "current": 4916,
-      "previousClose": 4939,
+      "current": 4948,
+      "previousClose": 4928.5,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BATS.L": {
-      "current": 4546,
-      "previousClose": 4541,
+      "current": 4611,
+      "previousClose": 4603,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "RIO.L": {
-      "current": 6385,
-      "previousClose": 6323,
+      "current": 6292,
+      "previousClose": 6325,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "AZN.L": {
-      "current": 13896,
-      "previousClose": 13884,
+      "current": 13970,
+      "previousClose": 13930,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NESN.SW": {
-      "current": 85.91000366210938,
-      "previousClose": 86.41000366210938,
+      "current": 87.13999938964844,
+      "previousClose": 85.91000366210938,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ASML.AS": {
-      "current": 1403.800048828125,
-      "previousClose": 1361,
+      "current": 1355,
+      "previousClose": 1403.800048828125,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ENEL.MI": {
-      "current": 9.85200023651123,
-      "previousClose": 9.824000358581543,
+      "current": 9.845000267028809,
+      "previousClose": 9.85200023651123,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ISP.MI": {
-      "current": 6.302000045776367,
-      "previousClose": 6.392000198364258,
+      "current": 6.260000228881836,
+      "previousClose": 6.302000045776367,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2646,8 +2646,8 @@
       "updated": null
     },
     "ERIC": {
-      "current": 10.630000114440918,
-      "previousClose": 10.640000343322754,
+      "current": 10.609999656677246,
+      "previousClose": 10.630000114440918,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2670,32 +2670,32 @@
       "updated": null
     },
     "LMT": {
-      "current": 610.0499877929688,
-      "previousClose": 603.1199951171875,
+      "current": 604.0900268554688,
+      "previousClose": 610.0499877929688,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "NOC": {
-      "current": 550.9600219726562,
-      "previousClose": 548.6099853515625,
+      "current": 549.1300048828125,
+      "previousClose": 550.9600219726562,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "GD": {
-      "current": 367.2200012207031,
-      "previousClose": 367.44000244140625,
+      "current": 363.07000732421875,
+      "previousClose": 367.2200012207031,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "LHX": {
-      "current": 276.5899963378906,
-      "previousClose": 275.9599914550781,
+      "current": 271.8399963378906,
+      "previousClose": 276.5899963378906,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "HII": {
-      "current": 313.9599914550781,
-      "previousClose": 313.57000732421875,
+      "current": 308.3299865722656,
+      "previousClose": 313.9599914550781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2706,44 +2706,44 @@
       "updated": null
     },
     "PCG": {
-      "current": 13.100000381469727,
-      "previousClose": 13.229999542236328,
+      "current": 12.970000267028809,
+      "previousClose": 13.100000381469727,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "PL": {
-      "current": 14.34000015258789,
-      "previousClose": 14.270000457763672,
+      "current": 13.899999618530273,
+      "previousClose": 14.34000015258789,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "SMCI": {
-      "current": 30.43000030517578,
-      "previousClose": 27.790000915527344,
+      "current": 26.989999771118164,
+      "previousClose": 30.43000030517578,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ARM": {
-      "current": 203.36000061035156,
-      "previousClose": 181.49000549316406,
+      "current": 199.77999877929688,
+      "previousClose": 203.36000061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ON": {
-      "current": 73.62000274658203,
-      "previousClose": 69.61000061035156,
+      "current": 73.7300033569336,
+      "previousClose": 73.62000274658203,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "TSM": {
-      "current": 413.3500061035156,
-      "previousClose": 396.4800109863281,
+      "current": 405.489990234375,
+      "previousClose": 413.3500061035156,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "BABA": {
-      "current": 101.5199966430664,
-      "previousClose": 102.72000122070312,
+      "current": 94.36000061035156,
+      "previousClose": 101.5199966430664,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2754,38 +2754,38 @@
       "updated": "2026-11-13"
     },
     "9988.HK": {
-      "current": 93.80000305175781,
-      "previousClose": 100.5999984741211,
+      "current": 90.55000305175781,
+      "previousClose": 93.80000305175781,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "INDA": {
-      "current": 51.59000015258789,
-      "previousClose": 51.720001220703125,
+      "current": 51.54999923706055,
+      "previousClose": 51.59000015258789,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "KWEB": {
-      "current": 23.670000076293945,
-      "previousClose": 24.059999465942383,
+      "current": 22.90999984741211,
+      "previousClose": 23.670000076293945,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "MCHI": {
-      "current": 50.689998626708984,
-      "previousClose": 51.099998474121094,
+      "current": 49.75,
+      "previousClose": 50.689998626708984,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "ASHR": {
-      "current": 30.760000228881836,
-      "previousClose": 30.559999465942383,
+      "current": 30.450000762939453,
+      "previousClose": 30.760000228881836,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "IEMG": {
-      "current": 75.47000122070312,
-      "previousClose": 73.7699966430664,
+      "current": 74.44999694824219,
+      "previousClose": 75.47000122070312,
       "changePercent": null,
       "updated": "2026-11-13"
     },
@@ -2796,14 +2796,14 @@
       "updated": "2026-11-13"
     },
     "PDBC": {
-      "current": 18.350000381469727,
-      "previousClose": 18.299999237060547,
+      "current": 18.40999984741211,
+      "previousClose": 18.350000381469727,
       "changePercent": null,
       "updated": "2026-11-13"
     },
     "DJP": {
-      "current": 48.380001068115234,
-      "previousClose": 48.15999984741211,
+      "current": 48.5099983215332,
+      "previousClose": 48.380001068115234,
       "changePercent": null,
       "updated": "2026-11-13"
     }
@@ -67129,7 +67129,7 @@
         "2026-10-23": 81074.1875,
         "2026-10-30": 77198.2109375,
         "2026-11-06": 75746.9296875,
-        "2026-11-13": 70938.703125
+        "2026-11-13": 68759.9296875
       },
       "monthly": {
         "2014-09-30": 386.9440002441406,
@@ -67334,7 +67334,7 @@
         "2026-10-23": 2384.077392578125,
         "2026-10-30": 2241.054443359375,
         "2026-11-06": 2235.04736328125,
-        "2026-11-13": 2009.5999755859375
+        "2026-11-13": 1933.510009765625
       },
       "monthly": {
         "2017-11-30": 447.114013671875,
@@ -67501,7 +67501,7 @@
         "2026-10-23": 102.77986145019531,
         "2026-10-30": 96.21875762939453,
         "2026-11-06": 90.0594253540039,
-        "2026-11-13": 81.33999633789062
+        "2026-11-13": 80.01000213623047
       },
       "monthly": {
         "2020-04-30": 0.6910449862480164,
@@ -67639,7 +67639,7 @@
         "2026-10-23": 738.8374633789062,
         "2026-10-30": 703.3541259765625,
         "2026-11-06": 693.1176147460938,
-        "2026-11-13": 654.7999877929688
+        "2026-11-13": 631.8099975585938
       },
       "monthly": {
         "2017-11-30": 1.9969700574874878,
@@ -67806,7 +67806,7 @@
         "2026-10-23": 1.2939430475234985,
         "2026-10-30": 1.2544089555740356,
         "2026-11-06": 1.178078055381775,
-        "2026-11-13": 1.0305999517440796
+        "2026-11-13": 1.0300999879837036
       },
       "monthly": {
         "2017-11-30": 0.2508780062198639,
@@ -67973,7 +67973,7 @@
         "2026-10-23": 0.21045100688934326,
         "2026-10-30": 0.19510500133037567,
         "2026-11-06": 0.1838890016078949,
-        "2026-11-13": 0.17427000403404236
+        "2026-11-13": 0.17034000158309937
       },
       "monthly": {
         "2017-11-30": 0.11988300085067749,
@@ -68140,7 +68140,7 @@
         "2026-10-23": 0.0785370022058487,
         "2026-10-30": 0.07588200271129608,
         "2026-11-06": 0.0723399966955185,
-        "2026-11-13": 0.06622999906539917
+        "2026-11-13": 0.06458000093698502
       },
       "monthly": {
         "2017-11-30": 0.002078999998047948,
@@ -68307,7 +68307,7 @@
         "2026-10-23": 1.083474040031433,
         "2026-10-30": 0.974702000617981,
         "2026-11-06": 0.9122650027275085,
-        "2026-11-13": 0.8353000283241272
+        "2026-11-13": 0.828000009059906
       },
       "monthly": {
         "2020-08-31": 6.300020217895508,
@@ -68445,7 +68445,7 @@
         "2026-10-23": 11.814297676086426,
         "2026-10-30": 11.437138557434082,
         "2026-11-06": 10.844606399536133,
-        "2026-11-13": 10.07800006866455
+        "2026-11-13": 9.918000221252441
       },
       "monthly": {
         "2017-11-30": 0.1704609990119934,
@@ -68612,7 +68612,7 @@
         "2026-10-23": 9.047340393066406,
         "2026-10-30": 8.539600372314453,
         "2026-11-06": 8.329465866088867,
-        "2026-11-13": 8.342000007629395
+        "2026-11-13": 8.291999816894531
       },
       "monthly": {
         "2020-09-30": 4.322546005249023,
@@ -68749,7 +68749,7 @@
         "2026-10-23": 1.7038929462432861,
         "2026-10-30": 1.550366997718811,
         "2026-11-06": 1.3874980211257935,
-        "2026-11-13": 1.4170000553131104
+        "2026-11-13": 1.392899990081787
       },
       "monthly": {
         "2019-03-31": 3.62432599067688,
@@ -68900,7 +68900,7 @@
         "2026-10-23": 57.17401123046875,
         "2026-10-30": 55.91624450683594,
         "2026-11-06": 52.536251068115234,
-        "2026-11-13": 50.07099914550781
+        "2026-11-13": 48.90299987792969
       },
       "monthly": {
         "2014-09-30": 4.474730014801025,
@@ -69105,7 +69105,7 @@
         "2026-10-23": 282.12786865234375,
         "2026-10-30": 293.7574462890625,
         "2026-11-06": 263.59246826171875,
-        "2026-11-13": 224.36000061035156
+        "2026-11-13": 220.66000366210938
       },
       "monthly": {
         "2017-11-30": 1389.780029296875,
@@ -69272,7 +69272,7 @@
         "2026-10-23": 0.17316900193691254,
         "2026-10-30": 0.17075400054454803,
         "2026-11-06": 0.15318700671195984,
-        "2026-11-13": 0.14767999947071075
+        "2026-11-13": 0.14635799825191498
       },
       "monthly": {
         "2017-11-30": 0.07287099957466125,
@@ -69439,7 +69439,7 @@
         "2026-10-23": 0.10585100203752518,
         "2026-10-30": 0.09539499878883362,
         "2026-11-06": 0.09542500227689743,
-        "2026-11-13": 0.08778999745845795
+        "2026-11-13": 0.08732999861240387
       },
       "monthly": {
         "2019-06-30": 1.4347820281982422,
@@ -69587,7 +69587,7 @@
         "2026-10-23": 0.007063999772071838,
         "2026-10-30": 0.005973000079393387,
         "2026-11-06": 0.005423999857157469,
-        "2026-11-13": 0.005175999831408262
+        "2026-11-13": 0.005148000083863735
       },
       "monthly": {
         "2018-08-31": 0.017142999917268753,
@@ -69745,7 +69745,7 @@
         "2026-10-23": 0.9582610130310059,
         "2026-10-30": 0.869674026966095,
         "2026-11-06": 0.8159279823303223,
-        "2026-11-13": 0.7426999807357788
+        "2026-11-13": 0.7350000143051147
       },
       "monthly": {
         "2017-12-31": 20.07819938659668,
@@ -69911,7 +69911,7 @@
         "2026-10-23": 2.7202649116516113,
         "2026-10-30": 2.5368800163269043,
         "2026-11-06": 2.429435968399048,
-        "2026-11-13": 2.5769999027252197
+        "2026-11-13": 2.613800048828125
       },
       "monthly": {
         "2021-05-31": 114.80200958251953,
@@ -70033,7 +70033,8 @@
         "2026-10-16": 3938,
         "2026-10-23": 4033,
         "2026-10-30": 4036.5,
-        "2026-11-06": 3722.5
+        "2026-11-06": 3722.5,
+        "2026-11-13": 3710
       },
       "monthly": {
         "2011-11-30": 2224,
@@ -70212,7 +70213,8 @@
         "2026-10-16": 614.0999755859375,
         "2026-10-23": 638.5,
         "2026-10-30": 627.4000244140625,
-        "2026-11-06": 559.4000244140625
+        "2026-11-06": 559.4000244140625,
+        "2026-11-13": 573.5999755859375
       },
       "monthly": {
         "2011-11-30": 460.75,
@@ -70391,7 +70393,8 @@
         "2026-10-16": 1428,
         "2026-10-23": 1352,
         "2026-10-30": 1277,
-        "2026-11-06": 1304.5999755859375
+        "2026-11-06": 1304.5999755859375,
+        "2026-11-13": 1351.5999755859375
       },
       "monthly": {
         "2011-11-30": 494.5,
@@ -70570,7 +70573,8 @@
         "2026-10-16": 4966,
         "2026-10-23": 4937.5,
         "2026-10-30": 4870.5,
-        "2026-11-06": 4930
+        "2026-11-06": 4930,
+        "2026-11-13": 4948
       },
       "monthly": {
         "2011-11-30": 2285.428955078125,
@@ -70749,7 +70753,8 @@
         "2026-10-16": 4457,
         "2026-10-23": 4432,
         "2026-10-30": 4592,
-        "2026-11-06": 4567
+        "2026-11-06": 4567,
+        "2026-11-13": 4611
       },
       "monthly": {
         "2011-11-30": 2945,
@@ -70928,7 +70933,8 @@
         "2026-10-16": 6816,
         "2026-10-23": 6231,
         "2026-10-30": 6094,
-        "2026-11-06": 6281
+        "2026-11-06": 6281,
+        "2026-11-13": 6292
       },
       "monthly": {
         "2011-11-30": 3339,
@@ -71107,7 +71113,8 @@
         "2026-10-16": 12446,
         "2026-10-23": 12824,
         "2026-10-30": 13960,
-        "2026-11-06": 13930
+        "2026-11-06": 13930,
+        "2026-11-13": 13970
       },
       "monthly": {
         "2011-11-30": 2940,
@@ -71284,7 +71291,8 @@
         "2026-10-16": 82.43000030517578,
         "2026-10-23": 83.69999694824219,
         "2026-10-30": 84.69999694824219,
-        "2026-11-06": 85.8499984741211
+        "2026-11-06": 85.8499984741211,
+        "2026-11-13": 87.13999938964844
       },
       "monthly": {
         "2011-11-30": 51.150001525878906,
@@ -71456,7 +71464,8 @@
         "2026-10-16": 1477.199951171875,
         "2026-10-23": 1407.199951171875,
         "2026-10-30": 1412.800048828125,
-        "2026-11-06": 1283.5999755859375
+        "2026-11-06": 1283.5999755859375,
+        "2026-11-13": 1355
       },
       "monthly": {
         "2011-11-30": 37.64285659790039,
@@ -71637,7 +71646,8 @@
         "2026-10-16": 9.187000274658203,
         "2026-10-23": 9.218000411987305,
         "2026-10-30": 9.317999839782715,
-        "2026-11-06": 9.692999839782715
+        "2026-11-06": 9.692999839782715,
+        "2026-11-13": 9.845000267028809
       },
       "monthly": {
         "2011-11-30": 3.1519999504089355,
@@ -71810,7 +71820,8 @@
         "2026-10-16": 6.1479997634887695,
         "2026-10-23": 5.860000133514404,
         "2026-10-30": 5.888999938964844,
-        "2026-11-06": 6.177000045776367
+        "2026-11-06": 6.177000045776367,
+        "2026-11-13": 6.260000228881836
       },
       "monthly": {
         "2011-11-30": 1.2280000448226929,
@@ -74332,7 +74343,8 @@
         "2026-10-16": 108.80000305175781,
         "2026-10-23": 97.80000305175781,
         "2026-10-30": 97.05000305175781,
-        "2026-11-06": 104.9000015258789
+        "2026-11-06": 104.9000015258789,
+        "2026-11-13": 90.55000305175781
       },
       "monthly": {
         "2019-12-31": 207.1999969482422,
