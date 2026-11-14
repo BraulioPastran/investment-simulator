@@ -38,7 +38,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -254,8 +254,8 @@
     },
     {
       "symbol": "MSTR",
-      "name": "MSTR",
-      "exchange": "",
+      "name": "Strategy Inc",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
