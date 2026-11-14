@@ -38,7 +38,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -206,7 +206,7 @@
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -542,7 +542,7 @@
     {
       "symbol": "SCHW",
       "name": "The Charles Schwab Corporation",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
