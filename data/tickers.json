@@ -24,7 +24,7 @@
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -527,8 +527,8 @@
     },
     {
       "symbol": "PNC",
-      "name": "The PNC Financial Services Group, Inc.",
-      "exchange": "NYQ",
+      "name": "PNC",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
