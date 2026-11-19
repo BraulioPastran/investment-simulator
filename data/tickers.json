@@ -290,7 +290,7 @@
     {
       "symbol": "TXN",
       "name": "Texas Instruments Incorporated",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -618,8 +618,8 @@
     },
     {
       "symbol": "TRV",
-      "name": "TRV",
-      "exchange": "",
+      "name": "The Travelers Companies, Inc.",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
 }
