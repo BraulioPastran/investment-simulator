@@ -331,8 +331,8 @@
     },
     {
       "symbol": "SNPS",
-      "name": "SNPS",
-      "exchange": "",
+      "name": "Synopsys, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
 }
