@@ -23,8 +23,8 @@
     },
     {
       "symbol": "AMZN",
-      "name": "AMZN",
-      "exchange": "",
+      "name": "Amazon.com, Inc.",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -618,8 +618,8 @@
     },
     {
       "symbol": "TRV",
-      "name": "The Travelers Companies, Inc.",
-      "exchange": "NYQ",
+      "name": "TRV",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -667,8 +667,8 @@
     },
     {
       "symbol": "BRO",
-      "name": "Brown & Brown, Inc.",
-      "exchange": "NYQ",
+      "name": "BRO",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
