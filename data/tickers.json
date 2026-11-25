@@ -31,7 +31,7 @@
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -171,7 +171,7 @@
     {
       "symbol": "DOCU",
       "name": "DocuSign, Inc.",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
 }
