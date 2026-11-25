@@ -10,7 +10,7 @@
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "exchange": "NMS",
+      "exchange": "NAS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -437,7 +437,7 @@
     {
       "symbol": "UBS",
       "name": "UBS Group AG",
-      "exchange": "NYQ",
+      "exchange": "NYSE",
       "type": "EQUITY",
       "currency": "USD"
     },
