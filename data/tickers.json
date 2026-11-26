@@ -45,7 +45,7 @@
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "exchange": "NAS",
+      "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -555,8 +555,8 @@
     },
     {
       "symbol": "SPGI",
-      "name": "S&P Global Inc.",
-      "exchange": "NYQ",
+      "name": "SPGI",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -3760,5 +3760,5 @@
       "currency": "USD"
     }
   ],
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
 }
