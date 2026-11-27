@@ -191,7 +191,7 @@
     },
     {
       "symbol": "ROKU",
-      "name": "Roku, Inc.",
+      "name": "Roku Inc",
       "exchange": "NMS",
       "type": "EQUITY",
       "currency": "USD"
@@ -261,8 +261,8 @@
     },
     {
       "symbol": "SAP",
-      "name": "SAP SE",
-      "exchange": "NYQ",
+      "name": "SAP",
+      "exchange": "",
       "type": "EQUITY",
       "currency": "USD"
     },
@@ -681,8 +681,8 @@
     },
     {
       "symbol": "KEY",
-      "name": "KEY",
-      "exchange": "",
+      "name": "KeyCorp",
+      "exchange": "NYQ",
       "type": "EQUITY",
       "currency": "USD"
     },
